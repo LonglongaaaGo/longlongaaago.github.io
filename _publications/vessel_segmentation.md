@@ -5,7 +5,7 @@ collection: publications
 permalink: /publication/vessel_segmentation
 excerpt: 'Hanli Zhao, Xiaqing Qiu, **Wanglong Lu**, Hui Huang, Xiaogang Jin.'
 date: 2020-04-09
-journal: 'International Journal of Imaging Systems and Technology'
+venue: 'International Journal of Imaging Systems and Technology, 2020, 30(3): 828-842'
 paperurl: 'https://onlinelibrary.wiley.com/doi/abs/10.1002/ima.22428'
 
 
