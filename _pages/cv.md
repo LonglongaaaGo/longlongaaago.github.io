@@ -11,7 +11,7 @@ redirect_from:
 
 I am a senior student @ State Key Lab of CAD&CG, Zhejiang University.
 
-I am a Ph.D. student at Ubiquitious Computing and Machine Learning Research Lab (UCML), Memorial University, advised by Prof. [Xianta Jiang](http://www.cs.mun.ca/~xiantaj/) and  [Hanli Zhao](http://ai.wzu.edu.cn/fujian/hanlizhao.pdf). 
+I am a Ph.D. student at Ubiquitious Computing and Machine Learning Research Lab (UCML), Memorial University, advised by Prof. [Xianta Jiang](http://www.cs.mun.ca/~xiantaj/) and  Prof. [Hanli Zhao](http://ai.wzu.edu.cn/fujian/hanlizhao.pdf). 
 
 **Research Interest:** Artificial Intelligence, Computer Vision, Intelligent Transportation.
 
