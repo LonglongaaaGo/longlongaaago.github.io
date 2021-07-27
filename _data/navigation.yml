@@ -14,8 +14,8 @@ main:
         
   # - title: "Blog Posts"
   #   url: /year-archive/
-   - title: "中文简历"
-     url: /chinese_cv/
+  - title: "中文简历"
+    url: /chinese_cv/
     
   - title: "CV"
     url: /cv/
