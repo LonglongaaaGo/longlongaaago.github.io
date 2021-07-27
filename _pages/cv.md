@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-I am a Ph.D. student at Ubiquitious Computing and Machine Learning Research Lab (UCML), Memorial University.
+I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab (UCML), Memorial University.
 
 Education
 ======
