@@ -5,9 +5,9 @@ collection: publications
 permalink: /publication/vessel_segmentation
 excerpt: 'Hanli Zhao, Xiaqing Qiu, **Wanglong Lu**, Hui Huang, Xiaogang Jin.'
 date: 2020-04-09
-venue: 'International Journal of Imaging Systems and Technology'
+journal: 'International Journal of Imaging Systems and Technology'
 paperurl: 'https://onlinelibrary.wiley.com/doi/abs/10.1002/ima.22428'
-citation: 'Zhao H, Qiu X, Lu W, et al. High‐quality retinal vessel segmentation using generative adversarial network with a large receptive field[J]. International Journal of Imaging Systems and Technology, 2020, 30(3): 828-842.'
+
 
 ---
 ![vessel_segmentation](https://longlongaaago.github.io/images/publications//vessel_segmentation.png)
@@ -18,4 +18,7 @@ Retinal vessel segmentation is of great significance for assisting doctors in di
 
 [[pdf]](https://onlinelibrary.wiley.com/doi/abs/10.1002/ima.22428)
 
-Recommended citation: Zhao H, Qiu X, Lu W, et al. High‐quality retinal vessel segmentation using generative adversarial network with a large receptive field[J]. International Journal of Imaging Systems and Technology, 2020, 30(3): 828-842.
+Recommended citation: 
+'''
+Zhao H, Qiu X, Lu W, et al. High‐quality retinal vessel segmentation using generative adversarial network with a large receptive field[J]. International Journal of Imaging Systems and Technology, 2020, 30(3): 828-842.
+'''
