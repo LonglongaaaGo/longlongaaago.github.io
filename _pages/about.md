@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab (UCML), Memorial University, advised by Prof. [Xianta Jiang](http://www.cs.mun.ca/~xiantaj/) and Prof. [Hanli Zhao](http://i3s.wzu.edu.cn/info/1104/1183.htm). 
+I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab ([UCML](https://sites.google.com/view/ucmi/home)), Memorial University, advised by Prof. [Xianta Jiang](http://www.cs.mun.ca/~xiantaj/) and Prof. [Hanli Zhao](http://i3s.wzu.edu.cn/info/1104/1183.htm). 
 
 **Research Interest:** Artificial Intelligence, Computer Vision, Intelligent Transportation.
 
