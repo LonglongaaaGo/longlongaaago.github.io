@@ -14,9 +14,9 @@ I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab (
 Education
 ======
 
-* 2021-Pres PhD student: Department of Computer Science, Memorial University of Newfoundland, Canada (Expected Graduation: June 2025).
-* 2018-2021 M.S. College of Computer Science and Artificial Intelligence, Wenzhou University, China.
-* 2014-2018 B.E. Digital Media Technology, Communication University of Zhejiang, China.
+* 2021-Pres Ph.D. student: Department of Computer Science, Memorial University of Newfoundland, Canada (Expected Graduation: June 2025).
+* 2018-2021 M.Sc. College of Computer Science and Artificial Intelligence, Wenzhou University, China.
+* 2014-2018 B.Sc. Digital Media Technology, Communication University of Zhejiang, China.
 
 <!-- Work experience
 ======
