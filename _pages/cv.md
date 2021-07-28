@@ -43,6 +43,18 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
+  
+Honors
+======
+* 2020-12 Outstanding Graduates of Wenzhou University, China
+* 2019-12 National Post-Graduate Mathematical Contest in Modeling, China (Third Prize)
+* 2019-07 College Students Programming Competition (CCPC)- Jiangxi College Students programming Competition Award, Jiangxi, China (Third Prize, Team Leader)
+* 2018-06 Outstanding Graduates of Communication University of Zhejiang, China
+* 2017-12 Zhejiang Provincial Government Scholarship, Zhejiang, China
+* 2017-07 The 10th Chinese College Students Computer Design Competition service outsourcing "Parking Treasure Development", China (second prize)
+* 2016-12 Zhejiang Provincial Government Scholarship, Zhejiang, China
+* 2015-12 Excellent Student Cadre of Communication University of Zhejiang, China
+
 <!-- Talks
 ======
   <ul>{% for post in site.talks %}
