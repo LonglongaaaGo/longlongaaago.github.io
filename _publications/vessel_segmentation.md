@@ -3,7 +3,7 @@
 title: "High‐quality retinal vessel segmentation using generative adversarial network with a large receptive field"
 collection: publications
 permalink: /publication/vessel_segmentation
-excerpt: 'Hanli Zhao, Xiaqing Qiu, **Wanglong Lu**, Hui Huang, [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin/).'
+excerpt: '[Hanli Zhao](http://i3s.wzu.edu.cn/info/1104/1183.htm), Xiaqing Qiu, **Wanglong Lu**, Hui Huang, [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin/).'
 date: 2020-04-09
 venue: 'International Journal of Imaging Systems and Technology, 2020, 30(3): 828-842'
 paperurl: 'https://onlinelibrary.wiley.com/doi/abs/10.1002/ima.22428'
