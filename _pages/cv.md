@@ -32,10 +32,10 @@ Education
   
 Interests
 ======
-* Artificial Intelligence
 * Computer Vision
-* Intelligent Transportation
-
+* Image Recognition
+* Object Detection
+* Image Editing and Processing
 
 Publications
 ======
