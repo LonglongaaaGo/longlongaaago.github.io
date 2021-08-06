@@ -9,9 +9,9 @@ redirect_from:
 ---
 
 
-I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab ([UCML](https://sites.google.com/view/ucmi/home)), Memorial University, advised by Prof. [Xianta Jiang](http://www.cs.mun.ca/~xiantaj/) and Prof. [Hanli Zhao](http://i3s.wzu.edu.cn/info/1104/1183.htm). 
+I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab ([UCML](https://sites.google.com/view/ucmi/home)), Memorial University, advised by Prof. [Xianta Jiang](http://www.cs.mun.ca/~xiantaj/), Prof. [Hanli Zhao](http://i3s.wzu.edu.cn/info/1104/1183.htm) and Prof. [Yuanzhu Chen](http://www.cs.mun.ca/~yzchen/). 
 
-**Research Interest:** Artificial Intelligence, Computer Vision, Intelligent Transportation.
+**Research Interest:** Computer Vision, Image Recognition, Object Detection, Image Editing and Processing.
 
 **Address:** Wenzhou University, Wenzhou Chashan Higher Education Park, Wenzhou, P.R. China.
 
