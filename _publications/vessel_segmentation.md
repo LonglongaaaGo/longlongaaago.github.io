@@ -21,5 +21,5 @@ Retinal vessel segmentation is of great significance for assisting doctors in di
 
 Recommended citation: 
 ```
-Zhao H, Qiu X, Lu W, et al. High‐quality retinal vessel segmentation using generative adversarial network with a large receptive field[J]. International Journal of Imaging Systems and Technology, 2020, 30(3): 828-842.
+Hanli Zhao, Xiaqing Qiu, Wanglong Lu, Hui Huang, Xiaogang Jin. High‐quality retinal vessel segmentation using generative adversarial network with a large receptive field[J]. International Journal of Imaging Systems and Technology, 2020, 30(3): 828-842.
 ```
