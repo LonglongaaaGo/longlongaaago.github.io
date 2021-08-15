@@ -10,7 +10,7 @@ code: 'https://github.com/LonglongaaaGo/CCML_Learning'
 
 
 ---
-![Image](https://github.com/LonglongaaaGo/CCML_Learning/Images/framework.png#pic_center)
+![framework](https://longlongaaago.github.io/images/publications/CCML_framework.png)
 
 <b>Abstract:</b>
 Vehicle logo recognition (VLR) is essential in intelligent transportation systems. Although many VLR algorithms have been
@@ -24,6 +24,10 @@ mask learning module is proposed to help the framework to focus on category-cons
 detection or manual box annotations. The deep network is trained and optimized iteratively with the objective function incorporating
 classification loss and category-consistency loss. Extensive experimental evaluations and comparisons on the publicly available
 HFUT, XMU, CompCars, and VLD-45 datasets demonstrate the feasibility and superiority of the proposed algorithm.
+
+![framework](https://longlongaaago.github.io/images/publications/CCML_Table3.png)
+![framework](https://longlongaaago.github.io/images/publications/CCML_Table4.png)
+
 
 [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S0925231221012145)
 
