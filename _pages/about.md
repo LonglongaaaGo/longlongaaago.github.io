@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab ([UCML](https://sites.google.com/view/ucmi/home)), Memorial University, advised by Prof. [Xianta Jiang](http://www.cs.mun.ca/~xiantaj/), Prof. [Hanli Zhao](http://i3s.wzu.edu.cn/info/1104/1183.htm) and Prof. [Yuanzhu Chen](http://www.cs.mun.ca/~yzchen/). 
+I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab ([UCML](https://sites.google.com/view/ucmi/home)), Memorial University of Newfoundland, advised by Prof. [Xianta Jiang](http://www.cs.mun.ca/~xiantaj/), Prof. [Hanli Zhao](http://i3s.wzu.edu.cn/info/1104/1183.htm) and Prof. [Yuanzhu Chen](http://www.cs.mun.ca/~yzchen/). 
 
 **Research Interest:** Computer Vision, Image Recognition, Object Detection, Image Editing and Processing.
 
