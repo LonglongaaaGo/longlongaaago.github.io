@@ -35,6 +35,6 @@ HFUT, XMU, CompCars, and VLD-45 datasets demonstrate the feasibility and superio
 
 Recommended citation: 
 ```
-Coming soon.
+Category-consistent deep network learning for accurate vehicle logo recognition. Wanglong Lu, Hanli Zhao, Qi He, Hui Huang, Xiaogang Jin. Neurocomputing, 463 (2021), 623-636. https://doi.org/10.1016/j.neucom.2021.08.030 
 ```
 
