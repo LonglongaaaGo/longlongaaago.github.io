@@ -4,7 +4,7 @@ permalink: /publication/category-consistent
 collection: publications
 excerpt: '**Wanglong Lu**, [Hanli Zhao](http://i3s.wzu.edu.cn/info/1104/1183.htm), [Qi He](http://i3s.wzu.edu.cn/info/1104/1181.htm), [Hui Huang](http://i3s.wzu.edu.cn/info/1104/1163.htm), [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin/).'
 date: 2021-08-09
-venue: 'Neurocomputing, doi:https://doi.org/10.1016/j.neucom.2021.08.030'
+venue: 'Neurocomputing, doi:https://doi.org/10.1016/j.neucom.2021.08.030  (IF:5.719)'
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S0925231221012145/'
 citation: 'https://github.com/LonglongaaaGo/longlongaaago.github.io/tree/master/files/bibtex/CCM_S0925231221012145.bib'
 code: 'https://github.com/LonglongaaaGo/CCML_Learning'
