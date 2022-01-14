@@ -49,7 +49,7 @@ Selected honors
 
 Work experience
 ======
-* 2017.12-2018.08: AI algorithm intern, Hangzhou Zhongkong Hanlian Electronic Commerce Co. LTD, Hangzhou, China
+* 2017.12-2018.08 AI algorithm intern, Hangzhou Zhongkong Hanlian Electronic Commerce Co. LTD, Hangzhou, China
   * Vehicle logo images Analysis and Processing
   * Assisting the development of image annotation tools
 
