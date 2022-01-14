@@ -13,7 +13,7 @@ I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab (
 
 **Research Interest:** Computer Vision, Image Recognition, Object Detection, Image Editing and Processing.
 
-**Address:** Wenzhou University, Wenzhou Chashan Higher Education Park, Wenzhou, P.R. China.
+<!-- **Address:** Wenzhou University, Wenzhou Chashan Higher Education Park, Wenzhou, P.R. China. -->
 
 **Contact:** lwlxhl@163.com, wanglongl@mun.ca
 

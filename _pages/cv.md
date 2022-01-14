@@ -14,9 +14,9 @@ I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab (
 Education
 ======
 
-* 2021-Pres Ph.D. student: Department of Computer Science, Memorial University of Newfoundland, Canada (Expected Graduation: June 2025).
-* 2018-2021 M.Sc. College of Computer Science and Artificial Intelligence, Wenzhou University, China.
-* 2014-2018 B.Sc. Digital Media Technology, Communication University of Zhejiang, China.
+* 2021-Pres Ph.D. student: Department of Computer Science, Memorial University of Newfoundland (Expected Graduation: June 2025).
+* 2018-2021 M.Sc. College of Computer Science and Artificial Intelligence, Wenzhou University.
+* 2014-2018 B.Sc. Digital Media Technology, Communication University of Zhejiang.
 
 
   
@@ -42,20 +42,20 @@ Patents
 
 Selected honors
 ======
-* 2020-12 Outstanding Graduates of Wenzhou University, China
-* 2019-12 National Post-Graduate Mathematical Contest in Modeling, China (Third Prize)
-* 2019-07 College Students Programming Competition (CCPC)- Jiangxi College Students programming Competition Award, Jiangxi, China (Third Prize, Team Leader)
-* 2018-06 Outstanding Graduates of Zhejiang Province, China
+* 2020-12 Outstanding Graduates of Wenzhou University
+* 2019-12 National Post-Graduate Mathematical Contest in Modeling (Third Prize)
+* 2019-07 College Students Programming Competition (CCPC)- Jiangxi College Students programming Competition Award, Jiangxi (Third Prize, Team Leader)
+* 2018-06 Outstanding Graduates of Zhejiang Province
 <!-- * 2018-06 Outstanding Graduates of Communication University of Zhejiang, China  -->
-* 2017-12 Zhejiang Provincial Government Scholarship, Zhejiang, China
-* 2017-07 The 10th Chinese College Students Computer Design Competition service outsourcing "Parking Treasure Development", China (second prize)
-* 2016-12 Zhejiang Provincial Government Scholarship, Zhejiang, China
-* 2015-12 Excellent Student Cadre of Communication University of Zhejiang, China
+* 2017-12 Zhejiang Provincial Government Scholarship, Zhejiang
+* 2017-07 The 10th Chinese College Students Computer Design Competition service outsourcing "Parking Treasure Development" (second prize)
+* 2016-12 Zhejiang Provincial Government Scholarship, Zhejiang
+* 2015-12 Excellent Student Cadre of Communication University of Zhejiang
 
 
 Work experience
 ======
-* 2017.12-2018.08 AI algorithm intern, Hangzhou Zhongkong Hanlian Electronic Commerce Co. LTD, Hangzhou, China
+* 2017.12-2018.08 AI algorithm intern, Hangzhou Zhongkong Hanlian Electronic Commerce Co. LTD, Hangzhou
   * Vehicle logo images Analysis and Processing
   * Assisting the development of image annotation tools
 
@@ -68,7 +68,7 @@ Work experience
 
 Teaching experience
 ======
-* 2021.09-2021.12 Teaching assistant of [Data Structures and Algorithms](https://www.mun.ca/computerscience/undergraduates/courses/comp-2002-data-structures-and-algorithms/), Memorial University, Canada
+* 2021.09-2021.12 Teaching assistant of [Data Structures and Algorithms](https://www.mun.ca/computerscience/undergraduates/courses/comp-2002-data-structures-and-algorithms/), Memorial University
 
 
 <!-- Talks
