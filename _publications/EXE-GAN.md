@@ -1,0 +1,25 @@
+---
+
+title: "Diverse facial inpainting guided by exemplars"
+collection: publications
+permalink: /publication/EXE-GAN
+excerpt: ' **Wanglong Lu**, [Xianta Jiang](http://i3s.wzu.edu.cn/info/1104/1163.htm), [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin/), Jianbing Shen, Min Wang, Jiankai Lyu, Kaijie Shi,  [Hanli Zhao](http://i3s.wzu.edu.cn/info/1104/1183.htm).'
+date: coming soon
+venue: 'coming soon'
+paperurl: 'coming soon'
+
+
+---
+![EXE-GAN](https://longlongaaago.github.io/images/publications/exe-gan-pic.png)
+
+
+<b> Brief description:</b>
+Facial image inpainting is a task of filling plausible and semantically meaningful contents for missing pixels in a face image. This paper presents a novel EXEmplar-guided  diverse facial image inpainting  framework, EXE-GAN, which can perform high-quality inpainting with clear manifestations of exemplar attributes. Experimental results and comparisons on CelebA-HQ and FFHQ datasets are shown to demonstrate that the effectiveness of proposed components, and our method can perform diverse exemplar-based facial attributes image inpainting with high fidelity.
+
+
+[[pdf]]()
+
+Recommended citation: 
+```
+coming soon
+```

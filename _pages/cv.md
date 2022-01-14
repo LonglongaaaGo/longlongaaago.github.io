@@ -62,7 +62,7 @@ Work experience
 
 Teaching experience
 ======
-* 2021.09-2021.12 Teaching assistant of [Data Structures and Algorithms](https://www.mun.ca/computerscience/undergraduates/courses/comp-2002-data-structures-and-algorithms/)), Memorial University, Canada
+* 2021.09-2021.12 Teaching assistant of [Data Structures and Algorithms](https://www.mun.ca/computerscience/undergraduates/courses/comp-2002-data-structures-and-algorithms/), Memorial University, Canada
 
 
 <!-- Talks
