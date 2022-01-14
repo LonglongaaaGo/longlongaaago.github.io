@@ -33,7 +33,13 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-  
+Patents
+======
+* 2021-05 Chinese national invention patent: A deep feature-based convolutional neural network for vehicle logo recognition, Application number: 202010139043.3, Date of authorization: 2021.05.11, Hanli Zhao, ** Wanglong Lu **, Qiang Chen. Patent number：ZL 2020 1 0139043.3 
+* 2021-07 Chinese national invention patent: A GAN based intelligent segmentation method for retinal blood vessel image, Application number: 201910884346.5, Date of authorization: 2021.07.06, Hanli Zhao, ** Wanglong Lu **, Xiaqing Qiu, Hui Huang. Patent number：ZL 2019 1 0884346.5
+* 2021-09 Chinese national invention patent: A convolutional neural network-based intelligent vehicle logo detection method, Application number: 202010139068.3, Date of authorization: 2020.09.03, Hanli Zhao, ** Wanglong Lu **. Patent number：ZL 2020 1 0139068.3
+
+
 Selected honors
 ======
 * 2020-12 Outstanding Graduates of Wenzhou University, China
