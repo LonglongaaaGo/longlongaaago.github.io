@@ -18,17 +18,7 @@ Education
 * 2018-2021 M.Sc. College of Computer Science and Artificial Intelligence, Wenzhou University, China.
 * 2014-2018 B.Sc. Digital Media Technology, Communication University of Zhejiang, China.
 
-<!-- Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub -->
   
 Interests
 ======
@@ -44,16 +34,36 @@ Publications
   {% endfor %}</ul>
   
   
-Honors
+Selected honors
 ======
 * 2020-12 Outstanding Graduates of Wenzhou University, China
 * 2019-12 National Post-Graduate Mathematical Contest in Modeling, China (Third Prize)
 * 2019-07 College Students Programming Competition (CCPC)- Jiangxi College Students programming Competition Award, Jiangxi, China (Third Prize, Team Leader)
-* 2018-06 Outstanding Graduates of Communication University of Zhejiang, China
+* 2018-06 Outstanding Graduates of Zhejiang Province, China
+<!-- * 2018-06 Outstanding Graduates of Communication University of Zhejiang, China  -->
 * 2017-12 Zhejiang Provincial Government Scholarship, Zhejiang, China
 * 2017-07 The 10th Chinese College Students Computer Design Competition service outsourcing "Parking Treasure Development", China (second prize)
 * 2016-12 Zhejiang Provincial Government Scholarship, Zhejiang, China
 * 2015-12 Excellent Student Cadre of Communication University of Zhejiang, China
+
+
+Work experience
+======
+* 2017.12-2018.08: AI algorithm intern, Hangzhou Zhongkong Hanlian Electronic Commerce Co. LTD, Hangzhou, China
+  * Vehicle logo images Analysis and Processing
+  * Assisting the development of image annotation tools
+
+<!--* Fall 2015: Research Assistant
+  * Github University
+  * Duties included: Merging pull requests
+  * Supervisor: Professor Hub -->
+  
+
+
+Teaching experience
+======
+* 2021.09-2021.12 Teaching assistant of [Data Structures and Algorithms](https://www.mun.ca/computerscience/undergraduates/courses/comp-2002-data-structures-and-algorithms/)), Memorial University, Canada
+
 
 <!-- Talks
 ======
@@ -61,11 +71,7 @@ Honors
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
   
 Service and leadership
 ======
