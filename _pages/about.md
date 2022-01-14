@@ -15,7 +15,7 @@ I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab (
 
 **Address:** Wenzhou University, Wenzhou Chashan Higher Education Park, Wenzhou, P.R. China.
 
-**Contact:** lwlxhl@163.com
+**Contact:** lwlxhl@163.com, wanglongl@mun.ca
 
 
 
