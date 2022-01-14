@@ -9,11 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
-我是纽芬兰纪念大学泛在计算和机器学习研究实验室([UCML](https://sites.google.com/view/ucmi/home) )的博士生
+我是纽芬兰纪念大学普适计算和机器学习研究实验室([UCML](https://sites.google.com/view/ucmi/home) )的博士生
 
 教育背景
 ======
-
 * 2021-至今 博士研究生: 加拿大纽芬兰纪念大学计算机科学系(预计2025年6月毕业)
 * 2018-2021 温州大学计算机科学与人工智能学院硕士 
 * 2014-2018 浙江传媒学院数字媒体技术专业工学学士  
@@ -70,7 +69,7 @@ redirect_from:
 
 教学经历
 ======
-* 2021.09-2021.12 数据结构与算法课程助教,[Data Structures and Algorithms](https://www.mun.ca/computerscience/undergraduates/courses/comp-2002-data-structures-and-algorithms/), 纽芬兰纪念大学,加拿大
+* 2021.09-2021.12 数据结构与算法课程助教,[Data Structures and Algorithms](https://www.mun.ca/computerscience/undergraduates/courses/comp-2002-data-structures-and-algorithms/), 纽芬兰纪念大学, 加拿大
 
 
 <!-- Talks
