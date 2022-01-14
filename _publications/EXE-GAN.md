@@ -2,15 +2,15 @@
 
 title: "Diverse facial inpainting guided by exemplars"
 collection: publications
-permalink: /publication/EXE-GAN
-excerpt: ' **Wanglong Lu**, [Xianta Jiang](http://i3s.wzu.edu.cn/info/1104/1163.htm), [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin/), Jianbing Shen, Min Wang, Jiankai Lyu, Kaijie Shi,  [Hanli Zhao](http://i3s.wzu.edu.cn/info/1104/1183.htm).'
+permalink: /publication/exe-gan
+excerpt: ' **Wanglong Lu**, [Xianta Jiang](http://www.cs.mun.ca/~xiantaj/), [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin/), Jianbing Shen, Min Wang, Jiankai Lyu, Kaijie Shi,  [Hanli Zhao](http://i3s.wzu.edu.cn/info/1104/1183.htm).'
 date: coming soon
 venue: 'coming soon'
 paperurl: 'coming soon'
 
 
 ---
-![EXE-GAN](https://longlongaaago.github.io/images/publications/exe-gan-pic.png)
+![exe-gan](https://longlongaaago.github.io/images/publications/exe-gan-pic.png)
 
 
 <b> Brief description:</b>
