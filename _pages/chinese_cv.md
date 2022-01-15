@@ -59,7 +59,7 @@ redirect_from:
 教学经历
 ======
 
-* 2021.09-2021.12 数据结构与算法课程助教,[Data Structures and Algorithms](https://www.mun.ca/computerscience/undergraduates/courses/comp-2002-data-structures-and-algorithms/), 纽芬兰纪念大学, 加拿大
+* 2021.09-2021.12 数据结构与算法课程助教, [Data Structures and Algorithms](https://www.mun.ca/computerscience/undergraduates/courses/comp-2002-data-structures-and-algorithms/), 纽芬兰纪念大学, 加拿大
 
 <!-- Talks
 ======
