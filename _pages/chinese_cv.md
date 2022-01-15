@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "chinese_CV"
+title: "卢望龙"
 permalink: /chinese_cv/
 author_profile: true
 redirect_from:
