@@ -14,6 +14,7 @@ code: 'https://github.com/LonglongaaaGo/CCML_Learning'
 ![framework](https://longlongaaago.github.io/images/publications/CCML_framework.png)
 
 <b>Abstract:</b>
+<div style="text-align: justify">
 Vehicle logo recognition (VLR) is essential in intelligent transportation systems. Although many VLR algorithms have been
 proposed, efficient and accurate VLR remains challenging in machine vision. Many VLR algorithms explicitly detect the coarse
 region of the vehicle logo either by offsetting the detected location of the license plate or by training on numerous images with
@@ -24,7 +25,7 @@ to extract deep features by considering both high- and low-level features in an 
 mask learning module is proposed to help the framework to focus on category-consistent regions without relying on license plate
 detection or manual box annotations. The deep network is trained and optimized iteratively with the objective function incorporating
 classification loss and category-consistency loss. Extensive experimental evaluations and comparisons on the publicly available
-HFUT, XMU, CompCars, and VLD-45 datasets demonstrate the feasibility and superiority of the proposed algorithm.
+HFUT, XMU, CompCars, and VLD-45 datasets demonstrate the feasibility and superiority of the proposed algorithm. </div>
 
 ![framework](https://longlongaaago.github.io/images/publications/CCML_Table3.png)
 ![framework](https://longlongaaago.github.io/images/publications/CCML_Table4.png)
