@@ -18,8 +18,8 @@ main:
   - title: "CV"
     url: /cv/
   
-  - title: "chinese_cv"
-    url: /chinese_cv/
+  #- title: "chinese_cv"
+  #  url: /chinese_cv/
     
   # - title: "Guide"
   #   url: /markdown/
