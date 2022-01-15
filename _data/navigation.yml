@@ -18,7 +18,7 @@ main:
     - title: "CV"
     url: /cv/
   
-  - title: "中文简历"
+  - title: "chinese_cv"
     url: /chinese_cv/
     
   # - title: "Guide"
