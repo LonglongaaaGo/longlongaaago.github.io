@@ -29,7 +29,6 @@ state-of-the-art methods in many quantitative metrics. </div>
 
 
 [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S0141938222001391)
-[[code]](https://github.com/LonglongaaaGo/CCML_Learning)
 
 Recommended citation: 
 ```
