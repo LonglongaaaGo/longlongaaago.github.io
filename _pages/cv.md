@@ -35,6 +35,7 @@ Patents
 
 Selected honors
 ======
+* 2022-05 Mitacs Accelerate award
 * 2020-12 Outstanding Graduates of Wenzhou University
 * 2019-12 National Post-Graduate Mathematical Contest in Modeling (Third Prize)
 * 2019-07 College Students Programming Competition (CCPC)- Jiangxi College Students programming Competition Award, Jiangxi (Third Prize, Team Leader)
@@ -50,6 +51,10 @@ Work experience
 * 2017.12-2018.08 AI algorithm intern, Hangzhou Zhongkong Hanlian Electronic Commerce Co. LTD, Hangzhou
   * Vehicle logo images Analysis and Processing
   * Assisting the development of image annotation tools
+
+* 2022.07-2022.11 AI algorithm intern, [Beaufort Solutions Inc.](https://www.beaufortsolutions.com/) , 1 Church Hill, St. John's, NL A1C 3Z7, Canada
+  * Building an image theme recognition method using image caption and instance segmentation algorithms
+ 
 
 <!--* Fall 2015: Research Assistant
   * Github University
