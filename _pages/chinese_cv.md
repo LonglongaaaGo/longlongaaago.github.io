@@ -35,6 +35,8 @@ redirect_from:
 
 部分荣誉
 ======
+* 2023-04 纪念大学计算机科学系杰出研究奖 （博士）
+* 2022-05 Mitacs Accelerate Award
 * 2020-12 温州大学优秀毕业生  
 * 2019-12 全国研究生数学建模大赛(三等奖) 
 * 2019-07 大学生程序设计大赛(CCPC)-江西省大学生程序设计大赛中国江西省(三等奖，队长)
@@ -50,6 +52,10 @@ redirect_from:
   * 汽车标志图像分析与处理
   * 协助开发图像标注工具
   * 参与车标识别算法设计
+
+* 2022.07-2022.11 AI 实习生, [Beaufort Solutions Inc.](https://www.beaufortsolutions.com/) , 1 Church Hill, St. John's, NL A1C 3Z7, Canada
+  * 图像主题分类算法的设计与构建
+ 
 
 <!--* Fall 2015: Research Assistant
   * Github University

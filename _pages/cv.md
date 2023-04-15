@@ -35,7 +35,8 @@ Patents
 
 Selected honors
 ======
-* 2022-05 Mitacs Accelerate award
+* 2023-04 Outstanding Research Award (Ph.D.) of The Department of Computer Science at Memorial University
+* 2022-05 Mitacs Accelerate Award
 * 2020-12 Outstanding Graduates of Wenzhou University
 * 2019-12 National Post-Graduate Mathematical Contest in Modeling (Third Prize)
 * 2019-07 College Students Programming Competition (CCPC)- Jiangxi College Students programming Competition Award, Jiangxi (Third Prize, Team Leader)
