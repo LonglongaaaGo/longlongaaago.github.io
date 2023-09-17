@@ -1,8 +1,9 @@
 ---
+
 title: "Detecting Blinks from Wearable Cameras using Spatial-Temporal-Aware Deep Network Learning"
 permalink: /publication/spatial_temporal_aware_blinking
 collection: publications
-excerpt: 'Yu Wang, **Wanglong Lu**, Hanli Zhao, Xianta Jiang∗, Bin Zheng, M. Stella Atkins'
+excerpt: 'Yu Wang, **Wanglong Lu**, Hanli Zhao, Xianta Jiang∗, Bin Zheng, M. Stella Atkins.'
 date: 2023-05-30
 venue: 'ETRA 23'
 paperurl: 'https://dl.acm.org/doi/abs/10.1145/3588015.3589668'
