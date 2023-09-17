@@ -1,5 +1,4 @@
 ---
-
 title: "Detecting Blinks from Wearable Cameras using Spatial-Temporal-Aware Deep Network Learning"
 permalink: /publication/spatial_temporal_aware_blinking
 collection: publications
