@@ -6,7 +6,7 @@ excerpt: 'Yu Wang, **Wanglong Lu**, Hanli Zhao, Xianta Jiang∗, Bin Zheng, M. S
 date: 2023-05-30
 venue: 'ETRA 23'
 paperurl: 'https://dl.acm.org/doi/abs/10.1145/3588015.3589668'
-citation: 'Yu Wang, Wanglong Lu, Hanli Zhao, Xianta Jiang, Bin Zheng, and Stella Atkins. 2023. Detecting Blinks from Wearable Cameras using Spatial-Temporal-Aware Deep Network Learning. In Proceedings of the 2023 Symposium on Eye Tracking Research and Applications (ETRA '23). Association for Computing Machinery, New York, NY, USA, Article 65, 1–7. https://doi.org/10.1145/3588015.3589668'
+citation: ''
 
 ---
 ![framework](https://longlongaaago.github.io/images/publications/blink_detection_framework.png)
