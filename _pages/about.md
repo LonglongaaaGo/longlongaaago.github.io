@@ -12,7 +12,7 @@ I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab (
 
 **Research Interest:** Computer Vision, Image Recognition, Object Detection, Image Inpainting, Image Restoration, Image Editing.
 
-**Invited Reviewer at (2024):** [KBS](https://www.sciencedirect.com/journal/knowledge-based-systems), [TMM](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046), [TCSVT](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) [Journal of Medical Systems](https://link.springer.com/journal/10916)
+**Invited Reviewer at (2024):** [KBS](https://www.sciencedirect.com/journal/knowledge-based-systems), [TMM](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046), [TCSVT](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76), [Journal of Medical Systems](https://link.springer.com/journal/10916)
 
 
 <!-- **Address:** Wenzhou University, Wenzhou Chashan Higher Education Park, Wenzhou, P.R. China. -->
