@@ -36,6 +36,7 @@ redirect_from:
 
 部分荣誉
 ======
+* 2024-04 温州市计算机学会学生会员计算机创新创业奖 [(一等奖，队长)](https://mp.weixin.qq.com/s/ZGJO5GGNbLVd2j58XkXYvw)
 * 2023-04 纪念大学计算机科学系杰出研究奖 (博士)
 * 2022-05 Mitacs Accelerate Award
 * 2020-12 温州大学优秀毕业生 (研究生)
