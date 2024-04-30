@@ -69,6 +69,9 @@ redirect_from:
 
 * 2021.09-2021.12 数据结构与算法课程助教, [Data Structures and Algorithms](https://www.mun.ca/computerscience/undergraduates/courses/comp-2002-data-structures-and-algorithms/), 纽芬兰纪念大学, 加拿大
 
+* 2024.01-2024.04 初阶机器学习课程助教, [Introduction to Machine Learning](https://www.mun.ca/computerscience/undergraduates/courses/comp-3202-introduction-to-machine-learning/), 纽芬兰纪念大学, 加拿大
+
+
 <!-- Talks
 ======
   <ul>{% for post in site.talks %}

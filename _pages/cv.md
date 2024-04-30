@@ -68,6 +68,9 @@ Teaching experience
 ======
 * 2021.09-2021.12 Teaching assistant of [Data Structures and Algorithms](https://www.mun.ca/computerscience/undergraduates/courses/comp-2002-data-structures-and-algorithms/), Memorial University
 
+* 2024.01-2024.04 Teaching assistant of [Introduction to Machine Learning](https://www.mun.ca/computerscience/undergraduates/courses/comp-3202-introduction-to-machine-learning/), Memorial University
+
+
 <!-- Talks
 ======
   <ul>{% for post in site.talks %}
