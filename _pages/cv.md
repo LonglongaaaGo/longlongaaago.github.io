@@ -36,6 +36,7 @@ Patents
 
 Selected honors
 ======
+* 2024-04 Student Member Computer Innovation and Entrepreneurship Award of Wenzhou Computer Federation [(First Prize, Team Leader)](https://mp.weixin.qq.com/s/ZGJO5GGNbLVd2j58XkXYvw)
 * 2023-04 Outstanding Research Award (Ph.D.) of The Department of Computer Science at Memorial University
 * 2022-05 Mitacs Accelerate Award
 * 2020-12 Outstanding Graduates of Wenzhou University
