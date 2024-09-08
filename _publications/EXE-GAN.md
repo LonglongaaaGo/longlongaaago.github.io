@@ -7,6 +7,7 @@ excerpt: ' **Wanglong Lu**, [Hanli Zhao](http://i3s.wzu.edu.cn/info/1104/1183.ht
 date: 2022-02-13
 venue: 'Coming soon'
 paperurl: 'https://arxiv.org/abs/2202.06358'
+teaser: 'https://longlongaaago.github.io/images/publications/exe_celeba_diverse.png'
 
 ---
 
