@@ -17,7 +17,7 @@ I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab (
 **News (2024)**
 - I am currently working at Nasdaq Verafin.
 - On August 30, 2024, I gave a talk on our recent work in text document restoration at Nasdaq Verafin, with an audience of 45 attendees.
-- On July 11, 2024, our paper titled ``Handling The Non-Smooth Challenge in Tensor SVD: A Multi-Objective Tensor Recovery Framework'' was accepted at ECCV.
+- On July 11, 2024, our paper titled ''Handling The Non-Smooth Challenge in Tensor SVD: A Multi-Objective Tensor Recovery Framework'' was accepted at ECCV.
 
 
 <!-- **Address:** Wenzhou University, Wenzhou Chashan Higher Education Park, Wenzhou, P.R. China. -->
