@@ -12,7 +12,7 @@ I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab (
 
 **Research Interest:** Computer Vision, Image Recognition, Object Detection, Image Inpainting, Image Restoration, Image Editing.
 
-**Invited Reviewer at (2024):**  [TMM](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046), [TCSVT](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76), [KBS](https://www.sciencedirect.com/journal/knowledge-based-systems), [Journal of Medical Systems](https://link.springer.com/journal/10916), [ETRA 2024 PETMEI](https://www.petmei.org/2024/index.html), [Cluster Computing](https://link.springer.com/journal/10586), [JVCI](https://www.sciencedirect.com/journal/journal-of-visual-communication-and-image-representation), [Displays](https://www.sciencedirect.com/journal/displays), [Visual Computer](https://link.springer.com/journal/371)
+**Invited Reviewer at (2024):**  [TMM (X3)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046), [TCSVT](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76), [KBS](https://www.sciencedirect.com/journal/knowledge-based-systems), [Journal of Medical Systems](https://link.springer.com/journal/10916), [ETRA 2024 PETMEI](https://www.petmei.org/2024/index.html), [Cluster Computing](https://link.springer.com/journal/10586), [JVCI](https://www.sciencedirect.com/journal/journal-of-visual-communication-and-image-representation), [Displays](https://www.sciencedirect.com/journal/displays), [Visual Computer](https://link.springer.com/journal/371)
 
 **News (2024)**
 - I am currently working at Nasdaq Verafin as an AI research intern.
