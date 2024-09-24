@@ -16,6 +16,7 @@ I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab (
 
 **News (2024)**
 - I am currently working at Nasdaq Verafin as an AI research intern.
+- On Sep. 23, 2024, I gave a talk to share my experience in university and postgraduate study life at  Digital Media Technology, Communication University of Zhejiang, with an audience of 120 attendees.
 - On August 30, 2024, I gave a talk on our recent work in text document restoration at Nasdaq Verafin, with an audience of 45 attendees.
 - On July 11, 2024, our paper titled ''Handling The Non-Smooth Challenge in Tensor SVD: A Multi-Objective Tensor Recovery Framework'' was accepted at ECCV.
 
