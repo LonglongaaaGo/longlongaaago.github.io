@@ -27,8 +27,7 @@ I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab (
 
 <!-- **Address:** Wenzhou University, Wenzhou Chashan Higher Education Park, Wenzhou, P.R. China. -->
 
-### Other Links
-[[**Publications**](https://longlongaaago.github.io/publications/)]   [[**CV**](https://longlongaaago.github.io/cv/)]   [[**Blog**](https://blog.csdn.net/Willen_?spm=1000.2115.3001.5343)] [[**Google scholar**](https://scholar.google.com/citations?user=TuxCf4UAAAAJ&hl=en&authuser=1)] [[**中文简历**](https://longlongaaago.github.io/chinese_cv/)] 
+**Other Links:** [[**Publications**](https://longlongaaago.github.io/publications/)]   [[**CV**](https://longlongaaago.github.io/cv/)]   [[**Blog**](https://blog.csdn.net/Willen_?spm=1000.2115.3001.5343)] [[**Google scholar**](https://scholar.google.com/citations?user=TuxCf4UAAAAJ&hl=en&authuser=1)] [[**中文简历**](https://longlongaaago.github.io/chinese_cv/)] 
 
 **Contact:** lwlxhl@gmail.com, lwlxhl@163.com, wanglongl@mun.ca
 
