@@ -16,8 +16,8 @@ I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab (
 
 
 **Current News**
-I am currently working at Nasdaq Verafin as an AI research intern.
 
+I am currently working at Nasdaq Verafin as an AI research intern.
 <details>
 <summary>More News (2024)</summary>
 <ol>
@@ -30,7 +30,6 @@ A special thank you to my senior colleagues Tao Wang, Dr. Zili Yi, Dr. Kang Qiao
 <li><div style="text-align: justify">On August 30, 2024, I gave a talk on our recent work in text document restoration at Nasdaq Verafin, with an audience of 45 attendees. </div></li>
 <li><div style="text-align: justify">On July 11, 2024, our paper titled ''Handling The Non-Smooth Challenge in Tensor SVD: A Multi-Objective Tensor Recovery Framework'' was accepted at ECCV.  </div></li>
 <!-- <li><div style="text-align: justify">  </div></li> -->
-
 </ol>
 </details>
 <!-- **News (2024)** -->
