@@ -18,6 +18,7 @@ I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab (
 **Current News**
 
 I am currently working at Nasdaq Verafin as an AI research intern.
+
 <details>
 <summary>More News (2024)</summary>
 <ol>
@@ -32,6 +33,7 @@ A special thank you to my senior colleagues Tao Wang, Dr. Zili Yi, Dr. Kang Qiao
 <!-- <li><div style="text-align: justify">  </div></li> -->
 </ol>
 </details>
+
 <!-- **News (2024)** -->
 
 
