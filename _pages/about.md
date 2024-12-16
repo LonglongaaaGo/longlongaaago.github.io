@@ -15,14 +15,11 @@ I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab (
 **Invited Reviewer at (2024):**  [TMM (3)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046), [TCSVT](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76), [KBS](https://www.sciencedirect.com/journal/knowledge-based-systems), [Journal of Medical Systems](https://link.springer.com/journal/10916),  [Cluster Computing](https://link.springer.com/journal/10586), [JVCI](https://www.sciencedirect.com/journal/journal-of-visual-communication-and-image-representation), [Displays](https://www.sciencedirect.com/journal/displays), [Visual Computer](https://link.springer.com/journal/371), [ETRA 2024 PETMEI](https://www.petmei.org/2024/index.html)
 
 
-<b> Current News</b>
+<!-- <b> Current News</b>
+<div style="text-align: justify"> I am currently working at Nasdaq Verafin as an AI research intern. </div> -->
 
-<div style="text-align: justify"> I am currently working at Nasdaq Verafin as an AI research intern. </div>
-<!-- 
-**Current News**
-
-I am currently working at Nasdaq Verafin as an AI research intern. -->
-
+### Current News
+I am currently working at Nasdaq Verafin as an AI research intern.
 <details>
 <summary>More News (2024)</summary>
 <ol>
@@ -43,7 +40,7 @@ A special thank you to my senior colleagues Tao Wang, Dr. Zili Yi, Dr. Kang Qiao
 
 <!-- **Address:** Wenzhou University, Wenzhou Chashan Higher Education Park, Wenzhou, P.R. China. -->
 
-# Other Links
+### Other Links
 
 [[**Publications**](https://longlongaaago.github.io/publications/)]   [[**CV**](https://longlongaaago.github.io/cv/)]   [[**Blog**](https://blog.csdn.net/Willen_?spm=1000.2115.3001.5343)] [[**Google scholar**](https://scholar.google.com/citations?user=TuxCf4UAAAAJ&hl=en&authuser=1)] [[**中文简历**](https://longlongaaago.github.io/chinese_cv/)] 
 [![Page Views Count](https://badges.toozhao.com/badges/01JDFCB5VAC67EJPTY9NCM83HV/blue.svg)](https://badges.toozhao.com/stats/01JDFCB5VAC67EJPTY9NCM83HV "Get your own page views count badge on badges.toozhao.com")
