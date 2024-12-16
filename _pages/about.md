@@ -19,7 +19,20 @@ I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab (
 <div style="text-align: justify"> I am currently working at Nasdaq Verafin as an AI research intern. </div> -->
 
 ### Current News
-I am currently working at Nasdaq Verafin as an AI research intern.
+- I am currently working at Nasdaq Verafin as an AI research intern.
+
+
+<!-- **News (2024)** -->
+
+
+<!-- **Address:** Wenzhou University, Wenzhou Chashan Higher Education Park, Wenzhou, P.R. China. -->
+
+### Other Links
+
+[[**Publications**](https://longlongaaago.github.io/publications/)]   [[**CV**](https://longlongaaago.github.io/cv/)]   [[**Blog**](https://blog.csdn.net/Willen_?spm=1000.2115.3001.5343)] [[**Google scholar**](https://scholar.google.com/citations?user=TuxCf4UAAAAJ&hl=en&authuser=1)] [[**中文简历**](https://longlongaaago.github.io/chinese_cv/)] 
+
+**Contact:** lwlxhl@gmail.com, lwlxhl@163.com, wanglongl@mun.ca
+
 <details> <summary>More News (2024)</summary>
 <ol>
   <!-- <li><div style="text-align: justify">I am currently working at Nasdaq Verafin as an AI research intern. </div></li> -->
@@ -34,15 +47,5 @@ A special thank you to my senior colleagues Tao Wang, Dr. Zili Yi, Dr. Kang Qiao
 </ol>
 </details>
 
-<!-- **News (2024)** -->
-
-
-<!-- **Address:** Wenzhou University, Wenzhou Chashan Higher Education Park, Wenzhou, P.R. China. -->
-
-### Other Links
-
-[[**Publications**](https://longlongaaago.github.io/publications/)]   [[**CV**](https://longlongaaago.github.io/cv/)]   [[**Blog**](https://blog.csdn.net/Willen_?spm=1000.2115.3001.5343)] [[**Google scholar**](https://scholar.google.com/citations?user=TuxCf4UAAAAJ&hl=en&authuser=1)] [[**中文简历**](https://longlongaaago.github.io/chinese_cv/)] 
-
-**Contact:** lwlxhl@gmail.com, lwlxhl@163.com, wanglongl@mun.ca
 
 [![Page Views Count](https://badges.toozhao.com/badges/01JDFCB5VAC67EJPTY9NCM83HV/blue.svg)](https://badges.toozhao.com/stats/01JDFCB5VAC67EJPTY9NCM83HV "Get your own page views count badge on badges.toozhao.com")
