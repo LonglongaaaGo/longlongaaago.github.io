@@ -20,8 +20,7 @@ I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab (
 
 ### Current News
 I am currently working at Nasdaq Verafin as an AI research intern.
-<details>
-<summary>More News (2024)</summary>
+<details> <summary>More News (2024)</summary>
 <ol>
   <!-- <li><div style="text-align: justify">I am currently working at Nasdaq Verafin as an AI research intern. </div></li> -->
   <li><div style="text-align: justify">On November 28, 2024, our paper has been published in a Neurocomputing Journal! This paper has been going through a three-year review process! It was the starting point of my research and was finally accepted on the very morning of my thesis defense. A perfect full-circle moment! </div></li>
