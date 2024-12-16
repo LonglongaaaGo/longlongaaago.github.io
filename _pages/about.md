@@ -43,6 +43,7 @@ A special thank you to my senior colleagues Tao Wang, Dr. Zili Yi, Dr. Kang Qiao
 ### Other Links
 
 [[**Publications**](https://longlongaaago.github.io/publications/)]   [[**CV**](https://longlongaaago.github.io/cv/)]   [[**Blog**](https://blog.csdn.net/Willen_?spm=1000.2115.3001.5343)] [[**Google scholar**](https://scholar.google.com/citations?user=TuxCf4UAAAAJ&hl=en&authuser=1)] [[**中文简历**](https://longlongaaago.github.io/chinese_cv/)] 
-[![Page Views Count](https://badges.toozhao.com/badges/01JDFCB5VAC67EJPTY9NCM83HV/blue.svg)](https://badges.toozhao.com/stats/01JDFCB5VAC67EJPTY9NCM83HV "Get your own page views count badge on badges.toozhao.com")
 
 **Contact:** lwlxhl@gmail.com, lwlxhl@163.com, wanglongl@mun.ca
+
+[![Page Views Count](https://badges.toozhao.com/badges/01JDFCB5VAC67EJPTY9NCM83HV/blue.svg)](https://badges.toozhao.com/stats/01JDFCB5VAC67EJPTY9NCM83HV "Get your own page views count badge on badges.toozhao.com")
