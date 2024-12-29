@@ -20,6 +20,7 @@ I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab (
 
 ### Current News
 - I am currently working at Nasdaq Verafin as an AI research intern.
+- On Dec. 29, 2024, our paper Visual Style Prompt Learning Using Diffusion Models for Blind Face Restoration was publised at Pattern Recognition [[page]](https://github.com/LonglongaaaGo/VSPBFR). 
 
 
 <!-- **News (2024)** -->
