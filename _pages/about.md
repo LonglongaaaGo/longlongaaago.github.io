@@ -12,7 +12,21 @@ I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab (
 
 **Research Interest:** Computer Vision, Image Recognition, Object Detection, Image Inpainting, Image Restoration, Image Editing.
 
-**Invited Reviewer at (2024):**  [TMM (3)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046), [TCSVT](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76), [KBS](https://www.sciencedirect.com/journal/knowledge-based-systems), [Journal of Medical Systems](https://link.springer.com/journal/10916),  [Cluster Computing](https://link.springer.com/journal/10586), [JVCI](https://www.sciencedirect.com/journal/journal-of-visual-communication-and-image-representation), [Displays](https://www.sciencedirect.com/journal/displays), [Visual Computer](https://link.springer.com/journal/371), [ETRA 2024 PETMEI](https://www.petmei.org/2024/index.html)
+
+**Invited Reviewer at (2025):**  [Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition),
+
+
+<details> <summary>Invited Reviewer</summary>
+<ol>
+  <!-- <li><div style="text-align: justify">I am currently working at Nasdaq Verafin as an AI research intern. </div></li> -->
+  <li><div style="text-align: justify">（2024） [TMM](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046), [TCSVT](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76), [KBS](https://www.sciencedirect.com/journal/knowledge-based-systems), [Journal of Medical Systems](https://link.springer.com/journal/10916),  [Cluster Computing](https://link.springer.com/journal/10586), [JVCI](https://www.sciencedirect.com/journal/journal-of-visual-communication-and-image-representation), [Displays](https://www.sciencedirect.com/journal/displays), [Visual Computer](https://link.springer.com/journal/371), [ETRA 2024 PETMEI](https://www.petmei.org/2024/index.html)
+ </div></li>
+<!-- <li><div style="text-align: justify">  </div></li> -->
+</ol>
+</details>
+
+<!-- **Invited Reviewer at (2024):**   -->
+
 
 
 <!-- <b> Current News</b>
