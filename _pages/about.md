@@ -12,9 +12,15 @@ I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab (
 
 **Research Interest:** Computer Vision, Image Recognition, Object Detection, Image Inpainting, Image Restoration, Image Editing.
 
+<!-- **Address:** Wenzhou University, Wenzhou Chashan Higher Education Park, Wenzhou, P.R. China. -->
 
-**Invited Reviewer at (2025):**  [Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition),
+**Other Links:** [[**Publications**](https://longlongaaago.github.io/publications/)]   [[**CV**](https://longlongaaago.github.io/cv/)]   [[**Blog**](https://blog.csdn.net/Willen_?spm=1000.2115.3001.5343)] [[**Google scholar**](https://scholar.google.com/citations?user=TuxCf4UAAAAJ&hl=en&authuser=1)] [[**中文简历**](https://longlongaaago.github.io/chinese_cv/)] 
 
+**Contact:** lwlxhl@gmail.com, lwlxhl@163.com, wanglongl@mun.ca
+
+
+
+**Invited Reviewer at (2025):**  [[Pattern Recognition]](https://www.sciencedirect.com/journal/pattern-recognition), [[Advances in Manufacturing]](https://link.springer.com/journal/40436), [[Signal, Image and Video Processing]](https://link.springer.com/journal/11760)
 
 <details> <summary>Invited Reviewer</summary>
 <ol>
@@ -38,13 +44,6 @@ I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab (
 
 
 <!-- **News (2024)** -->
-
-
-<!-- **Address:** Wenzhou University, Wenzhou Chashan Higher Education Park, Wenzhou, P.R. China. -->
-
-**Other Links:** [[**Publications**](https://longlongaaago.github.io/publications/)]   [[**CV**](https://longlongaaago.github.io/cv/)]   [[**Blog**](https://blog.csdn.net/Willen_?spm=1000.2115.3001.5343)] [[**Google scholar**](https://scholar.google.com/citations?user=TuxCf4UAAAAJ&hl=en&authuser=1)] [[**中文简历**](https://longlongaaago.github.io/chinese_cv/)] 
-
-**Contact:** lwlxhl@gmail.com, lwlxhl@163.com, wanglongl@mun.ca
 
 <details> <summary>More News (2024)</summary>
 <ol>
