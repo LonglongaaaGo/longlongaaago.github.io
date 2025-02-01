@@ -39,7 +39,8 @@ I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab (
 <div style="text-align: justify"> I am currently working at Nasdaq Verafin as an AI research intern. </div> -->
 
 ### Current News
-- I am currently working at Nasdaq Verafin as an AI research intern.
+<!-- - I am currently working at Nasdaq Verafin as an AI research intern. -->
+- On Jan. 31, 2025, I completed my internship at Nasdaq Verafin and delivered a presentation on our recent progress in image verification to an audience of 39 attendees.
 - On Dec. 29, 2024, our paper Visual Style Prompt Learning Using Diffusion Models for Blind Face Restoration was published at Pattern Recognition [[page]](https://github.com/LonglongaaaGo/VSPBFR). 
 
 
