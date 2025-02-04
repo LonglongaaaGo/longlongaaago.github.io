@@ -20,7 +20,7 @@ I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab (
 
 
 
-**Invited Reviewer at (2025):**  [[Pattern Recognition]](https://www.sciencedirect.com/journal/pattern-recognition), [[TMM]](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046), [[Advances in Manufacturing]](https://link.springer.com/journal/40436), [[Signal, Image and Video Processing]](https://link.springer.com/journal/11760)
+**Invited Reviewer at (2025):**  [[Pattern Recognition]](https://www.sciencedirect.com/journal/pattern-recognition), [[TMM]](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046), [[Advances in Manufacturing]](https://link.springer.com/journal/40436), [[Signal, Image and Video Processing]](https://link.springer.com/journal/11760), [[IEEE Signal Processing Letters]](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=97), [[Multimedia Systems]](https://link.springer.com/journal/530), [[Journal of Machine Learning and Cybernetics]](https://link.springer.com/journal/13042)
 
 <details> <summary>Invited Reviewer</summary>
 <ol>
