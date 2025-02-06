@@ -40,15 +40,15 @@ I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab (
 
 ### Current News
 <!-- - I am currently working at Nasdaq Verafin as an AI research intern. -->
+- On Feb. 05, 2025, I served as a guest lecturer for Bio-Inspired Robotics (ENGI 9986), delivering a 150-minute course on "Deep Generative Models and Applications" to 10 graduate students. I am grateful to Dr. Ting Zou for the invitation.
 - On Jan. 31, 2025, I completed my internship at Nasdaq Verafin and delivered a presentation on our recent progress in image verification to an audience of 39 attendees.
-- On Dec. 29, 2024, our paper Visual Style Prompt Learning Using Diffusion Models for Blind Face Restoration was published at Pattern Recognition [[page]](https://github.com/LonglongaaaGo/VSPBFR). 
-
 
 <!-- **News (2024)** -->
 
 <details> <summary>More News (2024)</summary>
 <ol>
   <!-- <li><div style="text-align: justify">I am currently working at Nasdaq Verafin as an AI research intern. </div></li> -->
+  <li><div style="text-align: justify">On Dec. 29, 2024, our paper Visual Style Prompt Learning Using Diffusion Models for Blind Face Restoration was published at Pattern Recognition [[page]](https://github.com/LonglongaaaGo/VSPBFR).</div></li>
   <li><div style="text-align: justify">On November 28, 2024, our paper has been published in a Neurocomputing Journal! This paper has been going through a three-year review process! It was the starting point of my research and was finally accepted on the very morning of my thesis defense. A perfect full-circle moment! </div></li>
   <li><div style="text-align: justify">On November 21, 2024, I successfully defended my Ph.D. thesis! I am deeply grateful to my supervisors, Dr. Xianta Jiang, Dr. Hanli Zhao, and Dr. Yuanzhu Chen, for their invaluable guidance and support throughout this journey. I also sincerely thank my committee members, Dr. Minglun Gong, Dr. Xiaogang Jin, Dr. Yongliang Yang, Dr. Karteek Popuri, Dr. Matthew Hamilton, Dr. Vinicius Prado Da Fonseca, Dr. Qiang Ye, for their insightful feedback and encouragement. 
 A special thank you to my senior colleagues Tao Wang, Dr. Zili Yi, Dr. Kang Qiao, Dr. Jingjing Zheng,  Dr. Yajun Yu, and all my wonderful peers (Ziying Lyu, Kaijie Shi, Jikai Wang, Lingming Su, Meng Wang, Vitaliy Zhao, Shuaishuai Li, Tao Liu, Rui Zhang, etc.) at Memorial University of Newfoundland, Wenzhou University, and Nasdaq, for their unwavering support and collaboration! </div></li>
