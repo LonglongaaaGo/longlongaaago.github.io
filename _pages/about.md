@@ -40,6 +40,7 @@ I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab (
 
 ### Current News
 <!-- - I am currently working at Nasdaq Verafin as an AI research intern. -->
+- On Feb. 15, 2025, our paper "Real-time dual-eye collaborative eyeblink detection with contrastive learning" has been successfully published in Pattern Recognition journal! Congratulations to Yu Wang.
 - On Feb. 05, 2025, I served as a guest lecturer for Bio-Inspired Robotics (ENGI 9986), delivering a 150-minute course on "Deep Generative Models and Applications" to 10 graduate students. I am grateful to Dr. Ting Zou for the invitation.
 - On Jan. 31, 2025, I completed my internship at Nasdaq Verafin and delivered a presentation on our recent progress in image verification to an audience of 39 attendees.
 
