@@ -8,9 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab ([UCML](https://sites.google.com/view/ucmi/home)), Memorial University of Newfoundland, advised by Prof. [Xianta Jiang](http://www.cs.mun.ca/~xiantaj/), Prof. [Hanli Zhao](http://i3s.wzu.edu.cn/info/1104/1183.htm) and Prof. [Yuanzhu Chen](http://www.cs.mun.ca/~yzchen/). 
+Wanglong Lu currently serves as a Senior Data Scientist in AI/Analytics at Nasdaq, Canada. 
+He also holds positions as an Adjunct Professor and Co-Supervisor for PhD and Master's students at Memorial University of Newfoundland (Ubiquitous Computing and Machine Learning Research Lab ([UCML](https://sites.google.com/view/ucmi/home))) and Wenzhou University, working in close collaboration with Prof. Xianta Jiang and Prof. Hanli Zhao.
 
-**Research Interest:** Computer Vision, Image Recognition, Object Detection, Image Inpainting, Image Restoration, Image Editing.
+<!-- He received his B.Sc. degree in digital media technology from the Communication University of Zhejiang, China, in 2018, his M.Sc. degree in computer software and theory from Wenzhou University, China, in 2021, and his Ph.D. degree in computer science at Memorial University of Newfoundland, Canada, in 2025. His research interests include image editing, image generation, and image recognition. -->
+
+<!-- I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab ([UCML](https://sites.google.com/view/ucmi/home)), Memorial University of Newfoundland, advised by Prof. [Xianta Jiang](http://www.cs.mun.ca/~xiantaj/), Prof. [Hanli Zhao](http://i3s.wzu.edu.cn/info/1104/1183.htm) and Prof. [Yuanzhu Chen](http://www.cs.mun.ca/~yzchen/).  -->
+<!-- He was at the Ubiquitous Computing and Machine Learning Research Lab ([UCML](https://sites.google.com/view/ucmi/home)). -->
+
+**Research Interest:** Computer Vision, Pattern Recognition, Generative Models, Image Editing.
 
 <!-- **Address:** Wenzhou University, Wenzhou Chashan Higher Education Park, Wenzhou, P.R. China. -->
 
@@ -39,7 +45,7 @@ I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab (
 <div style="text-align: justify"> I am currently working at Nasdaq Verafin as an AI research intern. </div> -->
 
 ### Current News
-<!-- - I am currently working at Nasdaq Verafin as an AI research intern. -->
+- I am currently working at Nasdaq as an Senior Data Scientist.
 - On Feb. 15, 2025, our paper "Real-time dual-eye collaborative eyeblink detection with contrastive learning [[page]](https://www.sciencedirect.com/science/article/abs/pii/S0031320325001001)" has been successfully published in Pattern Recognition journal! Congratulations to Yu Wang.
 - On Feb. 05, 2025, I served as a guest lecturer for Bio-Inspired Robotics (ENGI 9986), delivering a 150-minute course on "Deep Generative Models and Applications" to 10 graduate students. I am grateful to Dr. Ting Zou for the invitation.
 - On Jan. 31, 2025, I completed my internship at Nasdaq Verafin and delivered a presentation on our recent progress in image verification to an audience of 39 attendees.
