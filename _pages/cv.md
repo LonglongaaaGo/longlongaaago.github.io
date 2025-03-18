@@ -9,17 +9,20 @@ redirect_from:
 
 {% include base_path %}
 
-I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab ([UCML](https://sites.google.com/view/ucmi/home)), Memorial University of Newfoundland.
+Wanglong Lu currently serves as a Senior Data Scientist in AI/Analytics at Nasdaq, Canada. 
+He also holds positions as an Adjunct Professor and Co-Supervisor for PhD and Master's students at Memorial University of Newfoundland (Ubiquitous Computing and Machine Learning Research Lab ([UCML](https://sites.google.com/view/ucmi/home))) and Wenzhou University, working in close collaboration with Prof. Xianta Jiang and Prof. Hanli Zhao.
+
+<!-- I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab ([UCML](https://sites.google.com/view/ucmi/home)), Memorial University of Newfoundland. -->
 
 Education
 ======
-* 2021-Pres Ph.D. student: Department of Computer Science, Memorial University of Newfoundland (Expected Graduation: June 2025).
+* 2021-2025 Ph.D. student: Department of Computer Science, Memorial University of Newfoundland.
 * 2018-2021 M.Sc. College of Computer Science and Artificial Intelligence, Wenzhou University.
 * 2014-2018 B.Sc. Digital Media Technology, Communication University of Zhejiang.
 
 Interests
 ======
-* Computer Vision, Image Recognition, Object Detection, Image Editing and Processing
+* Computer Vision, Pattern Recognition, Generative Models, and Image Processing.
 
 Publications
 ======
@@ -51,13 +54,24 @@ Selected honors
 
 Work experience
 ======
-* 2017.12-2018.08 AI algorithm intern, Hangzhou Zhongkong Hanlian Electronic Commerce Co. LTD, Hangzhou
-  * Vehicle logo images Analysis and Processing
-  * Assisting the development of image annotation tools
+* 2025.03-Present Senior Data Sentist,  Nasdaq St. John’s, NL, Canada
+
+* 2024.05-2025.01 AI algorithm intern,  Nasdaq St. John’s, NL, Canada
+  * Design a novel text document image restoration using diffusion models [[TextDoctor]](https://arxiv.org/abs/2503.04021).
+  * Design a novel image verification algorithm using Patch Gaussian Latent Discriminant Modeling.
 
 * 2022.07-2022.11 AI algorithm intern, [Beaufort Solutions Inc.](https://www.beaufortsolutions.com/) , 1 Church Hill, St. John's, NL A1C 3Z7, Canada
   * Building an image theme recognition method using image caption and instance segmentation algorithms
  
+
+* 2017.12-2018.08 AI algorithm intern, Hangzhou Zhongkong Hanlian Electronic Commerce Co. LTD, Hangzhou
+  * Vehicle logo images Analysis and Processing
+  * Assisting the development of image annotation tools
+
+
+
+
+
 
 <!--* Fall 2015: Research Assistant
   * Github University
