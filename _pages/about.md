@@ -8,8 +8,9 @@ redirect_from:
   - /about.html
 ---
 
+<div style="text-align: justify">
 Wanglong Lu currently serves as a Senior Data Scientist in AI/Analytics at Nasdaq, Canada. 
-He also holds positions as an Adjunct Professor and Co-Supervisor for PhD and Master's students at Memorial University of Newfoundland (Ubiquitous Computing and Machine Learning Research Lab ([UCML](https://sites.google.com/view/ucmi/home))) and Wenzhou University, working in close collaboration with Prof. Xianta Jiang and Prof. Hanli Zhao.
+He also holds positions as an Adjunct Professor and Co-Supervisor for PhD and Master's students at Memorial University of Newfoundland (Ubiquitous Computing and Machine Learning Research Lab ([UCML](https://sites.google.com/view/ucmi/home))) and Wenzhou University, working in close collaboration with Prof. Xianta Jiang and Prof. Hanli Zhao.  </div>
 
 <!-- He received his B.Sc. degree in digital media technology from the Communication University of Zhejiang, China, in 2018, his M.Sc. degree in computer software and theory from Wenzhou University, China, in 2021, and his Ph.D. degree in computer science at Memorial University of Newfoundland, Canada, in 2025. His research interests include image editing, image generation, and image recognition. -->
 
