@@ -10,8 +10,8 @@ redirect_from:
 {% include base_path %}
 
 <div style="text-align: justify">
-Wanglong Lu currently serves as a Senior Data Scientist in AI/Analytics at Nasdaq, Canada. 
-He also holds positions as an Adjunct Professor and Co-Supervisor for PhD and Master's students at Memorial University of Newfoundland (Ubiquitous Computing and Machine Learning Research Lab ([UCML](https://sites.google.com/view/ucmi/home))) and Wenzhou University, working in close collaboration with Prof. Xianta Jiang and Prof. Hanli Zhao. </div>
+Wanglong Lu currently serves as a **Senior Data Scientist** in AI/Analytics at Nasdaq, Canada. 
+He also holds positions as an **Adjunct Supervisor** for PhD and Master's students at Memorial University of Newfoundland and Wenzhou University, working in close collaboration with Prof. Xianta Jiang and Prof. Hanli Zhao.  </div>
 
 <!-- I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab ([UCML](https://sites.google.com/view/ucmi/home)), Memorial University of Newfoundland. -->
 
