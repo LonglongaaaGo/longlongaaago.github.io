@@ -46,7 +46,8 @@ Wanglong Lu currently serves as a **Senior Data Scientist** in AI/Analytics at N
 <div style="text-align: justify"> I am currently working at Nasdaq Verafin as an AI research intern. </div> -->
 
 ### Current News
-- I am currently working at Nasdaq as an Senior Data Scientist.
+- I am currently working at Nasdaq as a Senior Data Scientist.
+- On April 26, 2025, our paper "Degradation-Aware Frequency-Separated Transformer for Blind Super-Resolution" [[page]](https://link.springer.com/chapter/10.1007/978-981-96-5809-1_13) was successfully published at the Computational Visual Media Conference! Congratulations to Binhao Wang.
 - On Feb. 15, 2025, our paper "Real-time dual-eye collaborative eyeblink detection with contrastive learning [[page]](https://www.sciencedirect.com/science/article/abs/pii/S0031320325001001)" has been successfully published in Pattern Recognition journal! Congratulations to Yu Wang.
 - On Feb. 05, 2025, I served as a guest lecturer for Bio-Inspired Robotics (ENGI 9986), delivering a 150-minute course on "Deep Generative Models and Applications" to 10 graduate students. I am grateful to Dr. Ting Zou for the invitation.
 - On Jan. 31, 2025, I completed my internship at Nasdaq Verafin and delivered a presentation on our recent progress in image verification to an audience of 39 attendees.
