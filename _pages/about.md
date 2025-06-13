@@ -27,7 +27,8 @@ Wanglong Lu currently serves as a **Senior Data Scientist** in AI/Analytics at N
 **Contact:** lwlxhl@gmail.com, lwlxhl@163.com, wanglong.lu@nasdaq.com, wanglongl@mun.ca
 
 
-**Invited Reviewer at (2025):**  [[Pattern Recognition]](https://www.sciencedirect.com/journal/pattern-recognition), [[TMM]](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046), [[Advances in Manufacturing]](https://link.springer.com/journal/40436), [[Signal, Image and Video Processing]](https://link.springer.com/journal/11760), [[IEEE Signal Processing Letters]](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=97), [[Multimedia Systems]](https://link.springer.com/journal/530), [[Journal of Machine Learning and Cybernetics]](https://link.springer.com/journal/13042)
+**Invited Reviewer at (2025):**  [[TMM]](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046), [[Pattern Recognition]](https://www.sciencedirect.com/journal/pattern-recognition), [[Neurocomputing]](https://www.sciencedirect.com/journal/neurocomputing), [[CAD/Graphics 2025]](http://solidmodeling.org/call-for-papers-cad-graphics-2025/), [[Advances in Manufacturing]](https://link.springer.com/journal/40436), [[Signal, Image and Video Processing]](https://link.springer.com/journal/11760), [[IEEE Signal Processing Letters]](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=97), [[Multimedia Systems]](https://link.springer.com/journal/530), [[Journal of Machine Learning and Cybernetics]](https://link.springer.com/journal/13042) 
+
 
 <details> <summary>Invited Reviewer</summary>
 <ol>
@@ -47,7 +48,9 @@ Wanglong Lu currently serves as a **Senior Data Scientist** in AI/Analytics at N
 
 ### Current News
 - I am currently working at Nasdaq as a Senior Data Scientist.
+- On Jun. 12, 2025, our paper "Towards Biosignals-Free Autonomous Prosthetic Hand Control via Imitation Learning" [[page]](https://arxiv.org/abs/2506.08795) was released! Congratulations to Kaijie.
 - On April 26, 2025, our paper "Degradation-Aware Frequency-Separated Transformer for Blind Super-Resolution" [[page]](https://link.springer.com/chapter/10.1007/978-981-96-5809-1_13) was successfully published at the Computational Visual Media Conference! Congratulations to Binhao Wang.
+- On March 6, 2025, our paper "TextDoctor: Unified Document Image Inpainting via Patch Pyramid Diffusion Models" [[page]](https://arxiv.org/abs/2503.04021) was released!
 - On Feb. 15, 2025, our paper "Real-time dual-eye collaborative eyeblink detection with contrastive learning [[page]](https://www.sciencedirect.com/science/article/abs/pii/S0031320325001001)" has been successfully published in Pattern Recognition journal! Congratulations to Yu Wang.
 - On Feb. 05, 2025, I served as a guest lecturer for Bio-Inspired Robotics (ENGI 9986), delivering a 150-minute course on "Deep Generative Models and Applications" to 10 graduate students. I am grateful to Dr. Ting Zou for the invitation.
 - On Jan. 31, 2025, I completed my internship at Nasdaq Verafin and delivered a presentation on our recent progress in image verification to an audience of 39 attendees.
