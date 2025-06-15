@@ -46,9 +46,11 @@ Wanglong Lu currently serves as a **Senior Data Scientist** in AI/Analytics at N
 <!-- <b> Current News</b>
 <div style="text-align: justify"> I am currently working at Nasdaq Verafin as an AI research intern. </div> -->
 
+
+
 ### Current News
 - I am currently working at Nasdaq as a Senior Data Scientist.
-- On Jun. 12, 2025, our paper "Towards Biosignals-Free Autonomous Prosthetic Hand Control via Imitation Learning" [[page]](https://arxiv.org/abs/2506.08795) was released! Congratulations to Kaijie.
+- On Jun. 12, 2025, our paper "Towards Biosignals-Free Autonomous Prosthetic Hand Control via Imitation Learning" [[page]](https://arxiv.org/abs/2506.08795) was released! Congratulations to Kaijie. This project is also interviewed by the CBC (Canadian Broadcasting Corporation), check the [[main page]](https://sites.google.com/view/autonomous-prosthetic-hand) for more information.
 - On April 26, 2025, our paper "Degradation-Aware Frequency-Separated Transformer for Blind Super-Resolution" [[page]](https://link.springer.com/chapter/10.1007/978-981-96-5809-1_13) was successfully published at the Computational Visual Media Conference! Congratulations to Binhao Wang.
 - On March 6, 2025, our paper "TextDoctor: Unified Document Image Inpainting via Patch Pyramid Diffusion Models" [[page]](https://arxiv.org/abs/2503.04021) was released!
 - On Feb. 15, 2025, our paper "Real-time dual-eye collaborative eyeblink detection with contrastive learning [[page]](https://www.sciencedirect.com/science/article/abs/pii/S0031320325001001)" has been successfully published in Pattern Recognition journal! Congratulations to Yu Wang.
