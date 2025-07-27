@@ -23,7 +23,7 @@ Education
 
 Interests
 ======
-* Computer Vision, Pattern Recognition, Generative Models, and Image Processing.
+* Computer Vision, Pattern Recognition, Generative Models, and Natural Language Processing.
 
 Publications
 ======
