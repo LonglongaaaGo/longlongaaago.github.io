@@ -4,7 +4,7 @@ title: "Handling the Non-smooth Challenge in Tensor SVD: A Multi-objective Tenso
 collection: publications
 permalink: /publication/multi_objective_tensor_recovery_framework
 excerpt: 'Jingjing Zheng, **Wanglong Lu**, Wenzhe Wang, Yankai Cao*, Xiaoqin Zhang, and Xianta Jiang'
-date: 2025-03-10
+date: 2024-03-10
 venue: 'ECCV'
 paperurl: 'https://arxiv.org/abs/2311.13958'
 teaser: 'https://longlongaaago.github.io/images/publications/multi_objective_tensor_recovery_framework_teaser.png'
