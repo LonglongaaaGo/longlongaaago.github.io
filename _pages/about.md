@@ -18,7 +18,7 @@ Wanglong Lu currently serves as a **Senior Data Scientist** in AI/Analytics at N
 <!-- I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab ([UCML](https://sites.google.com/view/ucmi/home)), Memorial University of Newfoundland, advised by Prof. [Xianta Jiang](http://www.cs.mun.ca/~xiantaj/), Prof. [Hanli Zhao](http://i3s.wzu.edu.cn/info/1104/1183.htm) and Prof. [Yuanzhu Chen](http://www.cs.mun.ca/~yzchen/).  -->
 <!-- He was at the Ubiquitous Computing and Machine Learning Research Lab ([UCML](https://sites.google.com/view/ucmi/home)). -->
 
-**Research Interest:** Computer Vision, Pattern Recognition, Generative Models, Image Editing.
+**Research Interest:** Computer Vision, Pattern Recognition, Generative Models, Natural Language Processing.
 
 <!-- **Address:** Wenzhou University, Wenzhou Chashan Higher Education Park, Wenzhou, P.R. China. -->
 
