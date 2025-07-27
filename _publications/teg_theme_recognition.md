@@ -6,7 +6,7 @@ permalink: /publication/teg_theme_recognition
 excerpt: 'Jikai Wang, **Wanglong Lu**, Yu Wang, Kaijie Shi, Xianta Jiang, Hanli Zhao'
 date: 2024-01-01
 venue: 'ArXiv'
-paperurl: 'https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging/volume-33/issue-1/013028/TEG--image-theme-recognition-using-text-embedding-guided-few/10.1117/1.JEI.33.1.013028.short
+paperurl: 'https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging/volume-33/issue-1/013028/TEG--image-theme-recognition-using-text-embedding-guided-few/10.1117/1.JEI.33.1.013028.short'
 teaser: 'https://longlongaaago.github.io/images/publications/teg_theme_recognition_teaser.png'
 
 ---
