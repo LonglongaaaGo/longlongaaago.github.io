@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <!-- <div style="text-align: justify"> -->
-Wanglong Lu currently serves as a **Senior Data Scientist** in AI/Analytics at Nasdaq, Canada. 
+Wanglong Lu currently serves as a **Senior Data Scientist** in AI/Analytics at Nasdaq, Canada. He also actively collaborates with and mentors PhD and Master's students at Memorial University of Newfoundland and Wenzhou University, working in close collaboration with Prof. Xianta Jiang and Prof. Hanli Zhao.
 
 <!-- He also holds positions as an **Adjunct Supervisor** for PhD and Master's students at Memorial University of Newfoundland and Wenzhou University, working in close collaboration with Prof. Xianta Jiang and Prof. Hanli Zhao.  </div> -->
 
@@ -50,6 +50,7 @@ Wanglong Lu currently serves as a **Senior Data Scientist** in AI/Analytics at N
 
 ### Current News
 - I am currently working at Nasdaq as a Senior Data Scientist.
+- On Dec. 4, 2025, our paper "AdaMSS: Adaptive Multi-Subspace Approach for Parameter-Efficient Fine-Tuning" [[page]](https://neurips.cc/virtual/2025/loc/san-diego/poster/119606) has been presented at NeurIPS 2025! This project has also been integrated into Huggingface PEFT package! [[github]](https://github.com/jzheng20/AdaMSS).
 - On Jun. 12, 2025, our paper "Towards Biosignals-Free Autonomous Prosthetic Hand Control via Imitation Learning" [[page]](https://arxiv.org/abs/2506.08795) was released! Congratulations to Kaijie. This project is also interviewed by the CBC (Canadian Broadcasting Corporation), check the [[main page]](https://sites.google.com/view/autonomous-prosthetic-hand) for more information.
 - On April 26, 2025, our paper "Degradation-Aware Frequency-Separated Transformer for Blind Super-Resolution" [[page]](https://link.springer.com/chapter/10.1007/978-981-96-5809-1_13) was successfully published at the Computational Visual Media Conference! Congratulations to Binhao Wang.
 - On March 6, 2025, our paper "TextDoctor: Unified Document Image Inpainting via Patch Pyramid Diffusion Models" [[page]](https://arxiv.org/abs/2503.04021) was released!
