@@ -18,7 +18,7 @@ Wanglong Lu currently serves as a **Senior Data Scientist** in AI/Analytics at N
 <!-- I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab ([UCML](https://sites.google.com/view/ucmi/home)), Memorial University of Newfoundland, advised by Prof. [Xianta Jiang](http://www.cs.mun.ca/~xiantaj/), Prof. [Hanli Zhao](http://i3s.wzu.edu.cn/info/1104/1183.htm) and Prof. [Yuanzhu Chen](http://www.cs.mun.ca/~yzchen/).  -->
 <!-- He was at the Ubiquitous Computing and Machine Learning Research Lab ([UCML](https://sites.google.com/view/ucmi/home)). -->
 
-**Research Interest:** Computer Vision, Pattern Recognition, Generative Models, Natural Language Processing.
+**Research Interest:** Computer Vision, Pattern Recognition, Generative Models, Parameter-Efficient Fine-Tuning.
 
 <!-- **Address:** Wenzhou University, Wenzhou Chashan Higher Education Park, Wenzhou, P.R. China. -->
 
@@ -27,7 +27,7 @@ Wanglong Lu currently serves as a **Senior Data Scientist** in AI/Analytics at N
 **Contact:** lwlxhl@gmail.com, lwlxhl@163.com, wanglong.lu@nasdaq.com, wanglongl@mun.ca
 
 
-**Invited Reviewer at (2025):**  [[TMM]](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046), [[Pattern Recognition]](https://www.sciencedirect.com/journal/pattern-recognition), [[Neurocomputing]](https://www.sciencedirect.com/journal/neurocomputing), [[CAD/Graphics 2025]](http://solidmodeling.org/call-for-papers-cad-graphics-2025/), [[Advances in Manufacturing]](https://link.springer.com/journal/40436), [[Signal, Image and Video Processing]](https://link.springer.com/journal/11760), [[IEEE Signal Processing Letters]](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=97), [[Multimedia Systems]](https://link.springer.com/journal/530), [[Journal of Machine Learning and Cybernetics]](https://link.springer.com/journal/13042) 
+**Invited Reviewer at (2025):**  [[TIP]](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83), [[TMM]](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046), [[Pattern Recognition]](https://www.sciencedirect.com/journal/pattern-recognition), [[Neurocomputing]](https://www.sciencedirect.com/journal/neurocomputing), [[CAD/Graphics 2025]](http://solidmodeling.org/call-for-papers-cad-graphics-2025/), [[Advances in Manufacturing]](https://link.springer.com/journal/40436), [[Signal, Image and Video Processing]](https://link.springer.com/journal/11760), [[IEEE Signal Processing Letters]](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=97), [[Multimedia Systems]](https://link.springer.com/journal/530), [[Journal of Machine Learning and Cybernetics]](https://link.springer.com/journal/13042) 
 
 
 <details> <summary>Invited Reviewer</summary>
@@ -77,4 +77,4 @@ A special thank you to my senior colleagues Tao Wang, Dr. Zili Yi, Dr. Kang Qiao
 </details>
 
 
-[![Page Views Count](https://badges.toozhao.com/badges/01JDFCB5VAC67EJPTY9NCM83HV/blue.svg)](https://badges.toozhao.com/stats/01JDFCB5VAC67EJPTY9NCM83HV "Get your own page views count badge on badges.toozhao.com")
+<!-- [![Page Views Count](https://badges.toozhao.com/badges/01JDFCB5VAC67EJPTY9NCM83HV/blue.svg)](https://badges.toozhao.com/stats/01JDFCB5VAC67EJPTY9NCM83HV "Get your own page views count badge on badges.toozhao.com") -->
