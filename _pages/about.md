@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <!-- <div style="text-align: justify"> -->
-Wanglong Lu currently serves as a **Senior Data Scientist** in AI/Analytics at Nasdaq, Canada. He also actively collaborates with and mentors PhD and Master's students at Memorial University of Newfoundland and Wenzhou University, working in close collaboration with Prof. Xianta Jiang and Prof. Hanli Zhao.
+Wanglong Lu is a generative vision researcher turned applied ML engineer, with production experience in financial AI systems. He currently serves as a **Senior Data Scientist** in AI/Analytics at Nasdaq, Canada, and is moving toward scalable multimodal and generative AI systems. He also actively collaborates with and mentors PhD and Master's students at Memorial University of Newfoundland and Wenzhou University, working in close collaboration with Prof. Xianta Jiang and Prof. Hanli Zhao.
 
 <!-- He also holds positions as an **Adjunct Supervisor** for PhD and Master's students at Memorial University of Newfoundland and Wenzhou University, working in close collaboration with Prof. Xianta Jiang and Prof. Hanli Zhao.  </div> -->
 
@@ -50,6 +50,7 @@ Wanglong Lu currently serves as a **Senior Data Scientist** in AI/Analytics at N
 
 ### Current News
 - I am currently working at Nasdaq as a Senior Data Scientist.
+- In May 2026, our paper "EchoSR: Efficient Context Harnessing for Lightweight Image Super-Resolution" [[page]](https://doi.org/10.1016/j.inffus.2026.104471) has been published in Information Fusion, 135:104471! Cheers to Binhao.
 - On Dec. 4, 2025, our paper "AdaMSS: Adaptive Multi-Subspace Approach for Parameter-Efficient Fine-Tuning" [[page]](https://neurips.cc/virtual/2025/loc/san-diego/poster/119606) has been presented at NeurIPS 2025! This project has also been integrated into Huggingface PEFT package! [[github]](https://github.com/jzheng20/AdaMSS).
 - On Nov. 6, 2025, our paper "UHDRes: Ultra-High-Definition Image Restoration via Dual-Domain Decoupled Spectral Modulation" [[page]](https://arxiv.org/abs/2511.05009) was released! Congratulations to Shihao. Source code is available on [[GitHub]](https://github.com/Zhao0100/UHDRes).
 - On Jun. 12, 2025, our paper "Towards Biosignals-Free Autonomous Prosthetic Hand Control via Imitation Learning" [[page]](https://arxiv.org/abs/2506.08795) was released! Congratulations to Kaijie. This project is also interviewed by the CBC (Canadian Broadcasting Corporation), check the [[main page]](https://sites.google.com/view/autonomous-prosthetic-hand) for more information.
