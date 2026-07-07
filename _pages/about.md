@@ -27,12 +27,16 @@ Wanglong Lu is a generative vision researcher turned applied ML engineer, with p
 **Contact:** lwlxhl@gmail.com, lwlxhl@163.com, wanglong.lu@nasdaq.com, wanglongl@mun.ca
 
 
+**Invited Reviewer at (2026):**  [[Pattern Recognition]](https://www.sciencedirect.com/journal/pattern-recognition), [[Neurocomputing]](https://www.sciencedirect.com/journal/neurocomputing), [[Knowledge-Based Systems]](https://www.sciencedirect.com/journal/knowledge-based-systems), [[ECCV 2026]](https://eccv.ecva.net/Conferences/2026)
+
 **Invited Reviewer at (2025):**  [[TIP]](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83), [[TMM]](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046), [[Pattern Recognition]](https://www.sciencedirect.com/journal/pattern-recognition), [[Neurocomputing]](https://www.sciencedirect.com/journal/neurocomputing), [[CAD/Graphics 2025]](http://solidmodeling.org/call-for-papers-cad-graphics-2025/), [[Advances in Manufacturing]](https://link.springer.com/journal/40436), [[Signal, Image and Video Processing]](https://link.springer.com/journal/11760), [[IEEE Signal Processing Letters]](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=97), [[Multimedia Systems]](https://link.springer.com/journal/530), [[Journal of Machine Learning and Cybernetics]](https://link.springer.com/journal/13042) 
 
 
 <details> <summary>Invited Reviewer</summary>
 <ol>
   <!-- <li><div style="text-align: justify">I am currently working at Nasdaq Verafin as an AI research intern. </div></li> -->
+  <li><div style="text-align: justify">（2026） <a href="https://www.sciencedirect.com/journal/neurocomputing">Neurocomputing</a>, <a href="https://www.sciencedirect.com/journal/pattern-recognition">Pattern Recognition</a>, <a href="https://eccv.ecva.net/Conferences/2026">ECCV 2026</a>, <a href="https://www.sciencedirect.com/journal/knowledge-based-systems">KBS</a>
+ </div></li>
   <li><div style="text-align: justify">（2024） <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046">TMM</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76">TCSVT</a>, <a href="https://www.sciencedirect.com/journal/knowledge-based-systems">KBS</a>, <a href="https://link.springer.com/journal/10916">Journal of Medical Systems</a>, <a href="https://link.springer.com/journal/10586">Cluster Computing</a>, <a href="https://www.sciencedirect.com/journal/journal-of-visual-communication-and-image-representation">JVCI</a>, <a href="https://www.sciencedirect.com/journal/displays">Displays</a>, <a href="https://link.springer.com/journal/371">Visual Computer</a>, <a href="https://www.petmei.org/2024/index.html">ETRA 2024 PETMEI</a>
  </div></li>
 <!-- <li><div style="text-align: justify">  </div></li> -->
@@ -50,9 +54,11 @@ Wanglong Lu is a generative vision researcher turned applied ML engineer, with p
 
 ### Current News
 - I am currently working at Nasdaq as a Senior Data Scientist.
-- In May 2026, our paper "EchoSR: Efficient Context Harnessing for Lightweight Image Super-Resolution" [[page]](https://doi.org/10.1016/j.inffus.2026.104471) has been published in Information Fusion, 135:104471! Cheers to Binhao.
+- In 2026, our paper "Tuning-Free Latent Diffusion Models for Ultrahigh-Resolution Image Editing" [[page]](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TuxCf4UAAAAJ&sortby=pubdate&citation_for_view=TuxCf4UAAAAJ:4TOpqqG69KYC) has been published in IEEE Transactions on Neural Networks and Learning Systems, 1-15.
+- In 2026, our paper "UHDRes: Ultra-High-Definition Image Restoration via Dual-Domain Decoupled Spectral Modulation" [[page]](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TuxCf4UAAAAJ&sortby=pubdate&citation_for_view=TuxCf4UAAAAJ:KlAtU1dfN6UC) has been published in IEEE Transactions on Circuits and Systems for Video Technology! Congratulations to Shihao. Source code is available on [[GitHub]](https://github.com/Zhao0100/UHDRes).
+- In June 2026, our paper "Simulation-Driven Imitation Learning for Biosignals-Free Shared-Autonomy Prosthetic Grasping" [[page]](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TuxCf4UAAAAJ&sortby=pubdate&citation_for_view=TuxCf4UAAAAJ:_kc_bZDykSQC) was released as an arXiv preprint, arXiv:2606.07389! Congratulations to Kaijie.
+- In 2026, our paper "EchoSR: Efficient context harnessing for lightweight image super-resolution" [[page]](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TuxCf4UAAAAJ&sortby=pubdate&citation_for_view=TuxCf4UAAAAJ:YOwf2qJgpHMC) has been published in Information Fusion, 104471! Cheers to Binhao.
 - On Dec. 4, 2025, our paper "AdaMSS: Adaptive Multi-Subspace Approach for Parameter-Efficient Fine-Tuning" [[page]](https://neurips.cc/virtual/2025/loc/san-diego/poster/119606) has been presented at NeurIPS 2025! This project has also been integrated into Huggingface PEFT package! [[github]](https://github.com/jzheng20/AdaMSS).
-- On Nov. 6, 2025, our paper "UHDRes: Ultra-High-Definition Image Restoration via Dual-Domain Decoupled Spectral Modulation" [[page]](https://arxiv.org/abs/2511.05009) was released! Congratulations to Shihao. Source code is available on [[GitHub]](https://github.com/Zhao0100/UHDRes).
 - On Jun. 12, 2025, our paper "Towards Biosignals-Free Autonomous Prosthetic Hand Control via Imitation Learning" [[page]](https://arxiv.org/abs/2506.08795) was released! Congratulations to Kaijie. This project is also interviewed by the CBC (Canadian Broadcasting Corporation), check the [[main page]](https://sites.google.com/view/autonomous-prosthetic-hand) for more information.
 - On April 26, 2025, our paper "Degradation-Aware Frequency-Separated Transformer for Blind Super-Resolution" [[page]](https://link.springer.com/chapter/10.1007/978-981-96-5809-1_13) was successfully published at the Computational Visual Media Conference! Congratulations to Binhao Wang.
 - On March 6, 2025, our paper "TextDoctor: Unified Document Image Inpainting via Patch Pyramid Diffusion Models" [[page]](https://arxiv.org/abs/2503.04021) was released!
