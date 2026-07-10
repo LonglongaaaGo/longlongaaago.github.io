@@ -624,7 +624,7 @@ redirect_from:
         <a class="wl-button" href="https://scholar.google.com/citations?user=TuxCf4UAAAAJ&amp;hl=en&amp;authuser=1"><i class="fas fa-graduation-cap" aria-hidden="true"></i>Scholar</a>
         <a class="wl-button" href="https://github.com/Longlongaaago"><i class="fab fa-github" aria-hidden="true"></i>GitHub</a>
         <a class="wl-button" href="https://www.linkedin.com/in/wanglong-lu-8a98b6235/"><i class="fab fa-linkedin" aria-hidden="true"></i>LinkedIn</a>
-        <a class="wl-button" href="https://orcid.org/0000-0002-3666-0305"><i class="fab fa-orcid" aria-hidden="true"></i>ORCID</a>
+        <a class="wl-button" href="https://orcid.org/0000-0001-7956-4084"><i class="fab fa-orcid" aria-hidden="true"></i>ORCID</a>
       </div>
       <div class="wl-contact">
         <span>wanglong.lu@nasdaq.com</span>
