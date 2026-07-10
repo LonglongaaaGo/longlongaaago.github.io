@@ -736,7 +736,7 @@ redirect_from:
         <div class="wl-paper-body">
           <h3><a href="https://arxiv.org/abs/2412.21042">Visual Style Prompt Learning Using Diffusion Models for Blind Face Restoration</a></h3>
           <p class="wl-authors"><strong>Wanglong Lu</strong>, Jikai Wang, Tao Wang, Kaihao Zhang, Xianta Jiang, Hanli Zhao</p>
-          <p class="wl-venue">Pattern Recognition, 2024</p>
+          <p class="wl-venue">Pattern Recognition, 2025</p>
           <p class="wl-desc">A diffusion-guided restoration method that learns visual style prompts for blind face restoration.</p>
           <div class="wl-paper-links">
             <a href="https://arxiv.org/abs/2412.21042">Paper</a>

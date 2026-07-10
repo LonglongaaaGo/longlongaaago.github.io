@@ -1,42 +1,30 @@
 {% include base_path %}
 
-{% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-{% else %}
-  {% assign teaser = site.teaser %}
-{% endif %}
-
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% else %}
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <li>
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
+<li>
+  <strong>
+    {% if post.link %}
+      <a href="{{ post.link }}">{{ title }}</a>
+    {% else %}
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
     {% endif %}
-    <h3 class="archive__item-title">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-      {% endif %}
-    </h3>
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
-    {% if post.venue%}<p class="archive__item-excerpt" itemprop="description">[<a href="{{ post.citation }}"> cite</a>]      [<a href="{{ post.paperurl }}">paperurl</a>]</p> {% endif %}
-    </li>
- </article>
-</div>
+  </strong>
+  {% if post.excerpt %}
+    <br>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
+  {% endif %}
+  {% if post.venue %}
+    <br><em>{{ post.venue }}{% if post.date %}, {{ post.date | default: "1900-01-01" | date: "%Y" }}{% endif %}</em>
+  {% endif %}
+  {% if post.paperurl or post.citation or post.code or post.project_page %}
+    <br>
+    {% if post.paperurl %}[<a href="{{ post.paperurl }}">paper</a>]{% endif %}
+    {% if post.citation %}[<a href="{{ post.citation }}">cite</a>]{% endif %}
+    {% if post.code %}[<a href="{{ post.code }}">code</a>]{% endif %}
+    {% if post.project_page %}[<a href="{{ post.project_page }}">project</a>]{% endif %}
+  {% endif %}
+</li>

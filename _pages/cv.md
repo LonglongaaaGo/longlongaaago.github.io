@@ -2,12 +2,26 @@
 layout: archive
 title: "Wanglong Lu"
 permalink: /cv/
-author_profile: true
+author_profile: false
+hide_title: true
 redirect_from:
   - /resume
 ---
 
 {% include base_path %}
+
+<div class="wl-page-hero">
+  <p class="wl-page-kicker">// curriculum vitae</p>
+  <h1>Wanglong Lu</h1>
+  <p>Senior Data Scientist in AI/Analytics at Nasdaq, Canada, with research experience in generative vision, image restoration, image editing, pattern recognition, and parameter-efficient adaptation.</p>
+</div>
+
+<div class="wl-toolbar">
+  <a href="{{ '/publications/' | relative_url }}"><i class="fas fa-book-open" aria-hidden="true"></i>Publications</a>
+  <a href="{{ '/chinese_cv/' | relative_url }}"><i class="fas fa-language" aria-hidden="true"></i>中文简历</a>
+  <a href="https://scholar.google.com/citations?user=TuxCf4UAAAAJ&amp;hl=en&amp;authuser=1"><i class="fas fa-graduation-cap" aria-hidden="true"></i>Google Scholar</a>
+  <a href="mailto:wanglong.lu@nasdaq.com"><i class="fas fa-envelope" aria-hidden="true"></i>Email</a>
+</div>
 
 <!-- <div style="text-align: justify"> -->
 Wanglong Lu currently serves as a **Senior Data Scientist** in AI/Analytics at Nasdaq, Canada. 
@@ -23,7 +37,7 @@ Education
 
 Interests
 ======
-* Computer Vision, Pattern Recognition, Generative Models, and Natural Language Processing.
+* Computer Vision, Pattern Recognition, Generative Models, Parameter-Efficient Fine-Tuning, Multimodal AI Systems, and Financial AI.
 
 Publications
 ======
@@ -55,9 +69,9 @@ Selected honors
 
 Work experience
 ======
-* 2025.03-Present Senior Data Sentist,  Nasdaq St. John’s, NL, Canada
+* 2025.03-Present Senior Data Scientist, AI/Analytics, Nasdaq, St. John's, NL, Canada
 
-* 2024.05-2025.01 AI algorithm intern,  Nasdaq St. John’s, NL, Canada
+* 2024.05-2025.01 AI algorithm intern, Nasdaq Verafin, St. John's, NL, Canada
   * Design a novel text document image restoration using diffusion models [[TextDoctor]](https://arxiv.org/abs/2503.04021).
   * Design a novel image verification algorithm using Patch Gaussian Latent Discriminant Modeling.
 

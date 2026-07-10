@@ -2,17 +2,31 @@
 layout: archive
 title: "卢望龙"
 permalink: /chinese_cv/
-author_profile: true
+author_profile: false
+hide_title: true
 redirect_from:
   - /resume
 ---
 
 {% include base_path %}
 
+<div class="wl-page-hero">
+  <p class="wl-page-kicker">// 中文简历</p>
+  <h1>卢望龙</h1>
+  <p>加拿大纳斯达克 AI/Analytics 高级数据科学家，研究方向包括生成式视觉、图像修复、图像编辑、模式识别、参数高效微调和多模态生成式 AI 系统。</p>
+</div>
+
+<div class="wl-toolbar">
+  <a href="{{ '/publications/' | relative_url }}"><i class="fas fa-book-open" aria-hidden="true"></i>发表论文</a>
+  <a href="{{ '/cv/' | relative_url }}"><i class="fas fa-file-alt" aria-hidden="true"></i>English CV</a>
+  <a href="https://scholar.google.com/citations?user=TuxCf4UAAAAJ&amp;hl=en&amp;authuser=1"><i class="fas fa-graduation-cap" aria-hidden="true"></i>Google Scholar</a>
+  <a href="mailto:wanglong.lu@nasdaq.com"><i class="fas fa-envelope" aria-hidden="true"></i>Email</a>
+</div>
+
 <!-- 纽芬兰纪念大学普适计算和机器学习研究实验室([UCML](https://sites.google.com/view/ucmi/home) )博士生。 -->
 
 <div style="text-align: justify">
-卢望龙现担任加拿大纳斯达克人工智能/分析领域高级数据科学家。2021年获温州大学计算机工学硕士学位，2025年获纽芬兰纪念大学计算机博士学位，研究方向为模式识别、图像编辑与重建。已联合发表20余篇高水平论文，涵盖TVCG、ECCV、Pattern Recognition、CVMJ 等顶级期刊和会议，并获得4项国家发明专利授权。同时担任TMM、TCSVT、KBS、JVCI、Displays等国际期刊的审稿人。 </div> 
+卢望龙现担任加拿大纳斯达克人工智能/分析领域高级数据科学家。2021年获温州大学计算机工学硕士学位，2025年获纽芬兰纪念大学计算机博士学位，研究方向为模式识别、图像编辑与重建、参数高效微调以及可扩展多模态/生成式 AI 系统。已联合发表20余篇高水平论文，涵盖TVCG、ECCV、Pattern Recognition、CVMJ、TNNLS、TCSVT、Information Fusion 等期刊和会议，并获得4项国家发明专利授权。同时担任TIP、TMM、TCSVT、Pattern Recognition、Neurocomputing、KBS、JVCI、Displays等国际期刊和会议的审稿人。 </div>
 
 教育背景
 ======
@@ -22,7 +36,7 @@ redirect_from:
 
 研究兴趣
 ======
-* 计算机视觉, 图像识别, 目标检测, 图像编辑与处理
+* 计算机视觉, 模式识别, 生成式模型, 图像编辑与修复, 参数高效微调, 多模态 AI, 金融 AI
 
 发表
 ======
@@ -53,6 +67,12 @@ redirect_from:
 
 工作经历
 ======
+* 2025.03-至今 高级数据科学家，AI/Analytics，Nasdaq，St. John's，NL，加拿大
+
+* 2024.05-2025.01 AI 算法实习生，Nasdaq Verafin，St. John's，NL，加拿大
+  * 设计基于扩散模型的文本档案图像修复算法 [[TextDoctor]](https://arxiv.org/abs/2503.04021)
+  * 设计基于 Patch Gaussian Latent Discriminant Modeling 的图像验证算法
+
 * 2017.12-2018.08 人工智能算法实习生，杭州中控瀚联电子商务有限公司，杭州，中国  
   * 汽车标志图像分析与处理
   * 协助开发图像标注工具

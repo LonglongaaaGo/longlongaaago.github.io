@@ -1,0 +1,355 @@
+/* ==========================================================================
+   Wanglong Lu modern academic theme layer
+   ========================================================================== */
+
+:root {
+  --wl-ink: #20221f;
+  --wl-muted: #626a64;
+  --wl-soft: #f5f6f1;
+  --wl-panel: #ffffff;
+  --wl-border: #d9ded5;
+  --wl-blue: #2c638f;
+  --wl-green: #55766a;
+  --wl-gold: #a8752a;
+  --wl-red: #a15045;
+}
+
+body {
+  background: var(--wl-soft);
+  color: var(--wl-ink);
+}
+
+a {
+  color: var(--wl-blue);
+}
+
+.masthead {
+  background: #1f2825;
+  border-bottom: 1px solid #151c1a;
+}
+
+.masthead__inner-wrap {
+  max-width: 1180px;
+}
+
+.greedy-nav {
+  background: transparent;
+}
+
+.greedy-nav a {
+  color: #f0f4ee;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.88rem;
+}
+
+.greedy-nav a:hover {
+  color: #ffffff;
+}
+
+.greedy-nav .visible-links a:before {
+  background: #f7c870;
+  height: 2px;
+}
+
+.greedy-nav button {
+  background-color: #2f3c38;
+}
+
+.greedy-nav .hidden-links {
+  background: #1f2825;
+  border-color: rgba(240, 244, 238, 0.24);
+}
+
+#main {
+  max-width: 1180px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+#main .archive {
+  float: none;
+  margin: 0 auto 48px;
+  max-width: 1080px;
+  padding: 0;
+  width: 100%;
+}
+
+#main .page {
+  color: var(--wl-ink);
+}
+
+.page__title {
+  color: var(--wl-ink);
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 1.35rem;
+  letter-spacing: 0;
+}
+
+.archive > .page__title {
+  border-bottom: 1px solid var(--wl-border);
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.archive a,
+.page__content a {
+  color: var(--wl-blue);
+}
+
+.archive a:hover,
+.page__content a:hover {
+  color: var(--wl-red);
+}
+
+.archive > h1:not(.page__title),
+.archive > h2,
+.page__content h2 {
+  border-bottom: 1px solid var(--wl-border);
+  color: var(--wl-ink);
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 1rem;
+  letter-spacing: 0;
+  margin-top: 34px;
+  padding-bottom: 8px;
+}
+
+.archive p,
+.archive li,
+.page__content p,
+.page__content li {
+  color: #3f4842;
+  line-height: 1.65;
+}
+
+.archive ul,
+.page__content ul {
+  padding-left: 1.25rem;
+}
+
+.archive > ul,
+.page__content > ul {
+  background: var(--wl-panel);
+  border: 1px solid var(--wl-border);
+  border-radius: 8px;
+  padding: 16px 22px 16px 34px;
+}
+
+.wl-page-hero {
+  background: var(--wl-panel);
+  border: 1px solid var(--wl-border);
+  border-radius: 8px;
+  margin-bottom: 18px;
+  padding: 22px;
+}
+
+.wl-page-kicker {
+  color: var(--wl-green);
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.88rem;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+.wl-page-hero h1 {
+  color: var(--wl-ink);
+  font-size: clamp(1.8rem, 3vw, 3.2rem);
+  line-height: 1.08;
+  margin: 0 0 12px;
+}
+
+.wl-page-hero p {
+  color: #3f4842;
+  font-size: 1rem;
+  line-height: 1.65;
+  margin: 0;
+  max-width: 860px;
+}
+
+.wl-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 22px;
+}
+
+.wl-toolbar a,
+.wl-toolbar span {
+  align-items: center;
+  background: #f8faf6;
+  border: 1px solid var(--wl-border);
+  border-radius: 8px;
+  color: var(--wl-ink);
+  display: inline-flex;
+  font-size: 0.86rem;
+  gap: 7px;
+  min-height: 34px;
+  padding: 6px 10px;
+  text-decoration: none;
+}
+
+.wl-toolbar a:hover {
+  border-color: #bfc8bd;
+  color: var(--wl-blue);
+  text-decoration: none;
+}
+
+.wl-publication-list {
+  display: grid;
+  gap: 16px;
+}
+
+.wl-publication-list .list__item {
+  padding-right: 0;
+}
+
+.wl-publication-card {
+  background: var(--wl-panel);
+  border: 1px solid var(--wl-border);
+  border-radius: 8px;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 230px minmax(0, 1fr);
+  overflow: hidden;
+}
+
+.wl-publication-media {
+  align-items: center;
+  background: #eef2ef;
+  display: flex;
+  justify-content: center;
+  min-height: 156px;
+}
+
+.wl-publication-media img {
+  display: block;
+  height: 100%;
+  max-height: 190px;
+  object-fit: contain;
+  padding: 10px;
+  width: 100%;
+}
+
+.wl-publication-fallback {
+  align-items: center;
+  color: var(--wl-green);
+  display: flex;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.82rem;
+  font-weight: 700;
+  height: 100%;
+  justify-content: center;
+  padding: 18px;
+  text-align: center;
+  width: 100%;
+}
+
+.wl-publication-body {
+  min-width: 0;
+  padding: 16px 16px 16px 0;
+}
+
+.wl-publication-body h2 {
+  border: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 1.02rem;
+  line-height: 1.35;
+  margin: 0 0 7px;
+  padding: 0;
+}
+
+.wl-publication-body h2 a {
+  color: var(--wl-ink);
+  text-decoration: none;
+}
+
+.wl-publication-body h2 a:hover {
+  color: var(--wl-blue);
+}
+
+.wl-pub-authors,
+.wl-pub-venue,
+.wl-pub-desc {
+  font-size: 0.9rem;
+  margin: 0 0 8px;
+}
+
+.wl-pub-authors {
+  color: #465049;
+}
+
+.wl-pub-venue {
+  color: var(--wl-muted);
+}
+
+.wl-pub-desc {
+  color: #3f4842;
+}
+
+.wl-pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.wl-pub-links a {
+  border: 1px solid var(--wl-border);
+  border-radius: 8px;
+  color: var(--wl-ink);
+  font-size: 0.82rem;
+  padding: 5px 9px;
+  text-decoration: none;
+}
+
+.wl-pub-links a:hover {
+  border-color: #bfc8bd;
+  color: var(--wl-blue);
+  text-decoration: none;
+}
+
+.archive__item-title {
+  letter-spacing: 0;
+}
+
+.archive__item-title p {
+  margin: 0;
+}
+
+.page__content img {
+  border: 1px solid var(--wl-border);
+  border-radius: 8px;
+}
+
+.page__footer {
+  background: #1f2825;
+  color: #dce7dd;
+}
+
+.page__footer a {
+  color: #f0f4ee;
+}
+
+@media (max-width: 900px) {
+  .wl-publication-card {
+    grid-template-columns: 1fr;
+  }
+
+  .wl-publication-media {
+    min-height: 210px;
+  }
+
+  .wl-publication-body {
+    padding: 0 16px 16px;
+  }
+}
+
+@media (max-width: 540px) {
+  #main {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .wl-page-hero {
+    padding: 18px;
+  }
+}
