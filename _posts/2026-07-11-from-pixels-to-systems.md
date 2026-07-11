@@ -33,15 +33,15 @@ $$
 y = \mathcal{H}(x) + \epsilon,
 $$
 
-where \(x\) is the clean or desired signal, \(y\) is the observation, \(\mathcal{H}\) is a degradation, transformation, or sensing process, and \(\epsilon\) is noise, uncertainty, or missing information.
+where $x$ is the clean or desired signal, $y$ is the observation, $\mathcal{H}$ is a degradation, transformation, or sensing process, and $\epsilon$ is noise, uncertainty, or missing information.
 
 This view is useful because it unifies tasks that appear unrelated:
 
-- In image restoration, \(\mathcal{H}\) may be blur, haze, low resolution, compression, or reflection.
-- In inpainting, \(\mathcal{H}\) is a masking operator.
-- In semantic editing, \(\mathcal{H}\) includes the constraints imposed by the original image and the edit instruction.
-- In blink detection or prosthetic grasping, \(\mathcal{H}\) is the partial observation process through cameras, simulation, or human-object interaction.
-- In financial synthetic data generation, \(\mathcal{H}\) includes privacy, distributional shift, temporal dependence, and heavy-tailed uncertainty.
+- In image restoration, $\mathcal{H}$ may be blur, haze, low resolution, compression, or reflection.
+- In inpainting, $\mathcal{H}$ is a masking operator.
+- In semantic editing, $\mathcal{H}$ includes the constraints imposed by the original image and the edit instruction.
+- In blink detection or prosthetic grasping, $\mathcal{H}$ is the partial observation process through cameras, simulation, or human-object interaction.
+- In financial synthetic data generation, $\mathcal{H}$ includes privacy, distributional shift, temporal dependence, and heavy-tailed uncertainty.
 
 The research question is therefore not just "can the model generate a plausible output?" It is:
 
@@ -49,7 +49,7 @@ $$
 \hat{x} = \arg\max_x p(x \mid y, c, \Pi),
 $$
 
-where \(c\) is a control signal and \(\Pi\) is a set of priors. The control signal may be an exemplar, a text prompt, a visual style prompt, a degradation representation, a frequency-domain constraint, a subspace update, or a simulation-derived policy. The prior may come from data, geometry, frequency statistics, pretraining, temporal continuity, or deployment constraints.
+where $c$ is a control signal and $\Pi$ is a set of priors. The control signal may be an exemplar, a text prompt, a visual style prompt, a degradation representation, a frequency-domain constraint, a subspace update, or a simulation-derived policy. The prior may come from data, geometry, frequency statistics, pretraining, temporal continuity, or deployment constraints.
 
 This framing shaped my thinking from early recognition and restoration work to recent generative systems.
 
@@ -67,13 +67,13 @@ My current view is that a prior is useful only if it reduces the ambiguity that 
 
 ## 3. Diffusion Models Are Powerful, But Control Is the Real Research Problem
 
-Diffusion models changed the default assumption in visual generation. Instead of directly predicting \(x\), they learn a denoising or score function over a sequence of corrupted variables:
+Diffusion models changed the default assumption in visual generation. Instead of directly predicting $x$, they learn a denoising or score function over a sequence of corrupted variables:
 
 $$
 x_t = \sqrt{\bar{\alpha}_t}x_0 + \sqrt{1-\bar{\alpha}_t}\epsilon,
 $$
 
-and a model estimates either the noise \(\epsilon\), the clean signal \(x_0\), or a score-like direction:
+and a model estimates either the noise $\epsilon$, the clean signal $x_0$, or a score-like direction:
 
 $$
 s_\theta(x_t, t, c) \approx \nabla_{x_t}\log p_t(x_t \mid c).
@@ -115,7 +115,7 @@ $$
 W' = W_0 + \Delta W.
 $$
 
-The key question is how expressive \(\Delta W\) needs to be. A low-rank update is efficient, but may be too restrictive. A full update is expressive, but often too expensive. In [AdaMSS]({{ '/publication/adamss_parameter_efficient_finetuning' | relative_url }}), the update is modeled through multiple subspaces:
+The key question is how expressive $\Delta W$ needs to be. A low-rank update is efficient, but may be too restrictive. A full update is expressive, but often too expensive. In [AdaMSS]({{ '/publication/adamss_parameter_efficient_finetuning' | relative_url }}), the update is modeled through multiple subspaces:
 
 $$
 \Delta W \approx \sum_{k=1}^{K} A_k B_k C_k.
