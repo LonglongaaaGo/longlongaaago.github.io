@@ -19,11 +19,19 @@ resources:
     url: https://arxiv.org/abs/example
   - label: Code
     url: https://github.com/example/repository
+references:
+  - title: "External Article or Blog Post Title"
+    authors: "Author Name"
+    source: "Journal, Conference, Documentation Site, or Blog"
+    year: 2026
+    url: https://example.com/article
 ---
 
 ![A precise description of the figure]({{ '/images/publications/example-image.png' | relative_url }})
 
 Write a short opening that states the problem, the central claim, and the practical relevance.
+
+An external source is cited with a normal Markdown link, for example [External Article or Blog Post Title](https://example.com/article). When the URL matches an item in `references`, the citation number and bibliography entry are generated automatically.
 
 ## 1. Problem
 
