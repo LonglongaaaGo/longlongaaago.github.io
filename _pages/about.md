@@ -732,6 +732,77 @@ redirect_from:
 
       <article class="wl-paper">
         <div class="wl-paper-media">
+          <img src="{{ '/images/publications/facemug_teaser.png' | relative_url }}" alt="FACEMUG teaser">
+          <span class="wl-badge gold">TVCG</span>
+        </div>
+        <div class="wl-paper-body">
+          <h3><a href="{{ '/publication/facemug' | relative_url }}">FACEMUG: A Multimodal Generative and Fusion Framework for Local Facial Editing</a></h3>
+          <p class="wl-authors"><strong>Wanglong Lu</strong>, Jikai Wang, Xiaogang Jin, Xianta Jiang, Hanli Zhao</p>
+          <p class="wl-venue">IEEE Transactions on Visualization and Computer Graphics, 2024</p>
+          <p class="wl-desc">A multimodal generative framework for globally consistent local facial editing with fine-grained semantic control.</p>
+          <div class="wl-paper-links">
+            <a href="{{ '/publication/facemug' | relative_url }}">Details</a>
+            <a href="https://arxiv.org/abs/2412.19009">Paper</a>
+            <a href="https://www.youtube.com/watch?v=O5r40NIXUcM">Video</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="wl-paper">
+        <div class="wl-paper-media">
+          <img src="{{ '/images/publications/VSP_restoration_teaser.png' | relative_url }}" alt="Visual style prompt learning teaser">
+          <span class="wl-badge green">PR</span>
+        </div>
+        <div class="wl-paper-body">
+          <h3><a href="{{ '/publication/vsp_face_restoration' | relative_url }}">Visual Style Prompt Learning Using Diffusion Models for Blind Face Restoration</a></h3>
+          <p class="wl-authors"><strong>Wanglong Lu</strong>, Jikai Wang, Tao Wang, Kaihao Zhang, Xianta Jiang, Hanli Zhao</p>
+          <p class="wl-venue">Pattern Recognition, 2025</p>
+          <p class="wl-desc">A diffusion-guided blind face restoration method that learns visual style prompts in pretrained generative latent space.</p>
+          <div class="wl-paper-links">
+            <a href="{{ '/publication/vsp_face_restoration' | relative_url }}">Details</a>
+            <a href="https://arxiv.org/abs/2412.21042">Paper</a>
+            <a href="https://github.com/LonglongaaaGo/VSPBFR">Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="wl-paper">
+        <div class="wl-paper-media">
+          <img src="{{ '/images/publications/exe_celeba_diverse.png' | relative_url }}" alt="EXE-GAN facial inpainting results">
+          <span class="wl-badge red">Neurocomputing</span>
+        </div>
+        <div class="wl-paper-body">
+          <h3><a href="{{ '/publication/exe-gan' | relative_url }}">Do Inpainting Yourself: Generative Facial Inpainting Guided by Exemplars</a></h3>
+          <p class="wl-authors"><strong>Wanglong Lu</strong>, Hanli Zhao, Xianta Jiang, Xiaogang Jin, Yongliang Yang, Min Wang, Jiankai Lyu, Kaijie Shi</p>
+          <p class="wl-venue">Neurocomputing, 617:128996, 2025</p>
+          <p class="wl-desc">An exemplar-guided facial inpainting framework that transfers exemplar-like facial attributes while preserving image quality.</p>
+          <div class="wl-paper-links">
+            <a href="{{ '/publication/exe-gan' | relative_url }}">Details</a>
+            <a href="https://arxiv.org/abs/2202.06358">Paper</a>
+            <a href="https://github.com/LonglongaaaGo/EXE-GAN">Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="wl-paper">
+        <div class="wl-paper-media">
+          <img src="{{ '/images/publications/textdoctor_teaser.png' | relative_url }}" alt="TextDoctor teaser">
+          <span class="wl-badge">arXiv</span>
+        </div>
+        <div class="wl-paper-body">
+          <h3><a href="{{ '/publication/textdoctor' | relative_url }}">TextDoctor: Unified Document Image Inpainting via Patch Pyramid Diffusion Models</a></h3>
+          <p class="wl-authors"><strong>Wanglong Lu</strong>, Lingming Su, Jingjing Zheng, Vinicius Veloso de Melo, Farzaneh Shoeleh, John Hawkin, Terrence Tricco, Hanli Zhao, Xianta Jiang</p>
+          <p class="wl-venue">arXiv, 2025</p>
+          <p class="wl-desc">A unified document image inpainting framework for restoring damaged and high-resolution document regions.</p>
+          <div class="wl-paper-links">
+            <a href="{{ '/publication/textdoctor' | relative_url }}">Details</a>
+            <a href="https://arxiv.org/abs/2503.04021">Paper</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="wl-paper">
+        <div class="wl-paper-media">
           <img src="{{ '/images/publications/adamss_framework.png' | relative_url }}" alt="AdaMSS framework">
           <span class="wl-badge gold">NeurIPS</span>
         </div>
@@ -745,59 +816,6 @@ redirect_from:
             <a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/119606">Paper</a>
             <a href="https://github.com/jzheng20/AdaMSS">Code</a>
             <a href="https://github.com/huggingface/peft/tree/main/examples/adamss_finetuning">PEFT</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="wl-paper">
-        <div class="wl-paper-media">
-          <img src="{{ '/images/publications/uhdres_architecture.png' | relative_url }}" alt="UHDRes architecture">
-          <span class="wl-badge red">TCSVT</span>
-        </div>
-        <div class="wl-paper-body">
-          <h3><a href="{{ '/publication/uhdres_dual_domain_restoration' | relative_url }}">UHDRes: Ultra-High-Definition Image Restoration via Dual-Domain Decoupled Spectral Modulation</a></h3>
-          <p class="wl-authors">Shihao Zhao, <strong>Wanglong Lu</strong>, Binhao Wang, Tao Wang, Kaihao Zhang, Hanli Zhao</p>
-          <p class="wl-venue">IEEE Transactions on Circuits and Systems for Video Technology, 2026</p>
-          <p class="wl-desc">A lightweight UHD restoration framework using spatial-frequency decoupling and spectral modulation with only 400K parameters.</p>
-          <div class="wl-paper-links">
-            <a href="{{ '/publication/uhdres_dual_domain_restoration' | relative_url }}">Details</a>
-            <a href="https://arxiv.org/abs/2511.05009">Paper</a>
-            <a href="https://github.com/Zhao0100/UHDRes">Code</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="wl-paper">
-        <div class="wl-paper-media">
-          <img src="{{ '/images/publications/echosr_architecture.png' | relative_url }}" alt="EchoSR architecture">
-          <span class="wl-badge green">IF</span>
-        </div>
-        <div class="wl-paper-body">
-          <h3><a href="{{ '/publication/echosr_lightweight_image_super_resolution' | relative_url }}">EchoSR: Efficient Context Harnessing for Lightweight Image Super-Resolution</a></h3>
-          <p class="wl-authors">Hanli Zhao, Binhao Wang, Shihao Zhao, Tao Wang, Kaihao Zhang, <strong>Wanglong Lu</strong></p>
-          <p class="wl-venue">Information Fusion, 104471, 2026</p>
-          <p class="wl-desc">An efficient context-harnessing framework for lightweight super-resolution across local, multi-scale, and global modeling.</p>
-          <div class="wl-paper-links">
-            <a href="{{ '/publication/echosr_lightweight_image_super_resolution' | relative_url }}">Details</a>
-            <a href="https://doi.org/10.1016/j.inffus.2026.104471">Paper</a>
-            <a href="https://github.com/funnyWang-Echoes/EchoSR">Code</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="wl-paper">
-        <div class="wl-paper-media">
-          <img src="{{ '/images/publications/biosignals_free_imitation_learning.jpg' | relative_url }}" alt="Simulation-driven prosthetic grasping">
-          <span class="wl-badge">arXiv</span>
-        </div>
-        <div class="wl-paper-body">
-          <h3><a href="{{ '/publication/simulation_driven_imitation_learning_prosthetic_grasping' | relative_url }}">Simulation-Driven Imitation Learning for Biosignals-Free Shared-Autonomy Prosthetic Grasping</a></h3>
-          <p class="wl-authors">Kaijie Shi, <strong>Wanglong Lu</strong>, Han Chen, Vinicius Prado da Fonseca, Ting Zou, Hanli Zhao, Xianta Jiang</p>
-          <p class="wl-venue">arXiv preprint arXiv:2606.07389, 2026</p>
-          <p class="wl-desc">A simulation-driven imitation learning method for shared-autonomy prosthetic grasping without biosignal control.</p>
-          <div class="wl-paper-links">
-            <a href="{{ '/publication/simulation_driven_imitation_learning_prosthetic_grasping' | relative_url }}">Details</a>
-            <a href="https://arxiv.org/abs/2606.07389">Paper</a>
           </div>
         </div>
       </article>
