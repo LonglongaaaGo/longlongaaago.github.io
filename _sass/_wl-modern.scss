@@ -236,25 +236,35 @@ a {
   background: #e9efe9;
   border: 1px solid #d9e2d8;
   border-radius: 8px;
-  padding: 5px;
+  padding: 6px;
 }
 
 .wl-pub-tab {
   align-items: center;
-  background: transparent;
-  border: 1px solid transparent;
-  border-radius: 7px;
-  color: #3f4842;
+  background: #ffffff;
+  border: 1px solid var(--wl-border);
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(36, 48, 42, 0.06);
+  color: var(--wl-ink);
   display: inline-flex;
-  flex: 1 1 160px;
+  flex: 1 1 170px;
   gap: 8px;
   justify-content: center;
-  min-height: 42px;
-  padding: 7px 10px;
+  min-height: 46px;
+  padding: 8px 12px;
+  text-decoration: none;
+  transition: background 140ms ease, border-color 140ms ease, color 140ms ease, transform 140ms ease;
+}
+
+.wl-pub-tab:hover {
+  border-color: #bfc8bd;
+  color: var(--wl-blue);
+  text-decoration: none;
+  transform: translateY(-1px);
 }
 
 .wl-pub-tab strong {
-  color: var(--wl-green);
+  color: var(--wl-blue);
   font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
   font-size: 1.05rem;
   line-height: 1;
@@ -262,19 +272,18 @@ a {
 
 .wl-pub-tab span {
   font-size: 0.84rem;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 1.25;
 }
 
 .wl-pub-tab.is-active {
-  background: #ffffff;
-  border-color: var(--wl-border);
-  box-shadow: 0 1px 2px rgba(36, 48, 42, 0.06);
-  color: var(--wl-ink);
+  background: var(--wl-ink);
+  border-color: var(--wl-ink);
+  color: #ffffff;
 }
 
 .wl-pub-tab.is-active strong {
-  color: var(--wl-blue);
+  color: #f7c870;
 }
 
 .wl-pub-tabbar-secondary {
@@ -302,6 +311,16 @@ a {
   background: #ffffff;
   border: 1px solid var(--wl-border);
   color: #3f4842;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 140ms ease, border-color 140ms ease, color 140ms ease, transform 140ms ease;
+}
+
+.wl-pub-topic:hover {
+  border-color: #bfc8bd;
+  color: var(--wl-blue);
+  text-decoration: none;
+  transform: translateY(-1px);
 }
 
 .wl-pub-topic.is-active {

@@ -846,15 +846,15 @@ redirect_from:
       <h2 id="overview">// research overview</h2>
     </div>
     <div class="wl-overview">
-      <p class="wl-overview-copy">My research started from image recognition and restoration, then moved toward generative image editing, document restoration, face restoration, and multimodal generative systems. Recent work includes ultra-high-resolution image editing, dual-domain restoration, lightweight super-resolution, and adaptive parameter-efficient fine-tuning. In parallel, my industry work emphasizes robust ML systems that can survive real production constraints.</p>
+      <p class="wl-overview-copy">My research started from recognition, medical imaging, and restoration, then moved toward generative image editing, document restoration, face restoration, and multimodal generative systems. Recent work connects ultra-high-resolution image editing, dual-domain restoration, lightweight super-resolution, adaptive parameter-efficient fine-tuning, and assistive vision. In parallel, my industry work emphasizes robust ML systems that can survive real production constraints.</p>
       <button class="wl-overview-visual" type="button" data-overview-zoom-open aria-controls="research-overview-expanded" aria-expanded="false" aria-label="Open research overview image in a larger view">
-        <img src="{{ '/images/research-overview.svg' | relative_url }}" alt="Research overview map for generative vision, restoration, efficient adaptation, and applied ML systems">
+        <img src="{{ '/images/research-overview.svg' | relative_url }}" alt="Research overview map covering 28 publications across generative vision, restoration, efficient adaptation, assistive vision, and applied ML systems">
         <span class="wl-zoom-icon" aria-hidden="true"></span>
       </button>
       <div id="research-overview-expanded" class="wl-lightbox" role="dialog" aria-modal="true" aria-label="Enlarged research overview image" hidden>
         <button class="wl-lightbox-backdrop" type="button" data-overview-zoom-close aria-label="Close enlarged research overview image"></button>
         <div class="wl-lightbox-frame">
-          <img src="{{ '/images/research-overview.svg' | relative_url }}" alt="Research overview map for generative vision, restoration, efficient adaptation, and applied ML systems">
+          <img src="{{ '/images/research-overview.svg' | relative_url }}" alt="Research overview map covering 28 publications across generative vision, restoration, efficient adaptation, assistive vision, and applied ML systems">
         </div>
         <button class="wl-lightbox-close" type="button" data-overview-zoom-close aria-label="Close enlarged research overview image">x</button>
       </div>
