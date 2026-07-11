@@ -2,16 +2,49 @@
 layout: archive
 permalink: /tags/
 title: "Posts by Tags"
-author_profile: true
+author_profile: false
+hide_title: true
 ---
 
 {% include base_path %}
 {% include group-by-array collection=site.posts field="tags" %}
 
-{% for tag in group_names %}
-  {% assign posts = group_items[forloop.index0] %}
-  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
-  {% for post in posts %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endfor %}
+<div class="wl-page-hero wl-taxonomy-hero">
+  <p class="wl-page-kicker">// tags</p>
+  <h1>Posts by Tags</h1>
+  <p>Browse technical notes by research area, method, and engineering theme.</p>
+</div>
+
+{% if group_names.size > 0 %}
+  <nav class="wl-taxonomy-cloud" aria-label="Post tags">
+    {% for tag in group_names %}
+      {% assign posts = group_items[forloop.index0] %}
+      <a class="wl-taxonomy-chip" href="#{{ tag | slugify }}">
+        {{ tag }}
+        <span>{{ posts.size }}</span>
+      </a>
+    {% endfor %}
+  </nav>
+
+  <div class="wl-taxonomy-list">
+    {% for tag in group_names %}
+      {% assign posts = group_items[forloop.index0] %}
+      <section id="{{ tag | slugify }}" class="wl-taxonomy-section">
+        <div class="wl-taxonomy-heading">
+          <h2>{{ tag }}</h2>
+          <span>{{ posts.size }} {% if posts.size == 1 %}post{% else %}posts{% endif %}</span>
+        </div>
+        <div class="wl-blog-list wl-taxonomy-posts">
+          {% for post in posts %}
+            {% include archive-single.html %}
+          {% endfor %}
+        </div>
+      </section>
+    {% endfor %}
+  </div>
+{% else %}
+  <div class="wl-empty-state">
+    <h2>No tagged posts yet</h2>
+    <p>Future technical posts will appear here once tags are added.</p>
+  </div>
+{% endif %}

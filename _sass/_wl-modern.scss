@@ -379,6 +379,90 @@ a {
   margin: 0;
 }
 
+.wl-taxonomy-hero {
+  margin-bottom: 16px;
+}
+
+.wl-taxonomy-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 28px;
+}
+
+.archive .wl-taxonomy-cloud a,
+.wl-taxonomy-chip {
+  align-items: center;
+  background: var(--wl-panel);
+  border: 1px solid var(--wl-border);
+  border-radius: 8px;
+  color: var(--wl-ink);
+  display: inline-flex;
+  font-size: 0.9rem;
+  gap: 8px;
+  line-height: 1.2;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+
+.archive .wl-taxonomy-cloud a:hover,
+.wl-taxonomy-chip:hover {
+  border-color: #bfc8bd;
+  color: var(--wl-blue);
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.wl-taxonomy-chip span {
+  background: #eef2ef;
+  border-radius: 7px;
+  color: var(--wl-muted);
+  font-size: 0.74rem;
+  font-weight: 700;
+  min-width: 1.4rem;
+  padding: 2px 6px;
+  text-align: center;
+}
+
+.wl-taxonomy-list {
+  display: grid;
+  gap: 26px;
+}
+
+.wl-taxonomy-section {
+  scroll-margin-top: 96px;
+}
+
+.wl-taxonomy-heading {
+  align-items: flex-end;
+  border-bottom: 1px solid var(--wl-border);
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+}
+
+.archive .wl-taxonomy-heading h2 {
+  border: 0;
+  color: var(--wl-ink);
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 1rem;
+  letter-spacing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.wl-taxonomy-heading span {
+  color: var(--wl-muted);
+  flex: 0 0 auto;
+  font-size: 0.82rem;
+}
+
+.wl-taxonomy-posts .archive__item {
+  padding: 16px;
+}
+
 .wl-empty-state {
   background: var(--wl-panel);
   border: 1px solid var(--wl-border);
@@ -529,6 +613,33 @@ a {
 
 .archive__item-title p {
   margin: 0;
+}
+
+.page__taxonomy {
+  margin-top: 28px;
+}
+
+.page__taxonomy strong {
+  color: var(--wl-muted);
+  display: inline-flex;
+  font-size: 0.86rem;
+  margin: 0 8px 8px 0;
+}
+
+.page__taxonomy-item {
+  background: var(--wl-panel);
+  border: 1px solid var(--wl-border);
+  border-radius: 8px;
+  color: var(--wl-ink);
+  font-size: 0.84rem;
+  padding: 5px 9px;
+  text-decoration: none;
+}
+
+.page__taxonomy-item:hover {
+  border-color: #bfc8bd;
+  color: var(--wl-blue);
+  text-decoration: none;
 }
 
 .page__content img {
