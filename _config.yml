@@ -88,7 +88,7 @@ author:
   bilibili         : #"https://space.bilibili.com/6414209"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=TuxCf4UAAAAJ&view_op=list_works&gmla=AH8HC4wltbjupcURMAeWeGSrjNZcOIgkjb-5VADf6kJrc6yBqQMU3GAWPAt_WG6RMbtycCMrg_XDqRIphcxe-KWuiX5boVX7e1rWRgSt1eo"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=TuxCf4UAAAAJ&view_op=list_works&sortby=pubdate"
   email            : "lwlxhl@163.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              : "https://longlongaaago.github.io"

@@ -11,7 +11,37 @@ hide_title: true
 <div class="wl-page-hero">
   <p class="wl-page-kicker">// publications</p>
   <h1>Research Publications</h1>
-  <p>Selected journal, conference, and preprint publications spanning generative vision, image restoration, image editing, pattern recognition, and applied machine learning.</p>
+  <p>A complete, curated publication record spanning generative vision, image restoration, image editing, pattern recognition, and applied machine learning. Citation metrics are maintained on Google Scholar.</p>
+</div>
+
+<div class="wl-pub-snapshot" aria-label="Publication snapshot">
+  <div class="wl-pub-metrics">
+    <div class="wl-pub-metric">
+      <strong>{{ site.publications | size }}</strong>
+      <span>Publications</span>
+    </div>
+    <div class="wl-pub-metric">
+      <strong>8</strong>
+      <span>Lead-author works</span>
+    </div>
+    <div class="wl-pub-metric">
+      <strong>4</strong>
+      <span>IEEE Transactions</span>
+    </div>
+    <div class="wl-pub-metric">
+      <strong>2</strong>
+      <span>Flagship conferences</span>
+    </div>
+  </div>
+
+  <div class="wl-pub-focus">
+    <span>Generative AI</span>
+    <span>Image Editing & Inpainting</span>
+    <span>Restoration & Super-Resolution</span>
+    <span>Multimodal Learning</span>
+    <span>Medical / Assistive Vision</span>
+    <span>Recognition & Applied CV</span>
+  </div>
 </div>
 
 <div class="wl-toolbar">
