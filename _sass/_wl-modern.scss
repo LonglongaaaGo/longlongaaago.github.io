@@ -193,57 +193,99 @@ a {
   text-decoration: none;
 }
 
-.wl-pub-snapshot {
+.wl-pub-tabs {
   background: #f8faf6;
   border: 1px solid var(--wl-border);
   border-radius: 8px;
-  margin: -4px 0 20px;
-  padding: 16px;
-}
-
-.wl-pub-metrics {
   display: grid;
   gap: 10px;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  margin-bottom: 12px;
+  margin: -4px 0 20px;
+  padding: 10px;
 }
 
-.wl-pub-metric {
-  background: var(--wl-panel);
-  border: 1px solid var(--wl-border);
-  border-radius: 8px;
-  padding: 12px;
-}
-
-.wl-pub-metric strong {
-  color: var(--wl-ink);
-  display: block;
-  font-size: 1.45rem;
-  line-height: 1;
-  margin-bottom: 6px;
-}
-
-.wl-pub-metric span {
-  color: var(--wl-muted);
-  display: block;
-  font-size: 0.82rem;
-  line-height: 1.35;
-}
-
-.wl-pub-focus {
+.wl-pub-tabbar {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 6px;
 }
 
-.wl-pub-focus span {
+.wl-pub-tabbar-primary {
+  background: #e9efe9;
+  border: 1px solid #d9e2d8;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.wl-pub-tab {
+  align-items: center;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  color: #3f4842;
+  display: inline-flex;
+  flex: 1 1 160px;
+  gap: 8px;
+  justify-content: center;
+  min-height: 42px;
+  padding: 7px 10px;
+}
+
+.wl-pub-tab strong {
+  color: var(--wl-green);
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 1.05rem;
+  line-height: 1;
+}
+
+.wl-pub-tab span {
+  font-size: 0.84rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.wl-pub-tab.is-active {
+  background: #ffffff;
+  border-color: var(--wl-border);
+  box-shadow: 0 1px 2px rgba(36, 48, 42, 0.06);
+  color: var(--wl-ink);
+}
+
+.wl-pub-tab.is-active strong {
+  color: var(--wl-blue);
+}
+
+.wl-pub-tabbar-secondary {
+  align-items: center;
+  padding: 2px;
+}
+
+.wl-pub-tab-note,
+.wl-pub-topic {
+  border-radius: 7px;
+  display: inline-flex;
+  font-size: 0.82rem;
+  line-height: 1.35;
+  min-height: 32px;
+  padding: 6px 10px;
+}
+
+.wl-pub-tab-note {
+  color: var(--wl-muted);
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-weight: 700;
+}
+
+.wl-pub-topic {
   background: #ffffff;
   border: 1px solid var(--wl-border);
-  border-radius: 8px;
   color: #3f4842;
-  font-size: 0.84rem;
-  line-height: 1.35;
-  padding: 6px 10px;
+}
+
+.wl-pub-topic.is-active {
+  background: #edf5f7;
+  border-color: #c9dfe6;
+  color: var(--wl-blue);
+  font-weight: 700;
 }
 
 .wl-blog-list {
@@ -462,8 +504,8 @@ a {
 }
 
 @media (max-width: 900px) {
-  .wl-pub-metrics {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .wl-pub-tab {
+    flex-basis: calc(50% - 6px);
   }
 
   .wl-publication-card {
@@ -489,7 +531,8 @@ a {
     padding: 18px;
   }
 
-  .wl-pub-metrics {
-    grid-template-columns: 1fr;
+  .wl-pub-tab {
+    flex-basis: 100%;
+    justify-content: flex-start;
   }
 }

@@ -14,33 +14,34 @@ hide_title: true
   <p>A complete, curated publication record spanning generative vision, image restoration, image editing, pattern recognition, and applied machine learning. Citation metrics are maintained on Google Scholar.</p>
 </div>
 
-<div class="wl-pub-snapshot" aria-label="Publication snapshot">
-  <div class="wl-pub-metrics">
-    <div class="wl-pub-metric">
+<div class="wl-pub-tabs" aria-label="Publication overview">
+  <div class="wl-pub-tabbar wl-pub-tabbar-primary">
+    <span class="wl-pub-tab is-active">
       <strong>{{ site.publications | size }}</strong>
-      <span>Publications</span>
-    </div>
-    <div class="wl-pub-metric">
+      <span>All Publications</span>
+    </span>
+    <span class="wl-pub-tab">
       <strong>8</strong>
-      <span>Lead-author works</span>
-    </div>
-    <div class="wl-pub-metric">
+      <span>Lead-Author Works</span>
+    </span>
+    <span class="wl-pub-tab">
       <strong>4</strong>
       <span>IEEE Transactions</span>
-    </div>
-    <div class="wl-pub-metric">
+    </span>
+    <span class="wl-pub-tab">
       <strong>2</strong>
-      <span>Flagship conferences</span>
-    </div>
+      <span>Flagship Conferences</span>
+    </span>
   </div>
 
-  <div class="wl-pub-focus">
-    <span>Generative AI</span>
-    <span>Image Editing & Inpainting</span>
-    <span>Restoration & Super-Resolution</span>
-    <span>Multimodal Learning</span>
-    <span>Medical / Assistive Vision</span>
-    <span>Recognition & Applied CV</span>
+  <div class="wl-pub-tabbar wl-pub-tabbar-secondary" aria-label="Research areas">
+    <span class="wl-pub-tab-note">Research Areas</span>
+    <span class="wl-pub-topic is-active">Generative AI</span>
+    <span class="wl-pub-topic">Image Editing & Inpainting</span>
+    <span class="wl-pub-topic">Restoration & Super-Resolution</span>
+    <span class="wl-pub-topic">Multimodal Learning</span>
+    <span class="wl-pub-topic">Medical / Assistive Vision</span>
+    <span class="wl-pub-topic">Recognition & Applied CV</span>
   </div>
 </div>
 
@@ -52,7 +53,7 @@ hide_title: true
   <a href="{{ '/' | relative_url }}"><i class="fas fa-home" aria-hidden="true"></i>Home</a>
 </div>
 
-<div class="wl-publication-list">
+<div class="wl-publication-list" id="publication-list">
   {% for post in site.publications reversed %}
     {% include archive-single.html %}
   {% endfor %}
