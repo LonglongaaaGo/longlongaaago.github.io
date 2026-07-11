@@ -12,6 +12,7 @@ hide_title: true
   <p class="wl-page-kicker">// publications</p>
   <h1>Research Publications</h1>
   <p>A complete, curated publication record spanning generative vision, image restoration, image editing, pattern recognition, and applied machine learning. Citation metrics are maintained on Google Scholar.</p>
+  <a class="wl-page-hero-button" href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=TuxCf4UAAAAJ"><i class="fas fa-graduation-cap" aria-hidden="true"></i>Google Scholar</a>
 </div>
 
 <div class="wl-pub-tabs" aria-label="Publication overview">

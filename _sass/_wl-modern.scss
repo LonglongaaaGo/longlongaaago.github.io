@@ -165,6 +165,29 @@ a {
   max-width: 860px;
 }
 
+.wl-page-hero-button {
+  align-items: center;
+  background: var(--wl-ink);
+  border: 1px solid var(--wl-ink);
+  border-radius: 8px;
+  color: #ffffff;
+  display: inline-flex;
+  font-size: 0.9rem;
+  font-weight: 700;
+  gap: 8px;
+  margin-top: 14px;
+  min-height: 38px;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+.wl-page-hero-button:hover {
+  background: var(--wl-blue);
+  border-color: var(--wl-blue);
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .wl-toolbar {
   display: flex;
   flex-wrap: wrap;
