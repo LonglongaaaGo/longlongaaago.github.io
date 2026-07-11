@@ -335,14 +335,20 @@ redirect_from:
   }
 
   .wl-overview-visual {
+    appearance: none;
     background: #f7f8f3;
     border: 1px solid var(--wl-border);
     border-radius: 8px;
+    color: inherit;
     cursor: zoom-in;
     display: block;
+    font: inherit;
     min-height: 280px;
     overflow: hidden;
+    padding: 0;
     position: relative;
+    text-align: left;
+    width: 100%;
   }
 
   .wl-overview-visual:focus {
@@ -412,14 +418,26 @@ redirect_from:
     z-index: 10000;
   }
 
-  .wl-lightbox:target {
+  .wl-lightbox[hidden] {
+    display: none;
+  }
+
+  .wl-lightbox.is-open {
     opacity: 1;
     pointer-events: auto;
   }
 
+  .wl-lightbox-lock {
+    overflow: hidden;
+  }
+
   .wl-lightbox-backdrop {
+    appearance: none;
+    background: transparent;
+    border: 0;
     cursor: zoom-out;
     inset: 0;
+    padding: 0;
     position: absolute;
   }
 
@@ -444,10 +462,12 @@ redirect_from:
 
   .wl-lightbox-close {
     align-items: center;
+    appearance: none;
     background: #ffffff;
     border: 1px solid var(--wl-border);
     border-radius: 8px;
     color: var(--wl-ink);
+    cursor: pointer;
     display: inline-flex;
     font-size: 1rem;
     font-weight: 800;
@@ -827,16 +847,16 @@ redirect_from:
     </div>
     <div class="wl-overview">
       <p class="wl-overview-copy">My research started from image recognition and restoration, then moved toward generative image editing, document restoration, face restoration, and multimodal generative systems. Recent work includes ultra-high-resolution image editing, dual-domain restoration, lightweight super-resolution, and adaptive parameter-efficient fine-tuning. In parallel, my industry work emphasizes robust ML systems that can survive real production constraints.</p>
-      <a class="wl-overview-visual" href="#research-overview-expanded" aria-label="Open research overview image in a larger view">
+      <button class="wl-overview-visual" type="button" data-overview-zoom-open aria-controls="research-overview-expanded" aria-expanded="false" aria-label="Open research overview image in a larger view">
         <img src="{{ '/images/research-overview.svg' | relative_url }}" alt="Research overview map for generative vision, restoration, efficient adaptation, and applied ML systems">
         <span class="wl-zoom-icon" aria-hidden="true"></span>
-      </a>
-      <div id="research-overview-expanded" class="wl-lightbox" role="dialog" aria-modal="true" aria-label="Enlarged research overview image">
-        <a class="wl-lightbox-backdrop" href="#overview" aria-label="Close enlarged research overview image"></a>
+      </button>
+      <div id="research-overview-expanded" class="wl-lightbox" role="dialog" aria-modal="true" aria-label="Enlarged research overview image" hidden>
+        <button class="wl-lightbox-backdrop" type="button" data-overview-zoom-close aria-label="Close enlarged research overview image"></button>
         <div class="wl-lightbox-frame">
           <img src="{{ '/images/research-overview.svg' | relative_url }}" alt="Research overview map for generative vision, restoration, efficient adaptation, and applied ML systems">
         </div>
-        <a class="wl-lightbox-close" href="#overview" aria-label="Close enlarged research overview image">x</a>
+        <button class="wl-lightbox-close" type="button" data-overview-zoom-close aria-label="Close enlarged research overview image">x</button>
       </div>
     </div>
   </section>
@@ -1049,3 +1069,51 @@ redirect_from:
     Homepage content maintained by Wanglong Lu. Design refreshed with a compact academic portfolio layout.
   </footer>
 </div>
+
+<script>
+  (function () {
+    var openButton = document.querySelector("[data-overview-zoom-open]");
+    var lightbox = document.getElementById("research-overview-expanded");
+
+    if (!openButton || !lightbox) {
+      return;
+    }
+
+    var closeButton = lightbox.querySelector(".wl-lightbox-close");
+    var closeButtons = lightbox.querySelectorAll("[data-overview-zoom-close]");
+    var closeTimer;
+
+    function openZoom() {
+      window.clearTimeout(closeTimer);
+      lightbox.hidden = false;
+      openButton.setAttribute("aria-expanded", "true");
+      document.documentElement.classList.add("wl-lightbox-lock");
+      window.requestAnimationFrame(function () {
+        lightbox.classList.add("is-open");
+        if (closeButton) {
+          closeButton.focus();
+        }
+      });
+    }
+
+    function closeZoom() {
+      lightbox.classList.remove("is-open");
+      openButton.setAttribute("aria-expanded", "false");
+      document.documentElement.classList.remove("wl-lightbox-lock");
+      closeTimer = window.setTimeout(function () {
+        lightbox.hidden = true;
+        openButton.focus();
+      }, 180);
+    }
+
+    openButton.addEventListener("click", openZoom);
+    Array.prototype.forEach.call(closeButtons, function (button) {
+      button.addEventListener("click", closeZoom);
+    });
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape" && !lightbox.hidden) {
+        closeZoom();
+      }
+    });
+  }());
+</script>
