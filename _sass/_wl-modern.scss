@@ -573,6 +573,45 @@ a {
   margin-bottom: 0;
 }
 
+.page__content .wl-post-citations {
+  margin-top: 22px;
+}
+
+.page__content .wl-post-citations h3 {
+  font-size: 0.92rem;
+  margin: 0 0 12px;
+}
+
+.page__content .wl-post-citations ol {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding-left: 24px;
+}
+
+.page__content .wl-post-citations li {
+  color: #465049;
+  font-size: 0.84rem;
+  line-height: 1.55;
+  padding-left: 4px;
+}
+
+.page__content .wl-citation-authors p {
+  display: inline;
+  margin: 0;
+}
+
+.page__content .wl-citation-link {
+  border: 1px solid var(--wl-border);
+  border-radius: 8px;
+  display: inline-flex;
+  font-size: 0.72rem;
+  line-height: 1;
+  margin-left: 5px;
+  padding: 4px 6px;
+  text-decoration: none;
+}
+
 .page__content .wl-method-buttons a {
   align-items: center;
   background: var(--wl-panel);
