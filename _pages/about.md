@@ -790,11 +790,11 @@ redirect_from:
       </li>
       <li>
         <time>Jul. 2026</time>
-        <span>Our paper "<a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=TuxCf4UAAAAJ&amp;sortby=pubdate&amp;citation_for_view=TuxCf4UAAAAJ:4TOpqqG69KYC">Tuning-Free Latent Diffusion Models for Ultrahigh-Resolution Image Editing</a>" has been published in IEEE Transactions on Neural Networks and Learning Systems, 1-15.</span>
+        <span>Our paper "<a href="{{ '/publication/tuning_free_latent_diffusion_editing' | relative_url }}">Tuning-Free Latent Diffusion Models for Ultrahigh-Resolution Image Editing</a>" has been published in IEEE Transactions on Neural Networks and Learning Systems, 1-15. Source code is available on <a href="https://github.com/LonglongaaaGo/UltraDiffEdit">GitHub</a>.</span>
       </li>
       <li>
         <time>Jul. 2026</time>
-        <span>Our paper "<a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=TuxCf4UAAAAJ&amp;sortby=pubdate&amp;citation_for_view=TuxCf4UAAAAJ:KlAtU1dfN6UC">UHDRes: Ultra-High-Definition Image Restoration via Dual-Domain Decoupled Spectral Modulation</a>" has been published in IEEE Transactions on Circuits and Systems for Video Technology. Congratulations to Shihao. Source code is available on <a href="https://github.com/Zhao0100/UHDRes">GitHub</a>.</span>
+        <span>Our paper "<a href="{{ '/publication/uhdres_dual_domain_restoration' | relative_url }}">UHDRes: Ultra-High-Definition Image Restoration via Dual-Domain Decoupled Spectral Modulation</a>" has been published in IEEE Transactions on Circuits and Systems for Video Technology. Congratulations to Shihao. Source code is available on <a href="https://github.com/Zhao0100/UHDRes">GitHub</a>.</span>
       </li>
       <li>
         <time>Jun. 2026</time>
@@ -802,11 +802,11 @@ redirect_from:
       </li>
       <li>
         <time>May 2026</time>
-        <span>Our paper "<a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=TuxCf4UAAAAJ&amp;sortby=pubdate&amp;citation_for_view=TuxCf4UAAAAJ:YOwf2qJgpHMC">EchoSR: Efficient Context Harnessing for Lightweight Image Super-Resolution</a>" has been published in Information Fusion, 104471. Cheers to Binhao.</span>
+        <span>Our paper "<a href="{{ '/publication/echosr_lightweight_image_super_resolution' | relative_url }}">EchoSR: Efficient Context Harnessing for Lightweight Image Super-Resolution</a>" has been published in Information Fusion, 104471. Cheers to Binhao. Source code is available on <a href="https://github.com/funnyWang-Echoes/EchoSR">GitHub</a>.</span>
       </li>
       <li>
         <time>Apr. 2026</time>
-        <span>AdaMSS has been integrated into the Hugging Face PEFT package. <a href="https://github.com/huggingface/peft/tree/main/examples/adamss_finetuning">GitHub</a></span>
+        <span><a href="{{ '/publication/adamss_parameter_efficient_finetuning' | relative_url }}">AdaMSS</a> has been integrated into the Hugging Face PEFT package. <a href="https://github.com/huggingface/peft/tree/main/examples/adamss_finetuning">GitHub</a></span>
       </li>
       <li>
         <time>Mar. 2026</time>
@@ -817,7 +817,7 @@ redirect_from:
     <details class="wl-details">
       <summary>More News (2025)</summary>
       <ol>
-        <li>On Dec. 4, 2025, our paper "<a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/119606">AdaMSS: Adaptive Multi-Subspace Approach for Parameter-Efficient Fine-Tuning</a>" has been presented at NeurIPS 2025. <a href="https://github.com/jzheng20/AdaMSS">GitHub</a></li>
+        <li>On Dec. 4, 2025, our paper "<a href="{{ '/publication/adamss_parameter_efficient_finetuning' | relative_url }}">AdaMSS: Adaptive Multi-Subspace Approach for Parameter-Efficient Fine-Tuning</a>" has been presented at NeurIPS 2025. <a href="https://github.com/jzheng20/AdaMSS">GitHub</a></li>
         <li>On Jun. 12, 2025, our paper "<a href="https://arxiv.org/abs/2506.08795">Towards Biosignals-Free Autonomous Prosthetic Hand Control via Imitation Learning</a>" was released. Congratulations to Kaijie. This project was also interviewed by the CBC. Check the <a href="https://sites.google.com/view/autonomous-prosthetic-hand">main page</a> for more information.</li>
         <li>On April 26, 2025, our paper "<a href="https://link.springer.com/chapter/10.1007/978-981-96-5809-1_13">Degradation-Aware Frequency-Separated Transformer for Blind Super-Resolution</a>" was successfully published at the Computational Visual Media Conference. Congratulations to Binhao Wang.</li>
         <li>On March 6, 2025, our paper "<a href="https://arxiv.org/abs/2503.04021">TextDoctor: Unified Document Image Inpainting via Patch Pyramid Diffusion Models</a>" was released.</li>

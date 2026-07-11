@@ -50,6 +50,18 @@
           {% if post.paperurl %}
             <a href="{{ post.paperurl }}">Paper</a>
           {% endif %}
+          {% if post.pdfurl %}
+            <a href="{{ post.pdfurl }}">PDF</a>
+          {% endif %}
+          {% if post.arxivurl %}
+            <a href="{{ post.arxivurl }}">arXiv</a>
+          {% endif %}
+          {% if post.htmlurl %}
+            <a href="{{ post.htmlurl }}">HTML</a>
+          {% endif %}
+          {% if post.doiurl %}
+            <a href="{{ post.doiurl }}">DOI</a>
+          {% endif %}
           {% if post.citation %}
             <a href="{{ post.citation }}">Cite</a>
           {% endif %}
