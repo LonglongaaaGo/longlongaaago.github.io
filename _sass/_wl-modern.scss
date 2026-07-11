@@ -714,6 +714,43 @@ a {
   border-radius: 8px;
 }
 
+.page__content .wl-zoom-wrap {
+  display: inline-block;
+  max-width: 100%;
+  position: relative;
+}
+
+.page__content .wl-zoom-wrap > img,
+.page__content .wl-zoom-wrap > a > img {
+  display: block;
+}
+
+.page__content .wl-zoom-button {
+  align-items: center;
+  background: rgba(31, 40, 37, 0.88);
+  border: 1px solid rgba(240, 244, 238, 0.35);
+  border-radius: 8px;
+  color: #f0f4ee;
+  display: inline-flex;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1;
+  padding: 8px 10px;
+  position: absolute;
+  right: 10px;
+  text-decoration: none;
+  top: 10px;
+  z-index: 2;
+}
+
+.page__content .wl-zoom-button:hover,
+.page__content .wl-zoom-button:focus {
+  background: #1f2825;
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .page__footer {
   background: #1f2825;
   color: #dce7dd;
