@@ -750,6 +750,25 @@ redirect_from:
 
       <article class="wl-paper">
         <div class="wl-paper-media">
+          <img src="{{ '/images/publications/adamss_framework.png' | relative_url }}" alt="AdaMSS framework">
+          <span class="wl-badge gold">NeurIPS</span>
+        </div>
+        <div class="wl-paper-body">
+          <h3><a href="{{ '/publication/adamss_parameter_efficient_finetuning' | relative_url }}">AdaMSS: Adaptive Multi-Subspace Approach for Parameter-Efficient Fine-Tuning</a></h3>
+          <p class="wl-authors">Jingjing Zheng, <strong>Wanglong Lu</strong>, Yiming Dong, Chaojie Ji, Yankai Cao, Zhouchen Lin</p>
+          <p class="wl-venue">NeurIPS, 2025</p>
+          <p class="wl-desc">A multi-subspace parameter-efficient fine-tuning method for expressive incremental updates, integrated into Hugging Face PEFT.</p>
+          <div class="wl-paper-links">
+            <a href="{{ '/publication/adamss_parameter_efficient_finetuning' | relative_url }}">Details</a>
+            <a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/119606">Paper</a>
+            <a href="https://github.com/jzheng20/AdaMSS">Code</a>
+            <a href="https://github.com/huggingface/peft/tree/main/examples/adamss_finetuning">PEFT</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="wl-paper">
+        <div class="wl-paper-media">
           <img src="{{ '/images/publications/VSP_restoration_teaser.png' | relative_url }}" alt="Visual style prompt learning teaser">
           <span class="wl-badge green">PR</span>
         </div>
@@ -797,25 +816,6 @@ redirect_from:
           <div class="wl-paper-links">
             <a href="{{ '/publication/textdoctor' | relative_url }}">Details</a>
             <a href="https://arxiv.org/abs/2503.04021">Paper</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="wl-paper">
-        <div class="wl-paper-media">
-          <img src="{{ '/images/publications/adamss_framework.png' | relative_url }}" alt="AdaMSS framework">
-          <span class="wl-badge gold">NeurIPS</span>
-        </div>
-        <div class="wl-paper-body">
-          <h3><a href="{{ '/publication/adamss_parameter_efficient_finetuning' | relative_url }}">AdaMSS: Adaptive Multi-Subspace Approach for Parameter-Efficient Fine-Tuning</a></h3>
-          <p class="wl-authors">Jingjing Zheng, <strong>Wanglong Lu</strong>, Yiming Dong, Chaojie Ji, Yankai Cao, Zhouchen Lin</p>
-          <p class="wl-venue">NeurIPS, 2025</p>
-          <p class="wl-desc">A multi-subspace parameter-efficient fine-tuning method for expressive incremental updates, integrated into Hugging Face PEFT.</p>
-          <div class="wl-paper-links">
-            <a href="{{ '/publication/adamss_parameter_efficient_finetuning' | relative_url }}">Details</a>
-            <a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/119606">Paper</a>
-            <a href="https://github.com/jzheng20/AdaMSS">Code</a>
-            <a href="https://github.com/huggingface/peft/tree/main/examples/adamss_finetuning">PEFT</a>
           </div>
         </div>
       </article>
