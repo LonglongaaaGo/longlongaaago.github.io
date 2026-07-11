@@ -11,11 +11,22 @@ tags:
   - multimodal-learning
   - applied-ml
 excerpt: "A first research note on what 28 publications taught me about priors, scale, controllability, efficiency, and deployable generative vision systems."
+teaser: research-overview.svg
 math: true
 toc: true
 ---
 
 ![Research overview]({{ '/images/research-overview.svg' | relative_url }})
+
+<div class="wl-method-buttons" aria-label="Related methods and papers">
+  <a href="{{ '/publication/tuning_free_latent_diffusion_editing' | relative_url }}">Ultra-High-Res Editing</a>
+  <a href="{{ '/publication/uhdres_dual_domain_restoration' | relative_url }}">UHD Restoration</a>
+  <a href="{{ '/publication/echosr_lightweight_image_super_resolution' | relative_url }}">Lightweight SR</a>
+  <a href="{{ '/publication/grig_few_shot_inpainting' | relative_url }}">Generative Inpainting</a>
+  <a href="{{ '/publication/adamss_parameter_efficient_finetuning' | relative_url }}">PEFT / AdaMSS</a>
+  <a href="{{ '/publication/simulation_driven_imitation_learning_prosthetic_grasping' | relative_url }}">Assistive Vision</a>
+  <a href="{{ '/publication/stddpm_financial_synthetic_data' | relative_url }}">Financial Diffusion</a>
+</div>
 
 This is my first technical blog post, so I want to start with a map rather than a single result. Looking back at my publication record, I see a trajectory that started from recognition, medical imaging, pruning, and restoration, moved into generative image inpainting and semantic editing, and is now converging toward scalable multimodal and generative AI systems.
 

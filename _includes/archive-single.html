@@ -86,11 +86,20 @@
   </div>
 {% else %}
   <div class="{{ include.type | default: "list" }}__item">
-    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% assign show_list_teaser = false %}
+    {% if teaser != "" and include.type != "grid" %}
+      {% assign show_list_teaser = true %}
+    {% endif %}
+    <article class="archive__item{% if show_list_teaser %} wl-blog-card--media{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
       {% if include.type == "grid" and teaser != "" %}
         <div class="archive__item-teaser">
           <img src="{% if teaser contains "://" %}{{ teaser }}{% else %}{{ teaser | prepend: "/images/" | prepend: base_path }}{% endif %}" alt="">
         </div>
+      {% elsif show_list_teaser %}
+        <a class="wl-blog-card-media" href="{% if post.link %}{{ post.link }}{% else %}{{ base_path }}{{ post.url }}{% endif %}" aria-label="{{ title | strip_html }}">
+          <img src="{% if teaser contains "://" %}{{ teaser }}{% else %}{{ teaser | prepend: "/images/" | prepend: base_path }}{% endif %}" alt="">
+        </a>
+        <div class="wl-blog-card-body">
       {% endif %}
 
       <h2 class="archive__item-title">
@@ -115,6 +124,10 @@
         <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
       {% elsif post.excerpt and site.read_more == 'enabled' %}
         <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }} <a href="{{ base_path }}{{ post.url }}" rel="permalink">Read more</a></p>
+      {% endif %}
+
+      {% if show_list_teaser %}
+        </div>
       {% endif %}
     </article>
   </div>

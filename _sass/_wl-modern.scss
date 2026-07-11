@@ -350,6 +350,46 @@ a {
   padding: 18px;
 }
 
+.wl-blog-list .archive__item.wl-blog-card--media {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 190px minmax(0, 1fr);
+  overflow: hidden;
+  padding: 0;
+}
+
+.wl-blog-card-media {
+  align-items: center;
+  background: #eef2ef;
+  border-right: 1px solid var(--wl-border);
+  display: flex;
+  justify-content: center;
+  min-height: 138px;
+  text-decoration: none;
+}
+
+.wl-blog-card-media:hover {
+  text-decoration: none;
+}
+
+.wl-blog-card-media:hover img {
+  box-shadow: none;
+}
+
+.wl-blog-card-media img {
+  display: block;
+  height: 100%;
+  max-height: 158px;
+  object-fit: contain;
+  padding: 10px;
+  width: 100%;
+}
+
+.wl-blog-card-body {
+  min-width: 0;
+  padding: 16px 16px 16px 0;
+}
+
 .wl-blog-list .archive__item-title {
   border: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
@@ -491,6 +531,33 @@ a {
   overflow-x: auto;
   overflow-y: hidden;
   padding: 8px 0;
+}
+
+.page__content .wl-method-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: -4px 0 24px;
+}
+
+.page__content .wl-method-buttons a {
+  align-items: center;
+  background: var(--wl-panel);
+  border: 1px solid var(--wl-border);
+  border-radius: 8px;
+  color: var(--wl-ink);
+  display: inline-flex;
+  font-size: 0.84rem;
+  line-height: 1.2;
+  padding: 7px 10px;
+  text-decoration: none;
+}
+
+.page__content .wl-method-buttons a:hover {
+  border-color: #bfc8bd;
+  color: var(--wl-blue);
+  text-decoration: none;
+  transform: translateY(-1px);
 }
 
 .wl-publication-list {
@@ -670,6 +737,20 @@ a {
   }
 
   .wl-publication-body {
+    padding: 0 16px 16px;
+  }
+
+  .wl-blog-list .archive__item.wl-blog-card--media {
+    grid-template-columns: 1fr;
+  }
+
+  .wl-blog-card-media {
+    border-right: 0;
+    border-bottom: 1px solid var(--wl-border);
+    min-height: 180px;
+  }
+
+  .wl-blog-card-body {
     padding: 0 16px 16px;
   }
 }
