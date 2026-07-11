@@ -5,6 +5,7 @@ collection: publications
 selection_score: 98
 selected_badge: TVCG
 selected_badge_style: gold
+selected_signals: [First Author, Multimodal Editing, IEEE Transactions, Video]
 publication_filters: [lead-author, ieee-transactions, generative-ai, editing-inpainting, multimodal]
 permalink: /publication/facemug
 excerpt: '**Wanglong Lu**, Jikai Wang, Xiaogang Jin, Xianta Jiang, and Hanli Zhao∗'

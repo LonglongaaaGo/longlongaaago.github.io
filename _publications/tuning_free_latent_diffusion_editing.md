@@ -4,6 +4,7 @@ title: "Tuning-Free Latent Diffusion Models for Ultrahigh-Resolution Image Editi
 collection: publications
 selection_score: 100
 selected_badge: TNNLS
+selected_signals: [First Author, 8K Editing, Tuning-Free, Code Available]
 publication_filters: [lead-author, ieee-transactions, generative-ai, editing-inpainting]
 permalink: /publication/tuning_free_latent_diffusion_editing
 excerpt: '**Wanglong Lu**, Lingming Su, Kaijie Shi, Minglun Gong, Xiaogang Jin, Hanli Zhao, Xianta Jiang'

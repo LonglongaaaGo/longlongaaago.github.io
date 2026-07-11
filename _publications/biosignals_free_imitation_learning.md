@@ -5,6 +5,7 @@ collection: publications
 selection_score: 88
 selected_badge: TNSRE
 selected_badge_style: green
+selected_signals: [IEEE Transactions, Assistive Vision, Imitation Learning, Project Page]
 publication_filters: [ieee-transactions, medical-assistive, recognition-applied]
 permalink: /publication/biosignals_free_hand_control
 excerpt: 'Kaijie Shi, **Wanglong Lu**, Hanli Zhao, Vinicius Prado da Fonseca, Ting Zou, Xianta Jiang'

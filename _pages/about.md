@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Wanglong Lu"
-excerpt: ""
+excerpt: "Applied multimodal intelligence researcher and Senior Data Scientist at Nasdaq, working across generative vision, high-resolution image editing, efficient adaptation, and production AI systems."
 author_profile: false
 redirect_from:
   - /about/
@@ -587,6 +587,120 @@ redirect_from:
     text-decoration: none;
   }
 
+  .wl-systems {
+    display: grid;
+    gap: 14px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .wl-system {
+    background: var(--wl-panel);
+    border: 1px solid var(--wl-border);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .wl-system-media {
+    align-items: center;
+    background: #eef2ef;
+    display: flex;
+    height: 164px;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .wl-system-media img {
+    display: block;
+    height: 100%;
+    object-fit: contain;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .wl-system-terminal {
+    align-items: flex-start;
+    background: #1f2825;
+    color: #dce7dd;
+    flex-direction: column;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    gap: 8px;
+    padding: 22px;
+  }
+
+  .wl-system-terminal strong {
+    color: #f7c870;
+    font-size: 1rem;
+  }
+
+  .wl-system-terminal span {
+    font-size: 0.78rem;
+    line-height: 1.45;
+  }
+
+  .wl-system-body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  .wl-system-body h3 {
+    font-size: 1rem;
+    line-height: 1.35;
+    margin: 0 0 8px;
+  }
+
+  .wl-system-body p {
+    color: #465049;
+    font-size: 0.9rem;
+    line-height: 1.55;
+    margin: 0 0 14px;
+  }
+
+  .wl-evidence,
+  .wl-paper-signals {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .wl-evidence {
+    margin-top: auto;
+  }
+
+  .wl-evidence span,
+  .wl-paper-signals span {
+    background: #f3f6f2;
+    border: 1px solid var(--wl-border);
+    border-radius: 8px;
+    color: #465049;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    font-size: 0.7rem;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 5px 7px;
+  }
+
+  .wl-system-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 14px;
+  }
+
+  .wl-system-links a {
+    color: var(--wl-blue);
+    font-size: 0.82rem;
+    font-weight: 700;
+  }
+
+  .wl-paper-signals {
+    margin: 0 0 12px;
+  }
+
   .wl-news {
     display: grid;
     gap: 10px;
@@ -690,9 +804,20 @@ redirect_from:
 
     .wl-hero,
     .wl-overview,
+    .wl-systems,
     .wl-grid.two,
     .wl-grid.three {
       grid-template-columns: 1fr;
+    }
+
+    .wl-system {
+      display: grid;
+      grid-template-columns: 220px minmax(0, 1fr);
+    }
+
+    .wl-system-media {
+      height: 100%;
+      min-height: 176px;
     }
 
     .wl-identity {
@@ -728,6 +853,14 @@ redirect_from:
 
     .wl-news li {
       grid-template-columns: 1fr;
+    }
+
+    .wl-system {
+      display: flex;
+    }
+
+    .wl-system-media {
+      height: 180px;
     }
 
     .wl-nav a,
@@ -783,17 +916,16 @@ redirect_from:
     </aside>
 
     <div class="wl-intro">
-      <p class="wl-kicker">// applied generative vision and multimodal AI</p>
-      <h2 class="wl-headline">Generative vision researcher turned applied ML engineer.</h2>
-      <p class="wl-lead">I work on production AI systems for financial applications at Nasdaq, while continuing research collaborations in generative vision, image restoration, image editing, and parameter-efficient adaptation.</p>
-      <p class="wl-lead">My current direction is toward scalable multimodal and generative AI systems that connect robust model design with deployable machine learning products.</p>
+      <p class="wl-kicker">// multimodal intelligence · generative vision · production AI</p>
+      <h2 class="wl-headline">Applied multimodal intelligence for generative vision and production AI systems.</h2>
+      <p class="wl-lead">I develop multimodal and generative AI methods for high-resolution visual computing, efficient model adaptation, and reliable real-world deployment.</p>
+      <p class="wl-lead">At Nasdaq, I build production machine learning systems for financial applications. My research spans generative image editing, restoration, super-resolution, multimodal learning, and parameter-efficient fine-tuning.</p>
       <div class="wl-focus" aria-label="Research focus">
-        <span class="wl-chip">Generative Models</span>
-        <span class="wl-chip is-blue">Computer Vision</span>
-        <span class="wl-chip">Image Restoration</span>
-        <span class="wl-chip is-gold">Image Editing</span>
-        <span class="wl-chip is-blue">Parameter-Efficient Fine-Tuning</span>
-        <span class="wl-chip">Financial AI Systems</span>
+        <span class="wl-chip">Multimodal Intelligence</span>
+        <span class="wl-chip is-blue">Generative AI</span>
+        <span class="wl-chip is-gold">High-Resolution Vision</span>
+        <span class="wl-chip">Efficient Adaptation</span>
+        <span class="wl-chip is-blue">Production ML Systems</span>
       </div>
     </div>
   </section>
@@ -846,7 +978,7 @@ redirect_from:
       <h2 id="overview">// research overview</h2>
     </div>
     <div class="wl-overview">
-      <p class="wl-overview-copy">My research started from recognition, medical imaging, and restoration, then moved toward generative image editing, document restoration, face restoration, and multimodal generative systems. Recent work connects ultra-high-resolution image editing, dual-domain restoration, lightweight super-resolution, adaptive parameter-efficient fine-tuning, and assistive vision. In parallel, my industry work emphasizes robust ML systems that can survive real production constraints.</p>
+      <p class="wl-overview-copy">My work develops applied multimodal intelligence across generative image editing, image restoration, super-resolution, efficient adaptation, assistive vision, and production machine learning. The unifying goal is to build models that preserve structure, remain controllable at high resolution, adapt efficiently, and operate reliably under real system constraints.</p>
       <button class="wl-overview-visual" type="button" data-overview-zoom-open aria-controls="research-overview-expanded" aria-expanded="false" aria-label="Open research overview image in a larger view">
         <img src="{{ '/images/research-overview.svg' | relative_url }}" alt="Research overview map covering 28 publications across generative vision, restoration, efficient adaptation, assistive vision, and applied ML systems">
         <span class="wl-zoom-icon" aria-hidden="true"></span>
@@ -858,6 +990,67 @@ redirect_from:
         </div>
         <button class="wl-lightbox-close" type="button" data-overview-zoom-close aria-label="Close enlarged research overview image">x</button>
       </div>
+    </div>
+  </section>
+
+  <section class="wl-section" aria-labelledby="featured-systems">
+    <div class="wl-section-head">
+      <h2 id="featured-systems">// featured systems</h2>
+      <a class="wl-section-link" href="https://github.com/Longlongaaago">view GitHub →</a>
+    </div>
+    <div class="wl-systems">
+      <article class="wl-system">
+        <div class="wl-system-media">
+          <img src="{{ '/images/publications/ultradiffedit_pipeline.png' | relative_url }}" alt="UltraDiffEdit high-resolution editing pipeline">
+        </div>
+        <div class="wl-system-body">
+          <h3>UltraDiffEdit</h3>
+          <p>Tuning-free real-image editing with pretrained latent diffusion models, designed to preserve unedited content while scaling generation to ultra-high resolutions.</p>
+          <div class="wl-evidence" aria-label="UltraDiffEdit evidence">
+            <span>8K EDITING</span><span>TUNING-FREE</span><span>TNNLS</span>
+          </div>
+          <div class="wl-system-links">
+            <a href="{{ '/publication/tuning_free_latent_diffusion_editing' | relative_url }}">Details</a>
+            <a href="https://github.com/LonglongaaaGo/UltraDiffEdit">Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="wl-system">
+        <div class="wl-system-media">
+          <img src="{{ '/images/publications/adamss_framework.png' | relative_url }}" alt="AdaMSS multi-subspace adaptation framework">
+        </div>
+        <div class="wl-system-body">
+          <h3>AdaMSS</h3>
+          <p>An adaptive multi-subspace approach for parameter-efficient fine-tuning, translated from a NeurIPS contribution into the Hugging Face PEFT ecosystem.</p>
+          <div class="wl-evidence" aria-label="AdaMSS evidence">
+            <span>NEURIPS</span><span>PEFT</span><span>OPEN SOURCE</span>
+          </div>
+          <div class="wl-system-links">
+            <a href="{{ '/publication/adamss_parameter_efficient_finetuning' | relative_url }}">Details</a>
+            <a href="https://github.com/huggingface/peft/tree/main/examples/adamss_finetuning">Hugging Face</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="wl-system">
+        <div class="wl-system-media wl-system-terminal" aria-label="Production ML system priorities">
+          <strong>PRODUCTION_ML</strong>
+          <span>robust models / evaluation / reliable deployment</span>
+          <span>financial AI systems @ Nasdaq</span>
+        </div>
+        <div class="wl-system-body">
+          <h3>Production Financial AI</h3>
+          <p>Building and applying machine learning systems for financial AI products, with emphasis on robustness, evaluation, maintainability, and production constraints.</p>
+          <div class="wl-evidence" aria-label="Production ML evidence">
+            <span>APPLIED ML</span><span>FINANCIAL AI</span><span>RELIABILITY</span>
+          </div>
+          <div class="wl-system-links">
+            <a href="#experience">Experience</a>
+            <a href="{{ '/cv/' | relative_url }}">CV</a>
+          </div>
+        </div>
+      </article>
     </div>
   </section>
 
@@ -884,6 +1077,11 @@ redirect_from:
             <p class="wl-authors">{{ publication.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
             <p class="wl-venue">{{ publication.venue }}{% if publication.date %}, {{ publication.date | date: '%Y' }}{% endif %}</p>
             {% if publication.description %}<p class="wl-desc">{{ publication.description }}</p>{% endif %}
+            {% if publication.selected_signals %}
+              <div class="wl-paper-signals" aria-label="Publication highlights">
+                {% for signal in publication.selected_signals %}<span>{{ signal }}</span>{% endfor %}
+              </div>
+            {% endif %}
             <div class="wl-paper-links">
               <a href="{{ publication.url | relative_url }}">Details</a>
               {% if publication.paperurl %}<a href="{{ publication.paperurl }}">Paper</a>{% endif %}
@@ -894,6 +1092,29 @@ redirect_from:
           </div>
         </article>
       {% endfor %}
+    </div>
+  </section>
+
+  <section class="wl-section" aria-labelledby="impact">
+    <div class="wl-section-head">
+      <h2 id="impact">// open source, impact & talks</h2>
+    </div>
+    <div class="wl-grid three">
+      <article class="wl-item">
+        <h3>Research to Open Source</h3>
+        <p class="wl-meta">AdaMSS · Hugging Face PEFT</p>
+        <p>A parameter-efficient fine-tuning contribution integrated into a widely used open-source machine learning ecosystem.</p>
+      </article>
+      <article class="wl-item">
+        <h3>Reproducible Vision Systems</h3>
+        <p class="wl-meta">UltraDiffEdit · UHDRes · EchoSR</p>
+        <p>Public implementations and project resources that connect research contributions with usable technical systems.</p>
+      </article>
+      <article class="wl-item">
+        <h3>Technical Communication</h3>
+        <p class="wl-meta">IEEE invited talk · Guest lecture · CBC coverage</p>
+        <p>Communicating generative AI and assistive vision research across academic, industry, and public audiences.</p>
+      </article>
     </div>
   </section>
 

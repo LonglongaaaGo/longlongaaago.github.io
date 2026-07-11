@@ -5,6 +5,7 @@ collection: publications
 selection_score: 90
 selected_badge: PR
 selected_badge_style: green
+selected_signals: [First Author, Diffusion Restoration, Pattern Recognition, Code Available]
 publication_filters: [lead-author, generative-ai, restoration-sr]
 permalink: /publication/vsp_face_restoration
 excerpt: '**Wanglong Lu**, Jikai Wang, Tao Wang, Kaihao Zhang, Xianta Jiang, Hanli Zhao*'
