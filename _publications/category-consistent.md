@@ -4,8 +4,10 @@ permalink: /publication/category-consistent
 collection: publications
 excerpt: '**Wanglong Lu**, [Hanli Zhao](http://i3s.wzu.edu.cn/info/1104/1183.htm), [Qi He](http://i3s.wzu.edu.cn/info/1104/1181.htm), [Hui Huang](http://i3s.wzu.edu.cn/info/1104/1163.htm), [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin/).'
 date: 2021-08-09
-venue: 'Neurocomputing, [doi:https://doi.org/10.1016/j.neucom.2021.08.030]  (IF:5.719)'
+venue: 'Neurocomputing 463, 623-636'
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S0925231221012145/'
+doiurl: 'https://doi.org/10.1016/j.neucom.2021.08.030'
+teaser: 'https://longlongaaago.github.io/images/publications/CCML_framework.png'
 citation: 'https://github.com/LonglongaaaGo/longlongaaago.github.io/tree/master/files/bibtex/CCM_S0925231221012145.bib'
 code: 'https://github.com/LonglongaaaGo/CCML_Learning'
 
@@ -32,6 +34,7 @@ HFUT, XMU, CompCars, and VLD-45 datasets demonstrate the feasibility and superio
 
 
 [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S0925231221012145)
+[[doi]](https://doi.org/10.1016/j.neucom.2021.08.030)
 [[code]](https://github.com/LonglongaaaGo/CCML_Learning)
 
 Recommended citation: 
@@ -40,4 +43,3 @@ Wanglong Lu, Hanli Zhao, Qi He, Hui Huang, Xiaogang Jin, Category-consistent dee
 network learning for accurate vehicle logo recognition, Neurocomputing
 463 (2021) 623–636. https://doi.org/10.1016/j.neucom.2021.08.030 
 ```
-
