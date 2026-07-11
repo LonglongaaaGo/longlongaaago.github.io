@@ -5,11 +5,13 @@ collection: publications
 permalink: /publication/probability-based-network-pruning
 excerpt: '[Han-Li Zhao](http://i3s.wzu.edu.cn/info/1104/1183.htm), Kai-Jie Shi, [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin/), Ming-Liang Xu, [Hui Huang](http://i3s.wzu.edu.cn/info/1104/1163.htm), **Wang-Long Lu**, Ying Liu.'
 date: 2022-05-31
-venue: 'Comput. Sci. Technol. 37, 584–600 (2022)'
+venue: 'Journal of Computer Science and Technology 37, 584-600'
 paperurl: 'https://link.springer.com/article/10.1007/s11390-022-2131-8'
+doiurl: 'https://doi.org/10.1007/s11390-022-2131-8'
+teaser: 'https://longlongaaago.github.io/images/publications/pruning.png'
 
 ---
-![vessel_segmentation](https://longlongaaago.github.io/images/publications/pruning.png)
+![network pruning](https://longlongaaago.github.io/images/publications/pruning.png)
 
 
 <b>Abstract:</b>

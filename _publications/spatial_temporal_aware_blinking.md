@@ -6,6 +6,8 @@ excerpt: 'Yu Wang, **Wanglong Lu**, Hanli Zhao, Xianta Jiang∗, Bin Zheng, M. S
 date: 2023-05-30
 venue: 'ETRA 23'
 paperurl: 'https://dl.acm.org/doi/abs/10.1145/3588015.3589668'
+doiurl: 'https://doi.org/10.1145/3588015.3589668'
+teaser: 'https://longlongaaago.github.io/images/publications/blink_detection_framework.png'
 citation: ''
 
 ---
@@ -38,4 +40,3 @@ location = {Tubingen, Germany},
 series = {ETRA '23}
 }
 ```
-

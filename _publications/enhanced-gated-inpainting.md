@@ -4,8 +4,10 @@ permalink: /publication/enhanced-gated-inpainting
 collection: publications
 excerpt: 'Min Wang, **Wanglong Lu**, Jiankai Lyu, Kaijie Shi, [Hanli Zhao](http://i3s.wzu.edu.cn/info/1104/1183.htm).'
 date: 2022-10-17
-venue: 'Displays, [https://doi.org/10.1016/j.displa.2022.102321]'
+venue: 'Displays 76, 102321'
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S0141938222001391'
+doiurl: 'https://doi.org/10.1016/j.displa.2022.102321'
+teaser: 'https://longlongaaago.github.io/images/publications/enhanced-gated-inpainting_framework.png'
 citation: 'https://github.com/LonglongaaaGo/longlongaaago.github.io/tree/master/files/bibtex/S0141938222001391.bib'
 
 ---
@@ -35,4 +37,3 @@ Recommended citation:
 Min Wang, Wanglong Lu, Jiankai Lyu, Kaijie Shi, Hanli Zhao, Generative image inpainting with enhanced gated convolution and Transformers,
 Displays, 2022, 102321, ISSN 0141-9382, https://doi.org/10.1016/j.displa.2022.102321.
 ```
-
