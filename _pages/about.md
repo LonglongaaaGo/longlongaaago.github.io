@@ -338,9 +338,20 @@ redirect_from:
     background: #f7f8f3;
     border: 1px solid var(--wl-border);
     border-radius: 8px;
+    cursor: zoom-in;
+    display: block;
     min-height: 280px;
     overflow: hidden;
     position: relative;
+  }
+
+  .wl-overview-visual:focus {
+    box-shadow: 0 0 0 3px rgba(44, 99, 143, 0.22);
+    outline: none;
+  }
+
+  .wl-overview-visual:hover {
+    text-decoration: none;
   }
 
   .wl-overview-visual img {
@@ -350,6 +361,110 @@ redirect_from:
     object-fit: contain;
     padding: 0;
     width: 100%;
+  }
+
+  .wl-zoom-icon {
+    background: rgba(255, 255, 255, 0.92);
+    border: 1px solid var(--wl-border);
+    border-radius: 8px;
+    bottom: 12px;
+    box-shadow: 0 8px 24px rgba(32, 34, 31, 0.12);
+    height: 34px;
+    position: absolute;
+    right: 12px;
+    width: 34px;
+  }
+
+  .wl-zoom-icon::before {
+    border: 2px solid var(--wl-blue);
+    border-radius: 50%;
+    content: "";
+    height: 12px;
+    left: 8px;
+    position: absolute;
+    top: 7px;
+    width: 12px;
+  }
+
+  .wl-zoom-icon::after {
+    background: var(--wl-blue);
+    content: "";
+    height: 2px;
+    left: 19px;
+    position: absolute;
+    top: 21px;
+    transform: rotate(45deg);
+    transform-origin: left center;
+    width: 9px;
+  }
+
+  .wl-lightbox {
+    align-items: center;
+    background: rgba(20, 24, 22, 0.82);
+    display: flex;
+    inset: 0;
+    justify-content: center;
+    opacity: 0;
+    padding: 28px;
+    pointer-events: none;
+    position: fixed;
+    transition: opacity 160ms ease;
+    z-index: 10000;
+  }
+
+  .wl-lightbox:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .wl-lightbox-backdrop {
+    cursor: zoom-out;
+    inset: 0;
+    position: absolute;
+  }
+
+  .wl-lightbox-frame {
+    background: #f7f8f3;
+    border: 1px solid var(--wl-border);
+    border-radius: 8px;
+    box-shadow: 0 22px 70px rgba(0, 0, 0, 0.34);
+    max-height: 88vh;
+    max-width: min(1120px, 94vw);
+    padding: 14px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .wl-lightbox-frame img {
+    display: block;
+    max-height: calc(88vh - 28px);
+    max-width: 100%;
+    object-fit: contain;
+  }
+
+  .wl-lightbox-close {
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid var(--wl-border);
+    border-radius: 8px;
+    color: var(--wl-ink);
+    display: inline-flex;
+    font-size: 1rem;
+    font-weight: 800;
+    height: 34px;
+    justify-content: center;
+    line-height: 1;
+    position: absolute;
+    right: 18px;
+    text-decoration: none;
+    top: 18px;
+    width: 34px;
+    z-index: 2;
+  }
+
+  .wl-lightbox-close:hover {
+    color: var(--wl-red);
+    text-decoration: none;
   }
 
   .wl-papers {
@@ -599,6 +714,19 @@ redirect_from:
     .wl-button {
       white-space: normal;
     }
+
+    .wl-lightbox {
+      padding: 12px;
+    }
+
+    .wl-lightbox-frame {
+      max-width: 96vw;
+      padding: 8px;
+    }
+
+    .wl-lightbox-frame img {
+      max-height: calc(88vh - 16px);
+    }
   }
 </style>
 
@@ -699,8 +827,16 @@ redirect_from:
     </div>
     <div class="wl-overview">
       <p class="wl-overview-copy">My research started from image recognition and restoration, then moved toward generative image editing, document restoration, face restoration, and multimodal generative systems. Recent work includes ultra-high-resolution image editing, dual-domain restoration, lightweight super-resolution, and adaptive parameter-efficient fine-tuning. In parallel, my industry work emphasizes robust ML systems that can survive real production constraints.</p>
-      <div class="wl-overview-visual">
+      <a class="wl-overview-visual" href="#research-overview-expanded" aria-label="Open research overview image in a larger view">
         <img src="{{ '/images/research-overview.svg' | relative_url }}" alt="Research overview map for generative vision, restoration, efficient adaptation, and applied ML systems">
+        <span class="wl-zoom-icon" aria-hidden="true"></span>
+      </a>
+      <div id="research-overview-expanded" class="wl-lightbox" role="dialog" aria-modal="true" aria-label="Enlarged research overview image">
+        <a class="wl-lightbox-backdrop" href="#overview" aria-label="Close enlarged research overview image"></a>
+        <div class="wl-lightbox-frame">
+          <img src="{{ '/images/research-overview.svg' | relative_url }}" alt="Research overview map for generative vision, restoration, efficient adaptation, and applied ML systems">
+        </div>
+        <a class="wl-lightbox-close" href="#overview" aria-label="Close enlarged research overview image">x</a>
       </div>
     </div>
   </section>
