@@ -335,10 +335,10 @@ redirect_from:
   }
 
   .wl-overview-visual {
-    background: #edf2ed;
+    background: #f7f8f3;
     border: 1px solid var(--wl-border);
     border-radius: 8px;
-    min-height: 220px;
+    min-height: 280px;
     overflow: hidden;
     position: relative;
   }
@@ -346,9 +346,9 @@ redirect_from:
   .wl-overview-visual img {
     display: block;
     height: 100%;
-    min-height: 220px;
+    min-height: 280px;
     object-fit: contain;
-    padding: 10px;
+    padding: 0;
     width: 100%;
   }
 
@@ -700,7 +700,7 @@ redirect_from:
     <div class="wl-overview">
       <p class="wl-overview-copy">My research started from image recognition and restoration, then moved toward generative image editing, document restoration, face restoration, and multimodal generative systems. Recent work includes ultra-high-resolution image editing, dual-domain restoration, lightweight super-resolution, and adaptive parameter-efficient fine-tuning. In parallel, my industry work emphasizes robust ML systems that can survive real production constraints.</p>
       <div class="wl-overview-visual">
-        <img src="{{ '/images/publications/textdoctor_teaser.png' | relative_url }}" alt="Document image restoration research teaser">
+        <img src="{{ '/images/research-overview.svg' | relative_url }}" alt="Research overview map for generative vision, restoration, efficient adaptation, and applied ML systems">
       </div>
     </div>
   </section>
@@ -714,65 +714,90 @@ redirect_from:
     <div class="wl-papers">
       <article class="wl-paper">
         <div class="wl-paper-media">
-          <img src="{{ '/images/publications/textdoctor_teaser.png' | relative_url }}" alt="TextDoctor teaser">
-          <span class="wl-badge">ArXiv</span>
+          <img src="{{ '/images/publications/ultradiffedit_pipeline.png' | relative_url }}" alt="UltraDiffEdit pipeline">
+          <span class="wl-badge">TNNLS</span>
         </div>
         <div class="wl-paper-body">
-          <h3><a href="https://arxiv.org/abs/2503.04021">TextDoctor: Unified Document Image Inpainting via Patch Pyramid Diffusion Models</a></h3>
-          <p class="wl-authors"><strong>Wanglong Lu</strong>, Lingming Su, Jingjing Zheng, Vinicius Veloso de Melo, Farzaneh Shoeleh, John Hawkin, Terrence Tricco, Hanli Zhao, Xianta Jiang</p>
-          <p class="wl-venue">ArXiv, 2025</p>
-          <p class="wl-desc">A diffusion-based document image inpainting framework for restoring damaged or corrupted document regions.</p>
+          <h3><a href="{{ '/publication/tuning_free_latent_diffusion_editing' | relative_url }}">Tuning-Free Latent Diffusion Models for Ultrahigh-Resolution Image Editing</a></h3>
+          <p class="wl-authors"><strong>Wanglong Lu</strong>, Lingming Su, Kaijie Shi, Minglun Gong, Xiaogang Jin, Hanli Zhao, Xianta Jiang</p>
+          <p class="wl-venue">IEEE Transactions on Neural Networks and Learning Systems, 1-15, 2026</p>
+          <p class="wl-desc">UltraDiffEdit extends off-the-shelf latent diffusion models to tuning-free real-image editing up to 8K resolution.</p>
           <div class="wl-paper-links">
-            <a href="https://arxiv.org/abs/2503.04021">Paper</a>
+            <a href="{{ '/publication/tuning_free_latent_diffusion_editing' | relative_url }}">Details</a>
+            <a href="https://arxiv.org/abs/2607.06136">Paper</a>
+            <a href="https://github.com/LonglongaaaGo/UltraDiffEdit">Code</a>
           </div>
         </div>
       </article>
 
       <article class="wl-paper">
         <div class="wl-paper-media">
-          <img src="{{ '/images/publications/VSP_restoration_teaser.png' | relative_url }}" alt="Visual style prompt learning teaser">
-          <span class="wl-badge green">PR</span>
+          <img src="{{ '/images/publications/adamss_framework.png' | relative_url }}" alt="AdaMSS framework">
+          <span class="wl-badge gold">NeurIPS</span>
         </div>
         <div class="wl-paper-body">
-          <h3><a href="https://arxiv.org/abs/2412.21042">Visual Style Prompt Learning Using Diffusion Models for Blind Face Restoration</a></h3>
-          <p class="wl-authors"><strong>Wanglong Lu</strong>, Jikai Wang, Tao Wang, Kaihao Zhang, Xianta Jiang, Hanli Zhao</p>
-          <p class="wl-venue">Pattern Recognition, 2025</p>
-          <p class="wl-desc">A diffusion-guided restoration method that learns visual style prompts for blind face restoration.</p>
+          <h3><a href="{{ '/publication/adamss_parameter_efficient_finetuning' | relative_url }}">AdaMSS: Adaptive Multi-Subspace Approach for Parameter-Efficient Fine-Tuning</a></h3>
+          <p class="wl-authors">Jingjing Zheng, <strong>Wanglong Lu</strong>, Yiming Dong, Chaojie Ji, Yankai Cao, Zhouchen Lin</p>
+          <p class="wl-venue">NeurIPS, 2025</p>
+          <p class="wl-desc">A multi-subspace parameter-efficient fine-tuning method for expressive incremental updates, integrated into Hugging Face PEFT.</p>
           <div class="wl-paper-links">
-            <a href="https://arxiv.org/abs/2412.21042">Paper</a>
-            <a href="https://github.com/LonglongaaaGo/VSPBFR">Code</a>
+            <a href="{{ '/publication/adamss_parameter_efficient_finetuning' | relative_url }}">Details</a>
+            <a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/119606">Paper</a>
+            <a href="https://github.com/jzheng20/AdaMSS">Code</a>
+            <a href="https://github.com/huggingface/peft/tree/main/examples/adamss_finetuning">PEFT</a>
           </div>
         </div>
       </article>
 
       <article class="wl-paper">
         <div class="wl-paper-media">
-          <img src="{{ '/images/publications/facemug_teaser.png' | relative_url }}" alt="FACEMUG teaser">
-          <span class="wl-badge gold">TVCG</span>
+          <img src="{{ '/images/publications/uhdres_architecture.png' | relative_url }}" alt="UHDRes architecture">
+          <span class="wl-badge red">TCSVT</span>
         </div>
         <div class="wl-paper-body">
-          <h3><a href="https://arxiv.org/abs/2412.19009">FACEMUG: A Multimodal Generative and Fusion Framework for Local Facial Editing</a></h3>
-          <p class="wl-authors"><strong>Wanglong Lu</strong>, Jikai Wang, Xiaogang Jin, Xianta Jiang, Hanli Zhao</p>
-          <p class="wl-venue">IEEE Transactions on Visualization and Computer Graphics, 2024</p>
-          <p class="wl-desc">A multimodal framework for local facial editing through generative modeling and feature fusion.</p>
+          <h3><a href="{{ '/publication/uhdres_dual_domain_restoration' | relative_url }}">UHDRes: Ultra-High-Definition Image Restoration via Dual-Domain Decoupled Spectral Modulation</a></h3>
+          <p class="wl-authors">Shihao Zhao, <strong>Wanglong Lu</strong>, Binhao Wang, Tao Wang, Kaihao Zhang, Hanli Zhao</p>
+          <p class="wl-venue">IEEE Transactions on Circuits and Systems for Video Technology, 2026</p>
+          <p class="wl-desc">A lightweight UHD restoration framework using spatial-frequency decoupling and spectral modulation with only 400K parameters.</p>
           <div class="wl-paper-links">
-            <a href="https://arxiv.org/abs/2412.19009">Paper</a>
+            <a href="{{ '/publication/uhdres_dual_domain_restoration' | relative_url }}">Details</a>
+            <a href="https://arxiv.org/abs/2511.05009">Paper</a>
+            <a href="https://github.com/Zhao0100/UHDRes">Code</a>
           </div>
         </div>
       </article>
 
       <article class="wl-paper">
         <div class="wl-paper-media">
-          <img src="{{ '/images/publications/degradation-aware_super_resolution_teaser.png' | relative_url }}" alt="Degradation-aware blind super-resolution teaser">
-          <span class="wl-badge red">CVM</span>
+          <img src="{{ '/images/publications/echosr_architecture.png' | relative_url }}" alt="EchoSR architecture">
+          <span class="wl-badge green">IF</span>
         </div>
         <div class="wl-paper-body">
-          <h3><a href="https://link.springer.com/chapter/10.1007/978-981-96-5809-1_13">Degradation-Aware Frequency-Separated Transformer for Blind Super-Resolution</a></h3>
-          <p class="wl-authors">Hanli Zhao, Binhao Wang, <strong>Wanglong Lu</strong>, Juncong Lin</p>
-          <p class="wl-venue">Computational Visual Media Conference, 2025</p>
-          <p class="wl-desc">A blind super-resolution model that separates frequency information while adapting to image degradation.</p>
+          <h3><a href="{{ '/publication/echosr_lightweight_image_super_resolution' | relative_url }}">EchoSR: Efficient Context Harnessing for Lightweight Image Super-Resolution</a></h3>
+          <p class="wl-authors">Hanli Zhao, Binhao Wang, Shihao Zhao, Tao Wang, Kaihao Zhang, <strong>Wanglong Lu</strong></p>
+          <p class="wl-venue">Information Fusion, 104471, 2026</p>
+          <p class="wl-desc">An efficient context-harnessing framework for lightweight super-resolution across local, multi-scale, and global modeling.</p>
           <div class="wl-paper-links">
-            <a href="https://link.springer.com/chapter/10.1007/978-981-96-5809-1_13">Paper</a>
+            <a href="{{ '/publication/echosr_lightweight_image_super_resolution' | relative_url }}">Details</a>
+            <a href="https://doi.org/10.1016/j.inffus.2026.104471">Paper</a>
+            <a href="https://github.com/funnyWang-Echoes/EchoSR">Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="wl-paper">
+        <div class="wl-paper-media">
+          <img src="{{ '/images/publications/biosignals_free_imitation_learning.jpg' | relative_url }}" alt="Simulation-driven prosthetic grasping">
+          <span class="wl-badge">arXiv</span>
+        </div>
+        <div class="wl-paper-body">
+          <h3><a href="{{ '/publication/simulation_driven_imitation_learning_prosthetic_grasping' | relative_url }}">Simulation-Driven Imitation Learning for Biosignals-Free Shared-Autonomy Prosthetic Grasping</a></h3>
+          <p class="wl-authors">Kaijie Shi, <strong>Wanglong Lu</strong>, Han Chen, Vinicius Prado da Fonseca, Ting Zou, Hanli Zhao, Xianta Jiang</p>
+          <p class="wl-venue">arXiv preprint arXiv:2606.07389, 2026</p>
+          <p class="wl-desc">A simulation-driven imitation learning method for shared-autonomy prosthetic grasping without biosignal control.</p>
+          <div class="wl-paper-links">
+            <a href="{{ '/publication/simulation_driven_imitation_learning_prosthetic_grasping' | relative_url }}">Details</a>
+            <a href="https://arxiv.org/abs/2606.07389">Paper</a>
           </div>
         </div>
       </article>

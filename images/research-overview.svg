@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">Research overview map</title>
+  <desc id="desc">A structured overview of Wanglong Lu's research from generative vision and restoration to efficient adaptation and applied ML systems.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7f8f3; }
+      .panel { fill: #ffffff; stroke: #d9ded5; stroke-width: 2; }
+      .panel-strong { fill: #fbfcf8; stroke: #b9c2b7; stroke-width: 2.5; }
+      .ink { fill: #20221f; }
+      .muted { fill: #626a64; }
+      .blue { fill: #2c638f; }
+      .green { fill: #55766a; }
+      .gold { fill: #a8752a; }
+      .red { fill: #a15045; }
+      .blue-soft { fill: #e6eef4; }
+      .green-soft { fill: #e8eee7; }
+      .gold-soft { fill: #f4ecdc; }
+      .red-soft { fill: #f2e8e6; }
+      .grid { stroke: #d9ded5; stroke-width: 1; opacity: 0.45; }
+      .path { fill: none; stroke: #7e8981; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+      .path-blue { fill: none; stroke: #2c638f; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+      .tag-text { fill: #ffffff; font-size: 18px; font-weight: 700; }
+      .mono { font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace; letter-spacing: 0; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif; letter-spacing: 0; }
+      .h1 { font-size: 38px; font-weight: 800; }
+      .h2 { font-size: 25px; font-weight: 800; }
+      .body { font-size: 20px; font-weight: 500; }
+      .small { font-size: 17px; font-weight: 600; }
+      .tiny { font-size: 14px; font-weight: 700; }
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7e8981"/>
+    </marker>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2c638f"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1200" height="820"/>
+  <g opacity="0.55">
+    <path class="grid" d="M80 120 H1120"/>
+    <path class="grid" d="M80 260 H1120"/>
+    <path class="grid" d="M80 400 H1120"/>
+    <path class="grid" d="M80 540 H1120"/>
+    <path class="grid" d="M250 80 V750"/>
+    <path class="grid" d="M600 80 V750"/>
+    <path class="grid" d="M950 80 V750"/>
+  </g>
+
+  <text class="mono tiny green" x="76" y="62">// research overview</text>
+  <text class="sans h1 ink" x="76" y="108">Scalable Multimodal and Generative Vision Systems</text>
+  <text class="sans body muted" x="78" y="140">A research trajectory from high-resolution visual generation to efficient adaptation and production-aware ML.</text>
+
+  <g transform="translate(448 194)">
+    <rect class="panel-strong" width="304" height="210" rx="10"/>
+    <rect x="22" y="22" width="260" height="52" rx="8" fill="#20221f"/>
+    <text class="mono tiny" x="44" y="55" fill="#f7c870">Wanglong Lu / Research Core</text>
+    <text class="sans h2 ink" x="34" y="112">Generative Vision</text>
+    <text class="sans body muted" x="34" y="146">multimodal editing</text>
+    <text class="sans body muted" x="34" y="174">restoration and SR</text>
+  </g>
+
+  <path class="path-blue" d="M600 404 C600 486 600 548 600 620" marker-end="url(#arrow-blue)"/>
+  <path class="path" d="M448 275 C388 262 352 248 310 214" marker-end="url(#arrow)"/>
+  <path class="path" d="M448 324 C380 346 338 384 310 438" marker-end="url(#arrow)"/>
+  <path class="path" d="M752 275 C812 262 848 248 890 214" marker-end="url(#arrow)"/>
+  <path class="path" d="M752 324 C820 346 862 384 890 438" marker-end="url(#arrow)"/>
+
+  <g transform="translate(72 174)">
+    <rect class="panel" width="348" height="188" rx="10"/>
+    <rect class="blue-soft" x="20" y="20" width="64" height="64" rx="8"/>
+    <path d="M36 64 L52 39 L68 64 Z" fill="#2c638f" opacity="0.92"/>
+    <path d="M32 74 H76" stroke="#2c638f" stroke-width="5" stroke-linecap="round"/>
+    <text class="sans h2 ink" x="104" y="45">Ultra-high-res</text>
+    <text class="sans h2 ink" x="104" y="76">Generative Editing</text>
+    <text class="sans small muted" x="24" y="118">UltraDiffEdit, FACEMUG, TextDoctor</text>
+    <text class="sans small muted" x="24" y="148">semantic control, local edits, 8K images</text>
+    <rect class="blue" x="24" y="158" width="98" height="24" rx="6"/>
+    <text class="sans tiny tag-text" x="43" y="176">TNNLS</text>
+    <rect class="green" x="132" y="158" width="120" height="24" rx="6"/>
+    <text class="sans tiny tag-text" x="150" y="176">first author</text>
+  </g>
+
+  <g transform="translate(72 418)">
+    <rect class="panel" width="348" height="188" rx="10"/>
+    <rect class="green-soft" x="20" y="20" width="64" height="64" rx="8"/>
+    <path d="M32 58 C46 36 64 36 76 58 C64 80 46 80 32 58 Z" fill="#55766a" opacity="0.92"/>
+    <circle cx="54" cy="58" r="9" fill="#ffffff"/>
+    <text class="sans h2 ink" x="104" y="45">Restoration and</text>
+    <text class="sans h2 ink" x="104" y="76">Super-Resolution</text>
+    <text class="sans small muted" x="24" y="118">UHDRes, EchoSR, VSPBFR</text>
+    <text class="sans small muted" x="24" y="148">frequency priors, lightweight SR</text>
+    <rect class="red" x="24" y="158" width="94" height="24" rx="6"/>
+    <text class="sans tiny tag-text" x="43" y="176">TCSVT</text>
+    <rect class="green" x="128" y="158" width="132" height="24" rx="6"/>
+    <text class="sans tiny tag-text" x="147" y="176">Info Fusion</text>
+  </g>
+
+  <g transform="translate(780 174)">
+    <rect class="panel" width="348" height="188" rx="10"/>
+    <rect class="gold-soft" x="20" y="20" width="64" height="64" rx="8"/>
+    <path d="M34 70 L34 46 L52 34 L70 46 L70 70 L52 82 Z" fill="#a8752a" opacity="0.92"/>
+    <path d="M43 55 H61 M52 44 V72" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+    <text class="sans h2 ink" x="104" y="45">Efficient Model</text>
+    <text class="sans h2 ink" x="104" y="76">Adaptation</text>
+    <text class="sans small muted" x="24" y="118">AdaMSS, PEFT, multi-subspace updates</text>
+    <text class="sans small muted" x="24" y="148">adapt large models with compact parameters</text>
+    <rect class="gold" x="24" y="158" width="104" height="24" rx="6"/>
+    <text class="sans tiny tag-text" x="43" y="176">NeurIPS</text>
+    <rect class="blue" x="138" y="158" width="90" height="24" rx="6"/>
+    <text class="sans tiny tag-text" x="159" y="176">PEFT</text>
+  </g>
+
+  <g transform="translate(780 418)">
+    <rect class="panel" width="348" height="188" rx="10"/>
+    <rect class="red-soft" x="20" y="20" width="64" height="64" rx="8"/>
+    <rect x="33" y="38" width="38" height="32" rx="5" fill="#a15045" opacity="0.92"/>
+    <path d="M39 48 H65 M39 59 H57" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+    <text class="sans h2 ink" x="104" y="45">Applied ML</text>
+    <text class="sans h2 ink" x="104" y="76">Systems</text>
+    <text class="sans small muted" x="24" y="118">financial AI, verification, autonomy</text>
+    <text class="sans small muted" x="24" y="148">production robustness and deployment</text>
+    <rect class="red" x="24" y="158" width="112" height="24" rx="6"/>
+    <text class="sans tiny tag-text" x="43" y="176">Nasdaq</text>
+    <rect class="green" x="146" y="158" width="130" height="24" rx="6"/>
+    <text class="sans tiny tag-text" x="165" y="176">real world</text>
+  </g>
+
+  <g transform="translate(395 632)">
+    <rect class="panel-strong" width="410" height="96" rx="10"/>
+    <text class="sans h2 ink" x="28" y="40">Toward scalable multimodal AI</text>
+    <text class="sans body muted" x="28" y="72">high resolution, efficient, controllable, deployable</text>
+  </g>
+
+  <g transform="translate(82 776)">
+    <text class="mono tiny muted" x="0" y="0">recent anchors:</text>
+    <text class="sans tiny ink" x="150" y="0">UltraDiffEdit 2026</text>
+    <text class="sans tiny ink" x="330" y="0">UHDRes 2026</text>
+    <text class="sans tiny ink" x="470" y="0">EchoSR 2026</text>
+    <text class="sans tiny ink" x="600" y="0">AdaMSS 2025</text>
+    <text class="sans tiny ink" x="750" y="0">Prosthetic Grasping 2026</text>
+  </g>
+</svg>
