@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Wanglong Lu"
-excerpt: "Applied multimodal intelligence researcher and Senior Data Scientist at Nasdaq, working across generative vision, high-resolution image editing, efficient adaptation, and production AI systems."
+excerpt: ""
 author_profile: false
 redirect_from:
   - /about/
