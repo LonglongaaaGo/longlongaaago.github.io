@@ -1,0 +1,10 @@
+{% if page.related_methods %}
+  <div class="wl-post-methods" aria-label="Related methods and papers">
+    <span class="wl-post-link-label">Related methods</span>
+    <div class="wl-method-buttons">
+      {% for method in page.related_methods %}
+        <a href="{{ method.url | relative_url }}">{{ method.label }}</a>
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}

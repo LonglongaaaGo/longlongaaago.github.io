@@ -14,21 +14,33 @@ excerpt: "A first research note on what 28 publications taught me about priors, 
 teaser: research-overview.svg
 math: true
 toc: true
+related_methods:
+  - label: Ultra-High-Res Editing
+    url: /publication/tuning_free_latent_diffusion_editing
+  - label: UHD Restoration
+    url: /publication/uhdres_dual_domain_restoration
+  - label: Lightweight SR
+    url: /publication/echosr_lightweight_image_super_resolution
+  - label: Generative Inpainting
+    url: /publication/grig_few_shot_inpainting
+  - label: PEFT / AdaMSS
+    url: /publication/adamss_parameter_efficient_finetuning
+  - label: Assistive Vision
+    url: /publication/simulation_driven_imitation_learning_prosthetic_grasping
+  - label: Financial Diffusion
+    url: /publication/stddpm_financial_synthetic_data
+resources:
+  - label: Publications
+    url: /publications/
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=TuxCf4UAAAAJ&hl=en
+  - label: GitHub
+    url: https://github.com/LonglongaaaGo
 ---
 
 ![Research overview]({{ '/images/research-overview.svg' | relative_url }})
 
-<div class="wl-method-buttons" aria-label="Related methods and papers">
-  <a href="{{ '/publication/tuning_free_latent_diffusion_editing' | relative_url }}">Ultra-High-Res Editing</a>
-  <a href="{{ '/publication/uhdres_dual_domain_restoration' | relative_url }}">UHD Restoration</a>
-  <a href="{{ '/publication/echosr_lightweight_image_super_resolution' | relative_url }}">Lightweight SR</a>
-  <a href="{{ '/publication/grig_few_shot_inpainting' | relative_url }}">Generative Inpainting</a>
-  <a href="{{ '/publication/adamss_parameter_efficient_finetuning' | relative_url }}">PEFT / AdaMSS</a>
-  <a href="{{ '/publication/simulation_driven_imitation_learning_prosthetic_grasping' | relative_url }}">Assistive Vision</a>
-  <a href="{{ '/publication/stddpm_financial_synthetic_data' | relative_url }}">Financial Diffusion</a>
-</div>
-
-This is my first technical blog post, so I want to start with a map rather than a single result. Looking back at my publication record, I see a trajectory that started from recognition, medical imaging, pruning, and restoration, moved into generative image inpainting and semantic editing, and is now converging toward scalable multimodal and generative AI systems.
+This is my first technical blog post, so I want to start with a map rather than a single result. Looking across my publication record, I see a coherent program spanning recognition, medical imaging, restoration, generative image inpainting, semantic editing, and scalable multimodal intelligence.
 
 The projects are different on the surface: retinal vessel segmentation, vehicle logo recognition, probability-based pruning, face completion, image inpainting, reflection removal, blind face restoration, ultra-high-resolution editing, lightweight super-resolution, parameter-efficient fine-tuning, prosthetic grasping, and synthetic financial data generation. But the technical pattern underneath is surprisingly consistent:
 
@@ -186,6 +198,6 @@ Finally, the most interesting research often sits at the boundary between modeli
 
 ## Closing
 
-This blog will be a place for paper notes, implementation details, research reflections, and engineering lessons. I expect many posts will be narrower and more technical than this one. But starting with the big picture is useful: my research is moving toward scalable multimodal and generative AI systems that combine priors, controllability, efficiency, and deployment awareness.
+This blog will be a place for paper notes, implementation details, research reflections, and engineering lessons. I expect many posts will be narrower and more technical than this one. But starting with the big picture is useful: my work develops scalable multimodal and generative AI systems that combine priors, controllability, efficiency, and deployment awareness.
 
 That is the throughline I see from pixels to systems.

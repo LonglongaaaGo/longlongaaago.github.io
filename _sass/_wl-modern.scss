@@ -540,6 +540,39 @@ a {
   margin: -4px 0 24px;
 }
 
+.page__content .wl-post-methods {
+  border-bottom: 1px solid var(--wl-border);
+  margin: 0 0 24px;
+}
+
+.page__content .wl-post-link-label {
+  color: var(--wl-muted);
+  display: block;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.76rem;
+  font-weight: 800;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+}
+
+.page__content .wl-post-resources {
+  border-top: 1px solid var(--wl-border);
+  margin-top: 38px;
+  padding-top: 18px;
+}
+
+.page__content .wl-post-resources h2 {
+  border: 0;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 1rem;
+  margin: 0 0 14px;
+  padding: 0;
+}
+
+.page__content .wl-post-resources .wl-method-buttons {
+  margin-bottom: 0;
+}
+
 .page__content .wl-method-buttons a {
   align-items: center;
   background: var(--wl-panel);

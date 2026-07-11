@@ -1,0 +1,10 @@
+{% if page.resources %}
+  <section class="wl-post-resources" aria-labelledby="post-resources-title">
+    <h2 id="post-resources-title">Resources</h2>
+    <div class="wl-method-buttons">
+      {% for resource in page.resources %}
+        <a href="{{ resource.url }}">{{ resource.label }}</a>
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}
