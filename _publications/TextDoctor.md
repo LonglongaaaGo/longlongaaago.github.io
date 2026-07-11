@@ -2,6 +2,8 @@
 
 title: "TextDoctor: Unified Document Image Inpainting via Patch Pyramid Diffusion Models"
 collection: publications
+selection_score: 65
+selected_badge: arXiv
 publication_filters: [lead-author, generative-ai, editing-inpainting]
 permalink: /publication/textdoctor
 excerpt: '**Wanglong Lu**, Lingming Su, Jingjing Zheng, Vinícius Veloso de Melo, Farzaneh Shoeleh, John Hawkin, Terrence Tricco, Hanli Zha*o*, Xianta Jiang'
@@ -9,6 +11,7 @@ date: 2025-03-06
 venue: 'ArXiv'
 paperurl: 'https://arxiv.org/abs/2503.04021'
 teaser: 'https://longlongaaago.github.io/images/publications/textdoctor_teaser.png'
+description: 'A unified document image inpainting framework for restoring damaged and high-resolution document regions.'
 
 ---
 

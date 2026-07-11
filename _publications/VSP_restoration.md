@@ -2,13 +2,18 @@
 
 title: "Visual style prompt learning using diffusion models for blind face restoration"
 collection: publications
+selection_score: 90
+selected_badge: PR
+selected_badge_style: green
 publication_filters: [lead-author, generative-ai, restoration-sr]
 permalink: /publication/vsp_face_restoration
 excerpt: '**Wanglong Lu**, Jikai Wang, Tao Wang, Kaihao Zhang, Xianta Jiang, Hanli Zhao*'
 date: 2025-05-01
 venue: 'Pattern Recognition'
 paperurl: 'https://arxiv.org/abs/2412.21042'
+code: 'https://github.com/LonglongaaaGo/VSPBFR'
 teaser: 'https://longlongaaago.github.io/images/publications/VSP_restoration_teaser.png'
+description: 'A diffusion-guided blind face restoration method that learns visual style prompts in pretrained generative latent space.'
 
 ---
 

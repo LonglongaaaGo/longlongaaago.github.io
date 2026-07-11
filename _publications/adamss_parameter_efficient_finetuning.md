@@ -2,6 +2,10 @@
 
 title: "AdaMSS: Adaptive Multi-Subspace Approach for Parameter-Efficient Fine-Tuning"
 collection: publications
+selection_score: 94
+selected_badge: NeurIPS
+selected_badge_style: gold
+selected_project_label: PEFT
 publication_filters: [flagship-conference, generative-ai, multimodal]
 permalink: /publication/adamss_parameter_efficient_finetuning
 excerpt: 'Jingjing Zheng, **Wanglong Lu**, Yiming Dong, Chaojie Ji, Yankai Cao, Zhouchen Lin'

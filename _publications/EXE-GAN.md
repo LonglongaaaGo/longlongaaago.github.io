@@ -2,13 +2,18 @@
 
 title: "Do Inpainting Yourself: Generative Facial Inpainting Guided by Exemplars"
 collection: publications
+selection_score: 82
+selected_badge: Neurocomputing
+selected_badge_style: red
 publication_filters: [lead-author, generative-ai, editing-inpainting]
 permalink: /publication/exe-gan
 excerpt: ' **Wanglong Lu**, [Hanli Zhao](http://i3s.wzu.edu.cn/info/1104/1183.htm), [Xianta Jiang](http://www.cs.mun.ca/~xiantaj/), [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin/), Yongliang Yang, Min Wang, Jiankai Lyu, and Kaijie Shi'
 date: 2025-02-07
 venue: 'Neurocomputing 617, 128996'
 paperurl: 'https://arxiv.org/abs/2202.06358'
+code: 'https://github.com/LonglongaaaGo/EXE-GAN'
 teaser: 'https://longlongaaago.github.io/images/publications/exe_celeba_diverse.png'
+description: 'An exemplar-guided facial inpainting framework that transfers exemplar-like facial attributes while preserving image quality.'
 
 ---
 

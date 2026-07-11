@@ -2,6 +2,9 @@
 
 title: "EchoSR: Efficient Context Harnessing for Lightweight Image Super-Resolution"
 collection: publications
+selection_score: 87
+selected_badge: Information Fusion
+selected_badge_style: gold
 publication_filters: [restoration-sr]
 permalink: /publication/echosr_lightweight_image_super_resolution
 excerpt: 'Hanli Zhao, Binhao Wang, Shihao Zhao, Tao Wang, Kaihao Zhang, **Wanglong Lu**'

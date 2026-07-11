@@ -2,6 +2,8 @@
 
 title: "Tuning-Free Latent Diffusion Models for Ultrahigh-Resolution Image Editing"
 collection: publications
+selection_score: 100
+selected_badge: TNNLS
 publication_filters: [lead-author, ieee-transactions, generative-ai, editing-inpainting]
 permalink: /publication/tuning_free_latent_diffusion_editing
 excerpt: '**Wanglong Lu**, Lingming Su, Kaijie Shi, Minglun Gong, Xiaogang Jin, Hanli Zhao, Xianta Jiang'
@@ -12,7 +14,7 @@ pdfurl: 'https://arxiv.org/pdf/2607.06136'
 htmlurl: 'https://arxiv.org/html/2607.06136v1'
 code: 'https://github.com/LonglongaaaGo/UltraDiffEdit'
 teaser: 'publications/ultradiffedit_pipeline.png'
-description: 'UltraDiffEdit extends off-the-shelf latent diffusion models to tuning-free image editing up to 8K resolution.'
+description: 'UltraDiffEdit extends off-the-shelf latent diffusion models to tuning-free real-image editing up to 8K resolution.'
 
 ---
 

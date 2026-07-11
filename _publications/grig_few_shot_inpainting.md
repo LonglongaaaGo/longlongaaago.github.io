@@ -2,6 +2,9 @@
 title: "GRIG: Data-Efficient Generative Residual Image Inpainting"
 permalink: /publication/grig_few_shot_inpainting
 collection: publications
+selection_score: 85
+selected_badge: CVM
+selected_badge_style: red
 publication_filters: [lead-author, generative-ai, editing-inpainting]
 excerpt: '**Wanglong Lu**, Xianta Jiang, Xiaogang Jin, Yong-Liang Yang, Minglun Gong, Kaijie Shi, Tao Wang, Hanli Zhao'
 date: 2025-12-01
