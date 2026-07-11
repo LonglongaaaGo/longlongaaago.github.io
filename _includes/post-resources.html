@@ -17,7 +17,7 @@
             {% assign matching_publications = site.publications | where: "permalink", method.url %}
             {% assign publication = matching_publications | first %}
             {% if publication %}
-              <li>
+              <li id="citation-{{ forloop.index }}" data-citation-url="{{ method.url | relative_url }}">
                 <span class="wl-citation-authors">{{ publication.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</span>
                 “<a href="{{ publication.url | relative_url }}">{{ publication.title }}</a>.”
                 <em>{{ publication.venue }}</em>{% if publication.date %}, {{ publication.date | date: '%Y' }}{% endif %}.
@@ -30,4 +30,42 @@
       </div>
     {% endif %}
   </section>
+
+  {% if page.related_methods %}
+    <script>
+      (function () {
+        var content = document.querySelector(".page__content");
+        if (!content) return;
+
+        var entries = content.querySelectorAll(".wl-post-citations li[data-citation-url]");
+        Array.prototype.forEach.call(entries, function (entry, index) {
+          var citationPath = entry.getAttribute("data-citation-url").replace(/\/$/, "");
+          var links = content.querySelectorAll("a[href]");
+
+          Array.prototype.forEach.call(links, function (link) {
+            if (link.closest(".wl-post-methods, .wl-post-resources, .wl-inline-citation")) return;
+
+            var linkPath;
+            try {
+              linkPath = new URL(link.href, window.location.href).pathname.replace(/\/$/, "");
+            } catch (error) {
+              return;
+            }
+
+            if (linkPath !== citationPath) return;
+            if (link.nextElementSibling && link.nextElementSibling.classList.contains("wl-inline-citation")) return;
+
+            var marker = document.createElement("sup");
+            marker.className = "wl-inline-citation";
+            var markerLink = document.createElement("a");
+            markerLink.href = "#citation-" + (index + 1);
+            markerLink.setAttribute("aria-label", "Go to citation " + (index + 1));
+            markerLink.textContent = "[" + (index + 1) + "]";
+            marker.appendChild(markerLink);
+            link.insertAdjacentElement("afterend", marker);
+          });
+        });
+      }());
+    </script>
+  {% endif %}
 {% endif %}

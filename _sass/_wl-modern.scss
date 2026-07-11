@@ -596,6 +596,12 @@ a {
   padding-left: 4px;
 }
 
+.page__content .wl-post-citations li:target {
+  background: #f3f6f2;
+  border-radius: 6px;
+  outline: 4px solid #f3f6f2;
+}
+
 .page__content .wl-citation-authors p {
   display: inline;
   margin: 0;
@@ -609,6 +615,28 @@ a {
   line-height: 1;
   margin-left: 5px;
   padding: 4px 6px;
+  text-decoration: none;
+}
+
+.page__content .wl-method-index {
+  color: var(--wl-blue);
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.72rem;
+  font-weight: 800;
+  margin-right: 5px;
+}
+
+.page__content .wl-inline-citation {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.68em;
+  line-height: 0;
+  margin-left: 2px;
+  position: relative;
+  top: -0.15em;
+}
+
+.page__content .wl-inline-citation a {
+  color: var(--wl-blue);
   text-decoration: none;
 }
 
