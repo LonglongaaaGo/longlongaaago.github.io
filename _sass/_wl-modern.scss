@@ -583,17 +583,31 @@ a {
 }
 
 .page__content .wl-post-citations ol {
+  counter-reset: wl-citation;
   display: grid;
   gap: 10px;
+  list-style: none;
   margin: 0;
-  padding-left: 24px;
+  padding-left: 0;
 }
 
 .page__content .wl-post-citations li {
   color: #465049;
+  counter-increment: wl-citation;
   font-size: 0.84rem;
   line-height: 1.55;
-  padding-left: 4px;
+  padding-left: 34px;
+  position: relative;
+}
+
+.page__content .wl-post-citations li::before {
+  color: var(--wl-blue);
+  content: "[" counter(wl-citation) "]";
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-weight: 800;
+  left: 0;
+  position: absolute;
+  top: 0;
 }
 
 .page__content .wl-post-citations li:target {
