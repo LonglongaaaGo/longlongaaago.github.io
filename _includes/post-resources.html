@@ -37,30 +37,70 @@
         var content = document.querySelector(".page__content");
         if (!content) return;
 
-        var entries = content.querySelectorAll(".wl-post-citations li[data-citation-url]");
-        Array.prototype.forEach.call(entries, function (entry, index) {
-          var citationPath = entry.getAttribute("data-citation-url").replace(/\/$/, "");
-          var links = content.querySelectorAll("a[href]");
+        function normalizedPath(url) {
+          try {
+            return new URL(url, window.location.href).pathname.replace(/\/$/, "");
+          } catch (error) {
+            return "";
+          }
+        }
 
-          Array.prototype.forEach.call(links, function (link) {
-            if (link.closest(".wl-post-methods, .wl-post-resources, .wl-inline-citation")) return;
+        var bodyLinks = [];
+        Array.prototype.forEach.call(content.querySelectorAll("a[href]"), function (link) {
+          if (!link.closest(".wl-post-methods, .wl-post-resources, .wl-inline-citation")) {
+            bodyLinks.push(link);
+          }
+        });
 
-            var linkPath;
-            try {
-              linkPath = new URL(link.href, window.location.href).pathname.replace(/\/$/, "");
-            } catch (error) {
-              return;
+        var references = [];
+        Array.prototype.forEach.call(content.querySelectorAll(".wl-post-citations li[data-citation-url]"), function (entry, originalIndex) {
+          var citationPath = normalizedPath(entry.getAttribute("data-citation-url"));
+          var firstOccurrence = bodyLinks.length + originalIndex;
+
+          bodyLinks.some(function (link, linkIndex) {
+            if (normalizedPath(link.href) === citationPath) {
+              firstOccurrence = linkIndex;
+              return true;
             }
+            return false;
+          });
 
-            if (linkPath !== citationPath) return;
+          references.push({
+            citationPath: citationPath,
+            entry: entry,
+            firstOccurrence: firstOccurrence,
+            originalIndex: originalIndex
+          });
+        });
+
+        references.sort(function (a, b) {
+          return a.firstOccurrence - b.firstOccurrence || a.originalIndex - b.originalIndex;
+        });
+
+        var citationList = content.querySelector(".wl-post-citations ol");
+        var methodLinks = content.querySelectorAll(".wl-post-methods a[href]");
+
+        references.forEach(function (reference, index) {
+          var number = index + 1;
+          reference.entry.id = "citation-" + number;
+          if (citationList) citationList.appendChild(reference.entry);
+
+          Array.prototype.forEach.call(methodLinks, function (methodLink) {
+            if (normalizedPath(methodLink.href) !== reference.citationPath) return;
+            var methodIndex = methodLink.querySelector(".wl-method-index");
+            if (methodIndex) methodIndex.textContent = "[" + number + "]";
+          });
+
+          bodyLinks.forEach(function (link) {
+            if (normalizedPath(link.href) !== reference.citationPath) return;
             if (link.nextElementSibling && link.nextElementSibling.classList.contains("wl-inline-citation")) return;
 
             var marker = document.createElement("sup");
             marker.className = "wl-inline-citation";
             var markerLink = document.createElement("a");
-            markerLink.href = "#citation-" + (index + 1);
-            markerLink.setAttribute("aria-label", "Go to citation " + (index + 1));
-            markerLink.textContent = "[" + (index + 1) + "]";
+            markerLink.href = "#citation-" + number;
+            markerLink.setAttribute("aria-label", "Go to citation " + number);
+            markerLink.textContent = "[" + number + "]";
             marker.appendChild(markerLink);
             link.insertAdjacentElement("afterend", marker);
           });
