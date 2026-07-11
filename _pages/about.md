@@ -808,6 +808,10 @@ redirect_from:
         <time>Apr. 2026</time>
         <span>AdaMSS has been integrated into the Hugging Face PEFT package. <a href="https://github.com/huggingface/peft/tree/main/examples/adamss_finetuning">GitHub</a></span>
       </li>
+      <li>
+        <time>Mar. 2026</time>
+        <span>I was invited as a guest speaker at the IEEE Newfoundland and Labrador Section's 2025-2026 AGM and gave a talk titled "Generative Models for Semantic Image Editing: Multimodal Approaches" at Memorial University.</span>
+      </li>
     </ul>
 
     <details class="wl-details">
