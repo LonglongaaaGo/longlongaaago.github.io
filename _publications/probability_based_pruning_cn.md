@@ -2,6 +2,7 @@
 
 title: "基于概率的深度可分离卷积网络通道剪枝"
 collection: publications
+publication_filters: [recognition-applied]
 permalink: /publication/probability_based_pruning_cn
 excerpt: '赵汉理, 史开杭, 金小刚, 徐明亮, 黄辉, **卢望龙**, 刘影'
 date: 2022-05-31

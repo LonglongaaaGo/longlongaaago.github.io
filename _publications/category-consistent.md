@@ -2,6 +2,7 @@
 title: "Category-consistent deep network learning for accurate vehicle logo recognition"
 permalink: /publication/category-consistent
 collection: publications
+publication_filters: [lead-author, recognition-applied]
 excerpt: '**Wanglong Lu**, [Hanli Zhao](http://i3s.wzu.edu.cn/info/1104/1183.htm), [Qi He](http://i3s.wzu.edu.cn/info/1104/1181.htm), [Hui Huang](http://i3s.wzu.edu.cn/info/1104/1163.htm), [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin/).'
 date: 2021-08-09
 venue: 'Neurocomputing 463, 623-636'

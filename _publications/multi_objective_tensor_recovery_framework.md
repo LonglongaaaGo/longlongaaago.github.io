@@ -2,6 +2,7 @@
 
 title: "Handling the Non-smooth Challenge in Tensor SVD: A Multi-objective Tensor Recovery Framework"
 collection: publications
+publication_filters: [flagship-conference, restoration-sr, recognition-applied]
 permalink: /publication/multi_objective_tensor_recovery_framework
 excerpt: 'Jingjing Zheng, **Wanglong Lu**, Wenzhe Wang, Yankai Cao*, Xiaoqin Zhang, and Xianta Jiang'
 date: 2024-03-10

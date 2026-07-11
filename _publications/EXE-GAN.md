@@ -2,6 +2,7 @@
 
 title: "Do Inpainting Yourself: Generative Facial Inpainting Guided by Exemplars"
 collection: publications
+publication_filters: [lead-author, generative-ai, editing-inpainting]
 permalink: /publication/exe-gan
 excerpt: ' **Wanglong Lu**, [Hanli Zhao](http://i3s.wzu.edu.cn/info/1104/1183.htm), [Xianta Jiang](http://www.cs.mun.ca/~xiantaj/), [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin/), Yongliang Yang, Min Wang, Jiankai Lyu, and Kaijie Shi'
 date: 2025-02-07

@@ -2,6 +2,7 @@
 
 title: "Toward Biosignals-Free Autonomous Prosthetic Hand Control via Imitation Learning"
 collection: publications
+publication_filters: [ieee-transactions, medical-assistive, recognition-applied]
 permalink: /publication/biosignals_free_hand_control
 excerpt: 'Kaijie Shi, **Wanglong Lu**, Hanli Zhao, Vinicius Prado da Fonseca, Ting Zou, Xianta Jiang'
 date: 2025-09-03

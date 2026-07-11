@@ -2,6 +2,7 @@
 
 title: "Generative Models for Semantic Facial Image Editing: Multimodal Approaches"
 collection: publications
+publication_filters: [lead-author, generative-ai, editing-inpainting, multimodal]
 permalink: /publication/semantic_facial_image_editing_thesis
 excerpt: '**Wanglong Lu**'
 date: 2025-01-01

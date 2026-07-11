@@ -2,6 +2,7 @@
 
 title: "Probability-Based Channel Pruning for Depthwise Separable Convolutional Networks"
 collection: publications
+publication_filters: [recognition-applied]
 permalink: /publication/probability-based-network-pruning
 excerpt: '[Han-Li Zhao](http://i3s.wzu.edu.cn/info/1104/1183.htm), Kai-Jie Shi, [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin/), Ming-Liang Xu, [Hui Huang](http://i3s.wzu.edu.cn/info/1104/1163.htm), **Wang-Long Lu**, Ying Liu.'
 date: 2022-05-31

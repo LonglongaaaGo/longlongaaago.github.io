@@ -16,7 +16,7 @@
 {% endif %}
 
 {% if post.collection == 'publications' %}
-  <div class="list__item wl-pub__item">
+  <div class="list__item wl-pub__item" data-publication-filters="{{ post.publication_filters | join: ' ' }}">
     <article class="archive__item wl-publication-card" itemscope itemtype="http://schema.org/CreativeWork">
       <div class="wl-publication-media">
         {% if teaser != "" %}

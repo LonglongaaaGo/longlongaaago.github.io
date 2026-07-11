@@ -2,6 +2,7 @@
 
 title: "FACEMUG: A Multimodal Generative and Fusion Framework for Local Facial Editing"
 collection: publications
+publication_filters: [lead-author, ieee-transactions, generative-ai, editing-inpainting, multimodal]
 permalink: /publication/facemug
 excerpt: '**Wanglong Lu**, Jikai Wang, Xiaogang Jin, Xianta Jiang, and Hanli Zhao∗'
 date: 2024-07-26

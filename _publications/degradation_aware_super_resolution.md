@@ -2,6 +2,7 @@
 
 title: "Degradation-Aware Frequency-Separated Transformer for Blind Super-Resolution"
 collection: publications
+publication_filters: [restoration-sr]
 permalink: /publication/degradation_aware_super_resolution
 excerpt: 'Hanli Zhao, Binhao Wang, **Wanglong Lu***, Juncong Lin'
 date: 2025-04-19

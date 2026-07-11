@@ -2,6 +2,7 @@
 title: "Restoring Vision in Hazy Weather with Hierarchical Contrastive Learning"
 permalink: /publication/restoring_in_hazy
 collection: publications
+publication_filters: [restoration-sr]
 excerpt: 'Tao Wang, Guangpin Tao, **Wanglong Lu**, Kaihao Zhang, Wenhan Luo, Xiaoqin Zhang, Tong Lu.'
 date: 2024-01-01
 venue: 'Pattern Recognition Volume 145, January 2024, 109956'

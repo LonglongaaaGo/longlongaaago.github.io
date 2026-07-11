@@ -40,7 +40,9 @@ hide_title: true
     border-radius: 8px;
     box-shadow: 0 1px 2px rgba(36, 48, 42, 0.06);
     color: #20221f;
+    cursor: pointer;
     display: inline-flex;
+    font-family: inherit;
     justify-content: center;
     line-height: 1.25;
     text-decoration: none;
@@ -107,9 +109,28 @@ hide_title: true
   }
 
   #main .wl-pub-topic.is-active {
-    background: #edf5f7;
-    border-color: #c9dfe6;
-    color: #2c638f;
+    background: #20221f;
+    border-color: #20221f;
+    color: #ffffff;
+  }
+
+  #main .wl-pub__item[hidden] {
+    display: none;
+  }
+
+  #main .wl-pub-filter-status {
+    color: #626a64;
+    font-size: 0.84rem;
+    margin: -8px 0 16px;
+  }
+
+  #main .wl-pub-empty {
+    background: #f8faf6;
+    border: 1px solid #d9ded5;
+    border-radius: 8px;
+    color: #626a64;
+    padding: 22px;
+    text-align: center;
   }
 
   @media (max-width: 540px) {
@@ -134,34 +155,36 @@ hide_title: true
 
 <div class="wl-pub-tabs" aria-label="Publication overview">
   <div class="wl-pub-tabbar wl-pub-tabbar-primary">
-    <a class="wl-pub-tab is-active" href="#publication-list" aria-label="Show all publications">
+    <button class="wl-pub-tab is-active" type="button" data-filter="all" aria-pressed="true">
       <strong>{{ site.publications | size }}</strong>
       <span>All Publications</span>
-    </a>
-    <a class="wl-pub-tab" href="#publication-list" aria-label="Jump to lead-author works in the publication list">
+    </button>
+    <button class="wl-pub-tab" type="button" data-filter="lead-author" aria-pressed="false">
       <strong>8</strong>
       <span>Lead-Author Works</span>
-    </a>
-    <a class="wl-pub-tab" href="#publication-list" aria-label="Jump to IEEE Transactions in the publication list">
+    </button>
+    <button class="wl-pub-tab" type="button" data-filter="ieee-transactions" aria-pressed="false">
       <strong>4</strong>
       <span>IEEE Transactions</span>
-    </a>
-    <a class="wl-pub-tab" href="#publication-list" aria-label="Jump to flagship conference papers in the publication list">
+    </button>
+    <button class="wl-pub-tab" type="button" data-filter="flagship-conference" aria-pressed="false">
       <strong>2</strong>
       <span>Flagship Conferences</span>
-    </a>
+    </button>
   </div>
 
   <div class="wl-pub-tabbar wl-pub-tabbar-secondary" aria-label="Research areas">
     <span class="wl-pub-tab-note">Research Areas</span>
-    <a class="wl-pub-topic is-active" href="#publication-list">Generative AI</a>
-    <a class="wl-pub-topic" href="#publication-list">Image Editing & Inpainting</a>
-    <a class="wl-pub-topic" href="#publication-list">Restoration & Super-Resolution</a>
-    <a class="wl-pub-topic" href="#publication-list">Multimodal Learning</a>
-    <a class="wl-pub-topic" href="#publication-list">Medical / Assistive Vision</a>
-    <a class="wl-pub-topic" href="#publication-list">Recognition & Applied CV</a>
+    <button class="wl-pub-topic" type="button" data-filter="generative-ai" aria-pressed="false">Generative AI</button>
+    <button class="wl-pub-topic" type="button" data-filter="editing-inpainting" aria-pressed="false">Image Editing & Inpainting</button>
+    <button class="wl-pub-topic" type="button" data-filter="restoration-sr" aria-pressed="false">Restoration & Super-Resolution</button>
+    <button class="wl-pub-topic" type="button" data-filter="multimodal" aria-pressed="false">Multimodal Learning</button>
+    <button class="wl-pub-topic" type="button" data-filter="medical-assistive" aria-pressed="false">Medical / Assistive Vision</button>
+    <button class="wl-pub-topic" type="button" data-filter="recognition-applied" aria-pressed="false">Recognition & Applied CV</button>
   </div>
 </div>
+
+<p class="wl-pub-filter-status" id="publication-filter-status" aria-live="polite"></p>
 
 <div class="wl-toolbar">
   {% if author.googlescholar %}
@@ -171,8 +194,49 @@ hide_title: true
   <a href="{{ '/' | relative_url }}"><i class="fas fa-home" aria-hidden="true"></i>Home</a>
 </div>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var controls = document.querySelectorAll("[data-filter]");
+    var items = document.querySelectorAll(".wl-pub__item");
+    var status = document.getElementById("publication-filter-status");
+    var empty = document.getElementById("publication-empty");
+
+    function applyFilter(control) {
+      var filter = control.getAttribute("data-filter");
+      var label = control.textContent.replace(/\s+/g, " ").trim().replace(/^\d+\s*/, "");
+      var visible = 0;
+
+      controls.forEach(function (button) {
+        var active = button === control;
+        button.classList.toggle("is-active", active);
+        button.setAttribute("aria-pressed", active ? "true" : "false");
+      });
+
+      items.forEach(function (item) {
+        var filters = (item.getAttribute("data-publication-filters") || "").split(/\s+/);
+        var show = filter === "all" || filters.indexOf(filter) !== -1;
+        item.hidden = !show;
+        if (show) visible += 1;
+      });
+
+      status.textContent = filter === "all"
+        ? "Showing all " + visible + " publications."
+        : "Showing " + visible + " publications in " + label + ".";
+      empty.hidden = visible !== 0;
+    }
+
+    controls.forEach(function (control) {
+      control.addEventListener("click", function () { applyFilter(control); });
+    });
+
+    applyFilter(document.querySelector('[data-filter="all"]'));
+  });
+</script>
+
 <div class="wl-publication-list" id="publication-list">
   {% for post in site.publications reversed %}
     {% include archive-single.html %}
   {% endfor %}
 </div>
+
+<div class="wl-pub-empty" id="publication-empty" hidden>No publications match this filter.</div>

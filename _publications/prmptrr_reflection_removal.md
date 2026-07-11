@@ -2,6 +2,7 @@
 
 title: "Promptrr: Diffusion models as prompt generators for single image reflection removal"
 collection: publications
+publication_filters: [generative-ai, restoration-sr]
 permalink: /publication/prmptrr_reflection_removal
 excerpt: 'Tao Wang, **Wanglong Lu**, Kaihao Zhang, Wenhan Luo, Tae-Kyun Kim, Tong Lu, Hongdong Li, Ming-Hsuan Yang'
 date: 2024-02-04

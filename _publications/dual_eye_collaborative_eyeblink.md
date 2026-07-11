@@ -2,6 +2,7 @@
 
 title: "Real-time dual-eye collaborative eyeblink detection with contrastive learning"
 collection: publications
+publication_filters: [medical-assistive, recognition-applied]
 permalink: /publication/dual_eye_blink
 excerpt: 'Hanli Zhao, Yu Wang , **Wanglong Lu**, Zili Yi, Jun Liu∗, Minglun Gong'
 date: 2025-06-06

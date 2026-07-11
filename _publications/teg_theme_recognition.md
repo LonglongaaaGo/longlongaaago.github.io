@@ -2,6 +2,7 @@
 
 title: "TEG: image theme recognition using text-embedding-guided few-shot adaptation"
 collection: publications
+publication_filters: [multimodal, recognition-applied]
 permalink: /publication/teg_theme_recognition
 excerpt: 'Jikai Wang, **Wanglong Lu**, Yu Wang, Kaijie Shi, Xianta Jiang, Hanli Zhao'
 date: 2024-01-24

@@ -2,6 +2,7 @@
 
 title: "Efficient Generative Face Completion with Perceptual Deblurring"
 collection: publications
+publication_filters: [generative-ai, editing-inpainting, restoration-sr]
 permalink: /publication/efficient_generative_face_completion
 excerpt: 'Hanli Zhao, Ying Liu, **Wanglong Lu**, Xiaogang Jin, Hui Huang, Kaijie Shi'
 date: 2022-09-01

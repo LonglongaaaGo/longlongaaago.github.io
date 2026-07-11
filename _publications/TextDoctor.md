@@ -2,6 +2,7 @@
 
 title: "TextDoctor: Unified Document Image Inpainting via Patch Pyramid Diffusion Models"
 collection: publications
+publication_filters: [lead-author, generative-ai, editing-inpainting]
 permalink: /publication/textdoctor
 excerpt: '**Wanglong Lu**, Lingming Su, Jingjing Zheng, Vinícius Veloso de Melo, Farzaneh Shoeleh, John Hawkin, Terrence Tricco, Hanli Zha*o*, Xianta Jiang'
 date: 2025-03-06

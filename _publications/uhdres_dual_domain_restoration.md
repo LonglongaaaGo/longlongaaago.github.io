@@ -2,6 +2,7 @@
 
 title: "UHDRes: Ultra-High-Definition Image Restoration via Dual-Domain Decoupled Spectral Modulation"
 collection: publications
+publication_filters: [ieee-transactions, restoration-sr]
 permalink: /publication/uhdres_dual_domain_restoration
 excerpt: 'Shihao Zhao, **Wanglong Lu**, Binhao Wang, Tao Wang, Kaihao Zhang, Hanli Zhao'
 date: 2026-07-01

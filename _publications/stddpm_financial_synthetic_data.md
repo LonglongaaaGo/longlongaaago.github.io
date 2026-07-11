@@ -2,6 +2,7 @@
 
 title: "StDDPM: Sequential Financial Synthetic Data Generation using T-distribution based Diffusion Model"
 collection: publications
+publication_filters: [generative-ai, recognition-applied]
 permalink: /publication/stddpm_financial_synthetic_data
 excerpt: 'Omid Tarkhaneh, Hamideh Mehri, **Wanglong Lu**, Farzaneh Shoeleh, Vinicius Veloso de Melo'
 date: 2025-11-07

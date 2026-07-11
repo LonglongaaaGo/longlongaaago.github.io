@@ -2,6 +2,7 @@
 
 title: "基于感知去模糊的高效人脸图像修复算法"
 collection: publications
+publication_filters: [generative-ai, editing-inpainting, restoration-sr]
 permalink: /publication/efficient_face_restoration_perceptual_deblurring_cn
 excerpt: '赵汉理, 刘影, **卢望龙**, 金小刚, 黄辉, 史开杭'
 date: 2022-09-01

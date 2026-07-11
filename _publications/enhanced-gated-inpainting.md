@@ -2,6 +2,7 @@
 title: "Generative image inpainting with enhanced gated convolution and Transformers"
 permalink: /publication/enhanced-gated-inpainting
 collection: publications
+publication_filters: [generative-ai, editing-inpainting]
 excerpt: 'Min Wang, **Wanglong Lu**, Jiankai Lyu, Kaijie Shi, [Hanli Zhao](http://i3s.wzu.edu.cn/info/1104/1183.htm).'
 date: 2022-10-17
 venue: 'Displays 76, 102321'
