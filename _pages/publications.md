@@ -160,15 +160,15 @@ hide_title: true
       <span>All Publications</span>
     </button>
     <button class="wl-pub-tab" type="button" data-filter="lead-author" aria-pressed="false">
-      <strong>8</strong>
+      <strong>0</strong>
       <span>Lead-Author Works</span>
     </button>
     <button class="wl-pub-tab" type="button" data-filter="ieee-transactions" aria-pressed="false">
-      <strong>4</strong>
+      <strong>0</strong>
       <span>IEEE Transactions</span>
     </button>
     <button class="wl-pub-tab" type="button" data-filter="flagship-conference" aria-pressed="false">
-      <strong>2</strong>
+      <strong>0</strong>
       <span>Flagship Conferences</span>
     </button>
   </div>
@@ -201,6 +201,50 @@ hide_title: true
     var status = document.getElementById("publication-filter-status");
     var empty = document.getElementById("publication-empty");
 
+    var inferredFilters = [
+      ["generative-ai", /generative|diffusion|\bgan\b|synthetic data|inpainting|image editing|face completion/i],
+      ["editing-inpainting", /image editing|facial editing|inpainting|face completion/i],
+      ["restoration-sr", /restoration|super-resolution|dehazing|hazy|reflection removal|deblurring/i],
+      ["multimodal", /multimodal|text.embedding|vision.language|prompt learning|theme recognition/i],
+      ["medical-assistive", /prosthetic|retinal|blink|eyeblink|medical|assistive/i],
+      ["recognition-applied", /recognition|detection|segmentation|pruning|financial|tensor recovery/i]
+    ];
+
+    function enrichFilters(item) {
+      var filters = new Set((item.getAttribute("data-publication-filters") || "").split(/\s+/).filter(Boolean));
+      var authors = item.querySelector(".wl-pub-authors");
+      var firstHighlightedAuthor = authors && authors.querySelector("strong");
+      var venue = item.querySelector(".wl-pub-venue");
+      var searchableText = item.textContent || "";
+
+      if (authors && firstHighlightedAuthor && authors.textContent.trim().indexOf(firstHighlightedAuthor.textContent.trim()) === 0) {
+        filters.add("lead-author");
+      }
+      if (venue && /^IEEE Transactions\b/i.test(venue.textContent.trim())) {
+        filters.add("ieee-transactions");
+      }
+      if (venue && /\b(NeurIPS|ECCV|CVPR|ICCV|ICML|ICLR|AAAI|SIGGRAPH)\b/i.test(venue.textContent)) {
+        filters.add("flagship-conference");
+      }
+      inferredFilters.forEach(function (entry) {
+        if (entry[1].test(searchableText)) filters.add(entry[0]);
+      });
+
+      item.setAttribute("data-publication-filters", Array.from(filters).join(" "));
+    }
+
+    function updateCounts() {
+      controls.forEach(function (control) {
+        var countNode = control.querySelector("strong");
+        if (!countNode) return;
+        var filter = control.getAttribute("data-filter");
+        var count = filter === "all" ? items.length : Array.from(items).filter(function (item) {
+          return (item.getAttribute("data-publication-filters") || "").split(/\s+/).indexOf(filter) !== -1;
+        }).length;
+        countNode.textContent = count;
+      });
+    }
+
     function applyFilter(control) {
       var filter = control.getAttribute("data-filter");
       var label = control.textContent.replace(/\s+/g, " ").trim().replace(/^\d+\s*/, "");
@@ -229,6 +273,8 @@ hide_title: true
       control.addEventListener("click", function () { applyFilter(control); });
     });
 
+    items.forEach(enrichFilters);
+    updateCounts();
     applyFilter(document.querySelector('[data-filter="all"]'));
   });
 </script>
