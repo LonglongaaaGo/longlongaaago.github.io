@@ -1,4 +1,11 @@
-{% if page.resources or page.related_methods or page.references %}
+{% assign has_publication_citations = false %}
+{% for candidate_publication in site.publications %}
+  {% if page.content contains candidate_publication.permalink %}
+    {% assign has_publication_citations = true %}
+  {% endif %}
+{% endfor %}
+
+{% if page.resources or page.related_methods or page.references or has_publication_citations %}
   <section class="wl-post-resources" aria-labelledby="post-resources-title">
     <h2 id="post-resources-title">Resources</h2>
     {% if page.resources %}
@@ -9,25 +16,21 @@
       </div>
     {% endif %}
 
-    {% if page.related_methods or page.references %}
+    {% if has_publication_citations or page.references %}
       <div class="wl-post-citations">
         <h3>Recommended Citations</h3>
         <ol>
-          {% if page.related_methods %}
-            {% for method in page.related_methods %}
-              {% assign matching_publications = site.publications | where: "permalink", method.url %}
-              {% assign publication = matching_publications | first %}
-              {% if publication %}
-                <li id="publication-citation-{{ forloop.index }}" data-citation-url="{{ method.url | relative_url }}">
-                  <span class="wl-citation-authors">{{ publication.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</span>
-                  “<a href="{{ publication.url | relative_url }}">{{ publication.title }}</a>.”
-                  <em>{{ publication.venue }}</em>{% if publication.date %}, {{ publication.date | date: '%Y' }}{% endif %}.
-                  {% if publication.paperurl %}<a class="wl-citation-link" href="{{ publication.paperurl }}">Paper</a>{% endif %}
-                  {% if publication.citation %}<a class="wl-citation-link" href="{{ publication.citation }}">BibTeX</a>{% endif %}
-                </li>
-              {% endif %}
-            {% endfor %}
-          {% endif %}
+          {% for publication in site.publications %}
+            {% if page.content contains publication.permalink %}
+              <li id="publication-citation-{{ forloop.index }}" data-citation-url="{{ publication.permalink | relative_url }}">
+                <span class="wl-citation-authors">{{ publication.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+                “<a href="{{ publication.url | relative_url }}">{{ publication.title }}</a>.”
+                <em>{{ publication.venue }}</em>{% if publication.date %}, {{ publication.date | date: '%Y' }}{% endif %}.
+                {% if publication.paperurl %}<a class="wl-citation-link" href="{{ publication.paperurl }}">Paper</a>{% endif %}
+                {% if publication.citation %}<a class="wl-citation-link" href="{{ publication.citation }}">BibTeX</a>{% endif %}
+              </li>
+            {% endif %}
+          {% endfor %}
 
           {% if page.references %}
             {% for reference in page.references %}
@@ -44,7 +47,7 @@
     {% endif %}
   </section>
 
-  {% if page.related_methods or page.references %}
+  {% if has_publication_citations or page.references %}
     <script>
       (function () {
         var content = document.querySelector(".page__content");
