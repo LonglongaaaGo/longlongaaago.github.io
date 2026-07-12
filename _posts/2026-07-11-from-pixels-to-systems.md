@@ -1,5 +1,5 @@
 ---
-title: "From Pixels to Systems: Notes on a Research Trajectory in Generative Vision"
+title: "From Pixels to Systems: Practical Lessons from Generative Vision Research"
 date: 2026-07-11
 permalink: /posts/2026/07/from-pixels-to-systems/
 categories:
@@ -10,7 +10,7 @@ tags:
   - image-restoration
   - multimodal-learning
   - applied-ml
-excerpt: "A first research note on what 28 publications taught me about priors, scale, controllability, efficiency, and deployable generative vision systems."
+excerpt: "Practical observations from work on image restoration, generative editing, efficient adaptation, assistive vision, and production machine learning systems."
 teaser: research-overview.svg
 math: true
 toc: true
@@ -40,15 +40,18 @@ resources:
 
 ![Research overview]({{ '/images/research-overview.svg' | relative_url }})
 
-This is my first technical blog post, so I want to start with a map rather than a single result. Looking across my publication record, I see a coherent program spanning recognition, medical imaging, restoration, generative image inpainting, semantic editing, and scalable multimodal intelligence.
+Computer vision systems often fail for reasons that are not captured by model size or benchmark accuracy. A restoration model may remove noise but also erase useful detail. An editing model may generate a plausible result while changing regions that should remain fixed. At high resolution, local processing may break global consistency. In production, a strong model may still be unsuitable because of memory, latency, data quality, or reliability constraints.
 
-The projects are different on the surface: retinal vessel segmentation, vehicle logo recognition, probability-based pruning, face completion, image inpainting, reflection removal, blind face restoration, ultra-high-resolution editing, lightweight super-resolution, parameter-efficient fine-tuning, prosthetic grasping, and synthetic financial data generation. But the technical pattern underneath is surprisingly consistent:
+Across work in recognition, medical imaging, restoration, generative editing, efficient adaptation, assistive vision, and financial AI, four design questions appear repeatedly:
 
-> most useful vision systems are not built by scaling a model alone; they are built by matching the right prior, the right control signal, and the right computational structure to the failure mode of the task.
+- What structure is already known about the task?
+- What parts of the output must remain controlled?
+- Where should computation be spent?
+- How should the model be evaluated in the system where it will be used?
 
-That observation is the thread connecting much of my work.
+This article connects these questions to specific projects and summarizes the practical conclusions.
 
-## 1. Vision Problems Are Usually Structured Inverse Problems
+## 1. Many Vision Tasks Can Be Written as Inverse Problems
 
 Many computer vision tasks can be written as a structured inverse problem:
 
@@ -74,23 +77,21 @@ $$
 
 where $c$ is a control signal and $\Pi$ is a set of priors. The control signal may be an exemplar, a text prompt, a visual style prompt, a degradation representation, a frequency-domain constraint, a subspace update, or a simulation-derived policy. The prior may come from data, geometry, frequency statistics, pretraining, temporal continuity, or deployment constraints.
 
-This framing shaped my thinking from early recognition and restoration work to recent generative systems.
+This formulation provides a common way to discuss restoration, editing, recognition, and decision systems.
 
 ## 2. Priors Matter More When Data Is Limited or Resolution Is High
 
-Early work on [category-consistent vehicle logo recognition]({{ '/publication/category-consistent' | relative_url }}), [retinal vessel segmentation]({{ '/publication/vessel_segmentation' | relative_url }}), and [probability-based channel pruning]({{ '/publication/probability-based-network-pruning' | relative_url }}) taught me a simple lesson: when data is limited or compute is constrained, generic representation learning is rarely enough.
+Work on [category-consistent vehicle logo recognition]({{ '/publication/category-consistent' | relative_url }}), [retinal vessel segmentation]({{ '/publication/vessel_segmentation' | relative_url }}), and [probability-based channel pruning]({{ '/publication/probability-based-network-pruning' | relative_url }}) illustrates a basic point: when data or compute is limited, generic representation learning is often not enough.
 
-You need to inject structure.
-
-In recognition, category consistency acts as a semantic regularizer. In vessel segmentation, a large receptive field helps capture thin and elongated anatomical structures. In pruning, probabilistic modeling gives a more principled way to remove channels without treating all filters as equally replaceable. These are not "large model" ideas. They are structure-first ideas.
+In recognition, category consistency acts as a semantic regularizer. In vessel segmentation, a large receptive field helps capture thin and elongated anatomical structures. In pruning, probabilistic modeling provides a criterion for removing channels without treating all filters as equally replaceable. These methods use task-specific structure rather than relying only on model scale.
 
 The same principle becomes even more important in generative vision. For [GRIG]({{ '/publication/grig_few_shot_inpainting' | relative_url }}), the key problem is not merely filling a hole; it is preserving identity, context, and residual structure with limited data. For [FACEMUG]({{ '/publication/facemug' | relative_url }}), local facial editing requires multimodal control that changes the requested region while keeping the rest of the face stable. For [TextDoctor]({{ '/publication/textdoctor' | relative_url }}), document image inpainting requires preserving readability and layout, not just visual realism.
 
-My current view is that a prior is useful only if it reduces the ambiguity that actually matters. A face prior should preserve identity. A document prior should preserve structure and text consistency. A restoration prior should preserve detail without hallucinating. A financial sequence prior should preserve dependence and heavy-tailed behavior.
+A prior is useful when it reduces the ambiguity that matters for the task. A face prior should preserve identity. A document prior should preserve layout and text consistency. A restoration prior should preserve detail without adding unsupported content. A financial sequence prior should preserve temporal dependence and heavy-tailed behavior.
 
-## 3. Diffusion Models Are Powerful, But Control Is the Real Research Problem
+## 3. Control Matters as Much as Generation
 
-Diffusion models changed the default assumption in visual generation. Instead of directly predicting $x$, they learn a denoising or score function over a sequence of corrupted variables:
+Diffusion models learn a denoising or score function over a sequence of corrupted variables. A common forward process is:
 
 $$
 x_t = \sqrt{\bar{\alpha}_t}x_0 + \sqrt{1-\bar{\alpha}_t}\epsilon,
@@ -102,21 +103,17 @@ $$
 s_\theta(x_t, t, c) \approx \nabla_{x_t}\log p_t(x_t \mid c).
 $$
 
-This gives diffusion models a strong generative prior. But in real editing and restoration tasks, a strong prior can become a liability if it ignores the input image. The hardest question is not sampling. The hardest question is controlled sampling.
+This gives diffusion models a strong generative prior. In editing and restoration, however, the model must also preserve information from the input. Sampling quality alone is not enough; the sampling process must respect spatial and semantic constraints.
 
-This is why [Tuning-Free Latent Diffusion Models for Ultrahigh-Resolution Image Editing]({{ '/publication/tuning_free_latent_diffusion_editing' | relative_url }}) is important to my research direction. The goal is not just to edit with a diffusion model; it is to edit real images at ultra-high resolution without retraining, while preserving unedited regions and maintaining semantic consistency. At 8K resolution, the system must respect both global semantics and local texture. Small inconsistencies become visible. Memory and tiling artifacts become research problems.
-
-The lesson is:
-
-> high-resolution generation is not only a scale problem; it is a consistency problem.
+[Tuning-Free Latent Diffusion Models for Ultrahigh-Resolution Image Editing]({{ '/publication/tuning_free_latent_diffusion_editing' | relative_url }}) addresses this issue for real-image editing without retraining. At 8K resolution, the system must preserve unedited regions, maintain the requested semantic change, and keep local texture consistent with the full image. Memory use and tiling artifacts are part of the method design, not only implementation details.
 
 When the canvas becomes large, every local decision must remain compatible with a global structure. A model that works on a small crop may fail when the crop must align with the entire image.
 
 ## 4. Restoration Needs Both Signal Priors and System Efficiency
 
-Restoration has been a recurring theme in my work, from hazy weather and reflection removal to blind face restoration, super-resolution, and ultra-high-definition image restoration.
+Image restoration covers different degradations, including haze, reflection, blur, low resolution, and mixed unknown corruption.
 
-The line of work including [Restoring Vision in Hazy Weather]({{ '/publication/restoring_in_hazy' | relative_url }}), [PromptRR]({{ '/publication/prmptrr_reflection_removal' | relative_url }}), [Visual Style Prompt Learning]({{ '/publication/vsp_face_restoration' | relative_url }}), [Degradation-Aware Frequency-Separated Transformer]({{ '/publication/degradation_aware_super_resolution' | relative_url }}), [UHDRes]({{ '/publication/uhdres_dual_domain_restoration' | relative_url }}), and [EchoSR]({{ '/publication/echosr_lightweight_image_super_resolution' | relative_url }}) points to the same tradeoff:
+Work on [Restoring Vision in Hazy Weather]({{ '/publication/restoring_in_hazy' | relative_url }}), [PromptRR]({{ '/publication/prmptrr_reflection_removal' | relative_url }}), [Visual Style Prompt Learning]({{ '/publication/vsp_face_restoration' | relative_url }}), [Degradation-Aware Frequency-Separated Transformer]({{ '/publication/degradation_aware_super_resolution' | relative_url }}), [UHDRes]({{ '/publication/uhdres_dual_domain_restoration' | relative_url }}), and [EchoSR]({{ '/publication/echosr_lightweight_image_super_resolution' | relative_url }}) can be summarized by the following tradeoff:
 
 $$
 \mathcal{L}
@@ -128,11 +125,11 @@ $$
 
 The last term matters. A restoration model that is accurate but too heavy for high-resolution images is incomplete as a system. A lightweight model that is efficient but destroys texture is also incomplete. The research target is the Pareto frontier between quality, robustness, and cost.
 
-This is where frequency-domain and context-harnessing ideas become valuable. Frequency separation helps distinguish structural components from details. Local, multi-scale, and global context can reduce hallucination while keeping computation manageable. In my view, the next generation of restoration models will be judged less by a single benchmark number and more by how gracefully they handle resolution, degradation diversity, latency, and memory.
+Frequency separation helps distinguish structural components from fine details. Local, multi-scale, and global context can reduce unsupported detail while keeping computation manageable. Evaluation should therefore include resolution, degradation diversity, latency, and memory, rather than relying on a single benchmark score.
 
-## 5. Parameter-Efficient Adaptation Is a Systems Idea, Not Just a Training Trick
+## 5. Parameter-Efficient Adaptation Is Also a Systems Problem
 
-Large pretrained models are becoming the infrastructure of AI research. That changes the role of learning. Instead of training every model from scratch, we often need to adapt a strong base model under constraints:
+Large pretrained models are often adapted rather than trained from scratch. This can be written as:
 
 $$
 W' = W_0 + \Delta W.
@@ -144,13 +141,13 @@ $$
 \Delta W \approx \sum_{k=1}^{K} A_k B_k C_k.
 $$
 
-The broader idea is that adaptation should match the intrinsic structure of pretrained weights. If the representation already contains multiple useful directions, an efficient update should not force all tasks into one narrow subspace. This is related to a larger theme in my work: good systems find the right factorization.
+The update structure should match the useful structure already present in pretrained weights. If the representation contains multiple useful directions, an efficient update should not force every task into one narrow subspace.
 
 The same principle appears in restoration, where we factorize frequency and spatial signals; in editing, where we separate edited and preserved regions; in recognition, where category structure regularizes feature learning; and in synthetic sequence generation, where numerical and categorical distributions may need different transformations before entering a generative process.
 
-## 6. Multimodal and Assistive Vision Require Closed-Loop Thinking
+## 6. Assistive Vision Requires System-Level Evaluation
 
-My work on [wearable-camera blink detection]({{ '/publication/spatial_temporal_aware_blinking' | relative_url }}), [dual-eye collaborative eyeblink detection]({{ '/publication/dual_eye_blink' | relative_url }}), [biosignals-free prosthetic hand control]({{ '/publication/biosignals_free_hand_control' | relative_url }}), and [simulation-driven imitation learning for prosthetic grasping]({{ '/publication/simulation_driven_imitation_learning_prosthetic_grasping' | relative_url }}) pushed my thinking beyond image quality.
+Work on [wearable-camera blink detection]({{ '/publication/spatial_temporal_aware_blinking' | relative_url }}), [dual-eye collaborative eyeblink detection]({{ '/publication/dual_eye_blink' | relative_url }}), [biosignals-free prosthetic hand control]({{ '/publication/biosignals_free_hand_control' | relative_url }}), and [simulation-driven imitation learning for prosthetic grasping]({{ '/publication/simulation_driven_imitation_learning_prosthetic_grasping' | relative_url }}) requires evaluation beyond image quality or frame-level accuracy.
 
 In these problems, the output affects a human-facing system. Prediction is part of a loop. A model must be robust not only in a test set, but also in timing, uncertainty, and interaction. This creates a different evaluation mindset:
 
@@ -159,45 +156,30 @@ In these problems, the output affects a human-facing system. Prediction is part 
 - Can simulation close the data gap without creating unrealistic policies?
 - Is the output useful for a downstream decision, not just visually or numerically plausible?
 
-This connects naturally to applied ML engineering. In production systems, the model is not the product by itself. The product is the model plus data flow, monitoring, latency, reliability, interfaces, and failure handling.
+The same requirement applies to production machine learning. A deployed system includes the model, data flow, monitoring, latency, interfaces, and failure handling.
 
-## 7. From Generative Vision to Applied ML Systems
+## 7. Production Constraints Change the Research Question
 
-The move from generative vision research to applied ML engineering made one lesson very concrete: model quality and system quality are not separable.
+Model quality and system quality cannot be evaluated separately in applied machine learning.
 
 For example, [StDDPM]({{ '/publication/stddpm_financial_synthetic_data' | relative_url }}) studies synthetic sequential financial data generation with a Student t-distribution based diffusion process. This is not simply a "generate more data" problem. Financial sequences can be heavy-tailed, mixed-type, and privacy-sensitive. A useful synthetic generator must preserve temporal dependence and distributional behavior while reducing exposure of sensitive records.
 
-That leads to a more general research question:
+For this type of application, generative quality is only one requirement. The system must also provide suitable control, computational efficiency, privacy protection, and reliable evaluation. Larger models do not remove these requirements.
 
-$$
-\text{Useful AI} =
-\text{generative quality}
-\cap
-\text{control}
-\cap
-\text{efficiency}
-\cap
-\text{trust}.
-$$
+## Practical Design Principles
 
-This is the direction I care about most now. The next wave of multimodal and generative AI will not be defined only by bigger models. It will be defined by whether we can build systems that are controllable enough for users, efficient enough for real workloads, and reliable enough for high-stakes environments.
+The projects above suggest four practical principles:
 
-## What I Would Tell My Earlier Self
+- **Start from the failure mode.** A new architecture is useful only when it addresses a specific problem in the current assumptions or pipeline.
 
-If I could compress the past few years of research into a few notes, I would write them as follows.
+- **Use priors for a clear reason.** A prior should remove a known ambiguity, such as identity drift, layout damage, or unsupported texture.
 
-First, do not treat architecture as the main contribution by default. The real contribution is often the mismatch you identify between a task and existing assumptions.
+- **Include efficiency in the method design.** Memory, latency, and resolution determine whether a method can be used in practice.
 
-Second, do not add priors because they sound elegant. Add priors because they remove a specific ambiguity.
+- **Evaluate the intended operating conditions.** High-resolution editing should be tested at high resolution. Prosthetic control should include interaction and timing. Financial synthetic data should be checked for temporal and distributional behavior.
 
-Third, efficiency is not an afterthought. It changes what problems are solvable, especially in high-resolution vision and applied systems.
+These principles are simple, but they affect dataset design, model structure, loss functions, experiments, and deployment decisions.
 
-Fourth, evaluation should stress the intended deployment regime. If the method is designed for 8K editing, test high resolution. If it is designed for prosthetic autonomy, think about interaction. If it is designed for financial synthetic data, inspect distributional behavior, not only sample realism.
+## Conclusion
 
-Finally, the most interesting research often sits at the boundary between modeling and systems. A method becomes meaningful when it survives constraints.
-
-## Closing
-
-This blog will be a place for paper notes, implementation details, research reflections, and engineering lessons. I expect many posts will be narrower and more technical than this one. But starting with the big picture is useful: my work develops scalable multimodal and generative AI systems that combine priors, controllability, efficiency, and deployment awareness.
-
-That is the throughline I see from pixels to systems.
+The methods discussed here cover different tasks, but they face similar engineering questions. Useful systems need task-specific structure, clear control signals, efficient computation, and evaluation that reflects real operating conditions. These requirements become more important as models move to higher resolutions, larger pretrained backbones, multimodal inputs, and production settings.
