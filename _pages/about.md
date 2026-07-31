@@ -1129,6 +1129,10 @@ redirect_from:
       </li>
       <li>
         <time>Jul. 2026</time>
+        <span>I presented our work on cross-scale ensemble feature selection to an audience of more than 60 attendees. We introduced a new feature selection algorithm that achieved competitive performance on the CFML dataset while removing 77.2% of the input features.</span>
+      </li>
+      <li>
+        <time>Jul. 2026</time>
         <span>Our paper "<a href="{{ '/publication/tuning_free_latent_diffusion_editing' | relative_url }}">Tuning-Free Latent Diffusion Models for Ultrahigh-Resolution Image Editing</a>" has been published in IEEE Transactions on Neural Networks and Learning Systems, 1-15. Source code is available on <a href="https://github.com/LonglongaaaGo/UltraDiffEdit">GitHub</a>.</span>
       </li>
       <li>
