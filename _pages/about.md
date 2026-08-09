@@ -980,13 +980,13 @@ redirect_from:
     <div class="wl-overview">
       <p class="wl-overview-copy">My work develops applied multimodal intelligence across generative image editing, image restoration, super-resolution, efficient adaptation, assistive vision, and production machine learning. The unifying goal is to build models that preserve structure, remain controllable at high resolution, adapt efficiently, and operate reliably under real system constraints.</p>
       <button class="wl-overview-visual" type="button" data-overview-zoom-open aria-controls="research-overview-expanded" aria-expanded="false" aria-label="Open research overview image in a larger view">
-        <img src="{{ '/images/research-overview.svg' | relative_url }}" alt="Research overview map covering 28 publications across generative vision, restoration, efficient adaptation, assistive vision, and applied ML systems">
+        <img src="{{ '/images/research-overview.svg' | relative_url }}" alt="Research overview map covering 29 publications across generative vision, restoration, efficient adaptation, assistive vision, and applied ML systems">
         <span class="wl-zoom-icon" aria-hidden="true"></span>
       </button>
       <div id="research-overview-expanded" class="wl-lightbox" role="dialog" aria-modal="true" aria-label="Enlarged research overview image" hidden>
         <button class="wl-lightbox-backdrop" type="button" data-overview-zoom-close aria-label="Close enlarged research overview image"></button>
         <div class="wl-lightbox-frame">
-          <img src="{{ '/images/research-overview.svg' | relative_url }}" alt="Research overview map covering 28 publications across generative vision, restoration, efficient adaptation, assistive vision, and applied ML systems">
+          <img src="{{ '/images/research-overview.svg' | relative_url }}" alt="Research overview map covering 29 publications across generative vision, restoration, efficient adaptation, assistive vision, and applied ML systems">
         </div>
         <button class="wl-lightbox-close" type="button" data-overview-zoom-close aria-label="Close enlarged research overview image">x</button>
       </div>
@@ -1128,12 +1128,16 @@ redirect_from:
         <span>I am currently working at Nasdaq as a Senior Data Scientist.</span>
       </li>
       <li>
+        <time>Aug. 2026</time>
+        <span>Our paper "<a href="{{ '/publication/docpure_unified_document_restoration' | relative_url }}">DocPure: Prompt-Free Unified Document Restoration via Degradation-Aware Structure-Guided Wavelet Modulation</a>" has been published in IEEE Transactions on Circuits and Systems for Video Technology. The paper is available on <a href="https://ieeexplore.ieee.org/document/11643289">IEEE Xplore</a>, and the implementation is available on <a href="https://github.com/LingmingSSS/DocPure">GitHub</a>.</span>
+      </li>
+      <li>
         <time>Jul. 2026</time>
         <span>I presented our work on cross-scale ensemble feature selection to an audience of more than 60 attendees. We introduced a new feature selection algorithm that achieved competitive performance on the CFML dataset while removing 77.2% of the input features.</span>
       </li>
       <li>
         <time>Jul. 2026</time>
-        <span>Our paper "<a href="{{ '/publication/tuning_free_latent_diffusion_editing' | relative_url }}">Tuning-Free Latent Diffusion Models for Ultrahigh-Resolution Image Editing</a>" has been published in IEEE Transactions on Neural Networks and Learning Systems, 1-15, and is now available on <a href="https://ieeexplore.ieee.org/document/11643289">IEEE Xplore</a>. Source code is available on <a href="https://github.com/LonglongaaaGo/UltraDiffEdit">GitHub</a>.</span>
+        <span>Our paper "<a href="{{ '/publication/tuning_free_latent_diffusion_editing' | relative_url }}">Tuning-Free Latent Diffusion Models for Ultrahigh-Resolution Image Editing</a>" has been published in IEEE Transactions on Neural Networks and Learning Systems, 1-15. Source code is available on <a href="https://github.com/LonglongaaaGo/UltraDiffEdit">GitHub</a>.</span>
       </li>
       <li>
         <time>Jul. 2026</time>

@@ -10,7 +10,7 @@ permalink: /publication/tuning_free_latent_diffusion_editing
 excerpt: '**Wanglong Lu**, Lingming Su, Kaijie Shi, Minglun Gong, Xiaogang Jin, Hanli Zhao, Xianta Jiang'
 date: 2026-07-02
 venue: 'IEEE Transactions on Neural Networks and Learning Systems, 1-15'
-paperurl: 'https://ieeexplore.ieee.org/document/11643289'
+paperurl: 'https://arxiv.org/abs/2607.06136'
 pdfurl: 'https://arxiv.org/pdf/2607.06136'
 htmlurl: 'https://arxiv.org/html/2607.06136v1'
 doiurl: 'https://doi.org/10.1109/TNNLS.2026.3707463'
@@ -33,7 +33,7 @@ description: 'UltraDiffEdit extends off-the-shelf latent diffusion models to tun
   <li>Patch-based hybrid sampling to combine local, intermediate, and global context; demonstrated up to 8K resolution on a single NVIDIA RTX 3090 GPU.</li>
 </ul>
 
-[[paper]](https://ieeexplore.ieee.org/document/11643289)
+[[paper]](https://arxiv.org/abs/2607.06136)
 [[pdf]](https://arxiv.org/pdf/2607.06136)
 [[html]](https://arxiv.org/html/2607.06136v1)
 [[doi]](https://doi.org/10.1109/TNNLS.2026.3707463)
