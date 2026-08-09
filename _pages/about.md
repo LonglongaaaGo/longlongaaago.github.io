@@ -1133,7 +1133,7 @@ redirect_from:
       </li>
       <li>
         <time>Jul. 2026</time>
-        <span>Our paper "<a href="{{ '/publication/tuning_free_latent_diffusion_editing' | relative_url }}">Tuning-Free Latent Diffusion Models for Ultrahigh-Resolution Image Editing</a>" has been published in IEEE Transactions on Neural Networks and Learning Systems, 1-15. Source code is available on <a href="https://github.com/LonglongaaaGo/UltraDiffEdit">GitHub</a>.</span>
+        <span>Our paper "<a href="{{ '/publication/tuning_free_latent_diffusion_editing' | relative_url }}">Tuning-Free Latent Diffusion Models for Ultrahigh-Resolution Image Editing</a>" has been published in IEEE Transactions on Neural Networks and Learning Systems, 1-15, and is now available on <a href="https://ieeexplore.ieee.org/document/11643289">IEEE Xplore</a>. Source code is available on <a href="https://github.com/LonglongaaaGo/UltraDiffEdit">GitHub</a>.</span>
       </li>
       <li>
         <time>Jul. 2026</time>

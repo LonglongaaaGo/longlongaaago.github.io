@@ -10,9 +10,10 @@ permalink: /publication/tuning_free_latent_diffusion_editing
 excerpt: '**Wanglong Lu**, Lingming Su, Kaijie Shi, Minglun Gong, Xiaogang Jin, Hanli Zhao, Xianta Jiang'
 date: 2026-07-02
 venue: 'IEEE Transactions on Neural Networks and Learning Systems, 1-15'
-paperurl: 'https://arxiv.org/abs/2607.06136'
+paperurl: 'https://ieeexplore.ieee.org/document/11643289'
 pdfurl: 'https://arxiv.org/pdf/2607.06136'
 htmlurl: 'https://arxiv.org/html/2607.06136v1'
+doiurl: 'https://doi.org/10.1109/TNNLS.2026.3707463'
 code: 'https://github.com/LonglongaaaGo/UltraDiffEdit'
 teaser: 'publications/ultradiffedit_pipeline.png'
 description: 'UltraDiffEdit extends off-the-shelf latent diffusion models to tuning-free real-image editing up to 8K resolution.'
@@ -32,9 +33,10 @@ description: 'UltraDiffEdit extends off-the-shelf latent diffusion models to tun
   <li>Patch-based hybrid sampling to combine local, intermediate, and global context; demonstrated up to 8K resolution on a single NVIDIA RTX 3090 GPU.</li>
 </ul>
 
-[[paper]](https://arxiv.org/abs/2607.06136)
+[[paper]](https://ieeexplore.ieee.org/document/11643289)
 [[pdf]](https://arxiv.org/pdf/2607.06136)
 [[html]](https://arxiv.org/html/2607.06136v1)
+[[doi]](https://doi.org/10.1109/TNNLS.2026.3707463)
 [[github]](https://github.com/LonglongaaaGo/UltraDiffEdit)
 
 Recommended citation:
@@ -45,6 +47,7 @@ Recommended citation:
   author={Lu, Wanglong and Su, Lingming and Shi, Kaijie and Gong, Minglun and Jin, Xiaogang and Zhao, Hanli and Jiang, Xianta},
   journal={IEEE Transactions on Neural Networks and Learning Systems},
   pages={1--15},
+  doi={10.1109/TNNLS.2026.3707463},
   year={2026}
 }
 ```
