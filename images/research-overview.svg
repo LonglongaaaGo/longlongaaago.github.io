@@ -51,7 +51,7 @@
 
   <text class="mono tiny green" x="76" y="58">// research overview</text>
   <text class="sans h1 ink" x="76" y="106">Research Portfolio Map</text>
-  <text class="sans body muted" x="78" y="138">Generative vision, restoration, efficient adaptation, assistive vision, and production ML.</text>
+  <text class="sans body muted" x="78" y="138">Generative vision, document AI, restoration, efficient adaptation, and production ML.</text>
 
   <g transform="translate(850 48)">
     <rect class="panel-soft" width="118" height="66" rx="10"/>
@@ -61,12 +61,12 @@
   <g transform="translate(982 48)">
     <rect class="panel-soft" width="118" height="66" rx="10"/>
     <text class="mono tiny muted" x="16" y="25">lead author</text>
-    <text class="sans h2 green" x="16" y="54">8</text>
+    <text class="sans h2 green" x="16" y="54">9</text>
   </g>
   <g transform="translate(1114 48)">
     <rect class="panel-soft" width="118" height="66" rx="10"/>
     <text class="mono tiny muted" x="16" y="25">IEEE trans.</text>
-    <text class="sans h2 red" x="16" y="54">4</text>
+    <text class="sans h2 red" x="16" y="54">5</text>
   </g>
   <g transform="translate(1246 48)">
     <rect class="panel-soft" width="118" height="66" rx="10"/>
@@ -114,8 +114,8 @@
     <circle cx="56" cy="60" r="9" fill="#ffffff"/>
     <text class="sans h2 ink" x="106" y="48">Restoration and</text>
     <text class="sans h2 ink" x="106" y="78">Super-Resolution</text>
-    <text class="sans small muted" x="24" y="118">UHDRes, EchoSR, VSPBFR, Hazy</text>
-    <text class="sans small muted" x="24" y="143">dual-domain priors and lightweight SR</text>
+    <text class="sans small muted" x="24" y="118">DocPure, UHDRes, EchoSR, VSPBFR, Hazy</text>
+    <text class="sans small muted" x="24" y="143">document AI, spectral priors, lightweight SR</text>
     <rect class="red" x="24" y="164" width="78" height="24" rx="6"/>
     <text class="sans tag" x="42" y="181">TCSVT</text>
     <rect class="green" x="112" y="164" width="98" height="24" rx="6"/>

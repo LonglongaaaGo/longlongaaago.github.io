@@ -978,7 +978,7 @@ redirect_from:
       <h2 id="overview">// research overview</h2>
     </div>
     <div class="wl-overview">
-      <p class="wl-overview-copy">My work develops applied multimodal intelligence across generative image editing, image restoration, super-resolution, efficient adaptation, assistive vision, and production machine learning. The unifying goal is to build models that preserve structure, remain controllable at high resolution, adapt efficiently, and operate reliably under real system constraints.</p>
+      <p class="wl-overview-copy">My work develops applied multimodal intelligence across generative image editing, document restoration, image restoration, super-resolution, efficient adaptation, assistive vision, and production machine learning. The unifying goal is to build models that preserve structure, remain controllable at high resolution, adapt efficiently, and operate reliably under real system constraints.</p>
       <button class="wl-overview-visual" type="button" data-overview-zoom-open aria-controls="research-overview-expanded" aria-expanded="false" aria-label="Open research overview image in a larger view">
         <img src="{{ '/images/research-overview.svg' | relative_url }}" alt="Research overview map covering 29 publications across generative vision, restoration, efficient adaptation, assistive vision, and applied ML systems">
         <span class="wl-zoom-icon" aria-hidden="true"></span>
