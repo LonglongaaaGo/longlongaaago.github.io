@@ -10,6 +10,10 @@ excerpt: '**Lingming Su**, **Wanglong Lu**, Tao Wang, Kaihao Zhang, Nan Zhang, L
 date: 2026-08-01
 venue: 'IEEE Transactions on Circuits and Systems for Video Technology, 2026'
 paperurl: 'https://ieeexplore.ieee.org/document/11643289'
+arxivurl: 'https://arxiv.org/abs/2608.09536'
+pdfurl: 'https://arxiv.org/pdf/2608.09536'
+htmlurl: 'https://arxiv.org/html/2608.09536'
+doiurl: 'https://doi.org/10.1109/TCSVT.2026.3720433'
 code: 'https://github.com/LingmingSSS/DocPure'
 teaser: 'publications/docpure_framework.png'
 description: 'A prompt-free unified document restoration framework that adapts to diverse degradations through structure-aware routing and wavelet-domain feature interaction.'
@@ -27,9 +31,14 @@ description: 'A prompt-free unified document restoration framework that adapts t
   <li>Structure-guided wavelet interaction between spatial and frequency-domain representations.</li>
   <li>Cross-frequency adaptive modulation for recovering high-frequency text details while preserving document structure.</li>
   <li>Unified restoration across deblurring, denoising, compression artifact reduction, and deshadowing.</li>
+  <li>Degradation labels are used as auxiliary training supervision rather than inference-time prompts.</li>
 </ul>
 
 [[paper]](https://ieeexplore.ieee.org/document/11643289)
+[[arxiv]](https://arxiv.org/abs/2608.09536)
+[[pdf]](https://arxiv.org/pdf/2608.09536)
+[[html]](https://arxiv.org/html/2608.09536)
+[[doi]](https://doi.org/10.1109/TCSVT.2026.3720433)
 [[github]](https://github.com/LingmingSSS/DocPure)
 
 Recommended citation:
@@ -39,6 +48,7 @@ Recommended citation:
   title={DocPure: Prompt-Free Unified Document Restoration via Degradation-Aware Structure-Guided Wavelet Modulation},
   author={Su, Lingming and Lu, Wanglong and Wang, Tao and Zhang, Kaihao and Zhang, Nan and An, Liyan and Zhao, Hanli},
   journal={IEEE Transactions on Circuits and Systems for Video Technology},
-  year={2026}
+  year={2026},
+  doi={10.1109/TCSVT.2026.3720433}
 }
 ```

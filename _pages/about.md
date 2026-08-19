@@ -1129,7 +1129,7 @@ redirect_from:
       </li>
       <li>
         <time>Aug. 2026</time>
-        <span>Our paper "<a href="{{ '/publication/docpure_unified_document_restoration' | relative_url }}">DocPure: Prompt-Free Unified Document Restoration via Degradation-Aware Structure-Guided Wavelet Modulation</a>" has been published in IEEE Transactions on Circuits and Systems for Video Technology. The paper is available on <a href="https://ieeexplore.ieee.org/document/11643289">IEEE Xplore</a>, and the implementation is available on <a href="https://github.com/LingmingSSS/DocPure">GitHub</a>.</span>
+        <span>Our paper "<a href="{{ '/publication/docpure_unified_document_restoration' | relative_url }}">DocPure: Prompt-Free Unified Document Restoration via Degradation-Aware Structure-Guided Wavelet Modulation</a>" has been published in IEEE Transactions on Circuits and Systems for Video Technology. The paper is available on <a href="https://ieeexplore.ieee.org/document/11643289">IEEE Xplore</a> and <a href="https://arxiv.org/abs/2608.09536">arXiv</a>, with the implementation available on <a href="https://github.com/LingmingSSS/DocPure">GitHub</a>.</span>
       </li>
       <li>
         <time>Jul. 2026</time>
