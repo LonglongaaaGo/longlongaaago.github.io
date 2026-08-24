@@ -8,11 +8,14 @@ tags:
   - family
   - memory
   - life
+teaser: posts/if-time-could-wait-two-days.png
 excerpt: "谨以此文，纪念我的奶奶。"
 comments: false
 related: false
 share: false
 ---
+
+![如果时光能再等我两天]({{ '/images/posts/if-time-could-wait-two-days.png' | relative_url }})
 
 奶奶去世了。
 
