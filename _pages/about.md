@@ -1196,7 +1196,12 @@ redirect_from:
       <h3>Invited Reviewer</h3>
       <p class="wl-meta">2026</p>
       <ul class="wl-service-list" aria-label="Reviewer venues in 2026">
+        <li><a href="https://www.computer.org/csdl/journal/tp">IEEE TPAMI</a></li>
+        <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046">IEEE Transactions on Multimedia</a></li>
         <li><a href="https://www.sciencedirect.com/journal/pattern-recognition">Pattern Recognition</a></li>
+        <li><a href="https://www.sciencedirect.com/journal/applied-soft-computing">Applied Soft Computing</a></li>
+        <li><a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence">Engineering Applications of Artificial Intelligence</a></li>
+        <li><a href="https://www.nature.com/srep/">Scientific Reports</a></li>
         <li><a href="https://www.sciencedirect.com/journal/neurocomputing">Neurocomputing</a></li>
         <li><a href="https://www.sciencedirect.com/journal/knowledge-based-systems">Knowledge-Based Systems</a></li>
         <li><a href="https://eccv.ecva.net/Conferences/2026">ECCV 2026</a></li>
@@ -1206,7 +1211,7 @@ redirect_from:
     <details class="wl-details">
       <summary>Invited Reviewer</summary>
       <ol>
-        <li>2026: <a href="https://www.sciencedirect.com/journal/neurocomputing">Neurocomputing</a>, <a href="https://www.sciencedirect.com/journal/pattern-recognition">Pattern Recognition</a>, <a href="https://eccv.ecva.net/Conferences/2026">ECCV 2026</a>, <a href="https://www.sciencedirect.com/journal/knowledge-based-systems">KBS</a></li>
+        <li>2026: <a href="https://www.computer.org/csdl/journal/tp">TPAMI</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046">TMM</a>, <a href="https://www.sciencedirect.com/journal/pattern-recognition">Pattern Recognition</a>, <a href="https://www.sciencedirect.com/journal/applied-soft-computing">Applied Soft Computing</a>, <a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence">EAAI</a>, <a href="https://www.nature.com/srep/">Scientific Reports</a>, <a href="https://www.sciencedirect.com/journal/neurocomputing">Neurocomputing</a>, <a href="https://www.sciencedirect.com/journal/knowledge-based-systems">KBS</a>, <a href="https://eccv.ecva.net/Conferences/2026">ECCV 2026</a></li>
         <li>2025: <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83">TIP</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046">TMM</a>, <a href="https://www.sciencedirect.com/journal/pattern-recognition">Pattern Recognition</a>, <a href="https://www.sciencedirect.com/journal/neurocomputing">Neurocomputing</a>, <a href="http://solidmodeling.org/call-for-papers-cad-graphics-2025/">CAD/Graphics 2025</a>, <a href="https://link.springer.com/journal/40436">Advances in Manufacturing</a>, <a href="https://link.springer.com/journal/11760">Signal, Image and Video Processing</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=97">IEEE Signal Processing Letters</a>, <a href="https://link.springer.com/journal/530">Multimedia Systems</a>, <a href="https://link.springer.com/journal/13042">Journal of Machine Learning and Cybernetics</a></li>
         <li>2024: <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046">TMM</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76">TCSVT</a>, <a href="https://www.sciencedirect.com/journal/knowledge-based-systems">KBS</a>, <a href="https://link.springer.com/journal/10916">Journal of Medical Systems</a>, <a href="https://link.springer.com/journal/10586">Cluster Computing</a>, <a href="https://www.sciencedirect.com/journal/journal-of-visual-communication-and-image-representation">JVCI</a>, <a href="https://www.sciencedirect.com/journal/displays">Displays</a>, <a href="https://link.springer.com/journal/371">Visual Computer</a>, <a href="https://www.petmei.org/2024/index.html">ETRA 2024 PETMEI</a></li>
       </ol>

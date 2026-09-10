@@ -26,7 +26,7 @@ redirect_from:
 <!-- 纽芬兰纪念大学普适计算和机器学习研究实验室([UCML](https://sites.google.com/view/ucmi/home) )博士生。 -->
 
 <div style="text-align: justify">
-卢望龙现担任加拿大纳斯达克人工智能/分析领域高级数据科学家。2021年获温州大学计算机工学硕士学位，2025年获纽芬兰纪念大学计算机博士学位，研究方向为模式识别、图像编辑与重建、参数高效微调以及可扩展多模态/生成式 AI 系统。已联合发表20余篇高水平论文，涵盖TVCG、ECCV、Pattern Recognition、CVMJ、TNNLS、TCSVT、Information Fusion 等期刊和会议，并获得4项国家发明专利授权。同时担任TIP、TMM、TCSVT、Pattern Recognition、Neurocomputing、KBS、JVCI、Displays等国际期刊和会议的审稿人。 </div>
+卢望龙现担任加拿大纳斯达克人工智能/分析领域高级数据科学家。2021年获温州大学计算机工学硕士学位，2025年获纽芬兰纪念大学计算机博士学位，研究方向为模式识别、图像编辑与重建、参数高效微调以及可扩展多模态/生成式 AI 系统。已联合发表20余篇高水平论文，涵盖TVCG、ECCV、Pattern Recognition、CVMJ、TNNLS、TCSVT、Information Fusion 等期刊和会议，并获得4项国家发明专利授权。同时担任TPAMI、TMM、TIP、TCSVT、Pattern Recognition、Applied Soft Computing、EAAI、Scientific Reports、Neurocomputing、KBS、JVCI、Displays等国际期刊和会议的审稿人。 </div>
 
 教育背景
 ======
