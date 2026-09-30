@@ -60,8 +60,9 @@ $(document).ready(function(){
   // init smooth scroll
   $("a").smoothScroll({offset: -20});
 
-  // add lightbox class to all image links
-  $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
+  // Keep downloads and dedicated dialog controls out of the image lightbox.
+  $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']")
+    .not("[download], [aria-haspopup='dialog']").addClass("image-popup");
 
   // Magnific-Popup options
   $(".image-popup").magnificPopup({

@@ -12,6 +12,12 @@ date: 2025-02-07
 venue: 'Neurocomputing 617, 128996'
 paperurl: 'https://arxiv.org/abs/2202.06358'
 code: 'https://github.com/LonglongaaaGo/EXE-GAN'
+video: 'https://www.youtube.com/watch?v=nNEc94hgjtk'
+video_title: 'Do Inpainting Yourself: Exemplar-Guided Facial Inpainting'
+video_duration: '5:01'
+video_thumbnail: 'videos/exe-gan.jpg'
+video_summary: 'Reference images guide facial attributes in missing regions while retaining the visible parts of the input.'
+video_application: 'Reference-guided portrait reconstruction'
 teaser: 'https://longlongaaago.github.io/images/publications/exe_celeba_diverse.png'
 description: 'An exemplar-guided facial inpainting framework that transfers exemplar-like facial attributes while preserving image quality.'
 

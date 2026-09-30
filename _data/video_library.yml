@@ -1,0 +1,10 @@
+channels:
+  youtube: "https://www.youtube.com/@wanglonglu4534"
+  bilibili: "https://space.bilibili.com/11712516"
+  wechat:
+    name: "LonglongaaaGo"
+    qr_code: "videos/wechat-channels.jpg"
+
+# Research demos are read directly from each publication's video metadata.
+# Add talks and standalone applied highlights here; see _drafts/video-guide.md.
+highlights: []

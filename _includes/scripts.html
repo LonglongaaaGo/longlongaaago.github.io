@@ -1,5 +1,6 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 <script src="{{ base_path }}/assets/js/wl-image-zoom.js"></script>
+{% if page.video_library %}<script src="{{ '/assets/js/wl-video-player.js' | relative_url }}"></script>{% endif %}
 
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}

@@ -13,6 +13,11 @@ date: 2024-07-26
 venue: 'IEEE Transactions on Visualization and Computer Graphics'
 paperurl: 'https://arxiv.org/abs/2412.19009'
 video: 'https://www.youtube.com/watch?v=O5r40NIXUcM'
+video_title: 'FACEMUG: Multimodal Local Facial Editing'
+video_duration: '9:56'
+video_thumbnail: 'videos/facemug.jpg'
+video_summary: 'Local facial edits guided by text, sketches, semantic maps, colors, and exemplar images.'
+video_application: 'Multimodal controls for portrait editing'
 teaser: 'https://longlongaaago.github.io/images/publications/facemug_teaser.png'
 description: 'A multimodal generative framework for globally consistent local facial editing with fine-grained semantic control.'
 

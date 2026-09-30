@@ -1,0 +1,53 @@
+---
+layout: archive
+title: "Videos"
+permalink: /videos/
+author_profile: false
+hide_title: true
+video_library: true
+---
+
+<header class="wl-video-header">
+  <p class="wl-page-kicker">// videos</p>
+  <h1>Videos &amp; Research Demos</h1>
+  <p>Generative vision, multimodal editing, and image reconstruction.</p>
+  <nav class="wl-toolbar wl-video-channels" aria-label="Video channels">
+    <a href="{{ site.data.video_library.channels.youtube }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube" aria-hidden="true"></i>YouTube</a>
+    <a href="{{ site.data.video_library.channels.bilibili }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-tv" aria-hidden="true"></i>Bilibili</a>
+    {% if site.data.video_library.channels.wechat.qr_code %}
+      <a href="{{ site.data.video_library.channels.wechat.qr_code | prepend: '/images/' | relative_url }}" data-wechat-channel aria-haspopup="dialog" aria-controls="wechat-channel"><i class="fab fa-weixin" aria-hidden="true"></i>WeChat Channels</a>
+    {% endif %}
+  </nav>
+</header>
+
+{% assign video_publications = site.publications | sort: 'selection_score' | reverse %}
+<section class="wl-video-section" aria-labelledby="research-demos">
+  <div class="wl-video-section-heading">
+    <h2 id="research-demos">Research Demos</h2>
+    <a href="{{ '/publications/' | relative_url }}">All publications <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+  </div>
+  <div class="wl-video-grid">
+    {% for publication in video_publications %}
+      {% if publication.video or publication.bilibili_video %}
+        {% include video-card.html video=publication publication=publication %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+{% if site.data.video_library.highlights.size > 0 %}
+  <section class="wl-video-section" aria-labelledby="talks-highlights">
+    <div class="wl-video-section-heading">
+      <h2 id="talks-highlights">Talks &amp; Applied Highlights</h2>
+    </div>
+    <div class="wl-video-grid">
+      {% assign highlights = site.data.video_library.highlights | sort: 'date' | reverse %}
+      {% for highlight in highlights %}
+        {% include video-card.html video=highlight %}
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}
+
+{% include video-player.html %}
+{% if site.data.video_library.channels.wechat.qr_code %}{% include wechat-channel.html %}{% endif %}

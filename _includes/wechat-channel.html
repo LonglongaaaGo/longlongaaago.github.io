@@ -1,0 +1,12 @@
+{% assign wechat = site.data.video_library.channels.wechat %}
+{% assign wechat_qr = wechat.qr_code | prepend: '/images/' | relative_url %}
+<dialog class="wl-video-dialog wl-wechat-dialog wl-no-zoom" id="wechat-channel" aria-labelledby="wechat-channel-title">
+  <div class="wl-video-dialog-header">
+    <h2 id="wechat-channel-title">WeChat Channels</h2>
+    <button type="button" class="wl-video-close" aria-label="Close WeChat Channels" title="Close WeChat Channels"><i class="fas fa-times" aria-hidden="true"></i></button>
+  </div>
+  <img class="wl-wechat-qr" src="{{ wechat_qr }}" alt="{{ wechat.name | escape }} WeChat Channels profile QR code" width="716" height="960" loading="lazy">
+  <div class="wl-wechat-actions">
+    <a class="wl-video-action" href="{{ wechat_qr }}" download="wechat-channels.jpg"><i class="fas fa-download" aria-hidden="true"></i>Save QR Code</a>
+  </div>
+</dialog>

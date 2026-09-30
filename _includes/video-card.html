@@ -1,0 +1,57 @@
+{% assign clip = include.video %}
+{% assign related_publication = include.publication %}
+{% if clip.publication and related_publication == nil %}
+  {% assign related_publication = site.publications | where: 'permalink', clip.publication | first %}
+{% endif %}
+{% assign clip_title = clip.video_title | default: clip.title %}
+{% assign watch_url = clip.video | default: clip.bilibili_video %}
+{% assign clip_thumbnail = clip.video_thumbnail | default: clip.teaser %}
+{% if clip_thumbnail == nil and clip.video %}
+  {% if clip.video contains 'youtube.com/watch' %}
+    {% assign youtube_id = clip.video | split: 'v=' | last | split: '&' | first %}
+  {% elsif clip.video contains 'youtu.be/' %}
+    {% assign youtube_id = clip.video | split: 'youtu.be/' | last | split: '?' | first %}
+  {% elsif clip.video contains 'youtube.com/shorts/' %}
+    {% assign youtube_id = clip.video | split: 'shorts/' | last | split: '?' | first %}
+  {% elsif clip.video contains 'youtube.com/embed/' %}
+    {% assign youtube_id = clip.video | split: 'embed/' | last | split: '?' | first %}
+  {% else %}
+    {% assign youtube_id = nil %}
+  {% endif %}
+  {% if youtube_id %}
+    {% capture clip_thumbnail %}https://i.ytimg.com/vi/{{ youtube_id }}/hqdefault.jpg{% endcapture %}
+  {% endif %}
+{% endif %}
+{% if include.publication %}
+  {% assign clip_id = related_publication.permalink | slugify %}
+{% else %}
+  {% assign clip_id = clip.id | default: clip.title | slugify %}
+{% endif %}
+
+<article class="wl-video-card" id="{{ clip_id }}">
+  <a class="wl-video-media" href="{{ watch_url | escape }}" data-video-play data-video-title="{{ clip_title | escape }}" aria-label="Play {{ clip_title | escape }}">
+    {% if clip_thumbnail %}
+      <img src="{% if clip_thumbnail contains '://' %}{{ clip_thumbnail }}{% else %}{{ clip_thumbnail | prepend: '/images/' | relative_url }}{% endif %}" alt="" width="1280" height="720" loading="lazy">
+    {% endif %}
+    <span class="wl-video-play" aria-hidden="true"><i class="fas fa-play"></i></span>
+    {% if clip.video_duration %}<span class="wl-video-duration">{{ clip.video_duration }}</span>{% endif %}
+  </a>
+  <div class="wl-video-body">
+    <p class="wl-video-meta">{{ clip.video_type | default: 'Research Demo' }}{% if related_publication.venue %} <span aria-hidden="true">/</span> {{ related_publication.selected_badge | default: related_publication.venue }}{% endif %}</p>
+    <h3><a href="{{ watch_url | escape }}" data-video-play data-video-title="{{ clip_title | escape }}">{{ clip_title }}</a></h3>
+    {% assign clip_summary = clip.video_summary | default: clip.description %}
+    {% if clip_summary %}<p class="wl-video-summary">{{ clip_summary }}</p>{% endif %}
+    {% if clip.video_application %}<p class="wl-video-application"><i class="fas fa-flask" aria-hidden="true"></i>{{ clip.video_application }}</p>{% endif %}
+    <div class="wl-video-actions">
+      <a class="wl-video-action wl-video-action-primary" href="{{ watch_url | escape }}" data-video-play data-video-title="{{ clip_title | escape }}"><i class="fas fa-play" aria-hidden="true"></i>Watch</a>
+      {% if related_publication %}
+        <a class="wl-video-action" href="{{ related_publication.url | relative_url }}"><i class="fas fa-file-alt" aria-hidden="true"></i>Publication</a>
+        {% if related_publication.paperurl %}<a class="wl-video-action" href="{{ related_publication.paperurl }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-book-open" aria-hidden="true"></i>Paper</a>{% endif %}
+        {% if related_publication.code %}<a class="wl-video-action" href="{{ related_publication.code }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i>Code</a>{% endif %}
+        {% if related_publication.project_page %}<a class="wl-video-action" href="{{ related_publication.project_page }}"><i class="fas fa-external-link-alt" aria-hidden="true"></i>Project</a>{% endif %}
+      {% endif %}
+      {% if clip.video %}<a class="wl-video-platform" href="{{ clip.video }}" target="_blank" rel="noopener noreferrer">YouTube <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>{% endif %}
+      {% if clip.bilibili_video %}<a class="wl-video-platform" href="{{ clip.bilibili_video }}" target="_blank" rel="noopener noreferrer">Bilibili <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>{% endif %}
+    </div>
+  </div>
+</article>

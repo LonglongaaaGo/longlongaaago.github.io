@@ -889,6 +889,7 @@ redirect_from:
     <div class="wl-nav">
       <a href="{{ '/' | relative_url }}">Home</a>
       <a href="{{ '/publications/' | relative_url }}">Publications</a>
+      <a href="{{ '/videos/' | relative_url }}">Videos</a>
       <a href="{{ '/cv/' | relative_url }}">CV</a>
       <a href="{{ '/chinese_cv/' | relative_url }}">中文简历</a>
       <a href="https://scholar.google.com/citations?user=TuxCf4UAAAAJ&amp;hl=en&amp;authuser=1">Scholar</a>
@@ -1011,6 +1012,7 @@ redirect_from:
           </div>
           <div class="wl-system-links">
             <a href="{{ '/publication/tuning_free_latent_diffusion_editing' | relative_url }}">Details</a>
+            <a href="{{ '/videos/#publication-tuning-free-latent-diffusion-editing' | relative_url }}">Video</a>
             <a href="https://github.com/LonglongaaaGo/UltraDiffEdit">Code</a>
           </div>
         </div>

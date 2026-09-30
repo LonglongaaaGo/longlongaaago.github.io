@@ -56,6 +56,14 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+        {% if page.collection == 'publications' %}
+          {% if page.video or page.bilibili_video %}
+            <div class="wl-toolbar">
+              {% assign video_anchor = page.permalink | slugify %}
+              <a href="{{ '/videos/#' | append: video_anchor | relative_url }}"><i class="fas fa-play" aria-hidden="true"></i>Watch demo</a>
+            </div>
+          {% endif %}
+        {% endif %}
         {% if page.collection == 'posts' %}{% include post-method-links.html %}{% endif %}
         {{ content }}
         {% if page.collection == 'posts' %}{% include post-resources.html %}{% endif %}

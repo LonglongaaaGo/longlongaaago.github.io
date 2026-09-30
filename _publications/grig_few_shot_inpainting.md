@@ -14,6 +14,12 @@ doiurl: 'https://doi.org/10.26599/CVM.2025.9450408'
 arxivurl: 'https://arxiv.org/abs/2304.12035'
 pdfurl: 'https://arxiv.org/pdf/2304.12035'
 project_page: 'https://longlongaaago.github.io/GRIG_few_shot_inpainting/'
+video: 'https://www.youtube.com/watch?v=czB3VAwhB0o'
+video_title: 'GRIG: Data-Efficient Image Inpainting'
+video_duration: '4:59'
+video_thumbnail: 'videos/grig.jpg'
+video_summary: 'Iterative residual reasoning fills missing image regions when only a small training set is available.'
+video_application: 'Image completion with limited training data'
 teaser: 'https://longlongaaago.github.io/images/publications/few_shot_framework.png'
 
 ---

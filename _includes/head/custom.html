@@ -24,6 +24,10 @@
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
+{% if page.video_library %}
+<link rel="stylesheet" href="{{ '/assets/css/wl-videos.css' | relative_url }}">
+{% endif %}
+
 {% if page.math %}
 <script>
   window.MathJax = {

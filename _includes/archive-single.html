@@ -68,8 +68,9 @@
           {% if post.citation %}
             <a href="{{ post.citation }}">Cite</a>
           {% endif %}
-          {% if post.video %}
-            <a href="{{ post.video }}">Video</a>
+          {% if post.video or post.bilibili_video %}
+            {% assign video_anchor = post.permalink | slugify %}
+            <a href="{{ '/videos/#' | append: video_anchor | relative_url }}">Video</a>
           {% endif %}
           {% if post.code %}
             <a href="{{ post.code }}">Code</a>
