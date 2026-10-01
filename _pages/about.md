@@ -891,6 +891,7 @@ redirect_from:
       <a href="{{ '/publications/' | relative_url }}">Publications</a>
       <a href="{{ '/videos/' | relative_url }}">Videos</a>
       <a href="{{ '/cv/' | relative_url }}">CV</a>
+      <a href="{{ '/cv-pdf/' | relative_url }}">PDF Resume</a>
       <a href="{{ '/chinese_cv/' | relative_url }}">中文简历</a>
       <a href="https://scholar.google.com/citations?user=TuxCf4UAAAAJ&amp;hl=en&amp;authuser=1">Scholar</a>
     </div>
@@ -939,7 +940,7 @@ redirect_from:
       <article class="wl-item">
         <h3>Nasdaq</h3>
         <p class="wl-meta">Senior Data Scientist, AI/Analytics · 2025 - Present</p>
-        <p>Building and applying machine learning systems for financial AI products in production settings.</p>
+        <p>Financial ML workflows, feature selection, and workspace deployment of an existing cross-team ML platform prototype.</p>
       </article>
       <article class="wl-item">
         <h3>Nasdaq Verafin</h3>
@@ -1043,7 +1044,7 @@ redirect_from:
         </div>
         <div class="wl-system-body">
           <h3>Production Financial AI</h3>
-          <p>Building and applying machine learning systems for financial AI products, with emphasis on robustness, evaluation, maintainability, and production constraints.</p>
+          <p>Financial ML and feature selection, alongside deployment of an existing cross-team ML platform prototype into an internal workspace, with PostgreSQL state persistence and FastAPI services on AWS Lambda.</p>
           <div class="wl-evidence" aria-label="Production ML evidence">
             <span>APPLIED ML</span><span>FINANCIAL AI</span><span>RELIABILITY</span>
           </div>

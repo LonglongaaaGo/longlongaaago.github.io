@@ -1,0 +1,181 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\renewcommand{\familydefault}{\sfdefault}
+\definecolor{ink}{HTML}{202A26}
+\definecolor{muted}{HTML}{505A55}
+\hypersetup{colorlinks=true,urlcolor=ink,pdftitle={Wanglong Lu - Curriculum Vitae},pdfauthor={Wanglong Lu}}
+\ifdefined\pdfgentounicode\input{glyphtounicode}\pdfgentounicode=1\fi
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+\setlength{\headheight}{14pt}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\footnotesize\color{muted}Wanglong Lu -- Curriculum Vitae}
+\fancyfoot[R]{\footnotesize\color{muted}\thepage}
+\newcommand{\cvsection}[1]{\par\addvspace{10pt}{\large\bfseries #1}\par\vspace{1pt}\hrule\vspace{4pt}}
+\newcommand{\role}[3]{\par\addvspace{7pt}\textbf{#1}\hfill{\small #2}\par{\small\color{muted}#3}\par}
+\newenvironment{points}{\begin{list}{\textbullet}{\setlength{\leftmargin}{12pt}\setlength{\itemsep}{2pt}\setlength{\parsep}{0pt}\setlength{\topsep}{2pt}}}{\end{list}}
+\newcommand{\pubitem}[4]{\par\addvspace{6pt}\begin{minipage}{\linewidth}\href{#4}{\textbf{#1}}\par{\small #2}\par{\small\textit{#3}}\end{minipage}\par}
+\begin{document}
+\fontsize{10.5}{13}\selectfont
+{\fontsize{25}{28}\selectfont\bfseries Wanglong Lu}\par
+{\large Senior Data Scientist \textbar\ Applied Multimodal Intelligence}\par
+St. John's, NL, Canada \textbar\ \href{mailto:lwlxhl@gmail.com}{lwlxhl@gmail.com}\par
+\href{https://longlongaaago.github.io/}{Website}\quad
+\href{https://github.com/LonglongaaaGo}{GitHub}\quad
+\href{https://www.linkedin.com/in/wanglong-lu-8a98b6235/}{LinkedIn}\quad
+\href{https://scholar.google.com/citations?user=TuxCf4UAAAAJ}{Google Scholar}\par
+{\small\color{muted}Updated September 30, 2026}
+
+\cvsection{Research \& Professional Profile}
+Applied multimodal intelligence researcher and Senior Data Scientist at Nasdaq, with a Ph.D. in Computer Science. Research spans high-resolution generative image editing, multimodal control, image and document restoration, efficient adaptation, and applied machine learning. Industry experience covers financial ML pipelines, feature selection, internal ML platform deployment, cloud-based experimentation, and AI-assisted engineering tools.
+
+\cvsection{Professional Experience}
+\role{Senior Data Scientist, AI/Analytics -- Nasdaq}{Mar. 2025 -- Present}{St. John's, NL, Canada}
+\begin{points}
+\item Contribute application deployment and integration to a \textbf{cross-team ML platform under development}, whose scope spans data ingestion, preprocessing, distributed training, feature selection, evaluation, and an auditable model registry.
+\item Deployed the \textbf{existing UI/backend prototype} into an internal workspace, configuring network connectivity and IAM roles for internal access.
+\item Implemented \textbf{PostgreSQL-backed persistence for user state} and deployed \textbf{FastAPI services on AWS Lambda using Mangum}; integrated these components with the platform's application layer.
+\item Designed cross-scale ensemble feature selection that removed \textbf{77.2\% of input features} while retaining competitive performance on CFML data; presented the algorithm to more than 60 attendees.
+\item Built a unified Python workflow for AWS SageMaker Processing, Training, and Hyperparameter Tuning jobs, including automated dependency packaging and SageMaker Pipelines.
+\item Developed an AWS Bedrock-based feature-formula validation engine and a RAG-based incident-response assistant for internal engineering workflows.
+\end{points}
+\role{AI Algorithm Intern -- Nasdaq Verafin}{May 2024 -- Jan. 2025}{St. John's, NL, Canada}
+\begin{points}
+\item Designed diffusion-based text-document restoration and inpainting for degraded cheque images; implemented and evaluated the approach using Python and PyTorch.
+\item Designed an image-verification algorithm using patch-level Gaussian latent modeling; communicated research results to cross-functional audiences.
+\end{points}
+\role{AI Intern -- Beaufort Solutions}{Jul. 2022 -- Nov. 2022}{St. John's, NL, Canada}
+\begin{points}
+\item Designed a data-collection pipeline and few-shot, vision-language image-theme recognition for personalized photo-book curation; contributed to TEG (Journal of Electronic Imaging, 2024).
+\end{points}
+\role{AI Algorithm Intern -- Zhongkong Hanlian}{Dec. 2017 -- Aug. 2018}{Hangzhou, China}
+\begin{points}
+\item Built vehicle-logo recognition using deep networks and developed annotation tools in Python, C++, and Java; supported real-time deployment at community security gates.
+\end{points}
+
+\newpage
+\cvsection{Education}
+\textbf{Ph.D., Computer Science} -- Memorial University of Newfoundland, Canada \hfill 2021--2025\par
+\textbf{M.Sc., Computer Software and Theory} -- Wenzhou University, China \hfill 2018--2021\par
+\textbf{B.Sc., Digital Media Technology} -- Communication University of Zhejiang, China \hfill 2014--2018
+
+\cvsection{Selected Research \& Engineering Projects}
+\role{UltraDiffEdit}{TNNLS 2026; first author}{Tuning-free high-resolution generative image editing}
+\begin{points}
+\item Developed multi-patch encoding, global-local consistency denoising, and progressive sampling to extend pretrained latent diffusion models to real-image editing without fine-tuning.
+\item Demonstrated editing up to 8K resolution on a single RTX 3090. \href{https://github.com/LonglongaaaGo/UltraDiffEdit}{Code} and \href{https://longlongaaago.github.io/videos/}{video} are available.
+\end{points}
+\role{FACEMUG}{TVCG 2024; first author}{Multimodal local facial editing}
+\begin{points}
+\item Developed a unified editing framework for text, sketches, semantic maps, color maps, exemplars, and attribute labels, with multimodal feature fusion and self-supervised latent warping.
+\item Preserves the unedited image regions while supporting local, controllable changes. Presented the work through the Genesis entrepreneur training program. \href{https://doi.org/10.1109/TVCG.2024.3434386}{Publication}.
+\end{points}
+\role{AdaMSS}{NeurIPS 2025; co-author}{Parameter-efficient fine-tuning}
+\begin{points}
+\item Co-authored adaptive multi-subspace updates for expressive and efficient adaptation of pretrained language and vision models.
+\item The method is integrated into \href{https://github.com/huggingface/peft/tree/main/examples/adamss_finetuning}{Hugging Face PEFT}. \href{https://github.com/jzheng20/AdaMSS}{Research code} is public.
+\end{points}
+\role{DocPure}{TCSVT 2026; co-first author}{Prompt-free unified document restoration}
+\begin{points}
+\item Co-authored structure-guided wavelet modulation for restoration across document degradations without manual inference-time task prompts. \href{https://github.com/LingmingSSS/DocPure}{Code}.
+\end{points}
+\role{GRIG}{CVM 2025; first author}{Data-efficient generative residual image inpainting}
+\begin{points}
+\item Developed iterative residual inpainting using CNN features and Transformer reasoning for small training sets.
+\item Introduced forgery-patch adversarial training to improve textures and fine detail. \href{https://doi.org/10.26599/CVM.2025.9450408}{Paper}; \href{https://github.com/LonglongaaaGo/GRIG_few_shot_inpainting}{code}.
+\end{points}
+\role{Visual Style Prompt Learning}{Pattern Recognition 2025; first author}{Diffusion-guided blind face restoration}
+\begin{points}
+\item Developed diffusion-generated visual style prompts to guide blind face restoration.
+\item Designed style-modulated aggregation to fuse visual prompts with restoration features. \href{https://doi.org/10.1016/j.patcog.2024.111312}{Paper}; \href{https://github.com/LonglongaaaGo/VSPBFR}{code}.
+\end{points}
+\role{Local Agentic Code Editor}{Nasdaq internal prototype; 2026}{Exploratory side project: API-driven code editing and local tool orchestration}
+\begin{points}
+\item Prototyped a local AI code editor with an \textbf{agentic loop} that selects between code writing, code review, and shell-tool execution based on the current task.
+\item Integrated \textbf{language-model APIs with local tool execution} to support code generation, debugging, and iterative review.
+\end{points}
+
+\newpage
+% BEGIN GENERATED PUBLICATIONS
+\cvsection{Peer-Reviewed Publications}
+\pubitem{Tuning-Free Latent Diffusion Models for Ultrahigh-Resolution Image Editing}{\textbf{Wanglong Lu}, Lingming Su, Kaijie Shi, Minglun Gong, Xiaogang Jin, Hanli Zhao, Xianta Jiang}{IEEE Transactions on Neural Networks and Learning Systems, 1-15, 2026}{https://doi.org/10.1109/TNNLS.2026.3707463}
+\pubitem{UHDRes: Ultra-High-Definition Image Restoration via Dual-Domain Decoupled Spectral Modulation}{Shihao Zhao, \textbf{Wanglong Lu}, Binhao Wang, Tao Wang, Kaihao Zhang, Hanli Zhao}{IEEE Transactions on Circuits and Systems for Video Technology, 2026}{https://arxiv.org/abs/2511.05009}
+\pubitem{DocPure: Prompt-Free Unified Document Restoration via Degradation-Aware Structure-Guided Wavelet Modulation}{Lingming Su, \textbf{Wanglong Lu}, Tao Wang, Kaihao Zhang, Nan Zhang, Liyan An, Hanli Zhao}{IEEE Transactions on Circuits and Systems for Video Technology, 2026}{https://doi.org/10.1109/TCSVT.2026.3720433}
+\pubitem{EchoSR: Efficient Context Harnessing for Lightweight Image Super-Resolution}{Hanli Zhao, Binhao Wang, Shihao Zhao, Tao Wang, Kaihao Zhang, \textbf{Wanglong Lu}}{Information Fusion, 104471, 2026}{https://doi.org/10.1016/j.inffus.2026.104471}
+\pubitem{AdaMSS: Adaptive Multi-Subspace Approach for Parameter-Efficient Fine-Tuning}{Jingjing Zheng, \textbf{Wanglong Lu}, Yiming Dong, Chaojie Ji, Yankai Cao, Zhouchen Lin}{NeurIPS 2025}{https://neurips.cc/virtual/2025/loc/san-diego/poster/119606}
+\pubitem{Visual style prompt learning using diffusion models for blind face restoration}{\textbf{Wanglong Lu}, Jikai Wang, Tao Wang, Kaihao Zhang, Xianta Jiang, Hanli Zhao}{Pattern Recognition, 2025}{https://arxiv.org/abs/2412.21042}
+\pubitem{Toward Biosignals-Free Autonomous Prosthetic Hand Control via Imitation Learning}{Kaijie Shi, \textbf{Wanglong Lu}, Hanli Zhao, Vinicius Prado da Fonseca, Ting Zou, Xianta Jiang}{IEEE Transactions on Neural Systems and Rehabilitation Engineering 33, 3544-3554, 2025}{https://doi.org/10.1109/TNSRE.2025.3605579}
+\pubitem{GRIG: Data-Efficient Generative Residual Image Inpainting}{\textbf{Wanglong Lu}, Xianta Jiang, Xiaogang Jin, Yong-Liang Yang, Minglun Gong, Kaijie Shi, Tao Wang, Hanli Zhao}{Computational Visual Media 11(6), 1329-1361, 2025}{https://doi.org/10.26599/CVM.2025.9450408}
+\pubitem{Do Inpainting Yourself: Generative Facial Inpainting Guided by Exemplars}{\textbf{Wanglong Lu}, Hanli Zhao, Xianta Jiang, Xiaogang Jin, Yongliang Yang, Min Wang, Jiankai Lyu, and Kaijie Shi}{Neurocomputing 617, 128996, 2025}{https://arxiv.org/abs/2202.06358}
+\pubitem{Degradation-Aware Frequency-Separated Transformer for Blind Super-Resolution}{Hanli Zhao, Binhao Wang, \textbf{Wanglong Lu}, Juncong Lin}{International Conference on Computational Visual Media, 2025}{https://link.springer.com/chapter/10.1007/978-981-96-5809-1_13}
+\pubitem{Real-time dual-eye collaborative eyeblink detection with contrastive learning}{Hanli Zhao, Yu Wang , \textbf{Wanglong Lu}, Zili Yi, Jun Liu, Minglun Gong}{Pattern Recognition, 2025}{https://www.sciencedirect.com/science/article/pii/S0031320325001001}
+\pubitem{FACEMUG: A Multimodal Generative and Fusion Framework for Local Facial Editing}{\textbf{Wanglong Lu}, Jikai Wang, Xiaogang Jin, Xianta Jiang, and Hanli Zhao}{IEEE Transactions on Visualization and Computer Graphics, 2024}{https://arxiv.org/abs/2412.19009}
+\pubitem{Handling the Non-smooth Challenge in Tensor SVD: A Multi-objective Tensor Recovery Framework}{Jingjing Zheng, \textbf{Wanglong Lu}, Wenzhe Wang, Yankai Cao, Xiaoqin Zhang, and Xianta Jiang}{ECCV, 2024}{https://arxiv.org/abs/2311.13958}
+\pubitem{Restoring Vision in Hazy Weather with Hierarchical Contrastive Learning}{Tao Wang, Guangpin Tao, \textbf{Wanglong Lu}, Kaihao Zhang, Wenhan Luo, Xiaoqin Zhang, Tong Lu.}{Pattern Recognition Volume 145, January 2024, 109956}{https://doi.org/10.1016/j.patcog.2023.109956}
+\pubitem{TEG: image theme recognition using text-embedding-guided few-shot adaptation}{Jikai Wang, \textbf{Wanglong Lu}, Yu Wang, Kaijie Shi, Xianta Jiang, Hanli Zhao}{Journal of Electronic Imaging 33(1), 013028, 2024}{https://doi.org/10.1117/1.JEI.33.1.013028}
+\pubitem{Detecting Blinks from Wearable Cameras using Spatial-Temporal-Aware Deep Network Learning}{Yu Wang, \textbf{Wanglong Lu}, Hanli Zhao, Xianta Jiang, Bin Zheng, M. Stella Atkins.}{ETRA 23, 2023}{https://doi.org/10.1145/3588015.3589668}
+\pubitem{Efficient Generative Face Completion with Perceptual Deblurring}{Hanli Zhao, Ying Liu, \textbf{Wanglong Lu}, Xiaogang Jin, Hui Huang, Kaijie Shi}{Journal of Computer-Aided Design \& Computer Graphics 34(9), 1420-1431, 2022}{https://longlongaaago.github.io/publication/efficient_generative_face_completion}
+\pubitem{Generative image inpainting with enhanced gated convolution and Transformers}{Min Wang, \textbf{Wanglong Lu}, Jiankai Lyu, Kaijie Shi, Hanli Zhao.}{Displays 76, 102321, 2022}{https://doi.org/10.1016/j.displa.2022.102321}
+\pubitem{Probability-Based Channel Pruning for Depthwise Separable Convolutional Networks}{Han-Li Zhao, Kai-Jie Shi, Xiaogang Jin, Ming-Liang Xu, Hui Huang, \textbf{Wanglong Lu}, Ying Liu.}{Journal of Computer Science and Technology 37, 584-600, 2022}{https://doi.org/10.1007/s11390-022-2131-8}
+\pubitem{Image Splicing Tamper Detection Based on Multi-Scale Feature Priors [in Chinese; translated title]}{\textbf{Wanglong Lu} et al.}{China Sciencepaper 17(11), 2022}{https://longlongaaago.github.io/publication/image_splicing_tamper_detection}
+\pubitem{Category-consistent deep network learning for accurate vehicle logo recognition}{\textbf{Wanglong Lu}, Hanli Zhao, Qi He, Hui Huang, Xiaogang Jin.}{Neurocomputing 463, 623-636, 2021}{https://doi.org/10.1016/j.neucom.2021.08.030}
+\pubitem{High-quality retinal vessel segmentation using generative adversarial network with a large receptive field}{Hanli Zhao, Xiaqing Qiu, \textbf{Wanglong Lu}, Hui Huang, Xiaogang Jin.}{International Journal of Imaging Systems and Technology 30(3), 828-842, 2020}{https://doi.org/10.1002/ima.22428}
+\cvsection{Preprints}
+\pubitem{Simulation-Driven Imitation Learning for Biosignals-Free Shared-Autonomy Prosthetic Grasping}{Kaijie Shi, \textbf{Wanglong Lu}, Han Chen, Vinicius Prado da Fonseca, Ting Zou, Hanli Zhao, Xianta Jiang}{arXiv preprint arXiv:2606.07389, 2026}{https://arxiv.org/abs/2606.07389}
+\pubitem{TextDoctor: Unified Document Image Inpainting via Patch Pyramid Diffusion Models}{\textbf{Wanglong Lu}, Lingming Su, Jingjing Zheng, Vinícius Veloso de Melo, Farzaneh Shoeleh, John Hawkin, Terrence Tricco, Hanli Zhao, Xianta Jiang}{ArXiv, 2025}{https://arxiv.org/abs/2503.04021}
+\pubitem{StDDPM: Sequential Financial Synthetic Data Generation using T-distribution based Diffusion Model}{Omid Tarkhaneh, Hamideh Mehri, \textbf{Wanglong Lu}, Farzaneh Shoeleh, Vinicius Veloso de Melo}{Research Square preprint, 2025}{https://www.researchsquare.com/article/rs-7624993/latest}
+\pubitem{Promptrr: Diffusion models as prompt generators for single image reflection removal}{Tao Wang, \textbf{Wanglong Lu}, Kaihao Zhang, Wenhan Luo, Tae-Kyun Kim, Tong Lu, Hongdong Li, Ming-Hsuan Yang}{ArXiv, 2024}{https://arxiv.org/abs/2402.02374}
+\cvsection{Dissertation}
+\pubitem{Generative Models for Semantic Facial Image Editing: Multimodal Approaches}{\textbf{Wanglong Lu}}{PhD thesis, Memorial University of Newfoundland, 2025}{https://memorial.scholaris.ca/items/234b7b2c-3bcf-4506-8767-af654564e511}
+% END GENERATED PUBLICATIONS
+
+\newpage
+\cvsection{Technical Skills}
+\textbf{Programming:} Python, PyTorch, SQL, Git, Bash, C++, Java, CUDA, OpenCV.\par
+\textbf{ML \& GenAI:} Latent diffusion, GANs, Transformers, multimodal conditioning, vision-language models, PEFT/LoRA, Hugging Face, RAG, feature selection, experimental evaluation.\par
+\textbf{Infrastructure:} FastAPI, Mangum, PostgreSQL; AWS SageMaker, Bedrock, Lambda, S3, Docker, GPU experimentation, SLURM.
+
+\cvsection{Additional Engineering Project}
+\textbf{AI Headshot Generation Deployment:} Implemented model invocation and application deployment for AI-generated headshots.
+
+\cvsection{Teaching, Mentorship \& Talks}
+\begin{points}
+\item Mentored 10 students on research projects spanning generative vision, restoration, image recognition, and applied machine learning.
+\item Teaching assistant, Memorial University: Data Structures and Algorithms (Sep.--Dec. 2021); Introduction to Machine Learning (Jan.--Apr. 2024).
+\item Guest lecturer, Bio-Inspired Robotics (ENGI 9986), Memorial University, Feb. 2025: a 150-minute lecture on Deep Generative Models and Applications for 10 graduate students.
+\item Invited speaker, IEEE Newfoundland and Labrador Section AGM, Mar. 2026: Generative Models for Semantic Image Editing: Multimodal Approaches.
+\item Research and technical presentations to academic and industry audiences, including the 2026 feature-selection presentation to 60+ attendees.
+\end{points}
+
+\cvsection{Academic Service}
+\textbf{Invited reviewer, 2026:} IEEE TPAMI, IEEE TMM, Pattern Recognition, Applied Soft Computing, Engineering Applications of Artificial Intelligence, Scientific Reports, Neurocomputing, Knowledge-Based Systems, and ECCV 2026.\par
+\textbf{2025:} IEEE TIP, IEEE TMM, Pattern Recognition, Neurocomputing, CAD/Graphics, Advances in Manufacturing, Signal, Image and Video Processing, IEEE Signal Processing Letters, Multimedia Systems, Journal of Machine Learning and Cybernetics.\par
+\textbf{2024:} IEEE TMM, IEEE TCSVT, Knowledge-Based Systems, Journal of Medical Systems, Cluster Computing, Journal of Visual Communication and Image Representation, Displays, The Visual Computer, and ETRA PETMEI.
+
+\cvsection{Granted Patents}
+Co-inventor on four Chinese invention patents:
+\begin{points}
+\item Category-consistent deep network learning for image recognition. ZL 2021 1 0408724.X.
+\item Deep feature-based convolutional neural network for vehicle-logo recognition. ZL 2020 1 0139043.3.
+\item GAN-based intelligent segmentation of retinal blood-vessel images. ZL 2019 1 0884346.5.
+\item Convolutional neural network-based intelligent vehicle-logo detection. ZL 2020 1 0139068.3.
+\end{points}
+
+\cvsection{Selected Honors \& Awards}
+\begin{points}
+\item Computer Innovation and Entrepreneurship Award, Wenzhou Computer Federation; first prize, team leader (2024).
+\item Genesis entrepreneur training program, Memorial University (2024).
+\item Outstanding Research Award (Ph.D.), Computer Science, Memorial University (2023).
+\item Mitacs Accelerate Award (2022).
+\item Outstanding Graduate, Wenzhou University (2020); Outstanding Graduate of Zhejiang Province (2018).
+\item Chinese Graduate Mathematical Modeling Competition, third prize (2019); Lanqiao Cup C/C++ Programming Competition, second prize (2019); CCPC regional competition, third prize (2019).
+\end{points}
+\end{document}

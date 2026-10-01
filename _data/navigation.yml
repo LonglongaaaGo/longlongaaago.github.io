@@ -21,6 +21,9 @@ main:
   - title: "CV"
     url: /cv/
 
+  - title: "PDF Resume"
+    url: /cv-pdf/
+
   - title: "中文简历"
     url: /chinese_cv/
   

@@ -1,0 +1,23 @@
+---
+updated: September 30, 2026
+updated_iso: '2026-09-30'
+documents:
+- id: resume
+  title: Industry Resume
+  description: Applied ML research & engineering
+  pages: 2
+  pdf: "/files/cv/Wanglong_Lu_Resume.pdf"
+  images:
+  - "/images/cv/resume-page-1.png"
+  - "/images/cv/resume-page-2.png"
+- id: cv
+  title: Full CV
+  description: Research, experience, publications & service
+  pages: 5
+  pdf: "/files/cv/Wanglong_Lu_CV.pdf"
+  images:
+  - "/images/cv/cv-page-1.png"
+  - "/images/cv/cv-page-2.png"
+  - "/images/cv/cv-page-3.png"
+  - "/images/cv/cv-page-4.png"
+  - "/images/cv/cv-page-5.png"

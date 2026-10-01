@@ -1,0 +1,44 @@
+.wl-resume { margin-top: 24px; }
+.wl-resume [hidden] { display: none !important; }
+.wl-resume-tabs { display: flex; flex-wrap: wrap; gap: 8px; border-bottom: 1px solid var(--wl-border); padding-bottom: 14px; }
+.wl-resume-tab,
+.wl-resume-actions a,
+.wl-resume-pager button,
+.wl-resume-expand { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 40px; padding: 8px 12px; border: 1px solid var(--wl-border); border-radius: 6px; background: #fff; color: var(--wl-ink); font: inherit; font-size: 14px; line-height: 1.4; text-decoration: none; cursor: pointer; }
+.wl-resume-tab:hover,
+.wl-resume-actions a:hover,
+.wl-resume-pager button:hover:not(:disabled),
+.wl-resume-expand:hover { border-color: var(--wl-blue); color: var(--wl-blue); text-decoration: none; }
+.wl-resume-tab[aria-selected="true"] { background: var(--wl-ink); border-color: var(--wl-ink); color: #fff; }
+.wl-resume-count { padding-left: 8px; border-left: 1px solid currentColor; font-size: 12px; white-space: nowrap; }
+.wl-resume-header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; padding: 20px 0 16px; }
+.wl-resume-header h2 { margin: 0 0 4px; padding: 0; border: 0; font-size: 22px; }
+.wl-resume-header p { margin: 0; color: var(--wl-muted); font-size: 14px; }
+.wl-resume-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.wl-resume-pager { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 10px; border: 1px solid var(--wl-border); border-bottom: 0; background: #eef1f2; }
+.wl-resume-pager button,
+.wl-resume-expand { width: 40px; height: 40px; padding: 0; flex: 0 0 40px; }
+.wl-resume-pager button:disabled { opacity: 0.4; cursor: default; }
+.wl-resume-pager [data-page-status] { min-width: 96px; text-align: center; color: var(--wl-ink); font-size: 14px; font-variant-numeric: tabular-nums; }
+.wl-resume-pages { padding: 16px; border: 1px solid var(--wl-border); background: #eef1f2; }
+.wl-resume-sheet { display: block; width: 100%; max-width: 860px; aspect-ratio: 17 / 22; margin: 0 auto 16px; background: #fff; box-shadow: 0 2px 8px #20221f12; }
+.wl-resume-sheet:last-child,
+.wl-resume.is-ready .wl-resume-sheet { margin-bottom: 0; }
+.wl-resume-sheet img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.wl-resume-document:focus { outline: none; }
+.wl-resume a:focus-visible,
+.wl-resume button:focus-visible { outline: 3px solid var(--wl-blue); outline-offset: 3px; }
+@media (max-width: 600px) {
+  .wl-resume-tab { flex: 1 1 auto; font-size: 13px; padding: 8px; }
+  .wl-resume-header { gap: 12px; }
+  .wl-resume-header h2 { font-size: 20px; }
+  .wl-resume-pages { padding: 4px; }
+}
+@media print {
+  .wl-resume-tabs,
+  .wl-resume-actions,
+  .wl-resume-pager { display: none !important; }
+  .wl-resume.is-ready [data-resume-page][hidden] { display: block !important; }
+  .wl-resume-pages { padding: 0; border: 0; background: none; }
+  .wl-resume-sheet { box-shadow: none; break-after: page; }
+}

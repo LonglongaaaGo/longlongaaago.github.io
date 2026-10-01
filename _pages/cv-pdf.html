@@ -1,0 +1,59 @@
+---
+layout: archive
+title: "PDF Resume | Wanglong Lu"
+permalink: /cv-pdf/
+author_profile: false
+hide_title: true
+pdf_resume: true
+---
+
+<div class="wl-page-hero">
+  <p class="wl-page-kicker">// resume &amp; cv</p>
+  <h1>Wanglong Lu</h1>
+  <p>Senior Data Scientist at Nasdaq &middot; Applied Multimodal Intelligence</p>
+</div>
+
+<div class="wl-toolbar">
+  <a href="{{ '/cv/' | relative_url }}"><i class="fas fa-file-alt" aria-hidden="true"></i>Web CV</a>
+  <a href="{{ '/publications/' | relative_url }}"><i class="fas fa-book-open" aria-hidden="true"></i>Publications</a>
+  <a href="https://www.linkedin.com/in/wanglong-lu-8a98b6235/"><i class="fab fa-linkedin" aria-hidden="true"></i>LinkedIn</a>
+</div>
+
+<section class="wl-resume wl-no-zoom" data-resume-viewer aria-label="Resume documents">
+  <div class="wl-resume-tabs" aria-label="Document version" hidden>
+    {% for document in site.data.cv_documents.documents %}
+    <button type="button" id="tab-{{ document.id }}" class="wl-resume-tab" data-resume-tab="{{ document.id }}">
+      <i class="fas fa-file-pdf" aria-hidden="true"></i>
+      <span>{{ document.title }}</span><span class="wl-resume-count">{{ document.pages }} pages</span>
+    </button>
+    {% endfor %}
+  </div>
+
+  {% for document in site.data.cv_documents.documents %}
+  <section id="{{ document.id }}" class="wl-resume-document" data-resume-document aria-labelledby="heading-{{ document.id }}">
+    <header class="wl-resume-header">
+      <div>
+        <h2 id="heading-{{ document.id }}">{{ document.title }}</h2>
+        <p>{{ document.description }} &middot; Updated <time datetime="{{ site.data.cv_documents.updated_iso }}">{{ site.data.cv_documents.updated }}</time></p>
+      </div>
+      <div class="wl-resume-actions">
+        <a href="{{ document.pdf | relative_url }}" target="_blank" rel="noopener"><i class="fas fa-external-link-alt" aria-hidden="true"></i>Open PDF</a>
+        <a href="{{ document.pdf | relative_url }}" download><i class="fas fa-download" aria-hidden="true"></i>Download</a>
+      </div>
+    </header>
+    <div class="wl-resume-pager" hidden>
+      <button type="button" data-page-previous aria-label="Previous page" title="Previous page"><i class="fas fa-chevron-left" aria-hidden="true"></i></button>
+      <span data-page-status aria-live="polite" aria-atomic="true">Page 1 of {{ document.pages }}</span>
+      <button type="button" data-page-next aria-label="Next page" title="Next page"><i class="fas fa-chevron-right" aria-hidden="true"></i></button>
+      <a class="wl-resume-expand" href="{{ document.pdf | relative_url }}" target="_blank" rel="noopener" aria-label="Open full-size PDF" title="Open full-size PDF"><i class="fas fa-expand" aria-hidden="true"></i></a>
+    </div>
+    <div class="wl-resume-pages">
+      {% for image in document.images %}
+      <a class="wl-resume-sheet" data-resume-page href="{{ document.pdf | relative_url }}#page={{ forloop.index }}" target="_blank" rel="noopener" aria-label="Open {{ document.title }} PDF, page {{ forloop.index }}">
+        <img src="{{ image | relative_url }}" alt="{{ document.title }}, page {{ forloop.index }} of {{ document.pages }}" width="1063" height="1375" loading="{% if forloop.first %}eager{% else %}lazy{% endif %}">
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+</section>

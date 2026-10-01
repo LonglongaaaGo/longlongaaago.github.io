@@ -17,10 +17,11 @@ redirect_from:
 </div>
 
 <div class="wl-toolbar">
+  <a href="{{ '/cv-pdf/' | relative_url }}"><i class="fas fa-file-pdf" aria-hidden="true"></i>PDF Resume &amp; CV</a>
   <a href="{{ '/publications/' | relative_url }}"><i class="fas fa-book-open" aria-hidden="true"></i>Publications</a>
   <a href="{{ '/chinese_cv/' | relative_url }}"><i class="fas fa-language" aria-hidden="true"></i>中文简历</a>
   <a href="https://scholar.google.com/citations?user=TuxCf4UAAAAJ&amp;hl=en&amp;authuser=1"><i class="fas fa-graduation-cap" aria-hidden="true"></i>Google Scholar</a>
-  <a href="mailto:wanglong.lu@nasdaq.com"><i class="fas fa-envelope" aria-hidden="true"></i>Email</a>
+  <a href="mailto:lwlxhl@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i>Email</a>
 </div>
 
 <!-- <div style="text-align: justify"> -->
@@ -70,6 +71,11 @@ Selected honors
 Work experience
 ======
 * 2025.03-Present Senior Data Scientist, AI/Analytics, Nasdaq, St. John's, NL, Canada
+  * Deployed an existing UI/backend prototype of a cross-team internal ML training platform into an internal workspace, configuring network connectivity and IAM roles.
+  * Implemented PostgreSQL-backed user-state persistence and deployed FastAPI services to AWS Lambda using Mangum.
+  * The platform is under development for data ingestion, preprocessing, distributed training, feature selection, evaluation, and an auditable model registry. My contribution focuses on application deployment and integration.
+  * Designed cross-scale ensemble feature selection, removing 77.2% of input features while retaining competitive performance on CFML data; presented the work to 60+ attendees.
+  * Built Python workflows for SageMaker Processing, Training, Hyperparameter Tuning, and multi-step pipelines; developed Bedrock-based feature-formula validation and a RAG-based incident-response assistant.
 
 * 2024.05-2025.01 AI algorithm intern, Nasdaq Verafin, St. John's, NL, Canada
   * Design a novel text document image restoration using diffusion models [[TextDoctor]](https://arxiv.org/abs/2503.04021).
@@ -92,6 +98,14 @@ Work experience
   * Github University
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub -->
+
+Selected Engineering Projects
+======
+* **Local Agentic Code Editor: Nasdaq Internal Exploratory Prototype (2026)**
+  * Prototyped a local AI code editor with an agentic loop that selects between code writing, code review, and shell-tool execution based on the current task.
+  * Integrated language-model APIs with local tool execution to support code generation, debugging, and iterative review.
+* **AI Headshot Generation Deployment**
+  * Implemented model invocation and application deployment for AI-generated headshots.
 
 Teaching experience
 ======

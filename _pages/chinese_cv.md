@@ -17,10 +17,11 @@ redirect_from:
 </div>
 
 <div class="wl-toolbar">
+  <a href="{{ '/cv-pdf/' | relative_url }}"><i class="fas fa-file-pdf" aria-hidden="true"></i>PDF 简历（英文）</a>
   <a href="{{ '/publications/' | relative_url }}"><i class="fas fa-book-open" aria-hidden="true"></i>发表论文</a>
   <a href="{{ '/cv/' | relative_url }}"><i class="fas fa-file-alt" aria-hidden="true"></i>English CV</a>
   <a href="https://scholar.google.com/citations?user=TuxCf4UAAAAJ&amp;hl=en&amp;authuser=1"><i class="fas fa-graduation-cap" aria-hidden="true"></i>Google Scholar</a>
-  <a href="mailto:wanglong.lu@nasdaq.com"><i class="fas fa-envelope" aria-hidden="true"></i>Email</a>
+  <a href="mailto:lwlxhl@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i>Email</a>
 </div>
 
 <!-- 纽芬兰纪念大学普适计算和机器学习研究实验室([UCML](https://sites.google.com/view/ucmi/home) )博士生。 -->
@@ -68,6 +69,11 @@ redirect_from:
 工作经历
 ======
 * 2025.03-至今 高级数据科学家，AI/Analytics，Nasdaq，St. John's，NL，加拿大
+  * 将跨团队共建的内部 ML 训练平台原有 UI/后端原型部署并接入内部 workspace，配置网络连接和 IAM 角色。
+  * 使用 PostgreSQL 持久化用户使用状态，通过 FastAPI + Mangum 将服务部署至 AWS Lambda。
+  * 平台仍在研发，整体范围包括数据采集、预处理、分布式训练、特征选择、模型评估及可审计的模型登记；本人贡献集中在应用部署与集成。
+  * 设计跨尺度集成特征选择算法，在 CFML 数据上移除 77.2% 的输入特征并保持有竞争力的性能，向 60 余人分享成果。
+  * 构建 SageMaker Processing、Training、Hyperparameter Tuning 及多步骤流水线的 Python 工作流，并开发基于 Bedrock 的特征公式验证工具与 RAG 故障响应助手。
 
 * 2024.05-2025.01 AI 算法实习生，Nasdaq Verafin，St. John's，NL，加拿大
   * 设计基于扩散模型的文本档案图像修复算法 [[TextDoctor]](https://arxiv.org/abs/2503.04021)
@@ -86,6 +92,14 @@ redirect_from:
   * Github University
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub -->
+
+工程项目
+======
+* **本地 Agentic Code Editor：Nasdaq 内部探索原型（2026）**
+  * 开发本地 AI 代码编辑器原型，通过 agentic loop 根据当前任务选择代码编写、代码审查或 shell 工具调用。
+  * 将语言模型 API 与本地工具执行连接起来，支持代码生成、调试与迭代审查。
+* **AI 大头照生成部署**
+  * 实现生成模型调用与应用部署，用于 AI 大头照生成。
 
 教学经历
 ======
