@@ -12,45 +12,50 @@
 \hypersetup{colorlinks=true,urlcolor=ink,pdftitle={Wanglong Lu - Curriculum Vitae},pdfauthor={Wanglong Lu}}
 \ifdefined\pdfgentounicode\input{glyphtounicode}\pdfgentounicode=1\fi
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{3pt}
+\setlength{\parskip}{1.5pt}
 \setlength{\headheight}{14pt}
 \pagestyle{fancy}
 \fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
 \fancyfoot[L]{\footnotesize\color{muted}Wanglong Lu -- Curriculum Vitae}
 \fancyfoot[R]{\footnotesize\color{muted}\thepage}
-\newcommand{\cvsection}[1]{\par\addvspace{10pt}{\large\bfseries #1}\par\vspace{1pt}\hrule\vspace{4pt}}
-\newcommand{\role}[3]{\par\addvspace{7pt}\textbf{#1}\hfill{\small #2}\par{\small\color{muted}#3}\par}
-\newenvironment{points}{\begin{list}{\textbullet}{\setlength{\leftmargin}{12pt}\setlength{\itemsep}{2pt}\setlength{\parsep}{0pt}\setlength{\topsep}{2pt}}}{\end{list}}
+\newcommand{\cvsection}[1]{\par\addvspace{6pt}{\large\bfseries #1}\par\vspace{1pt}\hrule\vspace{3pt}}
+\newcommand{\role}[3]{\par\addvspace{4pt}\textbf{#1}\hfill{\small #2}\par{\small\color{muted}#3}\par}
+\newcommand{\company}[2]{\par\addvspace{4pt}\textbf{#1}\hfill{\small\color{muted}#2}\par}
+\newcommand{\position}[2]{\par\addvspace{2pt}\textbf{#1}\hfill{\small #2}\par}
+\newenvironment{points}{\begin{list}{\textbullet}{\setlength{\leftmargin}{12pt}\setlength{\itemsep}{1.2pt}\setlength{\parsep}{0pt}\setlength{\topsep}{1.5pt}\setlength{\partopsep}{0pt}}}{\end{list}}
 \newcommand{\pubitem}[4]{\par\addvspace{6pt}\begin{minipage}{\linewidth}\href{#4}{\textbf{#1}}\par{\small #2}\par{\small\textit{#3}}\end{minipage}\par}
 \begin{document}
 \fontsize{10.5}{13}\selectfont
 {\fontsize{25}{28}\selectfont\bfseries Wanglong Lu}\par
 {\large Senior Data Scientist \textbar\ Applied Multimodal Intelligence}\par
-St. John's, NL, Canada \textbar\ \href{mailto:lwlxhl@gmail.com}{lwlxhl@gmail.com}\par
-\href{https://longlongaaago.github.io/}{Website}\quad
-\href{https://github.com/LonglongaaaGo}{GitHub}\quad
-\href{https://www.linkedin.com/in/wanglong-lu-8a98b6235/}{LinkedIn}\quad
+Toronto, ON, Canada \textbar\ \href{mailto:lwlxhl@gmail.com}{lwlxhl@gmail.com} \textbar\
+\href{https://longlongaaago.github.io/}{Website} \textbar\
+\href{https://github.com/LonglongaaaGo}{GitHub} \textbar\
+\href{https://www.linkedin.com/in/wanglong-lu-8a98b6235/}{LinkedIn} \textbar\
 \href{https://scholar.google.com/citations?user=TuxCf4UAAAAJ}{Google Scholar}\par
-{\small\color{muted}Updated September 30, 2026}
+{\small\color{muted}Updated October 2, 2026}
 
 \cvsection{Research \& Professional Profile}
 Applied multimodal intelligence researcher and Senior Data Scientist at Nasdaq, with a Ph.D. in Computer Science. Research spans high-resolution generative image editing, multimodal control, image and document restoration, efficient adaptation, and applied machine learning. Industry experience covers financial ML pipelines, feature selection, internal ML platform deployment, cloud-based experimentation, and AI-assisted engineering tools.
 
 \cvsection{Professional Experience}
-\role{Senior Data Scientist, AI/Analytics -- Nasdaq}{Mar. 2025 -- Present}{St. John's, NL, Canada}
+\company{Nasdaq / Nasdaq Verafin}{St. John's, NL, Canada}
+\position{Senior Data Scientist, AI/Analytics}{Mar. 2025 -- Present}
 \begin{points}
 \item Contribute application deployment and integration to a \textbf{cross-team ML platform under development}, whose scope spans data ingestion, preprocessing, distributed training, feature selection, evaluation, and an auditable model registry.
 \item Deployed the \textbf{existing UI/backend prototype} into an internal workspace, configuring network connectivity and IAM roles for internal access.
 \item Implemented \textbf{PostgreSQL-backed persistence for user state} and deployed \textbf{FastAPI services on AWS Lambda using Mangum}; integrated these components with the platform's application layer.
 \item Designed cross-scale ensemble feature selection that removed \textbf{77.2\% of input features} while retaining competitive performance on CFML data; presented the algorithm to more than 60 attendees.
-\item Built a unified Python workflow for AWS SageMaker Processing, Training, and Hyperparameter Tuning jobs, including automated dependency packaging and SageMaker Pipelines.
-\item Developed an AWS Bedrock-based feature-formula validation engine and a RAG-based incident-response assistant for internal engineering workflows.
+\item Built \textbf{SageMaker Job Submitter}, a Python package for AWS SageMaker Processing, Training, and Hyperparameter Tuning jobs, including automated dependency packaging and SageMaker Pipelines. Package-based submission cut developer job-configuration time from \textbf{7 days to 1 day}, an approximately \textbf{86\% reduction}.
+\item Developed an AWS Bedrock-based feature-formula validation engine with structured logical-consistency checks and reliability scores to flag hard-coded errors.
+\item Built a \textbf{PagerDuty RAG incident-response assistant} as an internal hackathon project on the company's GenAI platform; used incident context to retrieve relevant troubleshooting guidance and resolution steps for on-call engineers.
+\item Mentored industry research on cheque OCR quality assessment and text extraction, and tabular-data generation, supporting pipeline design and generative-model architecture.
 \end{points}
-\role{AI Algorithm Intern -- Nasdaq Verafin}{May 2024 -- Jan. 2025}{St. John's, NL, Canada}
+\position{AI Algorithm Intern}{May 2024 -- Jan. 2025}
 \begin{points}
-\item Designed diffusion-based text-document restoration and inpainting for degraded cheque images; implemented and evaluated the approach using Python and PyTorch.
-\item Designed an image-verification algorithm using patch-level Gaussian latent modeling; communicated research results to cross-functional audiences.
+\item Designed diffusion-based text-document restoration and inpainting for degraded cheque images using Python and PyTorch; benchmarked against existing methods with AWS, SLURM, CUDA, and shell scripts.
+\item Designed an image-verification algorithm using patch-level Gaussian latent modeling; presented research progress to 39 cross-functional attendees at the end of the internship.
 \end{points}
 \role{AI Intern -- Beaufort Solutions}{Jul. 2022 -- Nov. 2022}{St. John's, NL, Canada}
 \begin{points}
@@ -72,6 +77,7 @@ Applied multimodal intelligence researcher and Senior Data Scientist at Nasdaq, 
 \begin{points}
 \item Developed multi-patch encoding, global-local consistency denoising, and progressive sampling to extend pretrained latent diffusion models to real-image editing without fine-tuning.
 \item Demonstrated editing up to 8K resolution on a single RTX 3090. \href{https://github.com/LonglongaaaGo/UltraDiffEdit}{Code} and \href{https://longlongaaago.github.io/videos/}{video} are available.
+\item Built three editing benchmarks (DIV2KEdit, Syn2KEdit, UHRSDEdit) for high-resolution, multimodal evaluation; tested pretrained SDXL and ControlNet models without fine-tuning.
 \end{points}
 \role{FACEMUG}{TVCG 2024; first author}{Multimodal local facial editing}
 \begin{points}
@@ -86,6 +92,7 @@ Applied multimodal intelligence researcher and Senior Data Scientist at Nasdaq, 
 \role{DocPure}{TCSVT 2026; co-first author}{Prompt-free unified document restoration}
 \begin{points}
 \item Co-authored structure-guided wavelet modulation for restoration across document degradations without manual inference-time task prompts. \href{https://github.com/LingmingSSS/DocPure}{Code}.
+\item The unified model was evaluated on 12 datasets across deblurring, denoising, compression artifact reduction, and deshadowing. \href{https://arxiv.org/html/2608.09536v1}{Benchmarks}.
 \end{points}
 \role{GRIG}{CVM 2025; first author}{Data-efficient generative residual image inpainting}
 \begin{points}

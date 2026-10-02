@@ -13,7 +13,7 @@ redirect_from:
 <div class="wl-page-hero">
   <p class="wl-page-kicker">// 中文简历</p>
   <h1>卢望龙</h1>
-  <p>加拿大纳斯达克 AI/Analytics 高级数据科学家，研究方向包括生成式视觉、图像修复、图像编辑、模式识别、参数高效微调和多模态生成式 AI 系统。</p>
+  <p>加拿大纳斯达克 AI/Analytics 高级数据科学家，现居多伦多，安大略省，加拿大。研究方向包括生成式视觉、图像修复、图像编辑、模式识别、参数高效微调和多模态生成式 AI 系统。</p>
 </div>
 
 <div class="wl-toolbar">
@@ -68,16 +68,24 @@ redirect_from:
 
 工作经历
 ======
-* 2025.03-至今 高级数据科学家，AI/Analytics，Nasdaq，St. John's，NL，加拿大
-  * 将跨团队共建的内部 ML 训练平台原有 UI/后端原型部署并接入内部 workspace，配置网络连接和 IAM 角色。
-  * 使用 PostgreSQL 持久化用户使用状态，通过 FastAPI + Mangum 将服务部署至 AWS Lambda。
-  * 平台仍在研发，整体范围包括数据采集、预处理、分布式训练、特征选择、模型评估及可审计的模型登记；本人贡献集中在应用部署与集成。
-  * 设计跨尺度集成特征选择算法，在 CFML 数据上移除 77.2% 的输入特征并保持有竞争力的性能，向 60 余人分享成果。
-  * 构建 SageMaker Processing、Training、Hyperparameter Tuning 及多步骤流水线的 Python 工作流，并开发基于 Bedrock 的特征公式验证工具与 RAG 故障响应助手。
+### Nasdaq / Nasdaq Verafin
+St. John's，NL，加拿大
 
-* 2024.05-2025.01 AI 算法实习生，Nasdaq Verafin，St. John's，NL，加拿大
-  * 设计基于扩散模型的文本档案图像修复算法 [[TextDoctor]](https://arxiv.org/abs/2503.04021)
-  * 设计基于 Patch Gaussian Latent Discriminant Modeling 的图像验证算法
+**高级数据科学家，AI/Analytics | 2025.03-至今**
+* 设计跨尺度集成特征选择算法，在支票欺诈机器学习（CFML）数据上移除 77.2% 的输入特征并保持有竞争力的性能，向 60 余人分享成果。
+* 将跨团队共建的内部 ML 训练平台原有 UI/后端原型部署并接入内部 workspace，配置网络连接和 IAM 角色。
+* 使用 PostgreSQL 持久化用户使用状态，通过 FastAPI + Mangum 将服务部署至 AWS Lambda。
+* 平台仍在研发，整体范围包括数据采集、预处理、分布式训练、特征选择、模型评估及可审计的模型登记；本人贡献集中在应用部署与集成。
+* 开发 **SageMaker Job Submitter**，通过 Python 包自动打包本地脚本及依赖，支持 SageMaker Processing、Training、Hyperparameter Tuning 及多步骤流水线。开发人员的作业配置时间从 **7 天缩短至 1 天，减少约 86%**。
+* 开发基于 Bedrock 的特征公式验证工具，提供结构化的逻辑一致性检查与可靠性评分。
+* 在内部 hackathon 中，基于公司 GenAI 平台开发 **PagerDuty RAG 故障响应助手**，利用故障上下文检索相关排查指南和解决步骤，辅助值班工程师定位问题。
+* 指导支票 OCR 图像质量评估与文本提取、表格数据生成等工业研究，支持处理流水线设计和生成模型架构研究。
+
+**AI 算法实习生 | 2024.05-2025.01**
+* 使用 Python/PyTorch 设计基于扩散模型的退化支票图像修复算法，并通过 AWS、SLURM、CUDA 及 shell 脚本开展对比实验 [[TextDoctor]](https://arxiv.org/abs/2503.04021)
+* 设计基于 patch-level Gaussian latent modeling 的图像验证算法，并在实习结束时向 39 位跨职能同事分享研究进展。
+
+### 其他经历
 
 * 2017.12-2018.08 人工智能算法实习生，杭州中控瀚联电子商务有限公司，杭州，中国  
   * 汽车标志图像分析与处理

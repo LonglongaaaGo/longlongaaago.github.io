@@ -12,26 +12,27 @@
 \hypersetup{colorlinks=true,urlcolor=ink,pdftitle={Wanglong Lu - Applied Scientist Resume},pdfauthor={Wanglong Lu}}
 \ifdefined\pdfgentounicode\input{glyphtounicode}\pdfgentounicode=1\fi
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{3pt}
+\setlength{\parskip}{1.5pt}
 \setlength{\headheight}{14pt}
 \pagestyle{fancy}
 \fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
 \fancyfoot[L]{\footnotesize\color{muted}Wanglong Lu}
 \fancyfoot[R]{\footnotesize\color{muted}\thepage\ / 2}
-\newcommand{\cvsection}[1]{\par\addvspace{9pt}{\large\bfseries #1}\par\vspace{1pt}\hrule\vspace{4pt}}
-\newcommand{\role}[3]{\par\addvspace{6pt}\textbf{#1}\hfill{\small #2}\par{\small\color{muted}#3}\par}
-\newenvironment{points}{\begin{list}{\textbullet}{\setlength{\leftmargin}{12pt}\setlength{\itemsep}{2pt}\setlength{\parsep}{0pt}\setlength{\topsep}{2pt}}}{\end{list}}
-\newcommand{\project}[2]{\par\addvspace{5pt}\textbf{#1}\hfill{\small #2}\par}
+\newcommand{\cvsection}[1]{\par\addvspace{6pt}{\large\bfseries #1}\par\vspace{1pt}\hrule\vspace{3pt}}
+\newcommand{\company}[2]{\par\addvspace{4pt}\textbf{#1}\hfill{\small\color{muted}#2}\par}
+\newcommand{\position}[2]{\par\addvspace{2pt}\textbf{#1}\hfill{\small #2}\par}
+\newenvironment{points}{\begin{list}{\textbullet}{\setlength{\leftmargin}{12pt}\setlength{\itemsep}{1.2pt}\setlength{\parsep}{0pt}\setlength{\topsep}{1.5pt}\setlength{\partopsep}{0pt}}}{\end{list}}
+\newcommand{\project}[2]{\par\addvspace{3pt}\textbf{#1}\hfill{\small #2}\par}
 \begin{document}
 \fontsize{10.5}{12.7}\selectfont
 \raggedright
 {\fontsize{25}{28}\selectfont\bfseries Wanglong Lu}\par
 {\large Senior Data Scientist \textbar\ Applied Multimodal Intelligence}\par
-St. John's, NL, Canada \textbar\ \href{mailto:lwlxhl@gmail.com}{lwlxhl@gmail.com}\par
-\href{https://longlongaaago.github.io/}{Website}\quad
-\href{https://github.com/LonglongaaaGo}{GitHub}\quad
-\href{https://www.linkedin.com/in/wanglong-lu-8a98b6235/}{LinkedIn}\quad
+Toronto, ON, Canada \textbar\ \href{mailto:lwlxhl@gmail.com}{lwlxhl@gmail.com} \textbar\
+\href{https://longlongaaago.github.io/}{Website} \textbar\
+\href{https://github.com/LonglongaaaGo}{GitHub} \textbar\
+\href{https://www.linkedin.com/in/wanglong-lu-8a98b6235/}{LinkedIn} \textbar\
 \href{https://scholar.google.com/citations?user=TuxCf4UAAAAJ}{Google Scholar}
 
 \cvsection{Profile}
@@ -43,29 +44,34 @@ Applied ML researcher and Senior Data Scientist at Nasdaq, with a Ph.D. in Compu
 \textbf{ML systems:} FastAPI, Mangum, PostgreSQL; AWS SageMaker, Bedrock, Lambda, S3, Docker, SLURM.
 
 \cvsection{Professional Experience}
-\role{Senior Data Scientist, AI/Analytics -- Nasdaq}{Mar. 2025 -- Present}{St. John's, NL, Canada}
+\company{Nasdaq / Nasdaq Verafin}{St. John's, NL, Canada}
+\position{Senior Data Scientist, AI/Analytics}{Mar. 2025 -- Present}
 \begin{points}
 \item Designed cross-scale ensemble feature selection for \textbf{cheque-fraud ML (CFML)}, removing \textbf{77.2\% of input features} while retaining competitive performance in evaluations.
-\item Deployed and integrated an \textbf{existing UI/backend prototype} for a cross-team ML training platform into an internal workspace; configured networking and IAM access, added \textbf{PostgreSQL-backed user-state persistence}, and deployed \textbf{FastAPI} services on \textbf{AWS Lambda using Mangum}.
-\item Built a Python job-submission workflow that packages local scripts and dependencies for \textbf{SageMaker Processing, Training, and Hyperparameter Tuning}; linked jobs with \textbf{SageMaker Pipelines}.
+\item Deployed and integrated an \textbf{existing UI/backend prototype} for a cross-team ML training platform under development into an internal workspace; configured networking and IAM access. Platform scope includes ingestion, training, evaluation, and model governance.
+\item Added \textbf{PostgreSQL-backed user-state persistence} and deployed \textbf{FastAPI} services on \textbf{AWS Lambda using Mangum}, connecting application state and backend services to the workspace.
+\item Built \textbf{SageMaker Job Submitter}, a Python package for local scripts and dependencies across \textbf{Processing, Training, and Hyperparameter Tuning}, with \textbf{SageMaker Pipelines}. Package-based submission cut developer job-configuration time from \textbf{7 days to 1 day}, an approximately \textbf{86\% reduction}.
 \item Developed a \textbf{Bedrock-based feature-formula validator} with structured logical-consistency checks and reliability scores to flag hard-coded errors in feature-engineering formulas.
-\item Built a \textbf{RAG-based incident-response assistant} as an internal hackathon project, retrieving troubleshooting context for on-call alerts through the company's GenAI platform.
+\item Built a \textbf{PagerDuty RAG incident-response assistant} as an internal hackathon project on the company's GenAI platform; used incident context to retrieve relevant troubleshooting guidance and resolution steps for on-call engineers.
+\item Mentored industry research on \textbf{cheque OCR} quality assessment and text extraction, and \textbf{tabular-data generation}, supporting pipeline design and generative-model architecture.
 \end{points}
 
-\role{AI Algorithm Intern -- Nasdaq Verafin}{May 2024 -- Jan. 2025}{St. John's, NL, Canada}
+\position{AI Algorithm Intern}{May 2024 -- Jan. 2025}
 \begin{points}
-\item Designed and benchmarked diffusion-based restoration and inpainting for degraded cheque images using Python and PyTorch, comparing with existing restoration methods.
-\item Developed patch-level Gaussian latent modeling for image verification; evaluated the approach and presented results to cross-functional colleagues.
+\item Designed diffusion-based restoration and inpainting for degraded cheque images in Python/PyTorch; ran comparative experiments against existing methods using \textbf{AWS, SLURM, CUDA, and shell scripts}.
+\item Developed and evaluated patch-level Gaussian latent modeling for image verification; presented research progress to \textbf{39 cross-functional attendees} at the end of the internship.
 \end{points}
 
-\role{AI Intern -- Beaufort Solutions}{Jul. 2022 -- Nov. 2022}{St. John's, NL, Canada}
+\company{Beaufort Solutions}{St. John's, NL, Canada}
+\position{AI Intern}{Jul. 2022 -- Nov. 2022}
 \begin{points}
-\item Designed a data-collection pipeline and few-shot vision-language classifier for photo-book curation; led data collection and evaluation, contributing to \href{https://doi.org/10.1117/1.JEI.33.1.013028}{TEG (Journal of Electronic Imaging, 2024)}.
+\item Designed a few-shot vision-language classifier for personalized photo-book curation; led data collection and evaluation with Python/PyTorch and AWS/SLURM experiments. Contributed to \href{https://doi.org/10.1117/1.JEI.33.1.013028}{TEG (Journal of Electronic Imaging, 2024)}.
 \end{points}
 
-\role{AI Algorithm Intern -- Zhongkong Hanlian}{Dec. 2017 -- Aug. 2018}{Hangzhou, China}
+\company{Zhongkong Hanlian}{Hangzhou, China}
+\position{AI Algorithm Intern}{Dec. 2017 -- Aug. 2018}
 \begin{points}
-\item Built vehicle-logo recognition models and annotation tools in Python, C++, and Java; supported real-time deployment at community security gates.
+\item Built ResNet/DenseNet vehicle-logo recognition with Caffe, Python, and C++; created Java annotation tools and a training/evaluation dataset, and deployed models for \textbf{real-time inference at community security gates}.
 \end{points}
 
 \newpage
@@ -75,11 +81,13 @@ Applied ML researcher and Senior Data Scientist at Nasdaq, with a Ph.D. in Compu
 \project{\href{https://doi.org/10.1109/TNNLS.2026.3707463}{UltraDiffEdit -- High-Resolution Generative Editing}}{First author; IEEE TNNLS 2026}
 \begin{points}
 \item Developed tuning-free editing with multi-patch encoding, global-local denoising, and progressive sampling; demonstrated \textbf{8K editing on a single RTX 3090}. \href{https://github.com/LonglongaaaGo/UltraDiffEdit}{Code}; \href{https://longlongaaago.github.io/videos/}{video}.
+\item Built \textbf{three editing benchmarks} (DIV2KEdit, Syn2KEdit, UHRSDEdit) to evaluate high-resolution, multimodal editing; tested pretrained models including \textbf{SDXL and ControlNet without fine-tuning}.
 \end{points}
 
 \project{\href{https://doi.org/10.1109/TVCG.2024.3434386}{FACEMUG -- Multimodal Local Facial Editing}}{First author; IEEE TVCG 2024}
 \begin{points}
-\item Designed multimodal feature fusion and self-supervised latent warping for local facial edits across \textbf{six input modalities}, including text, sketches, and exemplars, while preserving unedited regions.
+\item Designed multimodal feature fusion and self-supervised latent warping for \textbf{six input modalities}: text, sketches, semantic maps, color maps, exemplars, and attribute labels.
+\item Preserved unedited regions during local, controllable facial editing; presented the framework through the \textbf{Genesis entrepreneur training program}. \href{https://doi.org/10.1109/TVCG.2024.3434386}{Paper}.
 \end{points}
 
 \project{\href{https://neurips.cc/virtual/2025/loc/san-diego/poster/119606}{AdaMSS -- Parameter-Efficient Adaptation}}{Co-author; NeurIPS 2025}
@@ -90,6 +98,7 @@ Applied ML researcher and Senior Data Scientist at Nasdaq, with a Ph.D. in Compu
 \project{\href{https://doi.org/10.1109/TCSVT.2026.3720433}{DocPure -- Unified Document Restoration}}{Co-first author; IEEE TCSVT 2026}
 \begin{points}
 \item Co-authored prompt-free document restoration using degradation-aware structure extraction and structure-guided wavelet modulation across multiple degradations. \href{https://github.com/LingmingSSS/DocPure}{Code}.
+\item The unified model was evaluated on \textbf{12 datasets across four tasks}: deblurring, denoising, compression artifact reduction, and deshadowing. \href{https://arxiv.org/html/2608.09536v1}{Benchmarks}.
 \end{points}
 
 \project{\href{https://doi.org/10.26599/CVM.2025.9450408}{GRIG -- Data-Efficient Image Inpainting}}{First author; CVM 2025}
@@ -106,7 +115,8 @@ Applied ML researcher and Senior Data Scientist at Nasdaq, with a Ph.D. in Compu
 \cvsection{AI Engineering Prototypes \& Deployment}
 \project{Local Agentic Code Editor}{Nasdaq internal prototype; 2026}
 \begin{points}
-\item Prototyped a local AI code editor connecting \textbf{language-model APIs with local tool execution}; an \textbf{agentic loop} selects code writing, code review, or shell-tool execution to support code generation and debugging.
+\item Prototyped a local AI code editor with an \textbf{agentic loop} that selects code writing, code review, or shell-tool execution according to the task.
+\item Connected \textbf{language-model APIs with local tool execution} for code generation, debugging, and iterative review in a working exploratory prototype.
 \end{points}
 
 \cvsection{Education}
@@ -116,7 +126,8 @@ Applied ML researcher and Senior Data Scientist at Nasdaq, with a Ph.D. in Compu
 
 \cvsection{Selected Recognition \& Service}
 Outstanding Research Award (Ph.D.), Memorial University, 2023; four granted Chinese invention patents.\par
-Mentored \textbf{10 students} in generative vision and applied ML; supported industry research on cheque OCR and tabular-data generation.\par
+Mentored \textbf{10 students} in generative vision and applied ML, including restoration and recognition projects.\par
+Teaching assistant in Data Structures and Algorithms (2021) and Introduction to Machine Learning (2024).\par
 {\raggedright Invited reviewer for \textbf{IEEE TPAMI, TIP, TMM, TCSVT}, Pattern Recognition, Knowledge-Based Systems, \mbox{Neurocomputing}, Applied Soft Computing, and ECCV 2026.\par}
 Presented feature-selection research to \textbf{60+ attendees} (2026); invited speaker, IEEE Newfoundland and Labrador Section AGM (2026); guest lecturer on deep generative models, Memorial University (2025).
 \end{document}

@@ -913,7 +913,7 @@ redirect_from:
         <span>wanglong.lu@nasdaq.com</span>
         <span>lwlxhl@gmail.com</span>
         <span>wanglongl@mun.ca</span>
-        <span>Newfoundland, Canada</span>
+        <span>Toronto, ON, Canada</span>
       </div>
     </aside>
 

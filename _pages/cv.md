@@ -25,7 +25,7 @@ redirect_from:
 </div>
 
 <!-- <div style="text-align: justify"> -->
-Wanglong Lu currently serves as a **Senior Data Scientist** in AI/Analytics at Nasdaq, Canada. 
+Wanglong Lu currently serves as a **Senior Data Scientist** in AI/Analytics at Nasdaq, Canada, and is based in **Toronto, ON, Canada**.
 <!-- He also holds positions as an **Adjunct Supervisor** for PhD and Master's students at Memorial University of Newfoundland and Wenzhou University, working in close collaboration with Prof. Xianta Jiang and Prof. Hanli Zhao.  </div> -->
 
 <!-- I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab ([UCML](https://sites.google.com/view/ucmi/home)), Memorial University of Newfoundland. -->
@@ -70,16 +70,24 @@ Selected honors
 
 Work experience
 ======
-* 2025.03-Present Senior Data Scientist, AI/Analytics, Nasdaq, St. John's, NL, Canada
-  * Deployed an existing UI/backend prototype of a cross-team internal ML training platform into an internal workspace, configuring network connectivity and IAM roles.
-  * Implemented PostgreSQL-backed user-state persistence and deployed FastAPI services to AWS Lambda using Mangum.
-  * The platform is under development for data ingestion, preprocessing, distributed training, feature selection, evaluation, and an auditable model registry. My contribution focuses on application deployment and integration.
-  * Designed cross-scale ensemble feature selection, removing 77.2% of input features while retaining competitive performance on CFML data; presented the work to 60+ attendees.
-  * Built Python workflows for SageMaker Processing, Training, Hyperparameter Tuning, and multi-step pipelines; developed Bedrock-based feature-formula validation and a RAG-based incident-response assistant.
+### Nasdaq / Nasdaq Verafin
+St. John's, NL, Canada
 
-* 2024.05-2025.01 AI algorithm intern, Nasdaq Verafin, St. John's, NL, Canada
-  * Design a novel text document image restoration using diffusion models [[TextDoctor]](https://arxiv.org/abs/2503.04021).
-  * Design a novel image verification algorithm using Patch Gaussian Latent Discriminant Modeling.
+**Senior Data Scientist, AI/Analytics | 2025.03-Present**
+* Designed cross-scale ensemble feature selection, removing 77.2% of input features while retaining competitive performance on cheque-fraud ML (CFML) data; presented the work to 60+ attendees.
+* Deployed an existing UI/backend prototype of a cross-team internal ML training platform into an internal workspace, configuring network connectivity and IAM roles.
+* Implemented PostgreSQL-backed user-state persistence and deployed FastAPI services to AWS Lambda using Mangum.
+* The platform is under development for data ingestion, preprocessing, distributed training, feature selection, evaluation, and an auditable model registry. My contribution focuses on application deployment and integration.
+* Built **SageMaker Job Submitter**, a Python package that packages local scripts and dependencies for SageMaker Processing, Training, Hyperparameter Tuning, and multi-step pipelines. Package-based submission cut developer job-configuration time from **7 days to 1 day, an approximately 86% reduction**.
+* Developed Bedrock-based feature-formula validation with structured logical-consistency checks and reliability scores.
+* Built a **PagerDuty RAG incident-response assistant** as an internal hackathon project on the company's GenAI platform, using incident context to retrieve troubleshooting guidance and resolution steps for on-call engineers.
+* Mentored industry research on cheque OCR quality assessment and text extraction, and tabular-data generation, supporting pipeline design and generative-model architecture.
+
+**AI Algorithm Intern | 2024.05-2025.01**
+* Designed diffusion-based restoration for degraded cheque images in Python/PyTorch and ran comparative experiments using AWS, SLURM, CUDA, and shell scripts [[TextDoctor]](https://arxiv.org/abs/2503.04021).
+* Developed patch-level Gaussian latent modeling for image verification; presented research progress to 39 cross-functional attendees at the end of the internship.
+
+### Earlier Experience
 
 * 2022.07-2022.11 AI algorithm intern, [Beaufort Solutions Inc.](https://www.beaufortsolutions.com/) , 1 Church Hill, St. John's, NL A1C 3Z7, Canada
   * Building an image theme recognition method using image caption and instance segmentation algorithms
