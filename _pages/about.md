@@ -940,17 +940,17 @@ redirect_from:
       <article class="wl-item">
         <h3>Nasdaq</h3>
         <p class="wl-meta">Senior Data Scientist, AI/Analytics · 2025 - Present</p>
-        <p>Financial ML workflows, feature selection, and workspace deployment of an existing cross-team ML platform prototype.</p>
+        <p>Financial ML, CUDA-accelerated feature engineering, and SageMaker workspace deployment of an existing cross-team ML platform prototype.</p>
       </article>
       <article class="wl-item">
-        <h3>Nasdaq Verafin</h3>
+        <h3>Nasdaq</h3>
         <p class="wl-meta">AI Research Intern · 2024 - 2025</p>
-        <p>Worked on image verification and delivered research progress presentations to cross-functional audiences.</p>
+        <p>Designed TextDoctor for document inpainting and PLAID for few-shot biometric verification; presented both projects to cross-functional audiences.</p>
       </article>
       <article class="wl-item">
         <h3>Research Collaboration</h3>
         <p class="wl-meta">Memorial University of Newfoundland · Wenzhou University</p>
-        <p>Collaborating with and mentoring Ph.D. and Master's students with Prof. Xianta Jiang and Prof. Hanli Zhao.</p>
+        <p>Mentored 12 students across generative vision and applied ML; collaborating with Prof. Xianta Jiang and Prof. Hanli Zhao.</p>
       </article>
     </div>
   </section>
@@ -966,11 +966,11 @@ redirect_from:
       </article>
       <article class="wl-item">
         <h3>Wenzhou University</h3>
-        <p class="wl-meta">M.Sc. in Computer Software and Theory · 2021</p>
+        <p class="wl-meta">M.Eng. in Computer Software and Theory · 2021</p>
       </article>
       <article class="wl-item">
         <h3>Communication University of Zhejiang</h3>
-        <p class="wl-meta">B.Sc. in Digital Media Technology · 2018</p>
+        <p class="wl-meta">B.Eng. in Digital Media Technology · 2018</p>
       </article>
     </div>
   </section>
@@ -1044,7 +1044,7 @@ redirect_from:
         </div>
         <div class="wl-system-body">
           <h3>Production Financial AI</h3>
-          <p>Financial ML and feature selection, alongside deployment of an existing cross-team ML platform prototype into an internal workspace, with PostgreSQL state persistence and FastAPI services on AWS Lambda.</p>
+          <p>CUDA-accelerated feature engineering with AUROC screening and AI semantic checks; deployment of an existing cross-team ML platform prototype into a SageMaker workspace, with PostgreSQL state persistence and FastAPI on AWS Lambda.</p>
           <div class="wl-evidence" aria-label="Production ML evidence">
             <span>APPLIED ML</span><span>FINANCIAL AI</span><span>RELIABILITY</span>
           </div>
@@ -1131,6 +1131,10 @@ redirect_from:
         <span>I am currently working at Nasdaq as a Senior Data Scientist.</span>
       </li>
       <li>
+        <time>Sep. 2026</time>
+        <span>I began mentoring Daniel, a Mitacs student, on graph neural networks (GNNs) for crime-ring detection.</span>
+      </li>
+      <li>
         <time>Aug. 2026</time>
         <span>Our paper "<a href="{{ '/publication/docpure_unified_document_restoration' | relative_url }}">DocPure: Prompt-Free Unified Document Restoration via Degradation-Aware Structure-Guided Wavelet Modulation</a>" has been published in IEEE Transactions on Circuits and Systems for Video Technology. The paper is available on <a href="https://ieeexplore.ieee.org/document/11643289">IEEE Xplore</a> and <a href="https://arxiv.org/abs/2608.09536">arXiv</a>, with the implementation available on <a href="https://github.com/LingmingSSS/DocPure">GitHub</a>.</span>
       </li>
@@ -1145,6 +1149,10 @@ redirect_from:
       <li>
         <time>Jul. 2026</time>
         <span>Our paper "<a href="{{ '/publication/uhdres_dual_domain_restoration' | relative_url }}">UHDRes: Ultra-High-Definition Image Restoration via Dual-Domain Decoupled Spectral Modulation</a>" has been published in IEEE Transactions on Circuits and Systems for Video Technology. Congratulations to Shihao. Source code is available on <a href="https://github.com/Zhao0100/UHDRes">GitHub</a>.</span>
+      </li>
+      <li>
+        <time>Jun. 2026</time>
+        <span>I began mentoring Seeam, a work-term student, on an input payload checker.</span>
       </li>
       <li>
         <time>Jun. 2026</time>
@@ -1173,7 +1181,7 @@ redirect_from:
         <li>On March 6, 2025, our paper "<a href="https://arxiv.org/abs/2503.04021">TextDoctor: Unified Document Image Inpainting via Patch Pyramid Diffusion Models</a>" was released.</li>
         <li>On Feb. 15, 2025, our paper "<a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320325001001">Real-time dual-eye collaborative eyeblink detection with contrastive learning</a>" has been successfully published in Pattern Recognition. Congratulations to Yu Wang.</li>
         <li>On Feb. 05, 2025, I served as a guest lecturer for Bio-Inspired Robotics (ENGI 9986), delivering a 150-minute course on "Deep Generative Models and Applications" to 10 graduate students. I am grateful to Dr. Ting Zou for the invitation.</li>
-        <li>On Jan. 31, 2025, I completed my internship at Nasdaq Verafin and delivered a presentation on our recent progress in image verification to an audience of 39 attendees.</li>
+        <li>On Jan. 31, 2025, I completed my internship at Nasdaq and delivered a presentation on our recent progress in image verification to an audience of 39 attendees.</li>
       </ol>
     </details>
 
@@ -1185,7 +1193,7 @@ redirect_from:
         <li>On November 21, 2024, I successfully defended my Ph.D. thesis. I am deeply grateful to my supervisors, Dr. Xianta Jiang, Dr. Hanli Zhao, and Dr. Yuanzhu Chen, and to my committee members, collaborators, and peers at Memorial University of Newfoundland, Wenzhou University, and Nasdaq.</li>
         <li>On Nov. 14, 2024, I gave an oral presentation at the 33rd <a href="https://necec.ieeenl.ca/">NECEC</a> conference for our recent document image restoration algorithm, with an audience of 30 attendees.</li>
         <li>On Sep. 23, 2024, I gave a talk to share my experience in university and postgraduate study life at Digital Media Technology, Communication University of Zhejiang, with an audience of 120 attendees.</li>
-        <li>On August 30, 2024, I gave a talk on our recent work in text document restoration at Nasdaq Verafin, with an audience of 45 attendees.</li>
+        <li>On August 30, 2024, I gave a talk on our recent work in text document restoration at Nasdaq, with an audience of 45 attendees.</li>
         <li>On July 11, 2024, our paper titled "Handling The Non-Smooth Challenge in Tensor SVD: A Multi-Objective Tensor Recovery Framework" was accepted at ECCV.</li>
       </ol>
     </details>
@@ -1201,6 +1209,7 @@ redirect_from:
       <ul class="wl-service-list" aria-label="Reviewer venues in 2026">
         <li><a href="https://www.computer.org/csdl/journal/tp">IEEE TPAMI</a></li>
         <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046">IEEE Transactions on Multimedia</a></li>
+        <li><a href="https://www.embs.org/jbhi/articles/jbhi/">IEEE Journal of Biomedical and Health Informatics</a></li>
         <li><a href="https://www.sciencedirect.com/journal/pattern-recognition">Pattern Recognition</a></li>
         <li><a href="https://www.sciencedirect.com/journal/applied-soft-computing">Applied Soft Computing</a></li>
         <li><a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence">Engineering Applications of Artificial Intelligence</a></li>
@@ -1214,7 +1223,7 @@ redirect_from:
     <details class="wl-details">
       <summary>Invited Reviewer</summary>
       <ol>
-        <li>2026: <a href="https://www.computer.org/csdl/journal/tp">IEEE TPAMI</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046">TMM</a>, <a href="https://www.sciencedirect.com/journal/pattern-recognition">Pattern Recognition</a>, <a href="https://www.sciencedirect.com/journal/applied-soft-computing">Applied Soft Computing</a>, <a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence">EAAI</a>, <a href="https://www.nature.com/srep/">Scientific Reports</a>, <a href="https://www.sciencedirect.com/journal/neurocomputing">Neurocomputing</a>, <a href="https://www.sciencedirect.com/journal/knowledge-based-systems">KBS</a>, <a href="https://eccv.ecva.net/Conferences/2026">ECCV 2026</a></li>
+        <li>2026: <a href="https://www.computer.org/csdl/journal/tp">IEEE TPAMI</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046">TMM</a>, <a href="https://www.embs.org/jbhi/articles/jbhi/">IEEE JBHI</a>, <a href="https://www.sciencedirect.com/journal/pattern-recognition">Pattern Recognition</a>, <a href="https://www.sciencedirect.com/journal/applied-soft-computing">Applied Soft Computing</a>, <a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence">EAAI</a>, <a href="https://www.nature.com/srep/">Scientific Reports</a>, <a href="https://www.sciencedirect.com/journal/neurocomputing">Neurocomputing</a>, <a href="https://www.sciencedirect.com/journal/knowledge-based-systems">KBS</a>, <a href="https://eccv.ecva.net/Conferences/2026">ECCV 2026</a></li>
         <li>2025: <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83">TIP</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046">TMM</a>, <a href="https://www.sciencedirect.com/journal/pattern-recognition">Pattern Recognition</a>, <a href="https://www.sciencedirect.com/journal/neurocomputing">Neurocomputing</a>, <a href="http://solidmodeling.org/call-for-papers-cad-graphics-2025/">CAD/Graphics 2025</a>, <a href="https://link.springer.com/journal/40436">Advances in Manufacturing</a>, <a href="https://link.springer.com/journal/11760">Signal, Image and Video Processing</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=97">IEEE Signal Processing Letters</a>, <a href="https://link.springer.com/journal/530">Multimedia Systems</a>, <a href="https://link.springer.com/journal/13042">Journal of Machine Learning and Cybernetics</a></li>
         <li>2024: <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046">TMM</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76">TCSVT</a>, <a href="https://www.sciencedirect.com/journal/knowledge-based-systems">KBS</a>, <a href="https://link.springer.com/journal/10916">Journal of Medical Systems</a>, <a href="https://link.springer.com/journal/10586">Cluster Computing</a>, <a href="https://www.sciencedirect.com/journal/journal-of-visual-communication-and-image-representation">JVCI</a>, <a href="https://www.sciencedirect.com/journal/displays">Displays</a>, <a href="https://link.springer.com/journal/371">Visual Computer</a>, <a href="https://www.petmei.org/2024/index.html">ETRA 2024 PETMEI</a></li>
       </ol>

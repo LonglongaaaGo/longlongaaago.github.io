@@ -36,7 +36,7 @@ Toronto, ON, Canada \textbar\ \href{mailto:lwlxhl@gmail.com}{lwlxhl@gmail.com} \
 \href{https://scholar.google.com/citations?user=TuxCf4UAAAAJ}{Google Scholar}
 
 \cvsection{Profile}
-Applied ML researcher and Senior Data Scientist at Nasdaq, with a Ph.D. in Computer Science. Works on financial ML, multimodal image editing, and efficient adaptation, with experience deploying ML workflows on AWS. First-author \textbf{IEEE TNNLS and TVCG} publications; \textbf{NeurIPS} research integrated into \textbf{Hugging Face PEFT}.
+Senior Data Scientist at Nasdaq; Computer Science Ph.D. Combines financial ML, AWS deployment and generative vision. First-author \textbf{IEEE TNNLS/TVCG} papers; \textbf{NeurIPS} research integrated into \textbf{Hugging Face PEFT}.
 
 \cvsection{Technical Skills}
 \textbf{Core:} Python, PyTorch, SQL, Git, Bash, C++, CUDA; experimental design and feature engineering.\par
@@ -44,90 +44,93 @@ Applied ML researcher and Senior Data Scientist at Nasdaq, with a Ph.D. in Compu
 \textbf{ML systems:} FastAPI, Mangum, PostgreSQL; AWS SageMaker, Bedrock, Lambda, S3, Docker, SLURM.
 
 \cvsection{Professional Experience}
-\company{Nasdaq / Nasdaq Verafin}{St. John's, NL, Canada}
+\company{Nasdaq}{St. John's, NL, Canada}
 \position{Senior Data Scientist, AI/Analytics}{Mar. 2025 -- Present}
 \begin{points}
 \item Designed cross-scale ensemble feature selection for \textbf{cheque-fraud ML (CFML)}, removing \textbf{77.2\% of input features} while retaining competitive performance in evaluations.
-\item Deployed and integrated an \textbf{existing UI/backend prototype} for a cross-team ML training platform under development into an internal workspace; configured networking and IAM access. Platform scope includes ingestion, training, evaluation, and model governance.
-\item Added \textbf{PostgreSQL-backed user-state persistence} and deployed \textbf{FastAPI} services on \textbf{AWS Lambda using Mangum}, connecting application state and backend services to the workspace.
-\item Built \textbf{SageMaker Job Submitter}, a Python package for local scripts and dependencies across \textbf{Processing, Training, and Hyperparameter Tuning}, with \textbf{SageMaker Pipelines}. Package-based submission cut developer job-configuration time from \textbf{7 days to 1 day}, an approximately \textbf{86\% reduction}.
-\item Developed a \textbf{Bedrock-based feature-formula validator} with structured logical-consistency checks and reliability scores to flag hard-coded errors in feature-engineering formulas.
-\item Built a \textbf{PagerDuty RAG incident-response assistant} as an internal hackathon project on the company's GenAI platform; used incident context to retrieve relevant troubleshooting guidance and resolution steps for on-call engineers.
-\item Mentored industry research on \textbf{cheque OCR} quality assessment and text extraction, and \textbf{tabular-data generation}, supporting pipeline design and generative-model architecture.
+\item Integrated an \textbf{existing cross-team ML UI/backend prototype} into a \textbf{SageMaker workspace}; configured networking/IAM and \textbf{PostgreSQL user-state persistence}; deployed \textbf{FastAPI on AWS Lambda using Mangum}.
+\item Built \textbf{SageMaker Job Submitter} for script/dependency packaging across \textbf{Processing, Training, Hyperparameter Tuning, and SageMaker Pipelines}; cut developer job configuration from \textbf{7 days to 1 day (about 86\% less)}.
+\item Designed \textbf{feature engineering with PyTorch/CUDA-accelerated feature-label AUROC screening}; used \textbf{Amazon Bedrock} to assess candidate features' semantic plausibility.
+\item Developed \textbf{PagerDuty RAG assistant v2}, now \textbf{used internally and recognized in a company shout-out}; retrieves incident context and troubleshooting guidance for on-call engineers.
+\item Mentored \textbf{cheque OCR} research on perceptually aligned quality metrics, culminating in a student presentation; guided \textbf{tabular-data generation} leading to a \href{https://doi.org/10.21203/rs.3.rs-7624993/v1}{\textbf{StDDPM manuscript submission}}.
+\item Mentored a \textbf{work-term student on an input payload checker} (from Jun. 2026) and a \textbf{Mitacs student on GNN-based crime-ring detection} (from Sep. 2026).
 \end{points}
 
-\position{AI Algorithm Intern}{May 2024 -- Jan. 2025}
+\position{AI Algorithm Intern (two placements)}{May 2024 -- Jan. 2025}
 \begin{points}
-\item Designed diffusion-based restoration and inpainting for degraded cheque images in Python/PyTorch; ran comparative experiments against existing methods using \textbf{AWS, SLURM, CUDA, and shell scripts}.
-\item Developed and evaluated patch-level Gaussian latent modeling for image verification; presented research progress to \textbf{39 cross-functional attendees} at the end of the internship.
+\item Proposed \href{https://arxiv.org/abs/2503.04021}{\textbf{TextDoctor}}: structure-pyramid prediction and patch-pyramid diffusion for document/cheque inpainting; \textbf{8K on a 24GB RTX 3090}; \textbf{first-author manuscript submitted to EAAI}.
+\item Evaluated \textbf{7 document datasets} without dataset-specific fine-tuning. On FUNSD, TextDoctor (GSDM) achieved \textbf{55.38\% PaddleOCR word accuracy vs. 45.24\% for DocDiff (+10.14 percentage points)}.
+\item Designed \textbf{PLAID}: patch Gaussian discriminant modeling \textbf{without backbone fine-tuning}; \textbf{8 biometric benchmarks, 16 backbones}. \textbf{8-shot ResNet-152 AUROC: CEDAR 99.42\%, GPDS-150 98.42\%}.
+\item \textbf{First-author IEEE TIFS submission}; major revision submitted Apr. 2026, awaiting second-round decision. Presented both placements: earlier talk about \textbf{40--60 attendees}; final talk \textbf{39 cross-functional attendees}.
 \end{points}
 
 \company{Beaufort Solutions}{St. John's, NL, Canada}
 \position{AI Intern}{Jul. 2022 -- Nov. 2022}
 \begin{points}
-\item Designed a few-shot vision-language classifier for personalized photo-book curation; led data collection and evaluation with Python/PyTorch and AWS/SLURM experiments. Contributed to \href{https://doi.org/10.1117/1.JEI.33.1.013028}{TEG (Journal of Electronic Imaging, 2024)}.
+\item Led method design of \textbf{TEG}, a CLIP-based \textbf{few-shot adaptation} method for photo-book curation; introduced a text-embedding-guided classifier and auxiliary classification loss to improve learning from limited labels.
+\item Led collection of \textbf{Theme25: 35,655 images across 25 themes}; evaluated on Theme25, CIFAR100, and ImageNet. Research published in \href{https://doi.org/10.1117/1.JEI.33.1.013028}{\textbf{Journal of Electronic Imaging (2024)}}.
 \end{points}
 
 \company{Zhongkong Hanlian}{Hangzhou, China}
 \position{AI Algorithm Intern}{Dec. 2017 -- Aug. 2018}
 \begin{points}
-\item Built ResNet/DenseNet vehicle-logo recognition with Caffe, Python, and C++; created Java annotation tools and a training/evaluation dataset, and deployed models for \textbf{real-time inference at community security gates}.
+\item Designed \textbf{ResNet--DenseNet fusion} for vehicle-logo recognition; built Java annotation tools and a training/evaluation dataset; \textbf{deployed with Caffe for real-time inference at community security gates}.
 \end{points}
 
 \newpage
 {\large\bfseries Wanglong Lu}\hfill{\small Research, Engineering \& Education}\par
 
 \cvsection{Selected Research Publications}
-\project{\href{https://doi.org/10.1109/TNNLS.2026.3707463}{UltraDiffEdit -- High-Resolution Generative Editing}}{First author; IEEE TNNLS 2026}
+\project{\href{https://doi.org/10.1109/TNNLS.2026.3707463}{UltraDiffEdit -- High-Resolution Generative Editing} {\small\normalfont[\href{https://github.com/LonglongaaaGo/UltraDiffEdit}{Code}]}}{First author; IEEE TNNLS 2026}
 \begin{points}
-\item Developed tuning-free editing with multi-patch encoding, global-local denoising, and progressive sampling; demonstrated \textbf{8K editing on a single RTX 3090}. \href{https://github.com/LonglongaaaGo/UltraDiffEdit}{Code}; \href{https://longlongaaago.github.io/videos/}{video}.
-\item Built \textbf{three editing benchmarks} (DIV2KEdit, Syn2KEdit, UHRSDEdit) to evaluate high-resolution, multimodal editing; tested pretrained models including \textbf{SDXL and ControlNet without fine-tuning}.
+\item Developed multi-patch encoding and global-local diffusion sampling for \textbf{tuning-free 8K editing on one RTX 3090}; tested SDXL/ControlNet; built \textbf{three benchmarks (1,188 images)}.
+\item \textbf{UHRSDEdit (4K--8K) crop-FID 7.45 vs. 18.76 for SDXL+bicubic (60.3\% lower)}.
 \end{points}
 
 \project{\href{https://doi.org/10.1109/TVCG.2024.3434386}{FACEMUG -- Multimodal Local Facial Editing}}{First author; IEEE TVCG 2024}
 \begin{points}
 \item Designed multimodal feature fusion and self-supervised latent warping for \textbf{six input modalities}: text, sketches, semantic maps, color maps, exemplars, and attribute labels.
-\item Preserved unedited regions during local, controllable facial editing; presented the framework through the \textbf{Genesis entrepreneur training program}. \href{https://doi.org/10.1109/TVCG.2024.3434386}{Paper}.
+\item Received \textbf{77.88\% preference over Unite\&Conquer} in a \textbf{52-participant CelebA-HQ study} with sketch/semantic/text guidance; preserved unedited regions during local editing.
 \end{points}
 
-\project{\href{https://neurips.cc/virtual/2025/loc/san-diego/poster/119606}{AdaMSS -- Parameter-Efficient Adaptation}}{Co-author; NeurIPS 2025}
+\project{\href{https://neurips.cc/virtual/2025/loc/san-diego/poster/119606}{AdaMSS -- Parameter-Efficient Adaptation} {\small\normalfont[\href{https://github.com/jzheng20/AdaMSS}{Code}]}}{Co-author; NeurIPS 2025}
 \begin{points}
-\item Contributed to multi-subspace fine-tuning; reported ViT-Large results exceeded LoRA's average accuracy across seven tasks using \textbf{15.4\% of LoRA's trainable parameters}. Method \textbf{integrated into Hugging Face PEFT}. \href{https://github.com/jzheng20/AdaMSS}{Code}; \href{https://github.com/huggingface/peft/tree/main/examples/adamss_finetuning}{PEFT integration}.
+\item Co-developed adaptive multi-subspace tuning; ViT-Large averaged \textbf{90.13\% vs. LoRA's 85.40\% (+4.73 percentage points)} on \textbf{7 tasks} with \textbf{15.4\% of LoRA's trainable parameters}. \href{https://github.com/huggingface/peft/tree/main/examples/adamss_finetuning}{\textbf{In Hugging Face PEFT}}.
 \end{points}
 
-\project{\href{https://doi.org/10.1109/TCSVT.2026.3720433}{DocPure -- Unified Document Restoration}}{Co-first author; IEEE TCSVT 2026}
+\project{\href{https://doi.org/10.1109/TCSVT.2026.3720433}{DocPure -- Unified Document Restoration} {\small\normalfont[\href{https://github.com/LingmingSSS/DocPure}{Code}]}}{Co-first author; IEEE TCSVT 2026}
 \begin{points}
-\item Co-authored prompt-free document restoration using degradation-aware structure extraction and structure-guided wavelet modulation across multiple degradations. \href{https://github.com/LingmingSSS/DocPure}{Code}.
-\item The unified model was evaluated on \textbf{12 datasets across four tasks}: deblurring, denoising, compression artifact reduction, and deshadowing. \href{https://arxiv.org/html/2608.09536v1}{Benchmarks}.
+\item Co-developed degradation-aware structure extraction and wavelet modulation; tested \textbf{one prompt-free model on 12 datasets} for deblurring, denoising, compression artifacts, and deshadowing.
+\item On TDD deblurring, achieved \textbf{32.55 dB PSNR vs. DocRes's 28.34 dB (+4.21 dB)} and \textbf{61.27\% PaddleOCR word accuracy vs. 55.66\% (+5.61 percentage points)}.
 \end{points}
 
-\project{\href{https://doi.org/10.26599/CVM.2025.9450408}{GRIG -- Data-Efficient Image Inpainting}}{First author; CVM 2025}
+\project{\href{https://doi.org/10.26599/CVM.2025.9450408}{GRIG -- Data-Efficient Image Inpainting} {\small\normalfont[\href{https://github.com/LonglongaaaGo/GRIG_few_shot_inpainting}{Code}]}}{First author; CVM 2025}
 \begin{points}
-\item Developed iterative residual inpainting using CNN features, Transformer reasoning, and forgery-patch adversarial training; evaluated on \textbf{10 few-shot datasets} using FID and LPIPS. \href{https://github.com/LonglongaaaGo/GRIG_few_shot_inpainting}{Code}; \href{https://arxiv.org/html/2304.12035v1}{benchmarks}.
+\item Designed CNN--Transformer residual inpainting with forgery-patch training; \textbf{10 few-shot datasets (18--750 training images)}, \textbf{3.70--26.48\% lower FID vs. next-best baselines at 50--60\% masking}.
 \end{points}
 
-\project{\href{https://doi.org/10.1016/j.patcog.2024.111312}{Visual Style Prompt Learning}}{First author; Pattern Recognition 2025}
+\project{\href{https://doi.org/10.1016/j.patcog.2024.111312}{Visual Style Prompt Learning} {\small\normalfont[\href{https://github.com/LonglongaaaGo/VSPBFR}{Code}]}}{First author; Pattern Recognition 2025}
 \begin{points}
-\item Developed diffusion-generated visual prompts and style-modulated aggregation for blind face restoration. \href{https://github.com/LonglongaaaGo/VSPBFR}{Code}.
+\item Developed latent-diffusion style prompts and style-modulated aggregation: \textbf{four denoising steps}, \textbf{12.3 FPS at 512\,$\times$\,512 (RTX 3080 Ti)}; \textbf{WebPhoto-Test FID 74.25 vs. CodeFormer's 83.17 (10.7\% lower)}.
+\item Evaluated downstream tasks on \textbf{CelebA-Test}: \textbf{FAN landmark NME 6.08\% to 2.43\%}; \textbf{HSEmotion agreement with clean-image predictions 79.73\% to 86.03\%}, using clean-image model outputs as references.
 \end{points}
 {\small Full publication record: \href{https://scholar.google.com/citations?user=TuxCf4UAAAAJ}{Google Scholar} and \href{https://longlongaaago.github.io/publications/}{publication portfolio}.}
 
 \cvsection{AI Engineering Prototypes \& Deployment}
 \project{Local Agentic Code Editor}{Nasdaq internal prototype; 2026}
 \begin{points}
-\item Prototyped a local AI code editor with an \textbf{agentic loop} that selects code writing, code review, or shell-tool execution according to the task.
-\item Connected \textbf{language-model APIs with local tool execution} for code generation, debugging, and iterative review in a working exploratory prototype.
+\item Built a working local prototype connecting \textbf{model APIs} to \textbf{agentic routing across code generation, review and shell tools}; \textbf{diagnoses bugs, applies fixes and iterates on execution feedback}.
 \end{points}
 
 \cvsection{Education}
 \textbf{Ph.D., Computer Science} -- Memorial University of Newfoundland, Canada \hfill 2021--2025\par
-\textbf{M.Sc., Computer Software and Theory} -- Wenzhou University, China \hfill 2018--2021\par
-\textbf{B.Sc., Digital Media Technology} -- Communication University of Zhejiang, China \hfill 2014--2018
+\textbf{M.Eng., Computer Software and Theory} -- Wenzhou University, China \hfill 2018--2021\par
+\textbf{B.Eng., Digital Media Technology} -- Communication University of Zhejiang, China \hfill 2014--2018
 
 \cvsection{Selected Recognition \& Service}
 Outstanding Research Award (Ph.D.), Memorial University, 2023; four granted Chinese invention patents.\par
-Mentored \textbf{10 students} in generative vision and applied ML, including restoration and recognition projects.\par
+Mentored \textbf{12 students} in generative vision and applied ML, including restoration and recognition projects.\par
 Teaching assistant in Data Structures and Algorithms (2021) and Introduction to Machine Learning (2024).\par
-{\raggedright Invited reviewer for \textbf{IEEE TPAMI, TIP, TMM, TCSVT}, Pattern Recognition, Knowledge-Based Systems, \mbox{Neurocomputing}, Applied Soft Computing, and ECCV 2026.\par}
+{\raggedright Invited reviewer for \textbf{IEEE TPAMI, TIP, TMM, TCSVT, JBHI and SPL}; \textbf{Pattern Recognition}, EAAI, JVCI, Knowledge-Based Systems, Neurocomputing, Applied Soft Computing, Scientific Reports, Displays; ECCV 2026.\par}
 Presented feature-selection research to \textbf{60+ attendees} (2026); invited speaker, IEEE Newfoundland and Labrador Section AGM (2026); guest lecturer on deep generative models, Memorial University (2025).
 \end{document}

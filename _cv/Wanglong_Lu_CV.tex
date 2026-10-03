@@ -34,80 +34,83 @@ Toronto, ON, Canada \textbar\ \href{mailto:lwlxhl@gmail.com}{lwlxhl@gmail.com} \
 \href{https://github.com/LonglongaaaGo}{GitHub} \textbar\
 \href{https://www.linkedin.com/in/wanglong-lu-8a98b6235/}{LinkedIn} \textbar\
 \href{https://scholar.google.com/citations?user=TuxCf4UAAAAJ}{Google Scholar}\par
-{\small\color{muted}Updated October 2, 2026}
+{\small\color{muted}Updated October 3, 2026}
 
 \cvsection{Research \& Professional Profile}
-Applied multimodal intelligence researcher and Senior Data Scientist at Nasdaq, with a Ph.D. in Computer Science. Research spans high-resolution generative image editing, multimodal control, image and document restoration, efficient adaptation, and applied machine learning. Industry experience covers financial ML pipelines, feature selection, internal ML platform deployment, cloud-based experimentation, and AI-assisted engineering tools.
+Applied multimodal intelligence researcher and Senior Data Scientist at Nasdaq; Ph.D. in Computer Science. Expertise in generative vision, efficient adaptation, financial ML, and cloud-based ML systems.
 
 \cvsection{Professional Experience}
-\company{Nasdaq / Nasdaq Verafin}{St. John's, NL, Canada}
+\company{Nasdaq}{St. John's, NL, Canada}
 \position{Senior Data Scientist, AI/Analytics}{Mar. 2025 -- Present}
 \begin{points}
-\item Contribute application deployment and integration to a \textbf{cross-team ML platform under development}, whose scope spans data ingestion, preprocessing, distributed training, feature selection, evaluation, and an auditable model registry.
-\item Deployed the \textbf{existing UI/backend prototype} into an internal workspace, configuring network connectivity and IAM roles for internal access.
-\item Implemented \textbf{PostgreSQL-backed persistence for user state} and deployed \textbf{FastAPI services on AWS Lambda using Mangum}; integrated these components with the platform's application layer.
+\item Integrated an \textbf{existing cross-team ML UI/backend prototype} into a \textbf{SageMaker workspace}; configured networking/IAM and \textbf{PostgreSQL user-state persistence}; deployed \textbf{FastAPI on AWS Lambda using Mangum}.
 \item Designed cross-scale ensemble feature selection that removed \textbf{77.2\% of input features} while retaining competitive performance on CFML data; presented the algorithm to more than 60 attendees.
-\item Built \textbf{SageMaker Job Submitter}, a Python package for AWS SageMaker Processing, Training, and Hyperparameter Tuning jobs, including automated dependency packaging and SageMaker Pipelines. Package-based submission cut developer job-configuration time from \textbf{7 days to 1 day}, an approximately \textbf{86\% reduction}.
-\item Developed an AWS Bedrock-based feature-formula validation engine with structured logical-consistency checks and reliability scores to flag hard-coded errors.
-\item Built a \textbf{PagerDuty RAG incident-response assistant} as an internal hackathon project on the company's GenAI platform; used incident context to retrieve relevant troubleshooting guidance and resolution steps for on-call engineers.
-\item Mentored industry research on cheque OCR quality assessment and text extraction, and tabular-data generation, supporting pipeline design and generative-model architecture.
+\item Built \textbf{SageMaker Job Submitter} for script/dependency packaging across \textbf{Processing, Training, Hyperparameter Tuning, and SageMaker Pipelines}; cut developer job configuration from \textbf{7 days to 1 day (about 86\% less)}.
+\item Designed \textbf{feature engineering with PyTorch/CUDA-accelerated feature-label AUROC screening}; used \textbf{Amazon Bedrock} to assess candidate features' semantic plausibility.
+\item Developed \textbf{PagerDuty RAG assistant v2} on the company's GenAI platform; \textbf{now used internally and recognized in a company shout-out}. Retrieves incident context and troubleshooting guidance for on-call engineers.
+\item Mentored \textbf{cheque OCR} research on perceptually aligned quality metrics, culminating in a student presentation; guided \textbf{tabular-data generation} leading to a \href{https://doi.org/10.21203/rs.3.rs-7624993/v1}{\textbf{StDDPM manuscript submission}}.
+\item Mentored \textbf{Seeam (work-term student)} on an \textbf{input payload checker} from Jun. 2026, and \textbf{Daniel (Mitacs student)} on \textbf{GNN-based crime-ring detection} from Sep. 2026.
 \end{points}
-\position{AI Algorithm Intern}{May 2024 -- Jan. 2025}
+\position{AI Algorithm Intern (two placements)}{May 2024 -- Jan. 2025}
 \begin{points}
-\item Designed diffusion-based text-document restoration and inpainting for degraded cheque images using Python and PyTorch; benchmarked against existing methods with AWS, SLURM, CUDA, and shell scripts.
-\item Designed an image-verification algorithm using patch-level Gaussian latent modeling; presented research progress to 39 cross-functional attendees at the end of the internship.
+\item Proposed \href{https://arxiv.org/abs/2503.04021}{\textbf{TextDoctor}}: structure-pyramid prediction and patch-pyramid diffusion for document/cheque inpainting; \textbf{8K inpainting on a 24GB RTX 3090}. Python/PyTorch, AWS/SLURM/CUDA. \textbf{First-author manuscript submitted to Engineering Applications of Artificial Intelligence (EAAI)}.
+\item Evaluated \textbf{7 document datasets} without dataset-specific fine-tuning. FUNSD, TextDoctor (GSDM): \textbf{55.38\% PaddleOCR word accuracy vs. 45.24\% DocDiff (+10.14 percentage points)}.
+\item Designed \textbf{PLAID}: patch-level Gaussian discriminant modeling of genuine and forged samples, \textbf{without backbone fine-tuning}; evaluated \textbf{8 biometric benchmarks and 16 backbones}. \textbf{8-shot ResNet-152 AUROC: 99.42\% CEDAR, 98.42\% GPDS-150}.
+\item \textbf{First-author submission to IEEE Transactions on Information Forensics and Security (TIFS)}; major revision submitted \textbf{Apr. 2026}, awaiting second-round decision. Presented both placements: earlier talk about \textbf{40--60 attendees}; final talk \textbf{39 cross-functional attendees}.
 \end{points}
 \role{AI Intern -- Beaufort Solutions}{Jul. 2022 -- Nov. 2022}{St. John's, NL, Canada}
 \begin{points}
-\item Designed a data-collection pipeline and few-shot, vision-language image-theme recognition for personalized photo-book curation; contributed to TEG (Journal of Electronic Imaging, 2024).
+\item Led method design of \textbf{TEG}, a CLIP-based \textbf{few-shot adaptation} approach for personalized photo-book curation; introduced a text-embedding-guided classifier and auxiliary classification loss to improve learning from limited labels.
+\item Led Theme25 collection pipeline (\textbf{35,655 annotated images, 25 themes}); evaluated Theme25, CIFAR100, and ImageNet on AWS/SLURM; published in \href{https://doi.org/10.1117/1.JEI.33.1.013028}{\textbf{Journal of Electronic Imaging (2024)}}.
 \end{points}
 \role{AI Algorithm Intern -- Zhongkong Hanlian}{Dec. 2017 -- Aug. 2018}{Hangzhou, China}
 \begin{points}
-\item Built vehicle-logo recognition using deep networks and developed annotation tools in Python, C++, and Java; supported real-time deployment at community security gates.
+\item Designed \textbf{ResNet--DenseNet fusion} for vehicle-logo recognition; built Java annotation tools and a dataset for training and evaluation; \textbf{deployed with Caffe for real-time inference at community security gates}.
 \end{points}
 
 \newpage
 \cvsection{Education}
 \textbf{Ph.D., Computer Science} -- Memorial University of Newfoundland, Canada \hfill 2021--2025\par
-\textbf{M.Sc., Computer Software and Theory} -- Wenzhou University, China \hfill 2018--2021\par
-\textbf{B.Sc., Digital Media Technology} -- Communication University of Zhejiang, China \hfill 2014--2018
+\textbf{M.Eng., Computer Software and Theory} -- Wenzhou University, China \hfill 2018--2021\par
+\textbf{B.Eng., Digital Media Technology} -- Communication University of Zhejiang, China \hfill 2014--2018
 
 \cvsection{Selected Research \& Engineering Projects}
-\role{UltraDiffEdit}{TNNLS 2026; first author}{Tuning-free high-resolution generative image editing}
+\company{UltraDiffEdit -- High-Resolution Generative Editing {\small\normalfont[\href{https://github.com/LonglongaaaGo/UltraDiffEdit}{Code}]}}{TNNLS 2026; first author}
 \begin{points}
 \item Developed multi-patch encoding, global-local consistency denoising, and progressive sampling to extend pretrained latent diffusion models to real-image editing without fine-tuning.
-\item Demonstrated editing up to 8K resolution on a single RTX 3090. \href{https://github.com/LonglongaaaGo/UltraDiffEdit}{Code} and \href{https://longlongaaago.github.io/videos/}{video} are available.
-\item Built three editing benchmarks (DIV2KEdit, Syn2KEdit, UHRSDEdit) for high-resolution, multimodal evaluation; tested pretrained SDXL and ControlNet models without fine-tuning.
+\item Demonstrated \textbf{8K editing on one RTX 3090}; achieved \textbf{UHRSDEdit (4K--8K) crop-FID 7.45 vs. 18.76 for SDXL+bicubic (60.3\% lower)}. \href{https://longlongaaago.github.io/videos/}{Video}.
+\item Built \textbf{three benchmarks totaling 1,188 images}: DIV2KEdit, Syn2KEdit, and UHRSDEdit; evaluated pretrained SDXL and ControlNet without fine-tuning.
 \end{points}
-\role{FACEMUG}{TVCG 2024; first author}{Multimodal local facial editing}
+\company{FACEMUG -- Multimodal Local Facial Editing}{TVCG 2024; first author}
 \begin{points}
 \item Developed a unified editing framework for text, sketches, semantic maps, color maps, exemplars, and attribute labels, with multimodal feature fusion and self-supervised latent warping.
-\item Preserves the unedited image regions while supporting local, controllable changes. Presented the work through the Genesis entrepreneur training program. \href{https://doi.org/10.1109/TVCG.2024.3434386}{Publication}.
+\item Achieved \textbf{FFHQ FID 23.16 vs. 52.39 for Unite\&Conquer} under sketch/semantic conditioning; received \textbf{77.88\% preference} in a \textbf{52-participant CelebA-HQ study} with sketch/semantic/text guidance. \href{https://doi.org/10.1109/TVCG.2024.3434386}{Publication}.
 \end{points}
-\role{AdaMSS}{NeurIPS 2025; co-author}{Parameter-efficient fine-tuning}
+\company{AdaMSS -- Parameter-Efficient Adaptation {\small\normalfont[\href{https://github.com/jzheng20/AdaMSS}{Code}]}}{NeurIPS 2025; co-author}
 \begin{points}
-\item Co-authored adaptive multi-subspace updates for expressive and efficient adaptation of pretrained language and vision models.
-\item The method is integrated into \href{https://github.com/huggingface/peft/tree/main/examples/adamss_finetuning}{Hugging Face PEFT}. \href{https://github.com/jzheng20/AdaMSS}{Research code} is public.
+\item Co-developed adaptive multi-subspace updates; ViT-Large averaged \textbf{90.13\% vs. LoRA's 85.40\% (+4.73 \mbox{percentage} points)} across seven tasks, with \textbf{241K vs. 1.57M trainable parameters (15.4\%)}.
+\item LLaMA 2-7B reached \textbf{50.80\% GSM8K accuracy with 4M trainable parameters} vs. 49.05\% with 6,738M for full fine-tuning. Method \href{https://github.com/huggingface/peft/tree/main/examples/adamss_finetuning}{\textbf{integrated into Hugging Face PEFT}}.
 \end{points}
-\role{DocPure}{TCSVT 2026; co-first author}{Prompt-free unified document restoration}
+\company{DocPure -- Unified Document Restoration {\small\normalfont[\href{https://github.com/LingmingSSS/DocPure}{Code}]}}{TCSVT 2026; co-first author}
 \begin{points}
-\item Co-authored structure-guided wavelet modulation for restoration across document degradations without manual inference-time task prompts. \href{https://github.com/LingmingSSS/DocPure}{Code}.
-\item The unified model was evaluated on 12 datasets across deblurring, denoising, compression artifact reduction, and deshadowing. \href{https://arxiv.org/html/2608.09536v1}{Benchmarks}.
+\item Co-developed degradation-aware structure extraction and wavelet modulation; tested \textbf{one prompt-free model on 12 datasets} for deblurring, denoising, compression artifacts, and deshadowing.
+\item On TDD deblurring, achieved \textbf{32.55 dB PSNR vs. DocRes's 28.34 dB (+4.21 dB)} and \textbf{61.27\% PaddleOCR word accuracy vs. 55.66\% (+5.61 percentage points)}. \href{https://arxiv.org/html/2608.09536v1}{Benchmarks}.
 \end{points}
-\role{GRIG}{CVM 2025; first author}{Data-efficient generative residual image inpainting}
+\company{GRIG -- Data-Efficient Image Inpainting {\small\normalfont[\href{https://github.com/LonglongaaaGo/GRIG_few_shot_inpainting}{Code}]}}{CVM 2025; first author}
 \begin{points}
-\item Developed iterative residual inpainting using CNN features and Transformer reasoning for small training sets.
-\item Introduced forgery-patch adversarial training to improve textures and fine detail. \href{https://doi.org/10.26599/CVM.2025.9450408}{Paper}; \href{https://github.com/LonglongaaaGo/GRIG_few_shot_inpainting}{code}.
+\item Designed CNN--Transformer iterative residual refinement and forgery-patch adversarial training for data-efficient inpainting on \textbf{10 few-shot datasets with 18--750 training images}.
+\item Reduced FID by \textbf{3.70--26.48\% vs. each dataset's next-best baseline at 50--60\% masking}; benchmarks span medical, animal, cartoon, and art images. \href{https://doi.org/10.26599/CVM.2025.9450408}{Paper}.
 \end{points}
-\role{Visual Style Prompt Learning}{Pattern Recognition 2025; first author}{Diffusion-guided blind face restoration}
+\company{Visual Style Prompt Learning {\small\normalfont[\href{https://github.com/LonglongaaaGo/VSPBFR}{Code}]}}{Pattern Recognition 2025; first author}
 \begin{points}
-\item Developed diffusion-generated visual style prompts to guide blind face restoration.
-\item Designed style-modulated aggregation to fuse visual prompts with restoration features. \href{https://doi.org/10.1016/j.patcog.2024.111312}{Paper}; \href{https://github.com/LonglongaaaGo/VSPBFR}{code}.
+\item Developed latent-diffusion style prompts and style-modulated aggregation with \textbf{four denoising steps}; achieved \textbf{12.3 FPS at 512\,$\times$\,512 on an RTX 3080 Ti}.
+\item Achieved \textbf{WebPhoto-Test FID 74.25 vs. CodeFormer's 83.17 (10.7\% lower)}; best mean rank (3.67) across FID/NIQE on three real-world test sets. \href{https://doi.org/10.1016/j.patcog.2024.111312}{Paper}.
+\item On \textbf{CelebA-Test}, reduced \textbf{FAN landmark NME from 6.08\% to 2.43\%} and raised \textbf{HSEmotion agreement from 79.73\% to 86.03\%}; reference landmarks and emotion labels are model predictions on clean images.
 \end{points}
 \role{Local Agentic Code Editor}{Nasdaq internal prototype; 2026}{Exploratory side project: API-driven code editing and local tool orchestration}
 \begin{points}
-\item Prototyped a local AI code editor with an \textbf{agentic loop} that selects between code writing, code review, and shell-tool execution based on the current task.
-\item Integrated \textbf{language-model APIs with local tool execution} to support code generation, debugging, and iterative review.
+\item Built a working local AI code-editor prototype with \textbf{model APIs and agentic routing} across code generation, review and shell-tool execution.
+\item Implemented an iterative debugging loop that \textbf{diagnoses bugs, edits code, applies fixes and uses execution feedback} to determine the next action.
 \end{points}
 
 \newpage
@@ -138,7 +141,7 @@ Applied multimodal intelligence researcher and Senior Data Scientist at Nasdaq, 
 \cvsection{Preprints}
 \pubitem{Simulation-Driven Imitation Learning for Biosignals-Free Shared-Autonomy Prosthetic Grasping}{Kaijie Shi, \textbf{Wanglong Lu}, Han Chen, Vinicius Prado da Fonseca, Ting Zou, Hanli Zhao, Xianta Jiang}{arXiv preprint arXiv:2606.07389, 2026}{https://arxiv.org/abs/2606.07389}
 \pubitem{TextDoctor: Unified Document Image Inpainting via Patch Pyramid Diffusion Models}{\textbf{Wanglong Lu}, Lingming Su, Jingjing Zheng, Vinícius Veloso de Melo, Farzaneh Shoeleh, John Hawkin, Terrence Tricco, Hanli Zhao, Xianta Jiang}{ArXiv, 2025}{https://arxiv.org/abs/2503.04021}
-\pubitem{StDDPM: Sequential Financial Synthetic Data Generation using T-distribution based Diffusion Model}{Omid Tarkhaneh, Hamideh Mehri, \textbf{Wanglong Lu}, Farzaneh Shoeleh, Vinicius Veloso de Melo}{Research Square preprint, 2025}{https://www.researchsquare.com/article/rs-7624993/latest}
+\pubitem{StDDPM: Sequential Financial Synthetic Data Generation using T-distribution based Diffusion Model}{Omid Tarkhaneh, Hamideh Mehri, \textbf{Wanglong Lu}, Farzaneh Shoeleh, Vinicius Veloso de Melo}{Research Square preprint, 2025}{https://doi.org/10.21203/rs.3.rs-7624993/v1}
 \pubitem{Promptrr: Diffusion models as prompt generators for single image reflection removal}{Tao Wang, \textbf{Wanglong Lu}, Kaihao Zhang, Wenhan Luo, Tae-Kyun Kim, Tong Lu, Hongdong Li, Ming-Hsuan Yang}{ArXiv, 2024}{https://arxiv.org/abs/2402.02374}
 \cvsection{Dissertation}
 \pubitem{Generative Models for Semantic Facial Image Editing: Multimodal Approaches}{\textbf{Wanglong Lu}}{PhD thesis, Memorial University of Newfoundland, 2025}{https://memorial.scholaris.ca/items/234b7b2c-3bcf-4506-8767-af654564e511}
@@ -148,23 +151,25 @@ Applied multimodal intelligence researcher and Senior Data Scientist at Nasdaq, 
 \cvsection{Technical Skills}
 \textbf{Programming:} Python, PyTorch, SQL, Git, Bash, C++, Java, CUDA, OpenCV.\par
 \textbf{ML \& GenAI:} Latent diffusion, GANs, Transformers, multimodal conditioning, vision-language models, PEFT/LoRA, Hugging Face, RAG, feature selection, experimental evaluation.\par
-\textbf{Infrastructure:} FastAPI, Mangum, PostgreSQL; AWS SageMaker, Bedrock, Lambda, S3, Docker, GPU experimentation, SLURM.
+\textbf{Infrastructure:} FastAPI, Mangum, PostgreSQL; AWS SageMaker, Bedrock, Lambda, S3, Docker, SLURM.
 
 \cvsection{Additional Engineering Project}
-\textbf{AI Headshot Generation Deployment:} Implemented model invocation and application deployment for AI-generated headshots.
+\textbf{AI Headshot Generation:} Implemented model invocation and deployed the generation application.
 
 \cvsection{Teaching, Mentorship \& Talks}
 \begin{points}
-\item Mentored 10 students on research projects spanning generative vision, restoration, image recognition, and applied machine learning.
-\item Teaching assistant, Memorial University: Data Structures and Algorithms (Sep.--Dec. 2021); Introduction to Machine Learning (Jan.--Apr. 2024).
+\item Mentored \textbf{12 students} in generative vision, image restoration/recognition, and applied ML research.
+\item Cheque OCR mentorship identified promising image-quality metrics consistent with human perception and supported text-extraction evaluation; the student completed a research presentation.
+\item Guided sequential financial-data generation research leading to \href{https://doi.org/10.21203/rs.3.rs-7624993/v1}{\textbf{StDDPM}}, a submitted manuscript with a Research Square preprint; evaluated on \textbf{1.06 million Czech banking transactions across 4,500 accounts}.
+\item Teaching assistant at Memorial: Data Structures \& Algorithms (2021); Introduction to Machine Learning (2024).
 \item Guest lecturer, Bio-Inspired Robotics (ENGI 9986), Memorial University, Feb. 2025: a 150-minute lecture on Deep Generative Models and Applications for 10 graduate students.
 \item Invited speaker, IEEE Newfoundland and Labrador Section AGM, Mar. 2026: Generative Models for Semantic Image Editing: Multimodal Approaches.
-\item Research and technical presentations to academic and industry audiences, including the 2026 feature-selection presentation to 60+ attendees.
+\item Research talks for academic/industry audiences; 2026 feature-selection presentation to \textbf{60+ attendees}.
 \end{points}
 
 \cvsection{Academic Service}
-\textbf{Invited reviewer, 2026:} IEEE TPAMI, IEEE TMM, Pattern Recognition, Applied Soft Computing, Engineering Applications of Artificial Intelligence, Scientific Reports, Neurocomputing, Knowledge-Based Systems, and ECCV 2026.\par
-\textbf{2025:} IEEE TIP, IEEE TMM, Pattern Recognition, Neurocomputing, CAD/Graphics, Advances in Manufacturing, Signal, Image and Video Processing, IEEE Signal Processing Letters, Multimedia Systems, Journal of Machine Learning and Cybernetics.\par
+\textbf{Invited reviewer, 2026:} IEEE TPAMI, IEEE TMM, \href{https://www.embs.org/jbhi/articles/jbhi/}{IEEE Journal of Biomedical and Health Informatics (JBHI)}, Pattern Recognition, Applied Soft Computing, Engineering Applications of Artificial Intelligence, Scientific Reports, Neurocomputing, Knowledge-Based Systems, and ECCV.\par
+\textbf{2025:} IEEE TIP, IEEE TMM, Pattern Recognition, Neurocomputing, CAD/Graphics, Advances in Manufacturing, Signal, Image and Video Processing, IEEE SPL, Multimedia Systems, Journal of Machine Learning and Cybernetics.\par
 \textbf{2024:} IEEE TMM, IEEE TCSVT, Knowledge-Based Systems, Journal of Medical Systems, Cluster Computing, Journal of Visual Communication and Image Representation, Displays, The Visual Computer, and ETRA PETMEI.
 
 \cvsection{Granted Patents}

@@ -26,6 +26,10 @@ description: 'A diffusion-guided blind face restoration method that learns visua
 [[github]](https://github.com/LonglongaaaGo/VSPBFR)
 <!-- [[youtube]](https://www.youtube.com/watch?v=O5r40NIXUcM) -->
 
+### Downstream Evaluations
+
+On CelebA-Test, restoration reduced FAN facial-landmark normalized mean error (NME) from **6.08% to 2.43%**, and increased HSEmotion agreement from **79.73% to 86.03%**. Both evaluations use the corresponding model's predictions on clean images as references, rather than manually annotated landmarks or emotion labels. See [Table V and Section IV-F](https://arxiv.org/html/2412.21042v1#S4.SS6).
+
 
 Recommended citation: 
 
