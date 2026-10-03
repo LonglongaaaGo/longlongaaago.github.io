@@ -14,6 +14,7 @@ documents:
   - "/images/cv/resume-page-2.png"
 - id: ml-engineer
   title: ML Engineer
+  unlisted: true
   description: ML systems, deployment & AI tooling
   pdf: "/files/cv/Wanglong_Lu_ML_Engineer_Resume.pdf"
   updated: October 03, 2026

@@ -30,7 +30,7 @@ info = executable('pdfinfo')
 renderer = executable('pdftoppm')
 documents = [
   { 'id' => 'resume', 'title' => 'Applied Scientist', 'description' => 'Method design, experiments & applied research', 'name' => 'Wanglong_Lu_Resume', 'public_name' => 'Wanglong_Lu_Applied_Scientist_Resume', 'aliases' => ['/files/cv/Wanglong_Lu_Resume.pdf'], 'expected_pages' => 2 },
-  { 'id' => 'ml-engineer', 'title' => 'ML Engineer', 'description' => 'ML systems, deployment & AI tooling', 'name' => 'Wanglong_Lu_ML_Engineer_Resume', 'expected_pages' => 2 },
+  { 'id' => 'ml-engineer', 'title' => 'ML Engineer', 'unlisted' => true, 'description' => 'ML systems, deployment & AI tooling', 'name' => 'Wanglong_Lu_ML_Engineer_Resume', 'expected_pages' => 2 },
   { 'id' => 'cv', 'title' => 'Full CV', 'description' => 'Research, experience, publications & service', 'name' => 'Wanglong_Lu_CV' }
 ]
 

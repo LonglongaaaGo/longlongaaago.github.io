@@ -22,7 +22,7 @@ pdf_resume: true
 <section class="wl-resume wl-no-zoom" data-resume-viewer aria-label="Resume documents">
   <div class="wl-resume-tabs" aria-label="Document version" hidden>
     {% for document in site.data.cv_documents.documents %}
-    <button type="button" id="tab-{{ document.id }}" class="wl-resume-tab" data-resume-tab="{{ document.id }}">
+    <button type="button" id="tab-{{ document.id }}" class="wl-resume-tab" data-resume-tab="{{ document.id }}"{% if document.unlisted %} data-resume-unlisted hidden{% endif %}>
       <i class="fas fa-file-pdf" aria-hidden="true"></i>
       <span>{{ document.title }}</span><span class="wl-resume-count">{{ document.pages }} pages</span>
     </button>
@@ -30,7 +30,7 @@ pdf_resume: true
   </div>
 
   {% for document in site.data.cv_documents.documents %}
-  <section id="{{ document.id }}" class="wl-resume-document" data-resume-document aria-labelledby="heading-{{ document.id }}">
+  <section id="{{ document.id }}" class="wl-resume-document" data-resume-document aria-labelledby="heading-{{ document.id }}"{% if document.unlisted %} data-resume-unlisted hidden{% endif %}>
     <header class="wl-resume-header">
       <div>
         <h2 id="heading-{{ document.id }}">{{ document.title }}</h2>
@@ -56,4 +56,11 @@ pdf_resume: true
     </div>
   </section>
   {% endfor %}
+  <div class="wl-resume-extra">
+    {% for document in site.data.cv_documents.documents %}
+    {% if document.unlisted %}
+    <a class="wl-resume-extra-link" href="#{{ document.id }}" data-resume-reveal="{{ document.id }}" aria-label="Open {{ document.title }} view" title="Open {{ document.title }} view"><i class="fas fa-code" aria-hidden="true"></i></a>
+    {% endif %}
+    {% endfor %}
+  </div>
 </section>

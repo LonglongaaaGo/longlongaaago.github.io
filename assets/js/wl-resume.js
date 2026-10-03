@@ -4,6 +4,7 @@
   if (!viewer) return;
   var tabs = Array.prototype.slice.call(viewer.querySelectorAll('[data-resume-tab]'));
   var panels = Array.prototype.slice.call(viewer.querySelectorAll('[data-resume-document]'));
+  var revealLinks = Array.prototype.slice.call(viewer.querySelectorAll('[data-resume-reveal]'));
   var positions = {};
   var tablist = viewer.querySelector('.wl-resume-tabs');
   tablist.setAttribute('role', 'tablist');
@@ -24,6 +25,7 @@
     if (!panels.some(function (panel) { return panel.id === id; })) id = panels[0].id;
     tabs.forEach(function (tab) {
       var active = tab.getAttribute('data-resume-tab') === id;
+      tab.hidden = tab.hasAttribute('data-resume-unlisted') && !active;
       tab.setAttribute('aria-selected', String(active));
       tab.tabIndex = active ? 0 : -1;
     });
@@ -33,7 +35,7 @@
     });
   }
 
-  tabs.forEach(function (tab, index) {
+  tabs.forEach(function (tab) {
     var id = tab.getAttribute('data-resume-tab');
     tab.setAttribute('role', 'tab');
     tab.setAttribute('aria-controls', id);
@@ -43,15 +45,29 @@
       window.history.replaceState(null, '', '#' + id);
     });
     tab.addEventListener('keydown', function (event) {
+      var visibleTabs = tabs.filter(function (item) { return !item.hidden; });
+      var index = visibleTabs.indexOf(tab);
       var next;
-      if (event.key === 'ArrowRight') next = (index + 1) % tabs.length;
-      else if (event.key === 'ArrowLeft') next = (index + tabs.length - 1) % tabs.length;
+      if (event.key === 'ArrowRight') next = (index + 1) % visibleTabs.length;
+      else if (event.key === 'ArrowLeft') next = (index + visibleTabs.length - 1) % visibleTabs.length;
       else if (event.key === 'Home') next = 0;
-      else if (event.key === 'End') next = tabs.length - 1;
+      else if (event.key === 'End') next = visibleTabs.length - 1;
       else return;
       event.preventDefault();
-      tabs[next].click();
-      tabs[next].focus();
+      visibleTabs[next].click();
+      visibleTabs[next].focus();
+    });
+  });
+
+  revealLinks.forEach(function (link) {
+    link.addEventListener('click', function (event) {
+      event.preventDefault();
+      var id = link.getAttribute('data-resume-reveal');
+      activate(id);
+      window.history.replaceState(null, '', '#' + id);
+      tabs.forEach(function (tab) {
+        if (tab.getAttribute('data-resume-tab') === id) tab.focus();
+      });
     });
   });
 

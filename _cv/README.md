@@ -19,7 +19,9 @@ ruby _cv/build.rb
 
 This requires an existing TeX distribution (`pdflatex` with Latin Modern) and Poppler (`pdfinfo`, `pdftoppm`). It compiles twice, checks for layout overflow and two-page targeted resumes, and refreshes all three PDFs, page previews and `_data/cv_documents.yml`. Use `ruby _cv/build.rb --resumes-only` to export just the two targeted resumes while preserving the existing full CV, its previews and its update date. No TeX or PDF service is needed by website visitors.
 
-The dedicated page is `/cv-pdf/`, with Applied Scientist (`#resume`), ML Engineer (`#ml-engineer`) and Full CV (`#cv`) tabs. PDF files have stable URLs under `/files/cv/`; the existing `#resume` links and generic PDF filename still open the Applied Scientist version. Website previews are images rendered from those same PDFs, so they work on mobile and without browser PDF plugins. The open/download controls provide the original PDFs, including selectable text and clickable links.
+The dedicated page is `/cv-pdf/`, with Applied Scientist (`#resume`) and Full CV (`#cv`) tabs shown by default. ML Engineer is marked `unlisted: true`: open it with the small code icon below the preview or the direct `/cv-pdf/#ml-engineer` link. Its tab is visible only while that document is active; keyboard navigation skips hidden tabs. This is a presentation choice, not access control: the PDF and preview images remain public. The builder preserves the unlisted setting when regenerating document metadata.
+
+PDF files have stable URLs under `/files/cv/`; the existing `#resume` links and generic PDF filename still open the Applied Scientist version. Website previews are images rendered from those same PDFs, so they work on mobile and without browser PDF plugins. Without JavaScript, the unlisted document remains hidden unless its URL fragment is explicitly targeted. The open/download controls provide the original PDFs, including selectable text and clickable links.
 
 ## Before Publishing
 

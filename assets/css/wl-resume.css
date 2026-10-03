@@ -1,5 +1,6 @@
 .wl-resume { margin-top: 24px; }
 .wl-resume [hidden] { display: none !important; }
+.wl-resume:not(.is-ready) [data-resume-document][data-resume-unlisted][hidden]:target { display: block !important; }
 .wl-resume-tabs { display: flex; flex-wrap: wrap; gap: 8px; border-bottom: 1px solid var(--wl-border); padding-bottom: 14px; }
 .wl-resume-tab,
 .wl-resume-actions a,
@@ -26,6 +27,9 @@
 .wl-resume.is-ready .wl-resume-sheet { margin-bottom: 0; }
 .wl-resume-sheet img { display: block; width: 100%; height: 100%; object-fit: contain; }
 .wl-resume-document:focus { outline: none; }
+.wl-resume-extra { display: flex; justify-content: flex-end; margin-top: 8px; }
+.wl-resume .wl-resume-extra-link { display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border: 1px solid transparent; border-radius: 4px; color: var(--wl-muted); font-size: 13px; text-decoration: none; }
+.wl-resume .wl-resume-extra-link:hover { border-color: var(--wl-border); color: var(--wl-blue); text-decoration: none; }
 .wl-resume a:focus-visible,
 .wl-resume button:focus-visible { outline: 3px solid var(--wl-blue); outline-offset: 3px; }
 @media (max-width: 600px) {
@@ -37,6 +41,7 @@
 @media print {
   .wl-resume-tabs,
   .wl-resume-actions,
+  .wl-resume-extra,
   .wl-resume-pager { display: none !important; }
   .wl-resume.is-ready [data-resume-page][hidden] { display: block !important; }
   .wl-resume-pages { padding: 0; border: 0; background: none; }
