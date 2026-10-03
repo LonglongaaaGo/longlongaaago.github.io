@@ -1,12 +1,14 @@
-# Resume and Full CV
+# Role-Specific Resumes and Full CV
 
-- `Wanglong_Lu_Resume.tex`: two-page English resume with an Applied Scientist emphasis: financial ML algorithms first, concrete engineering deliveries, and six selected research entries. Research contributions and publication metadata share the same entries to avoid duplication; engineering prototypes are separate. Compact company/position headers and paragraph spacing retain a 10.5-point body font. Tailor further for ML Engineer or Research Scientist applications rather than listing three target titles in the headline.
+- `Wanglong_Lu_Resume.tex`: two-page Applied Scientist resume: method design, financial-ML experiments, generative vision, efficient adaptation and six selected research entries. Exports to `Wanglong_Lu_Applied_Scientist_Resume.pdf`; the old `Wanglong_Lu_Resume.pdf` download remains an identical compatibility copy.
+- `Wanglong_Lu_ML_Engineer_Resume.tex`: two-page ML Engineer resume: SageMaker integration, PostgreSQL state persistence, Lambda/FastAPI deployment, job-submission tooling, the internally used PagerDuty assistant and an exploratory agentic editor. Research entries emphasize model implementation, resource constraints and evaluation.
 - `Wanglong_Lu_CV.tex`: complete English CV, with publications, preprints, patents, teaching and service.
+- Both targeted versions use the same verified facts, dates and metrics; their emphasis, ordering and detail differ. Neither changes the actual Nasdaq job title or invents production ownership. Body text remains 10.5 points.
 - Original uploaded archive is unchanged. These standalone sources replace the template's nested document environments.
 
 ## Update
 
-1. Edit experience, projects, contact details and selected publications in the LaTeX sources. The two-page resume is curated, not an automatic paper list.
+1. Edit experience, projects, contact details and selected publications in both targeted LaTeX sources and the full CV. The two-page resumes are curated, not automatic paper lists; shared facts must remain consistent.
 2. Update publication metadata in `_publications/`. `update_publications.rb` refreshes the full CV's generated publication section, excluding duplicate Chinese/English records and separating preprints and the dissertation.
 3. Open the sources in Codex's LaTeX editor and check the PDF preview.
 4. To export for the website, run from the repository root:
@@ -15,9 +17,9 @@
 ruby _cv/build.rb
 ```
 
-This requires an existing TeX distribution (`pdflatex` with Latin Modern) and Poppler (`pdfinfo`, `pdftoppm`). It compiles twice, checks for layout overflow and a two-page resume, and refreshes the PDFs, page previews and `_data/cv_documents.yml`. No TeX or PDF service is needed by website visitors.
+This requires an existing TeX distribution (`pdflatex` with Latin Modern) and Poppler (`pdfinfo`, `pdftoppm`). It compiles twice, checks for layout overflow and two-page targeted resumes, and refreshes all three PDFs, page previews and `_data/cv_documents.yml`. Use `ruby _cv/build.rb --resumes-only` to export just the two targeted resumes while preserving the existing full CV, its previews and its update date. No TeX or PDF service is needed by website visitors.
 
-The dedicated page is `/cv-pdf/`; PDF files have stable URLs under `/files/cv/`. Website previews are images rendered from those same PDFs, so they work on mobile and without browser PDF plugins. The open/download controls provide the original PDFs, including selectable text and clickable links.
+The dedicated page is `/cv-pdf/`, with Applied Scientist (`#resume`), ML Engineer (`#ml-engineer`) and Full CV (`#cv`) tabs. PDF files have stable URLs under `/files/cv/`; the existing `#resume` links and generic PDF filename still open the Applied Scientist version. Website previews are images rendered from those same PDFs, so they work on mobile and without browser PDF plugins. The open/download controls provide the original PDFs, including selectable text and clickable links.
 
 ## Before Publishing
 

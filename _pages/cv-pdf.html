@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "PDF Resume | Wanglong Lu"
+title: "Resume & CV | Wanglong Lu"
 permalink: /cv-pdf/
 author_profile: false
 hide_title: true
@@ -34,7 +34,7 @@ pdf_resume: true
     <header class="wl-resume-header">
       <div>
         <h2 id="heading-{{ document.id }}">{{ document.title }}</h2>
-        <p>{{ document.description }} &middot; Updated <time datetime="{{ site.data.cv_documents.updated_iso }}">{{ site.data.cv_documents.updated }}</time></p>
+        <p>{{ document.description }} &middot; Updated <time datetime="{{ document.updated_iso | default: site.data.cv_documents.updated_iso }}">{{ document.updated | default: site.data.cv_documents.updated }}</time></p>
       </div>
       <div class="wl-resume-actions">
         <a href="{{ document.pdf | relative_url }}" target="_blank" rel="noopener"><i class="fas fa-external-link-alt" aria-hidden="true"></i>Open PDF</a>

@@ -3,18 +3,32 @@ updated: October 03, 2026
 updated_iso: '2026-10-03'
 documents:
 - id: resume
-  title: Industry Resume
-  description: Applied ML research & engineering
+  title: Applied Scientist
+  description: Method design, experiments & applied research
+  pdf: "/files/cv/Wanglong_Lu_Applied_Scientist_Resume.pdf"
+  updated: October 03, 2026
+  updated_iso: '2026-10-03'
   pages: 2
-  pdf: "/files/cv/Wanglong_Lu_Resume.pdf"
   images:
   - "/images/cv/resume-page-1.png"
   - "/images/cv/resume-page-2.png"
+- id: ml-engineer
+  title: ML Engineer
+  description: ML systems, deployment & AI tooling
+  pdf: "/files/cv/Wanglong_Lu_ML_Engineer_Resume.pdf"
+  updated: October 03, 2026
+  updated_iso: '2026-10-03'
+  pages: 2
+  images:
+  - "/images/cv/ml-engineer-page-1.png"
+  - "/images/cv/ml-engineer-page-2.png"
 - id: cv
   title: Full CV
   description: Research, experience, publications & service
-  pages: 5
   pdf: "/files/cv/Wanglong_Lu_CV.pdf"
+  updated: October 03, 2026
+  updated_iso: '2026-10-03'
+  pages: 5
   images:
   - "/images/cv/cv-page-1.png"
   - "/images/cv/cv-page-2.png"
