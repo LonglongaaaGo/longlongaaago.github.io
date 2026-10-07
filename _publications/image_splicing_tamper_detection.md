@@ -2,6 +2,9 @@
 
 title: "基于多尺度特征先验的图像拼接篡改检测"
 collection: publications
+author_role: Second author
+cv_title: Image Splicing Tamper Detection Based on Multi-Scale Feature Priors [in Chinese; translated title]
+cv_authors: Jiankai Lyu, Wanglong Lu, et al.
 publication_filters: [recognition-applied]
 permalink: /publication/image_splicing_tamper_detection
 excerpt: '吕建凯, **卢望龙**, 王敏, 刘影, 史开杭, 黄辉, 赵汉理'

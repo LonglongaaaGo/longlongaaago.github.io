@@ -1,0 +1,15 @@
+{% if include.language == 'zh' %}
+<p>作为共同发明人获 {{ site.data.patents.patents | size }} 项中国发明专利授权。授权证书所列专利权人均为{{ site.data.patents.assignee_at_grant_cn }}。</p>
+<ul>
+{% for patent in site.data.patents.patents %}
+  <li><strong>{{ patent.title_cn }}</strong>；{{ patent.number }}；授权公告日：{{ patent.granted }}。发明人：{{ patent.inventors_cn }}；本人署名第 {{ patent.inventor_position }}/{{ patent.inventor_count }} 位。</li>
+{% endfor %}
+</ul>
+{% else %}
+<p>Co-inventor on {{ site.data.patents.patents | size }} granted Chinese invention patents. All grant certificates list {{ site.data.patents.assignee_at_grant }} as the assignee. Titles below are English translations.</p>
+<ul>
+{% for patent in site.data.patents.patents %}
+  <li><strong>{{ patent.title }}</strong>. {{ patent.number }}; granted {{ patent.granted }}; inventor position {{ patent.inventor_position }}/{{ patent.inventor_count }}.</li>
+{% endfor %}
+</ul>
+{% endif %}

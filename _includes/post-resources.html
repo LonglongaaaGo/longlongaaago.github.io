@@ -25,7 +25,7 @@
               <li id="publication-citation-{{ forloop.index }}" data-citation-url="{{ publication.permalink | relative_url }}">
                 <span class="wl-citation-authors">{{ publication.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</span>
                 “<a href="{{ publication.url | relative_url }}">{{ publication.title }}</a>.”
-                <em>{{ publication.venue }}</em>{% if publication.date %}, {{ publication.date | date: '%Y' }}{% endif %}.
+                <em>{% include publication-venue.html publication=publication %}</em>{% if publication.publication_status == 'submitted' %}; submitted{% if publication.submission_venue %} to {{ publication.submission_venue }}{% endif %}{% endif %}.
                 {% if publication.paperurl %}<a class="wl-citation-link" href="{{ publication.paperurl }}">Paper</a>{% endif %}
                 {% if publication.citation %}<a class="wl-citation-link" href="{{ publication.citation }}">BibTeX</a>{% endif %}
               </li>

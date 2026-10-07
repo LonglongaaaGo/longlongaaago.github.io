@@ -922,6 +922,7 @@ redirect_from:
       <h2 class="wl-headline">Applied multimodal intelligence for generative vision and production AI systems.</h2>
       <p class="wl-lead">I develop multimodal and generative AI methods for high-resolution visual computing, efficient model adaptation, and reliable real-world deployment.</p>
       <p class="wl-lead">At Nasdaq, I build production machine learning systems for financial applications. My research spans generative image editing, restoration, super-resolution, multimodal learning, and parameter-efficient fine-tuning.</p>
+      <p>My research output includes {{ site.data.research_profile.publication_total }} scholarly works overall (author-reported total), with {{ site.data.research_profile.published_first_author }} published first-author papers, co-first-authored DocPure, and corresponding-authored EchoSR. I am also a co-inventor on {{ site.data.patents.patents | size }} granted Chinese invention patents assigned to Wenzhou University at grant.</p>
       <div class="wl-focus" aria-label="Research focus">
         <span class="wl-chip">Multimodal Intelligence</span>
         <span class="wl-chip is-blue">Generative AI</span>
@@ -940,12 +941,12 @@ redirect_from:
       <article class="wl-item">
         <h3>Nasdaq</h3>
         <p class="wl-meta">Senior Data Scientist, AI/Analytics · 2025 - Present</p>
-        <p>Financial ML, CUDA-accelerated feature engineering, and SageMaker workspace deployment of an existing cross-team ML platform prototype.</p>
+        <p>Financial ML, CUDA-accelerated feature engineering, and internal MLP deployment: SageMaker workspace integration, application services, and job-submission tooling.</p>
       </article>
       <article class="wl-item">
         <h3>Nasdaq</h3>
-        <p class="wl-meta">AI Research Intern · 2024 - 2025</p>
-        <p>Designed TextDoctor for document inpainting and PLAID for few-shot biometric verification; presented both projects to cross-functional audiences.</p>
+        <p class="wl-meta">AI Algorithm Intern · 2024 - 2025</p>
+        <p>Designed TextDoctor for high-resolution document inpainting; presented applied vision research to cross-functional audiences during both placements.</p>
       </article>
       <article class="wl-item">
         <h3>Research Collaboration</h3>
@@ -982,13 +983,13 @@ redirect_from:
     <div class="wl-overview">
       <p class="wl-overview-copy">My work develops applied multimodal intelligence across generative image editing, document restoration, image restoration, super-resolution, efficient adaptation, assistive vision, and production machine learning. The unifying goal is to build models that preserve structure, remain controllable at high resolution, adapt efficiently, and operate reliably under real system constraints.</p>
       <button class="wl-overview-visual" type="button" data-overview-zoom-open aria-controls="research-overview-expanded" aria-expanded="false" aria-label="Open research overview image in a larger view">
-        <img src="{{ '/images/research-overview.svg' | relative_url }}" alt="Research overview map covering 29 publications across generative vision, restoration, efficient adaptation, assistive vision, and applied ML systems">
+        <img src="{{ '/images/research-overview.svg' | relative_url }}" alt="Research overview map across generative vision, restoration, efficient adaptation, assistive vision, and applied ML systems">
         <span class="wl-zoom-icon" aria-hidden="true"></span>
       </button>
       <div id="research-overview-expanded" class="wl-lightbox" role="dialog" aria-modal="true" aria-label="Enlarged research overview image" hidden>
         <button class="wl-lightbox-backdrop" type="button" data-overview-zoom-close aria-label="Close enlarged research overview image"></button>
         <div class="wl-lightbox-frame">
-          <img src="{{ '/images/research-overview.svg' | relative_url }}" alt="Research overview map covering 29 publications across generative vision, restoration, efficient adaptation, assistive vision, and applied ML systems">
+          <img src="{{ '/images/research-overview.svg' | relative_url }}" alt="Research overview map across generative vision, restoration, efficient adaptation, assistive vision, and applied ML systems">
         </div>
         <button class="wl-lightbox-close" type="button" data-overview-zoom-close aria-label="Close enlarged research overview image">x</button>
       </div>
@@ -1044,7 +1045,7 @@ redirect_from:
         </div>
         <div class="wl-system-body">
           <h3>Production Financial AI</h3>
-          <p>CUDA-accelerated feature engineering with AUROC screening and AI semantic checks; deployment of an existing cross-team ML platform prototype into a SageMaker workspace, with PostgreSQL state persistence and FastAPI on AWS Lambda.</p>
+          <p>CUDA-accelerated feature engineering with AUROC screening and AI semantic checks. Internal MLP deployment integrates an existing cross-team UI/backend into a SageMaker workspace, with PostgreSQL state, FastAPI/Mangum on Lambda, and SageMaker Job Submitter.</p>
           <div class="wl-evidence" aria-label="Production ML evidence">
             <span>APPLIED ML</span><span>FINANCIAL AI</span><span>RELIABILITY</span>
           </div>
@@ -1078,7 +1079,7 @@ redirect_from:
           <div class="wl-paper-body">
             <h3><a href="{{ publication.url | relative_url }}">{{ publication.title }}</a></h3>
             <p class="wl-authors">{{ publication.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
-            <p class="wl-venue">{{ publication.venue }}{% if publication.date %}, {{ publication.date | date: '%Y' }}{% endif %}</p>
+            <p class="wl-venue">{% include publication-venue.html publication=publication %}{% if publication.author_role %} · {{ publication.author_role }}{% endif %}</p>
             {% if publication.description %}<p class="wl-desc">{{ publication.description }}</p>{% endif %}
             {% if publication.selected_signals %}
               <div class="wl-paper-signals" aria-label="Publication highlights">

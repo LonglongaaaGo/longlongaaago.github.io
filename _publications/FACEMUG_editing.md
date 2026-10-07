@@ -10,8 +10,14 @@ publication_filters: [lead-author, ieee-transactions, generative-ai, editing-inp
 permalink: /publication/facemug
 excerpt: '**Wanglong Lu**, Jikai Wang, Xiaogang Jin, Xianta Jiang, and Hanli Zhao∗'
 date: 2024-07-26
-venue: 'IEEE Transactions on Visualization and Computer Graphics'
-paperurl: 'https://arxiv.org/abs/2412.19009'
+publication_year: 2025
+online_year: 2024
+author_role: First author
+venue: 'IEEE Transactions on Visualization and Computer Graphics 31(9), 5130-5145'
+paperurl: 'https://ieeexplore.ieee.org/document/10612246'
+doiurl: 'https://doi.org/10.1109/TVCG.2024.3434386'
+arxivurl: 'https://arxiv.org/abs/2412.19009'
+pdfurl: 'https://arxiv.org/pdf/2412.19009'
 video: 'https://www.youtube.com/watch?v=O5r40NIXUcM'
 video_title: 'FACEMUG: Multimodal Local Facial Editing'
 video_duration: '9:56'
@@ -62,10 +68,10 @@ Recommended citation:
   author={Lu, Wanglong and Wang, Jikai and Jin, Xiaogang and Jiang, Xianta and Zhao, Hanli},
   journal={IEEE Transactions on Visualization and Computer Graphics}, 
   title={FACEMUG: A Multimodal Generative and Fusion Framework for Local Facial Editing}, 
-  year={2024},
-  volume={},
-  number={},
-  pages={1-15},
+  year={2025},
+  volume={31},
+  number={9},
+  pages={5130-5145},
   keywords={Facial features;Semantics;Codes;Generators;Image synthesis;Faces;Image color analysis;Generative adversarial networks;image-toimage translation;multimodal fusion;image editing;facial editing},
   doi={10.1109/TVCG.2024.3434386}}
 ```

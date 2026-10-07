@@ -9,6 +9,7 @@ publication_filters: [lead-author, ieee-transactions, generative-ai, editing-inp
 permalink: /publication/tuning_free_latent_diffusion_editing
 excerpt: '**Wanglong Lu**, Lingming Su, Kaijie Shi, Minglun Gong, Xiaogang Jin, Hanli Zhao, Xianta Jiang'
 date: 2026-07-02
+author_role: First author
 venue: 'IEEE Transactions on Neural Networks and Learning Systems, 1-15'
 paperurl: 'https://arxiv.org/abs/2607.06136'
 pdfurl: 'https://arxiv.org/pdf/2607.06136'

@@ -10,8 +10,10 @@ publication_filters: [lead-author, generative-ai, restoration-sr]
 permalink: /publication/vsp_face_restoration
 excerpt: '**Wanglong Lu**, Jikai Wang, Tao Wang, Kaihao Zhang, Xianta Jiang, Hanli Zhao*'
 date: 2025-05-01
-venue: 'Pattern Recognition'
+author_role: First author
+venue: 'Pattern Recognition 161, 111312'
 paperurl: 'https://arxiv.org/abs/2412.21042'
+doiurl: 'https://doi.org/10.1016/j.patcog.2024.111312'
 code: 'https://github.com/LonglongaaaGo/VSPBFR'
 teaser: 'https://longlongaaago.github.io/images/publications/VSP_restoration_teaser.png'
 description: 'A diffusion-guided blind face restoration method that learns visual style prompts in pretrained generative latent space.'

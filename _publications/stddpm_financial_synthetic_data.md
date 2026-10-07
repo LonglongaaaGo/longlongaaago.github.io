@@ -6,6 +6,7 @@ publication_filters: [generative-ai, recognition-applied]
 permalink: /publication/stddpm_financial_synthetic_data
 excerpt: 'Omid Tarkhaneh, Hamideh Mehri, **Wanglong Lu**, Farzaneh Shoeleh, Vinicius Veloso de Melo'
 date: 2025-11-07
+publication_status: submitted
 venue: 'Research Square preprint'
 paperurl: 'https://www.researchsquare.com/article/rs-7624993/latest'
 doi: '10.21203/rs.3.rs-7624993/v1'

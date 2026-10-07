@@ -18,7 +18,7 @@
     <br>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
   {% endif %}
   {% if post.venue %}
-    <br><em>{{ post.venue }}{% if post.date %}, {{ post.date | default: "1900-01-01" | date: "%Y" }}{% endif %}</em>
+    <br><em>{% include publication-venue.html publication=post %}{% if post.author_role %} · {{ post.author_role }}{% endif %}{% if post.publication_status == 'submitted' %} · Submitted{% if post.submission_venue %} to {{ post.submission_venue }}{% endif %}{% endif %}</em>
   {% endif %}
   {% if post.paperurl or post.pdfurl or post.arxivurl or post.htmlurl or post.doiurl or post.citation or post.code or post.project_page %}
     <br>

@@ -149,15 +149,16 @@ hide_title: true
 <div class="wl-page-hero">
   <p class="wl-page-kicker">// publications</p>
   <h1>Research Publications</h1>
-  <p>A complete, curated publication record spanning generative vision, image restoration, image editing, pattern recognition, and applied machine learning. Citation metrics are maintained on Google Scholar.</p>
+  <p>{{ site.data.research_profile.publication_total }} scholarly works overall (author-reported total), spanning generative vision, restoration, editing, recognition, and applied machine learning.</p>
+  <p>Counts below reflect linked catalogue records, including preprints and a dissertation, not the complete accepted-paper total. Citation metrics are maintained on Google Scholar.</p>
   <a class="wl-page-hero-button" href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=TuxCf4UAAAAJ"><i class="fas fa-graduation-cap" aria-hidden="true"></i>Google Scholar</a>
 </div>
 
 <div class="wl-pub-tabs" aria-label="Publication overview">
   <div class="wl-pub-tabbar wl-pub-tabbar-primary">
     <button class="wl-pub-tab is-active" type="button" data-filter="all" aria-pressed="true">
-      <strong>{{ site.publications | size }}</strong>
-      <span>All Publications</span>
+      <strong>{{ site.publications | where_exp: 'paper', 'paper.publication_alias != true' | size }}</strong>
+      <span>All Listed Works</span>
     </button>
     <button class="wl-pub-tab" type="button" data-filter="lead-author" aria-pressed="false">
       <strong>0</strong>
@@ -264,8 +265,8 @@ hide_title: true
       });
 
       status.textContent = filter === "all"
-        ? "Showing all " + visible + " publications."
-        : "Showing " + visible + " publications in " + label + ".";
+        ? "Showing all " + visible + " listed works."
+        : "Showing " + visible + " listed works in " + label + ".";
       empty.hidden = visible !== 0;
     }
 
@@ -281,7 +282,9 @@ hide_title: true
 
 <div class="wl-publication-list" id="publication-list">
   {% for post in site.publications reversed %}
+    {% unless post.publication_alias %}
     {% include archive-single.html %}
+    {% endunless %}
   {% endfor %}
 </div>
 

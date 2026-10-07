@@ -7,9 +7,10 @@ selected_badge: Information Fusion
 selected_badge_style: gold
 publication_filters: [restoration-sr]
 permalink: /publication/echosr_lightweight_image_super_resolution
-excerpt: 'Hanli Zhao, Binhao Wang, Shihao Zhao, Tao Wang, Kaihao Zhang, **Wanglong Lu**'
+excerpt: 'Hanli Zhao, Binhao Wang, Shihao Zhao, Tao Wang, Kaihao Zhang, **Wanglong Lu**∗'
 date: 2026-05-01
-venue: 'Information Fusion, 104471'
+author_role: Corresponding author (sixth author)
+venue: 'Information Fusion 135, 104471'
 paperurl: 'https://doi.org/10.1016/j.inffus.2026.104471'
 doiurl: 'https://doi.org/10.1016/j.inffus.2026.104471'
 arxivurl: 'https://arxiv.org/abs/2605.17470'
@@ -49,6 +50,7 @@ Recommended citation:
   title={EchoSR: Efficient Context Harnessing for Lightweight Image Super-Resolution},
   author={Zhao, Hanli and Wang, Binhao and Zhao, Shihao and Wang, Tao and Zhang, Kaihao and Lu, Wanglong},
   journal={Information Fusion},
+  volume={135},
   pages={104471},
   year={2026},
   doi={10.1016/j.inffus.2026.104471}

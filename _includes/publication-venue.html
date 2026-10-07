@@ -1,0 +1,7 @@
+{%- assign paper = include.publication -%}
+{%- if paper.publication_year -%}
+  {%- assign publication_year = paper.publication_year | append: '' -%}
+{%- else -%}
+  {%- assign publication_year = paper.date | date: '%Y' -%}
+{%- endif -%}
+{{- paper.venue -}}{%- unless paper.venue contains publication_year -%}, {{ publication_year }}{%- endunless -%}{%- if paper.online_year %} (online {{ paper.online_year }}){% endif -%}

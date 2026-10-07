@@ -27,7 +27,9 @@ redirect_from:
 <!-- 纽芬兰纪念大学普适计算和机器学习研究实验室([UCML](https://sites.google.com/view/ucmi/home) )博士生。 -->
 
 <div style="text-align: justify">
-卢望龙现担任加拿大纳斯达克人工智能/分析领域高级数据科学家。2021年获温州大学计算机工学硕士学位，2025年获纽芬兰纪念大学计算机博士学位，研究方向为模式识别、图像编辑与重建、参数高效微调以及可扩展多模态/生成式 AI 系统。已联合发表20余篇高水平论文，涵盖TVCG、ECCV、Pattern Recognition、CVMJ、TNNLS、TCSVT、Information Fusion 等期刊和会议，并获得4项国家发明专利授权。同时担任IEEE TPAMI、TMM、TIP、TCSVT、Pattern Recognition、Applied Soft Computing、EAAI、Scientific Reports、Neurocomputing、KBS、JVCI、Displays等国际期刊和会议的审稿人。 </div>
+卢望龙现担任加拿大纳斯达克人工智能/分析领域高级数据科学家。2021年获温州大学计算机工学硕士学位，2025年获纽芬兰纪念大学计算机博士学位，研究方向为模式识别、图像编辑与重建、参数高效微调以及可扩展多模态/生成式 AI 系统。
+累计形成{{ site.data.research_profile.publication_total }}篇学术论文成果（本人确认的总体数量），其中6篇为已发表第一作者论文，DocPure 为共同第一作者论文，EchoSR 为通讯作者论文；作为共同发明人获{{ site.data.patents.patents | size }}项中国发明专利授权，授权时专利权人为温州大学。
+同时担任IEEE TPAMI、TMM、TIP、TCSVT、JBHI、Pattern Recognition、Applied Soft Computing、EAAI、Scientific Reports、Neurocomputing、KBS、JVCI、Displays等国际期刊和会议的审稿人。</div>
 
 教育背景
 ======
@@ -41,16 +43,16 @@ redirect_from:
 
 发表
 ======
+下列为已整理的公开条目，包含预印本及学位论文，不等同于完整已发表论文总数；投稿状态单独标注。
 <ul>{% for post in site.publications reversed%}
+    {% unless post.publication_alias %}
     {% include archive-single-cv.html %}
+    {% endunless %}
   {% endfor %}</ul>
 
 专利
 ======
-* 2023-06 一种基于类别一致性深度学习的图像识别方法. 国家发明专利, 赵汉理, **卢望龙**, 何奇, 黄辉. 专利号：ZL 2021 1 0408724.X
-* 2021-05 一种基于卷积神经网络深度特征的车标识别方法. 国家发明专利, 赵汉理, **卢望龙**, 陈强. 专利号：ZL 2020 1 0139043.3
-* 2021-07 一种基于GAN的视网膜血管图像智能分割方法. 国家发明专利, 赵汉理, **卢望龙**, 邱夏青, 黄辉. 专利号：ZL 2019 1 0884346.5
-* 2021-09 一种基于卷积神经网络的车标智能检测方法. 国家发明专利, 赵汉理, **卢望龙**. 专利号：ZL 2020 1 0139068.3
+{% include patents.html language='zh' %}
 
 部分荣誉
 ======
@@ -73,10 +75,10 @@ St. John's，NL，加拿大
 
 **高级数据科学家，AI/Analytics | 2025.03-至今**
 * 设计跨尺度集成特征选择算法，在支票欺诈机器学习（CFML）数据上移除 77.2% 的输入特征并保持有竞争力的性能，向 60 余人分享成果。
-* 将跨团队共建的内部 ML 训练平台原有 UI/后端原型部署并接入 **SageMaker workspace**，配置网络连接和 IAM 角色。
+* 完成跨团队共建的内部 ML 训练平台 **MLP** 的应用部署与集成，将既有 UI/后端原型接入 **SageMaker workspace**，配置网络连接和 IAM 角色。
 * 使用 PostgreSQL 持久化用户使用状态，通过 FastAPI + Mangum 将服务部署至 AWS Lambda。
-* 平台仍在研发，整体范围包括数据采集、预处理、分布式训练、特征选择、模型评估及可审计的模型登记；本人贡献集中在应用部署与集成。
-* 开发 **SageMaker Job Submitter**，通过 Python 包自动打包本地脚本及依赖，支持 SageMaker Processing、Training、Hyperparameter Tuning 及多步骤流水线。开发人员的作业配置时间从 **7 天缩短至 1 天，减少约 86%**。
+* MLP 当前处于**内部部署阶段**，跨团队整体范围包括数据采集、预处理、分布式训练、特征选择、模型评估及可审计模型登记；本人贡献为应用部署、集成与作业提交工具，而非独立开发整个平台。
+* 为 MLP 开发 **SageMaker Job Submitter**，自动打包脚本及依赖，支持 Processing、Training、Hyperparameter Tuning 及 Pipelines。将**新任务配置与提交准备周期从 7 天缩短至 1 天，减少约 86%**；该指标并非模型训练耗时。
 * 设计**特征工程流程**，使用**特征与标签之间的 AUROC** 筛选有信息量的特征，通过 **PyTorch/CUDA 加速计算**；进一步使用 **Amazon Bedrock** 检查候选特征是否具有合理的语义，结合统计信号与业务含义进行判断。
 * 基于公司 GenAI 平台，将内部 hackathon 原型推进为 **PagerDuty RAG 故障响应助手 v2**，**现已投入公司内部使用，并获得公司内部 shout-out 认可**；根据故障上下文检索排查指南及解决步骤，辅助值班工程师定位问题。
 * 指导**支票 OCR 图像质量评估与文本提取**研究，找到一组与人类感知一致、具有潜力的图像质量指标；学生已完成研究汇报。
@@ -86,8 +88,6 @@ St. John's，NL，加拿大
 **AI 算法实习生（两段实习） | 2024.05-2025.01**
 * 提出 **TextDoctor**，结合结构金字塔预测与 patch 金字塔扩散模型，用于文档及支票图像修补。使用 Python/PyTorch 实现方法，通过 AWS、SLURM、CUDA 及 shell 脚本开展对比实验；**以第一作者投稿 Engineering Applications of Artificial Intelligence（EAAI）** [[论文]](https://arxiv.org/abs/2503.04021)。
 * 在 **7 个文档数据集**上评估，无需针对每个数据集重新微调，并在 **24GB RTX 3090 上完成 8K 图像修补**。在 FUNSD 上，TextDoctor（GSDM）的 **PaddleOCR 单词准确率为 55.38%，DocDiff 为 45.24%，提高 10.14 个百分点** [[实验表 I-II]](https://arxiv.org/html/2503.04021v1)。
-* 设计 **PLAID：Patch Gaussian Latent Discriminant Modeling for Few-Shot Biometric Image Verification**，用于少样本生物特征图像验证；**以第一作者投稿 IEEE Transactions on Information Forensics and Security（TIFS）**，于 **2026 年 4 月提交大修稿，目前等待第二轮结果**。
-* 通过 **patch 级高斯判别建模**区分真实与伪造样本，**无需微调骨干网络**；在 **8 个签名／指纹基准和 16 种骨干网络**上评估。新版大修稿对比表中，**8-shot、ResNet-152** 设置下的 **CEDAR AUROC 为 99.42%，GPDS-150 AUROC 为 98.42%**，结果为五次运行的均值。
 * **两段实习均进行了研究汇报**：前次听众约 **40-60 人**，末次为 **39 位跨职能同事**。
 
 ### Beaufort Solutions

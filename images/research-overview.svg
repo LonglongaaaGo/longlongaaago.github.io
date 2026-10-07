@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
   <title id="title">Research overview map</title>
-  <desc id="desc">A structured overview of Wanglong Lu's 29-publication research portfolio across generative vision, restoration, efficient adaptation, assistive vision, and applied ML systems.</desc>
+  <desc id="desc">A structured overview of Wanglong Lu's research across generative vision, restoration, efficient adaptation, assistive vision, and applied ML systems. The author reports 30 scholarly works overall, including seven published first- or co-first-author papers.</desc>
   <defs>
     <style>
       .bg { fill: #f7f8f3; }
@@ -55,13 +55,13 @@
 
   <g transform="translate(850 48)">
     <rect class="panel-soft" width="118" height="66" rx="10"/>
-    <text class="mono tiny muted" x="16" y="25">publications</text>
-    <text class="sans h2 blue" x="16" y="54">29</text>
+    <text class="mono tiny muted" x="16" y="25">works*</text>
+    <text class="sans h2 blue" x="16" y="54">30</text>
   </g>
   <g transform="translate(982 48)">
     <rect class="panel-soft" width="118" height="66" rx="10"/>
-    <text class="mono tiny muted" x="16" y="25">lead author</text>
-    <text class="sans h2 green" x="16" y="54">9</text>
+    <text class="mono tiny muted" x="16" y="25">lead papers</text>
+    <text class="sans h2 green" x="16" y="54">7</text>
   </g>
   <g transform="translate(1114 48)">
     <rect class="panel-soft" width="118" height="66" rx="10"/>
@@ -73,6 +73,7 @@
     <text class="mono tiny muted" x="16" y="25">flagship</text>
     <text class="sans h2 gold" x="16" y="54">2</text>
   </g>
+  <text class="sans tiny muted" x="858" y="138">*Author-reported total; lead papers are published first/co-first works.</text>
 
   <g transform="translate(488 246)">
     <rect class="panel-soft" width="424" height="198" rx="14"/>
@@ -80,8 +81,8 @@
     <text class="mono tiny" x="48" y="55" fill="#f7c870">Wanglong Lu / research core</text>
     <text class="sans h2 ink" x="42" y="116">Scalable Multimodal</text>
     <text class="sans h2 ink" x="42" y="148">and Generative AI</text>
-    <text class="sans body muted" x="42" y="176">high resolution, efficient, controllable</text>
-    <text class="sans body muted" x="42" y="200">and deployable</text>
+    <text class="sans body muted" x="42" y="174">high resolution, efficient, controllable</text>
+    <text class="sans body muted" x="42" y="190">and deployable</text>
   </g>
 
   <path class="line-strong" d="M700 444 C700 492 700 532 700 578" marker-end="url(#arrow-blue)"/>
@@ -103,8 +104,8 @@
     <text class="sans tag" x="41" y="181">TNNLS</text>
     <rect class="purple" x="106" y="164" width="72" height="24" rx="6"/>
     <text class="sans tag" x="124" y="181">TVCG</text>
-    <rect class="green" x="188" y="164" width="96" height="24" rx="6"/>
-    <text class="sans tag" x="205" y="181">TCSVT</text>
+    <rect class="green" x="188" y="164" width="68" height="24" rx="6"/>
+    <text class="sans tag" x="205" y="181">CVM</text>
   </g>
 
   <g transform="translate(76 454)">
@@ -137,7 +138,7 @@
     <text class="sans tag" x="41" y="181">NeurIPS</text>
     <rect class="blue" x="120" y="164" width="58" height="24" rx="6"/>
     <text class="sans tag" x="137" y="181">PEFT</text>
-    <rect class="green" x="188" y="164" width="118" height="24" rx="6"/>
+    <rect class="green" x="188" y="164" width="152" height="24" rx="6"/>
     <text class="sans tag" x="206" y="181">Neurocomputing</text>
   </g>
 
@@ -151,12 +152,12 @@
     <text class="sans h2 ink" x="106" y="78">and Assistive Vision</text>
     <text class="sans small muted" x="24" y="118">prosthetic grasping, blinking, vessels</text>
     <text class="sans small muted" x="24" y="143">human-centered sensing and autonomy</text>
-    <rect class="purple" x="24" y="164" width="62" height="24" rx="6"/>
-    <text class="sans tag" x="42" y="181">ECCV</text>
-    <rect class="blue" x="96" y="164" width="54" height="24" rx="6"/>
-    <text class="sans tag" x="112" y="181">ETRA</text>
-    <rect class="green" x="160" y="164" width="76" height="24" rx="6"/>
-    <text class="sans tag" x="178" y="181">medical</text>
+    <rect class="purple" x="24" y="164" width="84" height="24" rx="6"/>
+    <text class="sans tag" x="40" y="181">TNSRE</text>
+    <rect class="blue" x="118" y="164" width="54" height="24" rx="6"/>
+    <text class="sans tag" x="134" y="181">ETRA</text>
+    <rect class="green" x="182" y="164" width="76" height="24" rx="6"/>
+    <text class="sans tag" x="200" y="181">medical</text>
   </g>
 
   <g transform="translate(486 586)">
@@ -178,13 +179,13 @@
     <text class="sans small ink" x="120" y="32">2020 medical imaging</text>
     <text class="sans small ink" x="300" y="32">2021 recognition</text>
     <text class="sans small ink" x="455" y="32">2022 pruning and inpainting</text>
-    <text class="sans small ink" x="705" y="32">2023-2024 editing and restoration</text>
-    <text class="sans small ink" x="1005" y="32">2025-2026 scalable GenAI</text>
+    <text class="sans small ink" x="675" y="32">2023-2024 editing / restoration</text>
+    <text class="sans small ink" x="945" y="32">2025-2026 scalable GenAI</text>
     <path d="M120 58 H1080" stroke="#b9c2b7" stroke-width="3" stroke-linecap="round"/>
     <circle cx="120" cy="58" r="7" fill="#55766a"/>
     <circle cx="300" cy="58" r="7" fill="#55766a"/>
     <circle cx="455" cy="58" r="7" fill="#a8752a"/>
-    <circle cx="705" cy="58" r="7" fill="#2c638f"/>
-    <circle cx="1005" cy="58" r="7" fill="#a15045"/>
+    <circle cx="675" cy="58" r="7" fill="#2c638f"/>
+    <circle cx="945" cy="58" r="7" fill="#a15045"/>
   </g>
 </svg>

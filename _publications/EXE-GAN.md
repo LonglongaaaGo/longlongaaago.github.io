@@ -9,8 +9,10 @@ publication_filters: [lead-author, generative-ai, editing-inpainting]
 permalink: /publication/exe-gan
 excerpt: ' **Wanglong Lu**, [Hanli Zhao](http://i3s.wzu.edu.cn/info/1104/1183.htm), [Xianta Jiang](http://www.cs.mun.ca/~xiantaj/), [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin/), Yongliang Yang, Min Wang, Jiankai Lyu, and Kaijie Shi'
 date: 2025-02-07
+author_role: First author
 venue: 'Neurocomputing 617, 128996'
 paperurl: 'https://arxiv.org/abs/2202.06358'
+doiurl: 'https://doi.org/10.1016/j.neucom.2024.128996'
 code: 'https://github.com/LonglongaaaGo/EXE-GAN'
 video: 'https://www.youtube.com/watch?v=nNEc94hgjtk'
 video_title: 'Do Inpainting Yourself: Exemplar-Guided Facial Inpainting'

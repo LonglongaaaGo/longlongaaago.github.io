@@ -11,8 +11,11 @@ publication_filters: [flagship-conference, generative-ai, multimodal]
 permalink: /publication/adamss_parameter_efficient_finetuning
 excerpt: 'Jingjing Zheng, **Wanglong Lu**, Yiming Dong, Chaojie Ji, Yankai Cao, Zhouchen Lin'
 date: 2025-12-04
+author_role: Second author
 venue: 'NeurIPS 2025'
-paperurl: 'https://neurips.cc/virtual/2025/loc/san-diego/poster/119606'
+paperurl: 'https://proceedings.neurips.cc/paper_files/paper/2025/hash/1c85c302ece39939c1b334c78f7ee1b8-Abstract-Conference.html'
+doiurl: 'https://doi.org/10.52202/085713-0664'
+pdfurl: 'https://proceedings.neurips.cc/paper_files/paper/2025/file/1c85c302ece39939c1b334c78f7ee1b8-Paper-Conference.pdf'
 code: 'https://github.com/jzheng20/AdaMSS'
 project_page: 'https://github.com/huggingface/peft/tree/main/examples/adamss_finetuning'
 teaser: 'publications/adamss_framework.png'
@@ -34,7 +37,8 @@ description: 'An adaptive multi-subspace parameter-efficient fine-tuning method 
 
 ![AdaMSS multi-subspace structure](https://longlongaaago.github.io/images/publications/adamss_subspaces.png)
 
-[[paper]](https://neurips.cc/virtual/2025/loc/san-diego/poster/119606)
+[[paper]](https://proceedings.neurips.cc/paper_files/paper/2025/hash/1c85c302ece39939c1b334c78f7ee1b8-Abstract-Conference.html)
+[[doi]](https://doi.org/10.52202/085713-0664)
 [[github]](https://github.com/jzheng20/AdaMSS)
 [[peft integration]](https://github.com/huggingface/peft/tree/main/examples/adamss_finetuning)
 
@@ -44,7 +48,9 @@ Recommended citation:
 @inproceedings{zheng2025adamss,
   title={AdaMSS: Adaptive Multi-Subspace Approach for Parameter-Efficient Fine-Tuning},
   author={Zheng, Jingjing and Lu, Wanglong and Dong, Yiming and Ji, Chaojie and Cao, Yankai and Lin, Zhouchen},
-  booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+  booktitle={Advances in Neural Information Processing Systems},
+  volume={38},
   year={2025},
+  doi={10.52202/085713-0664},
 }
 ```

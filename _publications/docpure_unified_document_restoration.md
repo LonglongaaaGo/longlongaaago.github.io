@@ -8,6 +8,7 @@ publication_filters: [lead-author, ieee-transactions, restoration-sr]
 permalink: /publication/docpure_unified_document_restoration
 excerpt: '**Lingming Su**, **Wanglong Lu**, Tao Wang, Kaihao Zhang, Nan Zhang, Liyan An, Hanli Zhao'
 date: 2026-08-01
+author_role: Co-first author
 venue: 'IEEE Transactions on Circuits and Systems for Video Technology, 2026'
 paperurl: 'https://ieeexplore.ieee.org/document/11643289'
 arxivurl: 'https://arxiv.org/abs/2608.09536'

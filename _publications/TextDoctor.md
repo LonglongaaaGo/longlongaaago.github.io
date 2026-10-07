@@ -6,9 +6,12 @@ selection_score: 65
 selected_badge: arXiv
 publication_filters: [lead-author, generative-ai, editing-inpainting]
 permalink: /publication/textdoctor
-excerpt: '**Wanglong Lu**, Lingming Su, Jingjing Zheng, Vinícius Veloso de Melo, Farzaneh Shoeleh, John Hawkin, Terrence Tricco, Hanli Zha*o*, Xianta Jiang'
+excerpt: '**Wanglong Lu**, Lingming Su, Jingjing Zheng, Vinícius Veloso de Melo, Farzaneh Shoeleh, John Hawkin, Terrence Tricco, Hanli Zhao, Xianta Jiang'
 date: 2025-03-06
-venue: 'ArXiv'
+author_role: First author
+publication_status: submitted
+submission_venue: Engineering Applications of Artificial Intelligence (EAAI)
+venue: 'arXiv preprint'
 paperurl: 'https://arxiv.org/abs/2503.04021'
 teaser: 'https://longlongaaago.github.io/images/publications/textdoctor_teaser.png'
 description: 'A unified document image inpainting framework for restoring damaged and high-resolution document regions.'

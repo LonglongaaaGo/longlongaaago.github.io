@@ -26,6 +26,7 @@ redirect_from:
 
 <!-- <div style="text-align: justify"> -->
 Wanglong Lu currently serves as a **Senior Data Scientist** in AI/Analytics at Nasdaq, Canada, and is based in **St. John's, NL, Canada**.
+His research output totals **{{ site.data.research_profile.publication_total }} scholarly works** (author-reported), including **{{ site.data.research_profile.published_first_author }} published first-author papers**, co-first-authored DocPure, and corresponding-authored EchoSR. The linked catalogue below includes preprints and a dissertation and is not the complete accepted-paper count.
 <!-- He also holds positions as an **Adjunct Supervisor** for PhD and Master's students at Memorial University of Newfoundland and Wenzhou University, working in close collaboration with Prof. Xianta Jiang and Prof. Hanli Zhao.  </div> -->
 
 <!-- I am a Ph.D. student at Ubiquitous Computing and Machine Learning Research Lab ([UCML](https://sites.google.com/view/ucmi/home)), Memorial University of Newfoundland. -->
@@ -43,15 +44,14 @@ Interests
 Publications
 ======
 <ul>{% for post in site.publications reversed%}
+    {% unless post.publication_alias %}
     {% include archive-single-cv.html %}
+    {% endunless %}
   {% endfor %}</ul>
 
 Patents
 ======
-* 2023-06 Chinese national invention patent: A category-consistent deep network learning for image recognition, Date of authorization: 2021.04.16, Hanli Zhao, **Wanglong Lu**, Qi He, Hui Huang. Patent number: ZL 2021 1 0408724.X 
-* 2021-05 Chinese national invention patent: A deep feature-based convolutional neural network for vehicle logo recognition, Application number: 202010139043.3, Date of authorization: 2021.05.11, Hanli Zhao, **Wanglong Lu**, Qiang Chen. Patent number：ZL 2020 1 0139043.3 
-* 2021-07 Chinese national invention patent: A GAN based intelligent segmentation method for retinal blood vessel image, Application number: 201910884346.5, Date of authorization: 2021.07.06, Hanli Zhao, **Wanglong Lu**, Xiaqing Qiu, Hui Huang. Patent number：ZL 2019 1 0884346.5
-* 2021-09 Chinese national invention patent: A convolutional neural network-based intelligent vehicle logo detection method, Application number: 202010139068.3, Date of authorization: 2021.09.03, Hanli Zhao, **Wanglong Lu**. Patent number：ZL 2020 1 0139068.3
+{% include patents.html %}
 
 Selected honors
 ======
@@ -75,10 +75,10 @@ St. John's, NL, Canada
 
 **Senior Data Scientist, AI/Analytics | 2025.03-Present**
 * Designed cross-scale ensemble feature selection, removing 77.2% of input features while retaining competitive performance on cheque-fraud ML (CFML) data; presented the work to 60+ attendees.
-* Deployed an existing UI/backend prototype of a cross-team internal ML training platform into a **SageMaker workspace**, configuring network connectivity and IAM roles.
+* Delivered **internal deployment and integration of MLP**, a cross-team ML training platform, by bringing its existing UI/backend prototype into a **SageMaker workspace**, configuring network connectivity and IAM roles.
 * Implemented PostgreSQL-backed user-state persistence and deployed FastAPI services to AWS Lambda using Mangum.
-* The platform is under development for data ingestion, preprocessing, distributed training, feature selection, evaluation, and an auditable model registry. My contribution focuses on application deployment and integration.
-* Built **SageMaker Job Submitter**, a Python package that packages local scripts and dependencies for SageMaker Processing, Training, Hyperparameter Tuning, and multi-step pipelines. Package-based submission cut developer job-configuration time from **7 days to 1 day, an approximately 86% reduction**.
+* MLP is at the **internal deployment stage**. Its cross-team scope includes data ingestion, preprocessing, distributed training, feature selection, evaluation, and an auditable model registry; my contribution is application deployment, integration, and job-submission tooling, not sole ownership of the platform.
+* Built **SageMaker Job Submitter as part of MLP**, packaging scripts and dependencies for SageMaker Processing, Training, Hyperparameter Tuning, and Pipelines. Reduced the **new-task configuration and submission-preparation cycle from 7 days to 1 day (about 86%)**, not model-training runtime.
 * Designed a **feature-engineering workflow** that selects informative features using **feature-label AUROC**, with **PyTorch/CUDA-accelerated computation**. Used **Amazon Bedrock** to assess whether candidate features make semantic sense alongside their statistical signal.
 * Developed **PagerDuty RAG incident-response assistant v2** on the company's GenAI platform, following the internal hackathon prototype. **Now used internally and recognized in a company shout-out**; retrieves incident context, troubleshooting guidance and resolution steps for on-call engineers.
 * Mentored **cheque OCR quality assessment and text extraction** research. Identified a promising set of image-quality metrics consistent with human perception; the student completed a research presentation.
@@ -88,8 +88,6 @@ St. John's, NL, Canada
 **AI Algorithm Intern (two placements) | 2024.05-2025.01**
 * Proposed **TextDoctor**, combining structure-pyramid prediction and patch-pyramid diffusion for document/cheque inpainting. Implemented the method in Python/PyTorch and ran comparative experiments with AWS, SLURM, CUDA, and shell scripts. **First-author manuscript submitted to Engineering Applications of Artificial Intelligence (EAAI)** [[Paper]](https://arxiv.org/abs/2503.04021).
 * Evaluated **7 document datasets** without dataset-specific fine-tuning and demonstrated **8K inpainting on a 24GB RTX 3090**. On FUNSD, TextDoctor (GSDM) achieved **55.38% PaddleOCR word accuracy vs. 45.24% for DocDiff (+10.14 percentage points)** [[Results, Tables I-II]](https://arxiv.org/html/2503.04021v1).
-* Designed **PLAID: Patch Gaussian Latent Discriminant Modeling for Few-Shot Biometric Image Verification**; **first-author submission to IEEE Transactions on Information Forensics and Security (TIFS)**. Submitted major revision in **April 2026**; currently awaiting the second-round decision.
-* Modeled genuine and forged samples with **patch-level Gaussian discriminant learning without backbone fine-tuning**. Evaluated **8 signature/fingerprint benchmarks and 16 backbones**; under the **8-shot ResNet-152** setting, achieved **99.42% CEDAR AUROC and 98.42% GPDS-150 AUROC** in the revised manuscript's comparison table, averaged over five runs.
 * Presented research after **both internship placements**: approximately **40-60 attendees** at the earlier talk and **39 cross-functional attendees** at the final talk.
 
 ### Beaufort Solutions

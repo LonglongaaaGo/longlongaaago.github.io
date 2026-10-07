@@ -36,6 +36,8 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <b><i>{{ page.venue }}</i></b>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif page.collection == 'publications' and page.venue %}
+          <p>{% include publication-venue.html publication=page %}{% if page.author_role %} · {{ page.author_role }}{% endif %}{% if page.publication_status == 'submitted' %} · Submitted{% if page.submission_venue %} to {{ page.submission_venue }}{% endif %}{% endif %}</p>
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}

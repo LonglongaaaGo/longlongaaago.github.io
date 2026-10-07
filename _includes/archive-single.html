@@ -38,7 +38,7 @@
         {% endif %}
 
         {% if post.venue %}
-          <p class="wl-pub-venue">{{ post.venue }}{% if post.date %}, {{ post.date | default: "1900-01-01" | date: "%Y" }}{% endif %}</p>
+          <p class="wl-pub-venue">{% include publication-venue.html publication=post %}{% if post.author_role %} · {{ post.author_role }}{% endif %}{% if post.publication_status == 'submitted' %} · Submitted{% if post.submission_venue %} to {{ post.submission_venue }}{% endif %}{% endif %}</p>
         {% endif %}
 
         {% if post.description %}

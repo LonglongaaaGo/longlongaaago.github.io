@@ -5,6 +5,7 @@ collection: publications
 publication_filters: [lead-author, recognition-applied]
 excerpt: '**Wanglong Lu**, [Hanli Zhao](http://i3s.wzu.edu.cn/info/1104/1183.htm), [Qi He](http://i3s.wzu.edu.cn/info/1104/1181.htm), [Hui Huang](http://i3s.wzu.edu.cn/info/1104/1163.htm), [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin/).'
 date: 2021-08-09
+author_role: First author
 venue: 'Neurocomputing 463, 623-636'
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S0925231221012145/'
 doiurl: 'https://doi.org/10.1016/j.neucom.2021.08.030'
