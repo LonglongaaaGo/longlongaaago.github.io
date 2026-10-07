@@ -122,7 +122,7 @@ St. John's，NL，加拿大
 教学与指导经历
 ======
 
-* 累计指导 **12 名学生**，涵盖生成式视觉、图像修复、识别与应用机器学习研究。
+* 累计指导 **12 名硕士、博士研究生**开展生成式视觉、图像修复、识别与应用机器学习研究，支持选题、方法设计、实验评估与论文写作；相关工作已形成高水平学术论文成果。
 
 * 2021.09-2021.12 数据结构与算法课程助教, [Data Structures and Algorithms](https://www.mun.ca/computerscience/undergraduates/courses/comp-2002-data-structures-and-algorithms/), 纽芬兰纪念大学, 加拿大
 

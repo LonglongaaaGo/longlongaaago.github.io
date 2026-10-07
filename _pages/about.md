@@ -951,7 +951,7 @@ redirect_from:
       <article class="wl-item">
         <h3>Research Collaboration</h3>
         <p class="wl-meta">Memorial University of Newfoundland · Wenzhou University</p>
-        <p>Mentored 12 students across generative vision and applied ML; collaborating with Prof. Xianta Jiang and Prof. Hanli Zhao.</p>
+        <p>Mentored 12 master's and Ph.D. students in generative vision and applied ML, supporting method design, experiments and paper writing. Related work led to peer-reviewed publications; collaborating with Prof. Xianta Jiang and Prof. Hanli Zhao.</p>
       </article>
     </div>
   </section>

@@ -126,7 +126,7 @@ Selected Engineering Projects
 
 Teaching and mentorship
 ======
-* Mentored **12 students** across generative vision, restoration, recognition and applied ML research.
+* Provided research mentorship to **12 master's and Ph.D. students** across generative vision, restoration, recognition and applied ML. Supported problem formulation, method design, experimental evaluation and paper writing; related work led to peer-reviewed publications.
 * 2021.09-2021.12 Teaching assistant of [Data Structures and Algorithms](https://www.mun.ca/computerscience/undergraduates/courses/comp-2002-data-structures-and-algorithms/), Memorial University
 
 * 2024.01-2024.04 Teaching assistant of [Introduction to Machine Learning](https://www.mun.ca/computerscience/undergraduates/courses/comp-3202-introduction-to-machine-learning/), Memorial University

@@ -14,7 +14,7 @@
   "pages": [
     [
       {"kind": "section", "text": "个人优势"},
-      {"kind": "paragraph", "text": "计算机科学博士，现任 <b>Nasdaq 高级数据科学家</b>。累计形成 <b>30 篇学术论文成果</b>（本人确认），含 <b>6 篇已发表第一作者论文</b>：IEEE TNNLS / TVCG 等；共同第一作者 DocPure（TCSVT）、通讯作者 EchoSR。参与 NeurIPS 研究，方法已集成 <b>Hugging Face PEFT</b>。累计指导 <b>12 名学生</b>。"},
+      {"kind": "paragraph", "text": "计算机科学博士，现任 <b>Nasdaq 高级数据科学家</b>。累计形成 <b>30 篇学术论文成果</b>（本人确认），含 <b>6 篇已发表第一作者论文</b>：IEEE TNNLS / TVCG 等；共同第一作者 DocPure（TCSVT）、通讯作者 EchoSR。参与 NeurIPS 研究，方法已集成 <b>Hugging Face PEFT</b>。累计指导 <b>12 名硕士、博士研究生</b>，相关工作已形成高水平学术论文成果。"},
       {"kind": "section", "text": "教育背景"},
       {"kind": "entry", "title": "纽芬兰纪念大学（加拿大） | 计算机科学博士", "detail": "2021 - 2025"},
       {"kind": "entry", "title": "温州大学 | 计算机软件与理论 · 工学硕士", "detail": "2018 - 2021"},
