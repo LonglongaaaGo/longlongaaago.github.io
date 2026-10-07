@@ -26,9 +26,9 @@ patents:
     title: GAN-based intelligent retinal-vessel image segmentation
     title_cn: 一种基于GAN的视网膜血管图像智能分割方法
     granted: '2021-07-06'
-    inventor_position: 3
+    inventor_position: 2
     inventor_count: 4
-    inventors_cn: '赵汉理、邱夏青、卢望龙、黄辉'
+    inventors_cn: '赵汉理、卢望龙、邱夏青、黄辉'
   - number: ZL202010139043.3
     title: CNN deep-feature-based vehicle-logo recognition
     title_cn: 一种基于卷积神经网络深度特征的车标识别方法
