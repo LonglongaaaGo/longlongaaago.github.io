@@ -1,14 +1,16 @@
 ---
-updated: October 03, 2026
-updated_iso: '2026-10-03'
+updated: October 06, 2026
+updated_iso: '2026-10-06'
 documents:
 - id: resume
   title: Applied Scientist
   description: Method design, experiments & applied research
   pdf: "/files/cv/Wanglong_Lu_Applied_Scientist_Resume.pdf"
-  updated: October 03, 2026
-  updated_iso: '2026-10-03'
+  updated: October 06, 2026
+  updated_iso: '2026-10-06'
   pages: 2
+  image_width: 1063
+  image_height: 1375
   images:
   - "/images/cv/resume-page-1.png"
   - "/images/cv/resume-page-2.png"
@@ -17,19 +19,37 @@ documents:
   unlisted: true
   description: ML systems, deployment & AI tooling
   pdf: "/files/cv/Wanglong_Lu_ML_Engineer_Resume.pdf"
-  updated: October 03, 2026
-  updated_iso: '2026-10-03'
+  updated: October 06, 2026
+  updated_iso: '2026-10-06'
   pages: 2
+  image_width: 1063
+  image_height: 1375
   images:
   - "/images/cv/ml-engineer-page-1.png"
   - "/images/cv/ml-engineer-page-2.png"
+- id: resume-cn
+  title: 中文简历
+  unlisted: true
+  reveal_label: DL
+  description: 算法研究、项目成果与产业落地
+  pdf: "/files/cv/Wanglong_Lu_Chinese_Resume.pdf"
+  updated: October 06, 2026
+  updated_iso: '2026-10-06'
+  pages: 2
+  image_width: 1034
+  image_height: 1462
+  images:
+  - "/images/cv/resume-cn-page-1.png"
+  - "/images/cv/resume-cn-page-2.png"
 - id: cv
   title: Full CV
   description: Research, experience, publications & service
   pdf: "/files/cv/Wanglong_Lu_CV.pdf"
-  updated: October 03, 2026
-  updated_iso: '2026-10-03'
+  updated: October 06, 2026
+  updated_iso: '2026-10-06'
   pages: 5
+  image_width: 1063
+  image_height: 1375
   images:
   - "/images/cv/cv-page-1.png"
   - "/images/cv/cv-page-2.png"

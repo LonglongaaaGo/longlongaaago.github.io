@@ -10,7 +10,7 @@ pdf_resume: true
 <div class="wl-page-hero">
   <p class="wl-page-kicker">// resume &amp; cv</p>
   <h1>Wanglong Lu</h1>
-  <p>Senior Data Scientist at Nasdaq &middot; Applied Multimodal Intelligence &middot; Toronto, ON, Canada</p>
+  <p>Senior Data Scientist at Nasdaq &middot; Applied Multimodal Intelligence &middot; St. John's, NL, Canada</p>
 </div>
 
 <div class="wl-toolbar">
@@ -49,8 +49,8 @@ pdf_resume: true
     </div>
     <div class="wl-resume-pages">
       {% for image in document.images %}
-      <a class="wl-resume-sheet" data-resume-page href="{{ document.pdf | relative_url }}#page={{ forloop.index }}" target="_blank" rel="noopener" aria-label="Open {{ document.title }} PDF, page {{ forloop.index }}">
-        <img src="{{ image | relative_url }}" alt="{{ document.title }}, page {{ forloop.index }} of {{ document.pages }}" width="1063" height="1375" loading="{% if forloop.first %}eager{% else %}lazy{% endif %}">
+      <a class="wl-resume-sheet" data-resume-page href="{{ document.pdf | relative_url }}#page={{ forloop.index }}" target="_blank" rel="noopener" aria-label="Open {{ document.title }} PDF, page {{ forloop.index }}" style="aspect-ratio: {{ document.image_width | default: 1063 }} / {{ document.image_height | default: 1375 }};">
+        <img src="{{ image | relative_url }}" alt="{{ document.title }}, page {{ forloop.index }} of {{ document.pages }}" width="{{ document.image_width | default: 1063 }}" height="{{ document.image_height | default: 1375 }}" loading="{% if forloop.first %}eager{% else %}lazy{% endif %}">
       </a>
       {% endfor %}
     </div>
@@ -59,7 +59,7 @@ pdf_resume: true
   <div class="wl-resume-extra">
     {% for document in site.data.cv_documents.documents %}
     {% if document.unlisted %}
-    <a class="wl-resume-extra-link" href="#{{ document.id }}" data-resume-reveal="{{ document.id }}" aria-label="Open {{ document.title }} view" title="Open {{ document.title }} view"><i class="fas fa-code" aria-hidden="true"></i></a>
+    <a class="wl-resume-extra-link" href="#{{ document.id }}" data-resume-reveal="{{ document.id }}" aria-label="Open {{ document.title }} view" title="Open {{ document.title }} view">{% if document.reveal_label %}<span aria-hidden="true">{{ document.reveal_label }}</span>{% else %}<i class="fas fa-code" aria-hidden="true"></i>{% endif %}</a>
     {% endif %}
     {% endfor %}
   </div>

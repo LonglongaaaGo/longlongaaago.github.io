@@ -11,7 +11,7 @@ resumes_only = ARGV.delete('--resumes-only')
 raise 'Usage: ruby _cv/build.rb [--resumes-only]' unless ARGV.empty?
 today = Date.today
 metadata_path = File.join(root, '_data/cv_documents.yml')
-previous = File.file?(metadata_path) ? YAML.safe_load(File.read(metadata_path), permitted_classes: [Date], aliases: false) : {}
+previous = File.file?(metadata_path) ? YAML.safe_load(File.read(metadata_path, encoding: 'UTF-8'), permitted_classes: [Date], aliases: false) : {}
 
 def executable(name)
   locations = ENV.fetch('PATH', '').split(File::PATH_SEPARATOR) + ['/Library/TeX/texbin', '/opt/homebrew/bin']
@@ -21,22 +21,26 @@ end
 
 def run!(*arguments, **options)
   output, status = Open3.capture2e(*arguments, **options)
+  output = output.force_encoding('UTF-8').scrub
   raise "#{File.basename(arguments.first)} failed:\n#{output}" unless status.success?
   output
 end
 
 latex = executable('pdflatex')
+python = ENV.fetch('CV_PYTHON') { executable('python3') }
 info = executable('pdfinfo')
 renderer = executable('pdftoppm')
 documents = [
   { 'id' => 'resume', 'title' => 'Applied Scientist', 'description' => 'Method design, experiments & applied research', 'name' => 'Wanglong_Lu_Resume', 'public_name' => 'Wanglong_Lu_Applied_Scientist_Resume', 'aliases' => ['/files/cv/Wanglong_Lu_Resume.pdf'], 'expected_pages' => 2 },
   { 'id' => 'ml-engineer', 'title' => 'ML Engineer', 'unlisted' => true, 'description' => 'ML systems, deployment & AI tooling', 'name' => 'Wanglong_Lu_ML_Engineer_Resume', 'expected_pages' => 2 },
+  { 'id' => 'resume-cn', 'title' => '中文简历', 'unlisted' => true, 'reveal_label' => 'DL', 'description' => '算法研究、项目成果与产业落地', 'name' => 'Wanglong_Lu_Chinese_Resume', 'generator' => 'reportlab', 'expected_pages' => 2 },
   { 'id' => 'cv', 'title' => 'Full CV', 'description' => 'Research, experience, publications & service', 'name' => 'Wanglong_Lu_CV' }
 ]
 
 puts run!(RbConfig.ruby, File.join(__dir__, 'update_publications.rb')) unless resumes_only
 Dir.mktmpdir('wanglong-cv-') do |temporary|
   documents.each do |document|
+    generator = document.delete('generator')
     source = File.join(__dir__, "#{document.fetch('name')}.tex")
     public_name = document.delete('public_name') || document.fetch('name')
     document['pdf'] = "/files/cv/#{public_name}.pdf"
@@ -47,13 +51,19 @@ Dir.mktmpdir('wanglong-cv-') do |temporary|
       saved = (previous['documents'] || []).find { |entry| entry['id'] == 'cv' } || {}
       document['updated'] = saved['updated'] || previous['updated'] || document['updated']
       document['updated_iso'] = saved['updated_iso'] || previous['updated_iso'] || document['updated_iso']
+    elsif generator == 'reportlab'
+      pdf = File.join(temporary, "#{document.fetch('name')}.pdf")
+      puts run!(python, File.join(__dir__, 'build_chinese_resume.py'), pdf)
     else
       2.times { run!(latex, '-interaction=nonstopmode', '-halt-on-error', "-output-directory=#{temporary}", source, chdir: root) }
       log = File.read(File.join(temporary, "#{document.fetch('name')}.log"))
       raise "Layout overflow in #{source}; fix the source before publishing." if log.match?(/Overfull \\[hv]box/)
       pdf = File.join(temporary, "#{document.fetch('name')}.pdf")
     end
-    document['pages'] = run!(info, pdf).match(/^Pages:\s+(\d+)/).captures.first.to_i
+    details = run!(info, pdf)
+    document['pages'] = details.match(/^Pages:\s+(\d+)/).captures.first.to_i
+    dimensions = details.match(/^Page size:\s+([\d.]+) x ([\d.]+) pts/)
+    document['image_width'], document['image_height'] = dimensions.captures.map { |value| (value.to_f * 125 / 72).ceil }
     expected = document.delete('expected_pages')
     raise "#{document.fetch('title')} must stay #{expected} pages, not #{document['pages']}. Edit the content before publishing." if expected && document['pages'] != expected
     document['images'] = (1..document.fetch('pages')).map { |number| "/images/cv/#{document.fetch('id')}-page-#{number}.png" }

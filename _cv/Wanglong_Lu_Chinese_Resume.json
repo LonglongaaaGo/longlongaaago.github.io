@@ -1,0 +1,91 @@
+{
+  "name": "卢望龙",
+  "english_name": "Wanglong Lu",
+  "title": "高级数据科学家 | 多模态与生成式 AI",
+  "target": "求职方向：应用科学家 / 算法工程师 / 机器学习工程师",
+  "location": "St. John's, NL, Canada",
+  "email": "lwlxhl@gmail.com",
+  "links": [
+    ["个人主页", "https://longlongaaago.github.io/"],
+    ["GitHub", "https://github.com/LonglongaaaGo"],
+    ["LinkedIn", "https://www.linkedin.com/in/wanglong-lu-8a98b6235/"],
+    ["Google Scholar", "https://scholar.google.com/citations?user=TuxCf4UAAAAJ"]
+  ],
+  "pages": [
+    [
+      {"kind": "section", "text": "个人优势"},
+      {"kind": "paragraph", "text": "计算机科学博士，现任 <b>Nasdaq 高级数据科学家</b>，兼具算法设计、实验评估与 AI 应用部署经验。<b>第一作者 IEEE TNNLS / TVCG</b>，共同第一作者 TCSVT；参与 NeurIPS 参数高效微调研究，方法已集成 <b>Hugging Face PEFT</b>。"},
+      {"kind": "section", "text": "教育背景"},
+      {"kind": "entry", "title": "纽芬兰纪念大学（加拿大） | 计算机科学博士", "detail": "2021 - 2025"},
+      {"kind": "entry", "title": "温州大学 | 计算机软件与理论 · 工学硕士", "detail": "2018 - 2021"},
+      {"kind": "entry", "title": "浙江传媒学院 | 数字媒体技术 · 工学学士", "detail": "2014 - 2018"},
+      {"kind": "section", "text": "核心技能"},
+      {"kind": "paragraph", "text": "<b>算法：</b>扩散模型、Transformer、多模态融合、少样本学习、PEFT / LoRA、特征选择、RAG。<br/><b>开发：</b>Python、PyTorch、CUDA、SQL、Git、Bash、C++；FastAPI、Mangum、PostgreSQL。<br/><b>计算与部署：</b>AWS SageMaker、Bedrock、Lambda、S3、Docker、SLURM；Hugging Face。"},
+      {"kind": "section", "text": "工作经历"},
+      {"kind": "entry", "title": "Nasdaq | 高级数据科学家（AI/Analytics）", "detail": "2025.03 - 至今"},
+      {"kind": "bullets", "items": [
+        "<b>特征选择：</b>设计跨尺度集成算法，在支票欺诈机器学习（CFML）评估中移除 <b>77.2% 输入特征</b>，保持有竞争力的性能；向 <b>60 余人</b>汇报成果。",
+        "<b>特征工程：</b>以特征与标签之间的 <b>AUROC</b> 筛选有效特征，使用 <b>PyTorch / CUDA</b> 加速计算；结合 <b>Amazon Bedrock</b> 检查候选特征的语义合理性。",
+        "<b>开发提效：</b>构建 <b>SageMaker Job Submitter</b>，自动打包脚本及依赖，支持 Processing、Training、调参及 Pipelines；开发人员作业配置从 <b>7 天降至 1 天，减少约 86%</b>。",
+        "<b>RAG 应用：</b>开发 <b>PagerDuty 故障响应助手 v2</b>，根据事件上下文检索排查指南与解决步骤；<b>已投入公司内部使用，并获公司内部公开表扬</b>。",
+        "<b>平台集成：</b>将跨团队 ML 平台的既有 UI / 后端原型接入 <b>SageMaker workspace</b>；配置网络与 IAM，使用 <b>PostgreSQL</b> 保存用户状态，通过 <b>FastAPI + Mangum</b> 部署至 Lambda。平台仍在研发，本人负责应用部署与集成。",
+        "<b>研究指导：</b>指导支票 OCR 感知质量评估、输入载荷检查、GNN 犯罪团伙检测及金融时序数据生成；后者形成 <a href='https://doi.org/10.21203/rs.3.rs-7624993/v1'><b>StDDPM 已投稿稿件</b></a>。累计指导 <b>12 名学生</b>。"
+      ]},
+      {"kind": "entry", "title": "Nasdaq | AI 算法实习生（两段实习）", "detail": "2024.05 - 2025.01"},
+      {"kind": "bullets", "items": [
+        "<a href='https://arxiv.org/abs/2503.04021'><b>TextDoctor：</b></a>提出结构金字塔预测与 patch 金字塔扩散方法，在 <b>7 个文档数据集</b>评估；单张 24GB RTX 3090 完成 <b>8K 修补</b>。FUNSD PaddleOCR 单词准确率 <b>55.38%</b>，较 DocDiff 提高 <b>10.14 个百分点</b>；第一作者投稿 <b>EAAI</b>。",
+        "<b>PLAID：</b>设计 patch 级高斯判别建模，无需微调骨干；评估 <b>8 个生物特征基准、16 种骨干</b>。8-shot ResNet-152：CEDAR / GPDS-150 <b>AUROC 99.42% / 98.42%</b>（五次均值）；第一作者投稿 <b>IEEE TIFS</b>，2026.04 提交大修稿，等待第二轮结果。",
+        "两段实习均作研究汇报：前次约 <b>40 - 60 人</b>，末次 <b>39 位跨职能同事</b>。"
+      ]},
+      {"kind": "entry", "title": "Beaufort Solutions | AI 实习生", "detail": "2022.07 - 2022.11"},
+      {"kind": "bullets", "items": [
+        "<b>主导 TEG 少样本适配方法设计</b>，基于 CLIP 的文本引导分类器及辅助损失实现相册主题分类；主导构建 <b>Theme25（35,655 张图片、25 类）</b>，评估 3 个数据集；成果发表于 <a href='https://doi.org/10.1117/1.JEI.33.1.013028'><b>Journal of Electronic Imaging，2024</b></a>。"
+      ]}
+    ],
+    [
+      {"kind": "section", "text": "代表研究与算法项目"},
+      {"kind": "entry", "title": "<a href='https://doi.org/10.1109/TNNLS.2026.3707463'>UltraDiffEdit | 超高分辨率图像编辑</a>", "detail": "第一作者 · IEEE TNNLS 2026"},
+      {"kind": "bullets", "items": [
+        "提出多 patch 编码与全局 / 局部扩散采样，无需微调即可在 <b>单张 RTX 3090 上编辑 8K 图像</b>；构建 <b>3 个基准、共 1,188 张图像</b>，评估 SDXL / ControlNet。",
+        "UHRSDEdit 4K - 8K 区域 <b>crop-FID 7.45 vs. 18.76</b>（SDXL + bicubic），降低 <b>60.3%</b>。<a href='https://github.com/LonglongaaaGo/UltraDiffEdit'>[代码]</a>"
+      ]},
+      {"kind": "entry", "title": "<a href='https://doi.org/10.1109/TVCG.2024.3434386'>FACEMUG | 多模态局部人脸编辑</a>", "detail": "第一作者 · IEEE TVCG 2024"},
+      {"kind": "bullets", "items": [
+        "设计多模态特征融合与自监督潜空间变形，支持 <b>文本、草图、语义图、色彩图、参考图和属性标签 6 种输入</b>，保留未编辑区域。",
+        "<b>52 人</b> CelebA-HQ 用户研究中，草图 / 语义 / 文本引导的编辑获 <b>77.88% 偏好率</b>，对比 Unite&amp;Conquer；本方法部分样例额外使用掩码。"
+      ]},
+      {"kind": "entry", "title": "<a href='https://doi.org/10.1109/TCSVT.2026.3720433'>DocPure | 统一文档图像修复</a>", "detail": "共同第一作者 · IEEE TCSVT 2026"},
+      {"kind": "bullets", "items": [
+        "共同提出退化感知结构提取与小波调制，使用 <b>单一免提示模型</b>覆盖去模糊、去噪、去压缩伪影和去阴影，评估 <b>12 个数据集、4 类任务</b>。",
+        "TDD 去模糊：较 DocRes，<b>PSNR 32.55 vs. 28.34 dB（+4.21 dB）</b>；PaddleOCR 单词准确率 <b>61.27% vs. 55.66%（+5.61 个百分点）</b>。<a href='https://github.com/LingmingSSS/DocPure'>[代码]</a>"
+      ]},
+      {"kind": "entry", "title": "<a href='https://neurips.cc/virtual/2025/loc/san-diego/poster/119606'>AdaMSS | 参数高效微调</a>", "detail": "合作作者 · NeurIPS 2025"},
+      {"kind": "bullets", "items": [
+        "参与自适应多子空间微调研究：ViT-Large 在 <b>7 项任务</b>平均准确率 <b>90.13% vs. LoRA 85.40%</b>，提高 <b>4.73 个百分点</b>，可训练参数约为 LoRA 的 <b>15.4%</b>；方法已集成 <b>Hugging Face PEFT</b>。<a href='https://github.com/jzheng20/AdaMSS'>[代码]</a>"
+      ]},
+      {"kind": "entry", "title": "<a href='https://doi.org/10.26599/CVM.2025.9450408'>GRIG | 数据高效图像修补</a>", "detail": "第一作者 · CVM 2025"},
+      {"kind": "bullets", "items": [
+        "设计 CNN - Transformer 残差修补与伪造 patch 训练；作者稿在 <b>10 个少样本数据集（18 - 750 张训练图像）</b>上评估，50% - 60% 遮挡率下，较各数据集次优方法 <b>FID 降低 3.70% - 26.48%</b>。<a href='https://github.com/LonglongaaaGo/GRIG_few_shot_inpainting'>[代码]</a>"
+      ]},
+      {"kind": "entry", "title": "<a href='https://doi.org/10.1016/j.patcog.2024.111312'>Visual Style Prompt Learning | 人脸修复</a>", "detail": "第一作者 · Pattern Recognition 2025"},
+      {"kind": "bullets", "items": [
+        "设计潜扩散风格提示与风格调制聚合；<b>4 步去噪</b>，RTX 3080 Ti 上 512 × 512 达 <b>12.3 FPS</b>；WebPhoto-Test <b>FID 74.25 vs. CodeFormer 83.17</b>，降低 <b>10.7%</b>。",
+        "CelebA-Test 下游评估：<b>FAN 关键点 NME 6.08% → 2.43%</b>；<b>HSEmotion 一致率 79.73% → 86.03%</b>。参照为模型在干净图像上的输出，非人工真值。<a href='https://github.com/LonglongaaaGo/VSPBFR'>[代码]</a>"
+      ]},
+      {"kind": "section", "text": "其他开发与落地经历"},
+      {"kind": "entry", "title": "本地 Agentic Code Editor | Nasdaq 内部探索原型", "detail": "2026"},
+      {"kind": "bullets", "items": [
+        "构建可运行的本地 AI 编辑器，通过模型 API 与 <b>agentic loop</b> 按任务选择代码生成、审查或 shell 执行；支持 <b>定位 bug、修改代码、自动修复并根据执行反馈迭代</b>。尚未获批为正式生产产品。"
+      ]},
+      {"kind": "entry", "title": "杭州中控瀚联电子商务有限公司 | AI 算法实习生", "detail": "2017.12 - 2018.08"},
+      {"kind": "bullets", "items": [
+        "设计 <b>ResNet - DenseNet 融合车标识别模型</b>，开发 Java 标注工具并构建训练 / 评估数据集；<b>使用 Caffe 部署至小区安防门禁，完成实时推理应用</b>。"
+      ]},
+      {"kind": "section", "text": "荣誉、专利与学术服务"},
+      {"kind": "paragraph", "text": "<b>荣誉：</b>纽芬兰纪念大学计算机科学系杰出研究奖（博士，2023）；温州市计算机学会创新创业奖一等奖（队长，2024）；浙江省优秀毕业生（2018）。"},
+      {"kind": "paragraph", "text": "<b>授权专利：</b>作为共同发明人获 <b>4 项中国发明专利授权</b>，涵盖类别一致性识别、车标识别 / 检测及视网膜血管分割。"},
+      {"kind": "paragraph", "text": "<b>学术服务：</b>受邀担任 IEEE <b>TPAMI、TIP、TMM、TCSVT、JBHI、SPL</b>，Pattern Recognition、EAAI、KBS、Neurocomputing、Applied Soft Computing 等期刊及 <b>ECCV 2026</b> 审稿人。"},
+      {"kind": "paragraph", "text": "<b>教学与分享：</b>数据结构 / 机器学习课程助教；受邀在 IEEE NL Section AGM 分享多模态生成式编辑；为研究生讲授 <b>150 分钟</b>深度生成模型课程。"}
+    ]
+  ]
+}

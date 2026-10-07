@@ -13,7 +13,7 @@ redirect_from:
 <div class="wl-page-hero">
   <p class="wl-page-kicker">// 中文简历</p>
   <h1>卢望龙</h1>
-  <p>加拿大纳斯达克 AI/Analytics 高级数据科学家，现居多伦多，安大略省，加拿大。研究方向包括生成式视觉、图像修复、图像编辑、模式识别、参数高效微调和多模态生成式 AI 系统。</p>
+  <p>加拿大纳斯达克 AI/Analytics 高级数据科学家，现居 St. John's，纽芬兰与拉布拉多省，加拿大。研究方向包括生成式视觉、图像修复、图像编辑、模式识别、参数高效微调和多模态生成式 AI 系统。</p>
 </div>
 
 <div class="wl-toolbar">
