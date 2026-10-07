@@ -14,7 +14,7 @@
   "pages": [
     [
       {"kind": "section", "text": "个人优势"},
-      {"kind": "paragraph", "text": "计算机科学博士，现任 <b>Nasdaq 高级数据科学家</b>，兼具算法设计、实验评估与 AI 应用部署经验。<b>第一作者 IEEE TNNLS / TVCG</b>，共同第一作者 TCSVT；参与 NeurIPS 参数高效微调研究，方法已集成 <b>Hugging Face PEFT</b>。"},
+      {"kind": "paragraph", "text": "计算机科学博士，现任 <b>Nasdaq 高级数据科学家</b>，兼具算法设计、实验评估与 AI 应用部署经验。<b>第一作者 IEEE TNNLS / TVCG</b>，共同第一作者 TCSVT；参与 NeurIPS 参数高效微调研究，方法已集成 <b>Hugging Face PEFT</b>。累计指导 <b>12 名学生</b>。"},
       {"kind": "section", "text": "教育背景"},
       {"kind": "entry", "title": "纽芬兰纪念大学（加拿大） | 计算机科学博士", "detail": "2021 - 2025"},
       {"kind": "entry", "title": "温州大学 | 计算机软件与理论 · 工学硕士", "detail": "2018 - 2021"},
@@ -29,7 +29,7 @@
         "<b>开发提效：</b>构建 <b>SageMaker Job Submitter</b>，自动打包脚本及依赖，支持 Processing、Training、调参及 Pipelines；开发人员作业配置从 <b>7 天降至 1 天，减少约 86%</b>。",
         "<b>RAG 应用：</b>开发 <b>PagerDuty 故障响应助手 v2</b>，根据事件上下文检索排查指南与解决步骤；<b>已投入公司内部使用，并获公司内部公开表扬</b>。",
         "<b>平台集成：</b>将跨团队 ML 平台的既有 UI / 后端原型接入 <b>SageMaker workspace</b>；配置网络与 IAM，使用 <b>PostgreSQL</b> 保存用户状态，通过 <b>FastAPI + Mangum</b> 部署至 Lambda。平台仍在研发，本人负责应用部署与集成。",
-        "<b>研究指导：</b>指导支票 OCR 感知质量评估、输入载荷检查、GNN 犯罪团伙检测及金融时序数据生成；后者形成 <a href='https://doi.org/10.21203/rs.3.rs-7624993/v1'><b>StDDPM 已投稿稿件</b></a>。累计指导 <b>12 名学生</b>。"
+        "<b>研究指导：</b>指导支票 OCR 感知质量评估、输入载荷检查、GNN 犯罪团伙检测及金融时序数据生成；后者形成 <a href='https://doi.org/10.21203/rs.3.rs-7624993/v1'><b>StDDPM 已投稿稿件</b></a>。"
       ]},
       {"kind": "entry", "title": "Nasdaq | AI 算法实习生（两段实习）", "detail": "2024.05 - 2025.01"},
       {"kind": "bullets", "items": [
