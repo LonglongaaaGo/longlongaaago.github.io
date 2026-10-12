@@ -1131,6 +1131,11 @@ redirect_from:
         <time>Now</time>
         <span>I am currently working at Nasdaq as a Senior Data Scientist.</span>
       </li>
+      <!-- September 2026 ESI report: Engineering table, item 182; data updated 2026-09-23. -->
+      <li>
+        <time>Sep. 2026</time>
+        <span>Our paper "<a href="{{ '/publication/vsp_face_restoration' | relative_url }}">Visual Style Prompt Learning Using Diffusion Models for Blind Face Restoration</a>" (Pattern Recognition, 2025) was listed as an <a href="https://esi.help.clarivate.com/Content/overview.htm">ESI Highly Cited Paper</a> (Engineering) in Wenzhou University's September 2026 report. <a href="https://www.sohu.com/a/1082273594_121106994">Report (repost)</a></span>
+      </li>
       <li>
         <time>Sep. 2026</time>
         <span>I began mentoring Daniel, a Mitacs student, on graph neural networks (GNNs) for crime-ring detection.</span>
