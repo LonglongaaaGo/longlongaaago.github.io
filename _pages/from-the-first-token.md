@@ -21,7 +21,7 @@ The electronic reading editions are free. Independent technical review is ongoin
 
 <p>In early 2023, I gave GPT a serious try for the first time. I had heard about it, but the descriptions had not made much of an impression on me. Then I asked it to write some PyTorch code. I remember being surprised by what appeared on the screen. I did not even run that first snippet. Seeing it write familiar code from a short conversation was enough to make me stop and pay attention.</p>
 
-<p>I already had experience with machine learning and PyTorch, and Transformer-based methods were part of my research and practical work. As I followed later model releases and papers, and built agent workflows in my day-to-day work, I kept returning to a question: how did all the pieces inside a language model actually work together? Using a model, reading its architecture and tracing an implementation each reveal different parts of the answer. I wanted to connect them.</p>
+<p>By then, I had been researching deep learning algorithms for four or five years, often working with PyTorch and Transformer-based methods. I continued to follow new models and papers, and later built agent workflows in my day-to-day work. Those experiences kept bringing me back to one question: how did all the pieces inside a language model actually work together? Using a model, reading its architecture and tracing an implementation each reveal different parts of the answer. I wanted to connect them.</p>
 
 <p>That led me back through the whole pipeline. I took each step apart, worked through a small example, wrote and ran the code, and checked the intermediate results. Then I put the pieces together and trained a small model from scratch. Each run gave me something concrete to examine: a shape I had misunderstood, a loss that needed explaining, or a result that did not support the conclusion I had expected. Writing those explanations down became this book.</p>
 
@@ -36,7 +36,7 @@ The electronic reading editions are free. Independent technical review is ongoin
 
 <p>2023年年初，我第一次认真试用了 GPT。此前听说过它，但那些介绍并没有让我特别在意。后来，我让它写了一段 PyTorch 代码。看到屏幕上出现的内容时，我确实有些惊讶。我当时甚至没有把那段代码运行起来。仅仅是看到它通过几句对话，就能写出自己熟悉的代码，已经足以让我停下来，认真关注它。</p>
 
-<p>那时，我已经有机器学习（machine learning）和 PyTorch 的使用经验，也一直在研究和实际工作中使用 Transformer 相关方法。后来，随着模型和论文不断推出，以及我在日常工作中搭建智能体工作流（agent workflows），一个问题越来越值得追问：语言模型内部的各个部分，究竟是怎样一起工作的？使用模型、阅读架构、追踪具体实现，各自能让人看到一部分答案。我希望把它们连起来。</p>
+<p>那时，我已经从事深度学习（deep learning）算法研究四五年，研究中也常用 PyTorch 和 Transformer 相关方法。此后，我一路关注模型和论文的进展，也在工作中搭建智能体工作流（agent workflows）。这些经历让我越来越想把一个问题弄清楚：语言模型内部的各个部分，究竟是怎样一起工作的？使用模型、阅读架构和追踪具体实现，各自能让人看到一部分答案。我希望把它们贯通起来。</p>
 
 <p>于是，我重新梳理了整条流程。每一步都先拆开，走完一个小算例，再写代码、运行代码、检查中间结果；然后把这些部分接起来，从头训练一个小模型。每次运行都会留下可以具体追查的问题：某个形状是不是理解错了，损失为什么这样变化，某个结果是否真的支持原先的判断。把这些解释逐步整理下来，就成了这本书。</p>
 
