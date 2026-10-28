@@ -19,7 +19,7 @@ The electronic reading editions are free. Independent technical review is ongoin
 <details lang="en">
 <summary>A note to the reader</summary>
 
-<p>Near the end of 2023, I gave GPT a serious try for the first time. I had heard about it, but the descriptions had not made much of an impression on me. Then I asked it to write some PyTorch code. I remember being surprised by what appeared on the screen. I did not even run that first snippet. Seeing it write familiar code from a short conversation was enough to make me stop and pay attention.</p>
+<p>In early 2023, I gave GPT a serious try for the first time. I had heard about it, but the descriptions had not made much of an impression on me. Then I asked it to write some PyTorch code. I remember being surprised by what appeared on the screen. I did not even run that first snippet. Seeing it write familiar code from a short conversation was enough to make me stop and pay attention.</p>
 
 <p>I already had experience with machine learning and PyTorch, and Transformer-based methods were part of my research and practical work. As I followed later model releases and papers, and built agent workflows in my day-to-day work, I kept returning to a question: how did all the pieces inside a language model actually work together? Using a model, reading its architecture and tracing an implementation each reveal different parts of the answer. I wanted to connect them.</p>
 
@@ -34,7 +34,7 @@ The electronic reading editions are free. Independent technical review is ongoin
 <details lang="zh-CN">
 <summary>致读者</summary>
 
-<p>2023年年底，我第一次认真试用了 GPT。此前听说过它，但那些介绍并没有让我特别在意。后来，我让它写了一段 PyTorch 代码。看到屏幕上出现的内容时，我确实有些惊讶。我当时甚至没有把那段代码运行起来。仅仅是看到它通过几句对话，就能写出自己熟悉的代码，已经足以让我停下来，认真关注它。</p>
+<p>2023年年初，我第一次认真试用了 GPT。此前听说过它，但那些介绍并没有让我特别在意。后来，我让它写了一段 PyTorch 代码。看到屏幕上出现的内容时，我确实有些惊讶。我当时甚至没有把那段代码运行起来。仅仅是看到它通过几句对话，就能写出自己熟悉的代码，已经足以让我停下来，认真关注它。</p>
 
 <p>那时，我已经有机器学习（machine learning）和 PyTorch 的使用经验，也一直在研究和实际工作中使用 Transformer 相关方法。后来，随着模型和论文不断推出，以及我在日常工作中搭建智能体工作流（agent workflows），一个问题越来越值得追问：语言模型内部的各个部分，究竟是怎样一起工作的？使用模型、阅读架构、追踪具体实现，各自能让人看到一部分答案。我希望把它们连起来。</p>
 
