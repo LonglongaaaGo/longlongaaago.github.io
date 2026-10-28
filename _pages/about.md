@@ -888,7 +888,7 @@ redirect_from:
     <div class="wl-prompt"><strong>WanglongLu@Nasdaq</strong>:~$ open profile</div>
     <div class="wl-nav">
       <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="{{ '/book/' | relative_url }}">Book</a>
+      <a href="{{ '/book/' | relative_url }}">Books</a>
       <a href="{{ '/publications/' | relative_url }}">Publications</a>
       <a href="{{ '/videos/' | relative_url }}">Videos</a>
       <a href="{{ '/cv/' | relative_url }}">CV</a>
@@ -934,16 +934,16 @@ redirect_from:
     </div>
   </section>
 
-  <section class="wl-section" aria-labelledby="book">
+  <section class="wl-section" aria-labelledby="books">
     <div class="wl-section-head">
-      <h2 id="book">// book &amp; learning</h2>
-      <a class="wl-section-link" href="{{ '/book/' | relative_url }}">read the book →</a>
+      <h2 id="books">// books</h2>
+      <a class="wl-section-link" href="{{ '/book/' | relative_url }}">view books →</a>
     </div>
     <article class="wl-item">
-      <h3><a href="{{ '/book/' | relative_url }}">From the First Token</a></h3>
+      <h3><a href="{{ '/book/from-the-first-token/' | relative_url }}">From the First Token</a></h3>
       <p class="wl-meta">Building Language Models from Scratch · English / 简体中文 · Free reading edition</p>
       <p>Trace text, predictions, gradients and attention through small worked examples. Ten chapters pair the bilingual book with 70 guided exercises, a runnable CPU bigram baseline and its synthetic teaching data.</p>
-      <p><a class="wl-button" href="{{ '/book/' | relative_url }}">Read, download &amp; practice</a></p>
+      <p><a class="wl-button" href="{{ '/book/from-the-first-token/' | relative_url }}">Read, download &amp; practice</a></p>
     </article>
   </section>
 
@@ -1144,6 +1144,10 @@ redirect_from:
       <li>
         <time>Now</time>
         <span>I am currently working at Nasdaq as a Senior Data Scientist.</span>
+      </li>
+      <li>
+        <time>Oct. 2026</time>
+        <span>I've put together <a href="{{ '/book/from-the-first-token/' | relative_url }}">From the First Token</a>, a free book in English and Chinese on building language models from scratch. It comes with exercises, runnable examples and teaching data.</span>
       </li>
       <!-- September 2026 ESI report: Engineering table, item 182; data updated 2026-09-23. -->
       <li>
