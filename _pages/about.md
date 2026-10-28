@@ -888,6 +888,7 @@ redirect_from:
     <div class="wl-prompt"><strong>WanglongLu@Nasdaq</strong>:~$ open profile</div>
     <div class="wl-nav">
       <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/book/' | relative_url }}">Book</a>
       <a href="{{ '/publications/' | relative_url }}">Publications</a>
       <a href="{{ '/videos/' | relative_url }}">Videos</a>
       <a href="{{ '/cv/' | relative_url }}">CV</a>
@@ -931,6 +932,19 @@ redirect_from:
         <span class="wl-chip is-blue">Production ML Systems</span>
       </div>
     </div>
+  </section>
+
+  <section class="wl-section" aria-labelledby="book">
+    <div class="wl-section-head">
+      <h2 id="book">// book &amp; learning</h2>
+      <a class="wl-section-link" href="{{ '/book/' | relative_url }}">read the book →</a>
+    </div>
+    <article class="wl-item">
+      <h3><a href="{{ '/book/' | relative_url }}">From the First Token</a></h3>
+      <p class="wl-meta">Building Language Models from Scratch · English / 简体中文 · Free reading edition</p>
+      <p>Trace text, predictions, gradients and attention through small worked examples. Ten chapters pair the bilingual book with 70 guided exercises, a runnable CPU bigram baseline and its synthetic teaching data.</p>
+      <p><a class="wl-button" href="{{ '/book/' | relative_url }}">Read, download &amp; practice</a></p>
+    </article>
   </section>
 
   <section class="wl-section" aria-labelledby="experience">
