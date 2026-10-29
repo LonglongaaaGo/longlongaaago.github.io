@@ -20,9 +20,9 @@ hide_title: true
       <article class="archive__item">
         <h2 class="archive__item-title"><a href="{{ book.url | relative_url }}">{{ book.title | escape }}</a></h2>
         <p><em>{{ book.subtitle | escape }}</em></p>
-        <p class="page__meta">{{ book.year }} · {{ book.languages | escape }} · {{ book.access | escape }}</p>
+        <p class="page__meta">{{ book.year }} · {{ book.access | escape }}</p>
         <p class="archive__item-excerpt">{{ book.description | escape }}</p>
-        <p><a href="{{ book.url | relative_url }}">Read, download and practice →</a></p>
+        <p><a href="{{ book.url | relative_url }}">Read, download and practice →</a>{% if book.pdfs.zh %} · <a href="{{ book.url | relative_url }}?lang=zh#read-online" lang="zh-CN">中文</a>{% endif %}</p>
       </article>
     </div>
   {% endfor %}

@@ -2,7 +2,7 @@
 layout: single
 permalink: /book/from-the-first-token/
 title: "From the First Token"
-excerpt: "A bilingual, example-led introduction to building language models from scratch."
+excerpt: "Building language models from scratch, with worked examples and exercises."
 author_profile: false
 book_reader: true
 book_id: from-the-first-token
@@ -12,7 +12,7 @@ book_id: from-the-first-token
 
 **Building Language Models from Scratch**<br>
 Wanglong Lu · 卢望龙<br>
-English and Simplified Chinese · First public reading edition
+First public reading edition
 
 {% assign reader_book = site.data.books | where: 'id', page.book_id | first %}
 {% include book-reader.html book=reader_book %}
@@ -90,7 +90,7 @@ Read a worked example, trace its intermediate values, then implement the matchin
 
 ## 简体中文读者
 
-《从第一个 Token 开始：从零构建语言模型》提供与英文版对应的十章、71 节内容。在上方阅读区选择“简体中文”即可在线阅读，也可以[下载中文 PDF](https://github.com/LonglongaaaGo/from-the-first-token/releases/download/v0.2.4-teaching.1/From-the-First-Token-Chinese.pdf)保存，再按[中文运行说明](https://github.com/LonglongaaaGo/from-the-first-token/blob/main/README.zh-CN.md)使用配套代码。[中文书稿源文件](https://github.com/LonglongaaaGo/from-the-first-token/blob/main/book/zh-CN/manuscript.md)也可下载。
+《从第一个 Token 开始：从零构建语言模型》共十章、71 节。在上方阅读区选择“简体中文”即可在线阅读，也可以[下载中文 PDF](https://github.com/LonglongaaaGo/from-the-first-token/releases/download/v0.2.4-teaching.1/From-the-First-Token-Chinese.pdf)保存，再按[中文运行说明](https://github.com/LonglongaaaGo/from-the-first-token/blob/main/README.zh-CN.md)使用配套代码。[中文书稿源文件](https://github.com/LonglongaaaGo/from-the-first-token/blob/main/book/zh-CN/manuscript.md)也可下载。
 
 70 个编号练习保留核心待办（TODO），由读者动手实现。另附可直接运行的字符二元语言模型（character bigram language model）示例和对应合成数据，演示从数据到训练、评估与生成的流程。该小型示例只使用一个字符的上下文。
 

@@ -941,9 +941,9 @@ redirect_from:
     </div>
     <article class="wl-item">
       <h3><a href="{{ '/book/from-the-first-token/' | relative_url }}">From the First Token</a></h3>
-      <p class="wl-meta">Building Language Models from Scratch · English / 简体中文 · Free reading edition</p>
-      <p>Trace text, predictions, gradients and attention through small worked examples. Ten chapters pair the bilingual book with 70 guided exercises, a runnable CPU bigram baseline and its synthetic teaching data.</p>
-      <p><a class="wl-button" href="{{ '/book/from-the-first-token/' | relative_url }}">Read, download &amp; practice</a></p>
+      <p class="wl-meta">Building Language Models from Scratch · Free reading edition</p>
+      <p>Start with text and token IDs, then work through prediction, gradients, attention and training. The book includes 70 exercises, runnable examples and teaching data.</p>
+      <p><a class="wl-button" href="{{ '/book/from-the-first-token/' | relative_url }}">Read, download &amp; practice</a> · <a href="{{ '/book/from-the-first-token/' | relative_url }}?lang=zh#read-online" lang="zh-CN">中文</a></p>
     </article>
   </section>
 
@@ -1147,7 +1147,7 @@ redirect_from:
       </li>
       <li>
         <time>Oct. 2026</time>
-        <span>I've put together <a href="{{ '/book/from-the-first-token/' | relative_url }}">From the First Token</a>, a free book in English and Chinese on building language models from scratch. It comes with exercises, runnable examples and teaching data.</span>
+        <span>I've put together <a href="{{ '/book/from-the-first-token/' | relative_url }}">From the First Token</a>, a free book on building language models from scratch. It comes with exercises, runnable examples and teaching data.</span>
       </li>
       <!-- September 2026 ESI report: Engineering table, item 182; data updated 2026-09-23. -->
       <li>
