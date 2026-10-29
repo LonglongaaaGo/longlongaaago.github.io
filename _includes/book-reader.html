@@ -1,6 +1,14 @@
 {% assign reader_book = include.book %}
 {% assign english_pdf = reader_book.pdfs.en.url | relative_url %}
 {% assign chinese_pdf = reader_book.pdfs.zh.url | relative_url %}
+{% if reader_book.pdfs.en.sha256 %}
+  {% assign english_revision = reader_book.pdfs.en.sha256 | slice: 0, 12 %}
+  {% assign english_pdf = english_pdf | append: '?v=' | append: english_revision %}
+{% endif %}
+{% if reader_book.pdfs.zh.sha256 %}
+  {% assign chinese_revision = reader_book.pdfs.zh.sha256 | slice: 0, 12 %}
+  {% assign chinese_pdf = chinese_pdf | append: '?v=' | append: chinese_revision %}
+{% endif %}
 <section id="read-online" class="wl-book-reader wl-no-zoom" data-book-reader
   data-title="{{ reader_book.title | escape }}"
   data-viewer="{{ '/assets/vendor/pdfjs-6.4.299/web/viewer.html' | relative_url }}"

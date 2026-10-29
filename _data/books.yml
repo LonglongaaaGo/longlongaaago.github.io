@@ -1,14 +1,17 @@
-- title: "From the First Token"
+- title: From the First Token
   id: from-the-first-token
-  subtitle: "Building Language Models from Scratch"
+  subtitle: Building Language Models from Scratch
   year: 2026
-  access: "Free reading edition"
+  access: Free reading edition
   url: /book/from-the-first-token/
-  description: "Start with text and token IDs, then work through prediction, gradients, attention and training. The book includes 70 exercises, runnable examples and teaching data."
+  description: Start with text and token IDs, then work through prediction, gradients, attention and training. The book includes 70 exercises, runnable examples and
+    teaching data.
   pdfs:
     en:
       url: /files/books/from-the-first-token/From-the-First-Token-English.pdf
       pages: 640
+      sha256: 4f741133dc332764bbc3e4eb2eba06501a0da17cbfdf272a8627a240323e68dd
     zh:
       url: /files/books/from-the-first-token/From-the-First-Token-Chinese.pdf
       pages: 589
+      sha256: 344ab509ac81ca575c7ce083b85907b0bde968f1e51b75281fda76569376f66d

@@ -76,7 +76,7 @@
       });
       status.textContent = labels[language].loading;
       download.href = pdf;
-      download.download = pdf.split('/').pop();
+      download.download = new URL(pdf, document.baseURI).pathname.split('/').pop();
       download.textContent = labels[language].download;
       open.href = pdf;
       open.textContent = labels[language].open;
