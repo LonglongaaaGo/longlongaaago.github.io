@@ -32,6 +32,10 @@
 <link rel="stylesheet" href="{{ '/assets/css/wl-resume.css' | relative_url }}">
 {% endif %}
 
+{% if page.book_reader %}
+<link rel="stylesheet" href="{{ '/assets/css/wl-book-reader.css' | relative_url }}">
+{% endif %}
+
 {% if page.math %}
 <script>
   window.MathJax = {

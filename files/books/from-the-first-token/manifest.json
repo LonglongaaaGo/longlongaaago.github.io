@@ -1,0 +1,17 @@
+{
+  "title": "From the First Token",
+  "files": {
+    "From-the-First-Token-English.pdf": {
+      "language": "en",
+      "sha256": "fb5dd3e99606a26d5b2c8c119047667dba7535fe2d4c34521743684a1cedc97b",
+      "bytes": 18103438,
+      "release_url": "https://github.com/LonglongaaaGo/from-the-first-token/releases/download/v0.2.4-teaching.1/From-the-First-Token-English.pdf"
+    },
+    "From-the-First-Token-Chinese.pdf": {
+      "language": "zh-CN",
+      "sha256": "2207c39ad8a16db8473be41314e36620a6837a30eca494e2d7561238a93ae9d7",
+      "bytes": 37169856,
+      "release_url": "https://github.com/LonglongaaaGo/from-the-first-token/releases/download/v0.2.4-teaching.1/From-the-First-Token-Chinese.pdf"
+    }
+  }
+}

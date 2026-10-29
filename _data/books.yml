@@ -1,7 +1,15 @@
 - title: "From the First Token"
+  id: from-the-first-token
   subtitle: "Building Language Models from Scratch"
   year: 2026
   languages: "English / 简体中文"
   access: "Free reading edition"
   url: /book/from-the-first-token/
   description: "Follow text, predictions, gradients and attention through worked examples. Ten chapters pair the bilingual book with 70 guided exercises, a runnable CPU bigram baseline and its synthetic teaching data."
+  pdfs:
+    en:
+      url: /files/books/from-the-first-token/From-the-First-Token-English.pdf
+      pages: 640
+    zh:
+      url: /files/books/from-the-first-token/From-the-First-Token-Chinese.pdf
+      pages: 589

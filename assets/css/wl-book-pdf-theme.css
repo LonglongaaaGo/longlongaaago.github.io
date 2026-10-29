@@ -1,0 +1,11 @@
+/* Book-specific reading theme for the bundled Mozilla PDF.js viewer. */
+:root { color-scheme: light; }
+body, #viewerContainer { background: #e9ece7; }
+#toolbarContainer {
+  background: #f5f6f1;
+  border-bottom: 1px solid #d9ded5;
+  box-shadow: none;
+}
+#editorModeButtons, #editorModeSeparator, #secondaryOpenFile { display: none !important; }
+.toolbarButton:focus-visible, .dropdownToolbarButton:focus-within { outline-color: #55766a; }
+#viewer .page { box-shadow: 0 2px 10px rgb(31 40 37 / 12%); }

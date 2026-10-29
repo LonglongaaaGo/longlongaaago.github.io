@@ -1,0 +1,34 @@
+{% assign reader_book = include.book %}
+{% assign english_pdf = reader_book.pdfs.en.url | relative_url %}
+{% assign chinese_pdf = reader_book.pdfs.zh.url | relative_url %}
+<section id="read-online" class="wl-book-reader wl-no-zoom" data-book-reader
+  data-title="{{ reader_book.title | escape }}"
+  data-viewer="{{ '/assets/vendor/pdfjs-6.4.299/web/viewer.html' | relative_url }}"
+  data-theme="{{ '/assets/css/wl-book-pdf-theme.css' | relative_url }}"
+  data-en-pdf="{{ english_pdf }}" data-en-pages="{{ reader_book.pdfs.en.pages }}"
+  data-zh-pdf="{{ chinese_pdf }}" data-zh-pages="{{ reader_book.pdfs.zh.pages }}"
+  aria-labelledby="read-online-heading">
+  <div class="wl-book-reader-header">
+    <h2 id="read-online-heading">Read online <span lang="zh-CN">· 在线阅读</span></h2>
+    <div class="wl-book-reader-toolbar">
+      <div class="wl-book-reader-languages" role="group" aria-label="Reading language">
+        <button type="button" data-reader-language="en" aria-pressed="true">English</button>
+        <button type="button" data-reader-language="zh" aria-pressed="false" lang="zh-CN">简体中文</button>
+      </div>
+      <div class="wl-book-reader-actions">
+        <button type="button" data-reader-fullscreen hidden>Full screen</button>
+        <a data-reader-download href="{{ english_pdf }}" download="From-the-First-Token-English.pdf">Download PDF</a>
+      </div>
+    </div>
+    <div class="wl-book-reader-meta">
+      <span data-reader-status role="status" aria-live="polite">Loading the English edition…</span>
+      <a data-reader-open href="{{ english_pdf }}" target="_blank" rel="noopener">Open PDF in a new tab</a>
+    </div>
+  </div>
+  <iframe class="wl-book-reader-frame fitvidsignore" data-reader-frame
+    title="{{ reader_book.title | escape }} — English PDF" loading="lazy"
+    allow="fullscreen" allowfullscreen></iframe>
+  <noscript>
+    <p><a href="{{ english_pdf }}">Read the English PDF</a> · <a href="{{ chinese_pdf }}" lang="zh-CN">阅读中文 PDF</a></p>
+  </noscript>
+</section>
