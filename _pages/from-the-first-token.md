@@ -8,7 +8,7 @@ book_reader: true
 book_id: from-the-first-token
 ---
 
-[← All books]({{ '/book/' | relative_url }})
+[← All books]({{ '/book/' | relative_url }}) · **[GitHub repository](https://github.com/LonglongaaaGo/from-the-first-token)**
 
 **Building Language Models from Scratch**<br>
 Wanglong Lu · 卢望龙<br>
