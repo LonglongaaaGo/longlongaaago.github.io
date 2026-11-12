@@ -9,9 +9,9 @@
   pdfs:
     en:
       url: /files/books/from-the-first-token/From-the-First-Token-English.pdf
-      pages: 650
-      sha256: 0f60f75e4b4090c04a18a4b45587c560d290e0097888e462b11d8265779d223f
+      pages: 651
+      sha256: 403a15aa06d20c7d2664321cb6c221e323145d208c5b75493e78ed4942a8e2c1
     zh:
       url: /files/books/from-the-first-token/From-the-First-Token-Chinese.pdf
-      pages: 595
-      sha256: 844c49c89d9a49657e49379defb7c8c9f2348ee88ef9cef9de72c68733ad9872
+      pages: 596
+      sha256: 5bea796e9acce2ea58c18f1a256f87445aaad82fb4ea3782bdb0d88006ee4038
