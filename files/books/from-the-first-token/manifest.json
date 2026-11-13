@@ -3,14 +3,14 @@
   "files": {
     "From-the-First-Token-English.pdf": {
       "language": "en",
-      "sha256": "3cb30f4247ff129dbe93f20681bd5998c3ac58f620d89de77f24476362982615",
-      "bytes": 17483302,
+      "sha256": "c64c04b398fd8bfc63740623de3ee01fcc0f1a37f08d16cd77de0b37528d849f",
+      "bytes": 17492483,
       "release_url": "https://github.com/LonglongaaaGo/from-the-first-token/releases/download/v0.2.4-teaching.1/From-the-First-Token-English.pdf"
     },
     "From-the-First-Token-Chinese.pdf": {
       "language": "zh-CN",
-      "sha256": "cd35b022a18d8e759949e8a9b96dc2ba1b82f5afc31818cb0aa69f1c4943bc24",
-      "bytes": 34403459,
+      "sha256": "a2b9b9019058d9b6524c91f7665adfa4c3ab7138b6f37cf343027b9b0df48de6",
+      "bytes": 34412297,
       "release_url": "https://github.com/LonglongaaaGo/from-the-first-token/releases/download/v0.2.4-teaching.1/From-the-First-Token-Chinese.pdf"
     }
   }
