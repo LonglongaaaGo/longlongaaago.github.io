@@ -1146,6 +1146,10 @@ redirect_from:
         <span>I am currently working at Nasdaq as a Senior Data Scientist.</span>
       </li>
       <li>
+        <time datetime="2026-11-12">Nov. 2026</time>
+        <span>I attended <a href="https://necec.ieeenl.ca/">NECEC 2026</a> in St. John's as an invited representative of Nasdaq Verafin. I also supported presentations by students from Prof. Xianta Jiang's group at Memorial University, where I collaborate on robotics research. <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7527759451609735168/">LinkedIn</a></span>
+      </li>
+      <li>
         <time>Oct. 2026</time>
         <span>I've put together <a href="{{ '/book/from-the-first-token/' | relative_url }}">From the First Token</a>, a free book on building language models from scratch. It comes with exercises, runnable examples and teaching data.</span>
       </li>
